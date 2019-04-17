@@ -1,0 +1,21 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7145380357846001510
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5465930601764543726
+	string m_Name = ""
+	PPtr<$Animator> _animator
+		int m_FileID = 0
+		SInt64 m_PathID = -8566629563300365344
+	string _showAnimationName = "ShowDialog"
+	string _hideAnimationName = "HideDialog"
+	PPtr<$TextMeshProUGUI> _instructionText
+		int m_FileID = 0
+		SInt64 m_PathID = 5019715209405116137
+	PPtr<$ParticleSystem> _particleEffect
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float _maxParticleDeactivationTime = 0.4

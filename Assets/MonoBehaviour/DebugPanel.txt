@@ -1,0 +1,61 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4070534072516120368
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5118487186989030907
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$GameObject> ControlContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -3116407171459413548
+	PPtr<$Transform> HideShowSymbol
+		int m_FileID = 0
+		SInt64 m_PathID = 4765501474173072899
+	PPtr<$Image> ContainerIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -6800412116092884430
+	PPtr<$TMP_Text> TitleText
+		int m_FileID = 0
+		SInt64 m_PathID = -340718464401317542
+	PPtr<$DebugLabel> LabelControlPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6522715116265831128
+	PPtr<$DebugButton> ButtonControlPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 258626420711765777
+	PPtr<$DebugInputWithButton> SearchWithButtonControlPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6601464415074522219
+	PPtr<$DebugInputWithButtonAndDecimal> SearchWithButtonControlPrefabAndDecimal
+		int m_FileID = 0
+		SInt64 m_PathID = 4722102711139876868
+	PPtr<$DebugInputWithButtonAndQty> SearchWithButtonControlPrefabAndQty
+		int m_FileID = 0
+		SInt64 m_PathID = 8835827259282730004
+	PPtr<$DebugInputWithButtonAndText> SearchWithButtonControlPrefabAndText
+		int m_FileID = 0
+		SInt64 m_PathID = 7749245797284130901
+	PPtr<$DebugRawInputWithButton> RawInputWithButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2747551464789710292
+	PPtr<$DebugToggle> ToggleControlPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7480124767738712088
+	PPtr<$DebugGPSInput> GPSInputPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 2880406685937683142
+	PPtr<$DebugHudView> DebugHudPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 393423897902168693

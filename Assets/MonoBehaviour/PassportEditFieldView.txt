@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4527391591832792768
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7605921434179332613
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _currentPlayerTitle
+		int m_FileID = 0
+		SInt64 m_PathID = -8299289703262818829
+	PPtr<$TextMeshProUGUI> _favoriteCounter
+		int m_FileID = 0
+		SInt64 m_PathID = -353400616663655761
+	PPtr<$Transform> _fieldContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -8420774108926740069
+	PPtr<$GameObject> _titlePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6288890442871513844
+	PPtr<$GameObject> _confirmButton
+		int m_FileID = 0
+		SInt64 m_PathID = 6048861227463214281
+	vector FavoriteFieldIds
+		Array Array
+		int size = 0

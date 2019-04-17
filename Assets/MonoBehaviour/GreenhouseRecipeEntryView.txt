@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -9129425315456799941
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6227746856624213191
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _ingredientNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3574515985718947532
+	PPtr<$Image> _ingredientIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -8634818056886919052
+	PPtr<$TextMeshProUGUI> _inventoryCountTextField
+		int m_FileID = 0
+		SInt64 m_PathID = -8101754243540518315
+	PPtr<$TextMeshProUGUI> _growTimeField
+		int m_FileID = 0
+		SInt64 m_PathID = 3621752874003370579
+	PPtr<$PotionCraftingIngredientEntryView> _ingredientsEntryPrefab
+		int m_FileID = 13
+		SInt64 m_PathID = -2050625529547077351
+	PPtr<$Transform> _ingredientsContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 9036229384296859706
+	PPtr<$GameObject> _growButton
+		int m_FileID = 0
+		SInt64 m_PathID = -5424552696616926234

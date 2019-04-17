@@ -1,0 +1,41 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -125837593484747366
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5578239079700300271
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> contentText
+		int m_FileID = 0
+		SInt64 m_PathID = 7125726709581712503
+	PPtr<$Text> systemContentText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AnimationEventListener> animator
+		int m_FileID = 0
+		SInt64 m_PathID = -479303262383268148
+	float _viewTimeSec = 1.6
+	PPtr<$TextMeshProUGUI> descText
+		int m_FileID = 0
+		SInt64 m_PathID = 7125726709581712503
+	PPtr<$Image> ingredientIconReference
+		int m_FileID = 0
+		SInt64 m_PathID = 2580999688638030002
+	PPtr<$RewardSplineWidget> _rewardSplineWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 5681213711788589679
+	PPtr<$TextMeshProUGUI> _rewardAmount
+		int m_FileID = 0
+		SInt64 m_PathID = -424383310420376648

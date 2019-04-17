@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8906354944013299772
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6394097567493722026
+	string m_Name = ""
+	string PropertyName = "_Velocity"
+	Vector4f MinimumValues
+		float x = 0
+		float y = -0.12
+		float z = 0
+		float w = -0.1
+	Vector4f MaximumValues
+		float x = 0
+		float y = -0.11
+		float z = 0
+		float w = -0.08

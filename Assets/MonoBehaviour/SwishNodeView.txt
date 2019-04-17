@@ -1,0 +1,29 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1660634001181372856
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8388840421538566079
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _perfectContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -8364874859360209073
+	PPtr<$GameObject> _goodContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8810570183608542986
+	PPtr<$GameObject> _badContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 5950056933778003645
+	int currentState = 3

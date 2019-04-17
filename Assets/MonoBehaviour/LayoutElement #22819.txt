@@ -1,0 +1,17 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2282421043807050866
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5976492605805284771
+	string m_Name = ""
+	UInt8 m_IgnoreLayout = 0
+	float m_MinWidth = -1
+	float m_MinHeight = -1
+	float m_PreferredWidth = 180
+	float m_PreferredHeight = 320
+	float m_FlexibleWidth = -1
+	float m_FlexibleHeight = -1
+	int m_LayoutPriority = 1

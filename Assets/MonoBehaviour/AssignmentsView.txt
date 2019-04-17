@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 851658890932818712
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3599478020762082224
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Transform> inactivePanelTarget
+		int m_FileID = 0
+		SInt64 m_PathID = -7861411569877485755
+	PPtr<$Transform> activePanelTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 7813601830288022330
+	PPtr<$NestedFooterMenu> _footer
+		int m_FileID = 0
+		SInt64 m_PathID = 7128648427964252587
+	PPtr<$NestedRewardSplineWidget> _nestedReward
+		int m_FileID = 0
+		SInt64 m_PathID = -2104392146562637696

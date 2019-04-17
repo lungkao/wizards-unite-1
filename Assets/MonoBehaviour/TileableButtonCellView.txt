@@ -1,0 +1,30 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 807510606808438874
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8047270105465610406
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	int _cellAlignment = 2
+	PPtr<$DOTweenAnimation> _cellAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	HapticKeyObject _hapticKeyRef
+		double time = 0
+		string key = ""
+	PPtr<$AdvancedUIButton> _uiButton
+		int m_FileID = 0
+		SInt64 m_PathID = 6734151058436144381
+	string _localizationKey = ""

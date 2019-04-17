@@ -1,0 +1,72 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4934853924875024056
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2134493802835517803
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$AdvancedUIButton> _settingsButton
+		int m_FileID = 0
+		SInt64 m_PathID = -8728952794978639108
+	PPtr<$AdvancedUIButton> _backToMapButton
+		int m_FileID = 0
+		SInt64 m_PathID = -8789063552693105195
+	PPtr<$AdvancedUIButton> _storeButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2637295162006443773
+	vector _resourceEntries
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$ContextualResourceEntryView> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6511048667490405936
+			[1]
+			PPtr<$ContextualResourceEntryView> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5948959339723733572
+			[2]
+			PPtr<$ContextualResourceEntryView> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8955766272262794950
+	PPtr<$TextMeshProUGUI> _titleText
+		int m_FileID = 0
+		SInt64 m_PathID = 1701294761733048915
+	PPtr<$Text> _systemFontTitleText
+		int m_FileID = 0
+		SInt64 m_PathID = 2274714937391577026
+	PPtr<$Image> _bg
+		int m_FileID = 0
+		SInt64 m_PathID = -4904732409244047012
+	vector _notifPrefabs
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4171452383638171851
+			[1]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4182628652350360082
+	PPtr<$GameObject> _resourceRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 7151093874653467565
+	PPtr<$AdvancedUIButton> titleHyperlink
+		int m_FileID = 0
+		SInt64 m_PathID = 7719719969320353333
+	PPtr<$AdvancedUIButton> infoButton
+		int m_FileID = 0
+		SInt64 m_PathID = -4047289711491928436

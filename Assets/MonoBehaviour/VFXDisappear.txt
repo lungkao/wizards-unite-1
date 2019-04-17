@@ -1,0 +1,44 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4370447035537181463
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 89381358024317307
+	string m_Name = ""
+	UInt8 fadeOutWhenDead = 0
+	float _fadeOutTime = 0.2
+	UInt8 _disableLightsWhenDead = 1
+	UInt8 isLooping = 0
+	float Life = 3
+	int type = 2
+	vector breakIntoVFXPrefabs
+		Array Array
+		int size = 0
+	int VfxMessage = 0
+	AnimationCurve animationCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1.15
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	PPtr<$ShaderMappingList> shaderMappings
+		int m_FileID = 0
+		SInt64 m_PathID = 4235778801372710193
+	PPtr<$Material> dissolveMaterial
+		int m_FileID = 6
+		SInt64 m_PathID = 2767105963418072344

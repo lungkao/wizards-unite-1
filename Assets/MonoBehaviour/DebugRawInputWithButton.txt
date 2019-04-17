@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8795804346529684557
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7503380744979585812
+	string m_Name = ""
+	PPtr<$TMP_Text> ButtonText
+		int m_FileID = 0
+		SInt64 m_PathID = 6806887633936915914
+	PPtr<$TMP_InputField> TextInput
+		int m_FileID = 0
+		SInt64 m_PathID = 3980878797903209199

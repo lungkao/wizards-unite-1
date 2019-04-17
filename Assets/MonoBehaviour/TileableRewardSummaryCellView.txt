@@ -1,0 +1,62 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5199986156520175293
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7785456606212178148
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	int _cellAlignment = 2
+	PPtr<$DOTweenAnimation> _cellAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	HapticKeyObject _hapticKeyRef
+		double time = 0
+		string key = ""
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _amtText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _nameText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _isCost = 0
+	PPtr<$RewardBonusWidget> _rewardBonusWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GenericRewardsWidget> _collectionRewards
+		int m_FileID = 0
+		SInt64 m_PathID = -5195620305107512636
+	PPtr<$GenericRewardsWidget> _xpRewards
+		int m_FileID = 0
+		SInt64 m_PathID = -348340797589461035
+	PPtr<$GenericRewardsWidget> _itemRewards
+		int m_FileID = 0
+		SInt64 m_PathID = -2312043146927105793
+	PPtr<$TextMeshProUGUI> _summaryTitleLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 9181729554941955487
+	PPtr<$Image> _chestIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -8340779463265209242
+	PPtr<$TextMeshProUGUI> _curLevelString
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _maxLevelString
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float _timeBeforeRewardsAnim = 1.25
+	float _timeBetweenRewards = 0.2

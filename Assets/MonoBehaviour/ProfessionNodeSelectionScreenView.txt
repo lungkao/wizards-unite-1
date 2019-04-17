@@ -1,0 +1,29 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3177168043277261054
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1822389070888992897
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$ProfessionNodeSelectionEntryView> _professionNodeSelectionEntryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -8552425344711804377
+	PPtr<$Transform> _scrollContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -1432193115242846233
+	float _screenHeightMargin = 120
+	PPtr<$GameObject> connectorsParent
+		int m_FileID = 0
+		SInt64 m_PathID = 8094692873522940028

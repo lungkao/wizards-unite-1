@@ -1,0 +1,45 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4389915996427454413
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1694522221992142393
+	string m_Name = ""
+	float _mapEntityRotateSpeed = 100
+	UInt8 needToRotate = 0
+	PPtr<$LazyLoadNestedPrefab> outpostPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -3629512080893782829
+	PPtr<$NestedPrefab> CollectedSmokePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6995959614513291046
+	PPtr<$NestedPrefab> DarkDetectorPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6794235762719625155
+	vector DarkDetectorVfxPrefabs
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2240807993125949201
+			[1]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2606624628276405238
+			[2]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4930474084675546770
+	PPtr<$Transform> _darkDectectorRoot
+		int m_FileID = 0
+		SInt64 m_PathID = -3264343215835197830
+	float _randomAngleInterval = 5
+	PPtr<$Animator> _animator
+		int m_FileID = 0
+		SInt64 m_PathID = -6773886006176268833
+	PPtr<$Transform> _rotationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = -1887997464033698687

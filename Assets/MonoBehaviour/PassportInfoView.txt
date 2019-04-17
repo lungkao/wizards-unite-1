@@ -1,0 +1,189 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 526059344212973742
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2598008459448791217
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _levelValueText
+		int m_FileID = 0
+		SInt64 m_PathID = 7411675315128195744
+	PPtr<$TextMeshProUGUI> _creationDateText
+		int m_FileID = 0
+		SInt64 m_PathID = 8406479234200823866
+	PPtr<$TextMeshProUGUI> _cityStampText
+		int m_FileID = 0
+		SInt64 m_PathID = 882053348837001097
+	vector _editFieldGameObjects
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4828762367716006287
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2865218870981848674
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5465167200635010596
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3214138359610343755
+			[4]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7436437478027949261
+			[5]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5262322865964265510
+			[6]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6391098506575533794
+	PPtr<$TextMeshProUGUI> _titleText
+		int m_FileID = 0
+		SInt64 m_PathID = 564615996884630140
+	PPtr<$GameObject> _titleContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -8833743123901631184
+	PPtr<$AdvancedUIButton> _selfieButton
+		int m_FileID = 0
+		SInt64 m_PathID = 4311367043815920291
+	PPtr<$GameObject> _selfieFeather
+		int m_FileID = 0
+		SInt64 m_PathID = -7436437478027949261
+	PPtr<$PassportMediaView> _passportPictureView
+		int m_FileID = 0
+		SInt64 m_PathID = -3173756023004483324
+	PPtr<$GameObject> _achievementsContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -7100173775490871785
+	PPtr<$GameObject> _editNameContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -7345091424653934476
+	PPtr<$TextMeshProUGUI> _nameText
+		int m_FileID = 0
+		SInt64 m_PathID = 4818021959608785065
+	PPtr<$GameObject> _shareButton
+		int m_FileID = 0
+		SInt64 m_PathID = 8889407829380606043
+	PPtr<$TextMeshProUGUI> _professionText
+		int m_FileID = 0
+		SInt64 m_PathID = -540042624810633462
+	PPtr<$Image> _professionIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 355412077267891160
+	PPtr<$GameObject> _professionContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4231440254509101628
+	vector _badgeImages
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8375948844301450869
+			[1]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -318818903480424184
+			[2]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3546353526206607497
+			[3]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3440233232286733842
+			[4]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8464005164592326055
+	PPtr<$Sprite> _emptyBadge
+		int m_FileID = 0
+		SInt64 m_PathID = -7084111326451984750
+	vector _buttonImages
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3166041765826676400
+			[1]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2746974168898935257
+			[2]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3159504802305701459
+			[3]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 981082860911663116
+			[4]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1195150510710090785
+			[5]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7655651221049641600
+			[6]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2690471069441409066
+			[7]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -373630043256379555
+	PPtr<$PassportWandView> _wandView
+		int m_FileID = 0
+		SInt64 m_PathID = -4014055199042363136
+	PPtr<$RawImage> _wand2DImage
+		int m_FileID = 0
+		SInt64 m_PathID = -8831461103227758671
+	PPtr<$GameObject> _wand3DimensionPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7307985686661809391
+	PPtr<$GameObject> _wandContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 3058404445570806308
+	PPtr<$Image> _houseImage
+		int m_FileID = 0
+		SInt64 m_PathID = 7296848993339061321
+	PPtr<$GameObject> _houseNoSelected
+		int m_FileID = 0
+		SInt64 m_PathID = -1289778317382977819
+	PPtr<$GameObject> _houseContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -9198055883234250844
+	PPtr<$GameObject> _restrictedText
+		int m_FileID = 0
+		SInt64 m_PathID = -5279855350147686585
+	PPtr<$NestedPrefab> _selfieAvatarAssetNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7890124893713576038
+	PPtr<$NestedPrefab> _passportTitleNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 6711344020271449826
+	PPtr<$NestedPrefab> _passportBadgeNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4144631552311143317

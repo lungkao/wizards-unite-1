@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5710813268859675863
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5879478688529684960
+	string m_Name = ""
+	PPtr<$Transform> portkeyLocation
+		int m_FileID = 0
+		SInt64 m_PathID = -3510797642216066161

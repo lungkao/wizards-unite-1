@@ -1,0 +1,50 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 955160853348306429
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5232525454708688448
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$RawImage> _imgRendering
+		int m_FileID = 0
+		SInt64 m_PathID = 3108330893127518320
+	ColorRGBA _transitionColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	float _transitionInTime = 0.2
+	float _transitionOutTime = 1
+	PPtr<$Animator> _animatorFrontFlash
+		int m_FileID = 0
+		SInt64 m_PathID = -554597670815594432
+	PPtr<$Animator> _animatorHideHeaderFooter
+		int m_FileID = 0
+		SInt64 m_PathID = 5041042608273152099
+	PPtr<$GameObject> _footer
+		int m_FileID = 0
+		SInt64 m_PathID = -4752831144242168910
+	PPtr<$NestedFooterMenu> _nestedFooterMenu
+		int m_FileID = 0
+		SInt64 m_PathID = -1153046580708711149
+	PPtr<$NestedContextualResourceBar> _nestedHeaderMenu
+		int m_FileID = 0
+		SInt64 m_PathID = -2432038718933084578
+	PPtr<$Material> _fontInactiveMaterial
+		int m_FileID = 3
+		SInt64 m_PathID = -8003657262731169876
+	PPtr<$Material> _fontActiveMaterial
+		int m_FileID = 3
+		SInt64 m_PathID = 3135959018249991031

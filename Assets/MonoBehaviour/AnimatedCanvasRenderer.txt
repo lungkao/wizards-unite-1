@@ -1,0 +1,28 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7701976155062283870
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8884467024397563320
+	string m_Name = ""
+	PPtr<$UIAnimationCoroutineRunner> _animRunner
+		int m_FileID = 0
+		SInt64 m_PathID = -3003349589944324304
+	PPtr<$CanvasRenderer> _canvasRender
+		int m_FileID = 0
+		SInt64 m_PathID = -6217739155411267113
+	PPtr<$SkinnedMeshRenderer> _skinnedMeshRenderer
+		int m_FileID = 0
+		SInt64 m_PathID = -3058848103952049451
+	PPtr<$Material> _material
+		int m_FileID = 0
+		SInt64 m_PathID = 3942926821741494327
+	Vector3f _scaleAdjustment
+		float x = 1521
+		float y = 1620
+		float z = 1
+	PPtr<$Texture> _texture
+		int m_FileID = 0
+		SInt64 m_PathID = 0

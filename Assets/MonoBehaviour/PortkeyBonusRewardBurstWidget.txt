@@ -1,0 +1,141 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8756892253267629230
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6989640953403357843
+	string m_Name = ""
+	PPtr<$RewardTupleEntryView> _rewardTuplePrefab
+		int m_FileID = 36
+		SInt64 m_PathID = -5314904609287115435
+	AnimationCurve _alphaCurve
+		vector m_Curve
+			Array Array
+			int size = 4
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 0.1
+					float value = 1
+					float inSlope = 0.003766318
+					float outSlope = 0.003766318
+				[2]
+				Keyframe data
+					float time = 0.9
+					float value = 1
+					float inSlope = 0.006803235
+					float outSlope = 0.006803235
+				[3]
+				Keyframe data
+					float time = 1.002281
+					float value = -0.002357424
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _preBurstPause = 0.125
+	AnimationCurve _burstCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 1
+					float outSlope = 1
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 1
+					float outSlope = 1
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _burstTime = 0.25
+	float _floatTime = 1
+	AnimationCurve _floatX
+		vector m_Curve
+			Array Array
+			int size = 4
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 0.25
+					float value = -1
+					float inSlope = 0
+					float outSlope = 0
+				[2]
+				Keyframe data
+					float time = 0.75
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[3]
+				Keyframe data
+					float time = 1
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	AnimationCurve _floatY
+		vector m_Curve
+			Array Array
+			int size = 3
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 0.5
+					float value = 1.003891
+					float inSlope = 0.01429517
+					float outSlope = 0.01429517
+				[2]
+				Keyframe data
+					float time = 1
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	AnimationCurve _toTargetCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 2
+					float outSlope = 2
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _toTargetTime = 0.25

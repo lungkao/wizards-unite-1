@@ -1,0 +1,34 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4172549604691507148
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2540515852825384357
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = 5428489474755821438
+	PPtr<$GameObject> _lockIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 6221581532223083722
+	PPtr<$Material> _stickerGreyscale
+		int m_FileID = 0
+		SInt64 m_PathID = -3203075960326662478
+	PPtr<$AdvancedUIButton> _stickerButton
+		int m_FileID = 0
+		SInt64 m_PathID = 4424240693151150576
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 8678713566183389628

@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8342988664478797781
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5637259740028279436
+	string m_Name = ""
+	PPtr<$ScrollListItemWandWood> _woodPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 6783209892917675876
+	vector _containerWoods
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7754156650164550493
+			[1]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3355708206632294409
+			[2]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -362275651913186750
+			[3]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4639124097868399914

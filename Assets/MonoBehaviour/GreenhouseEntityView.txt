@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1274824671176884300
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8310303399076937470
+	string m_Name = ""
+	float _mapEntityRotateSpeed = 100
+	UInt8 needToRotate = 1
+	PPtr<$NestedPrefab> greenhousePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -3413330515279707290
+	PPtr<$Animator> _animator
+		int m_FileID = 0
+		SInt64 m_PathID = 2482456975086488457
+	float _randomAngleInterval = 0
+	PPtr<$Transform> _rotationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 8624711296859987266
+	PPtr<$GameObject> _activeStateFlag
+		int m_FileID = 0
+		SInt64 m_PathID = 0

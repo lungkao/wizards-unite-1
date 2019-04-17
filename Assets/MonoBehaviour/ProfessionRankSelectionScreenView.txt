@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1133813807861860976
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1531408123574599371
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$ProfessionRankSelectionEntryView> _professionRankSelectionEntryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 1877104442688332279
+	PPtr<$Transform> _scrollingContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 6803010068734339611
+	PPtr<$TextMeshProUGUI> _professionName
+		int m_FileID = 0
+		SInt64 m_PathID = 9133276432534625838
+	PPtr<$Image> _backgroundImg
+		int m_FileID = 0
+		SInt64 m_PathID = -7014728696836947290
+	PPtr<$Image> _backgroundHeaderImg
+		int m_FileID = 0
+		SInt64 m_PathID = -7388944130269049776
+	PPtr<$NestedProgressBar> _progressBarPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -8501134877665915297

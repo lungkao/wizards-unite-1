@@ -1,0 +1,39 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4563859572292255326
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2088902920038948020
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$DOTweenAnimation> _selectTween
+		int m_FileID = 0
+		SInt64 m_PathID = 840551092468530180
+	PPtr<$Image> _categoryIconImage
+		int m_FileID = 0
+		SInt64 m_PathID = -5353882026926354350
+	PPtr<$Image> _categorySelectedImage
+		int m_FileID = 0
+		SInt64 m_PathID = 8060860208979428841
+	PPtr<$Image> _subIconImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _label
+		int m_FileID = 0
+		SInt64 m_PathID = 1207584010667110952
+	UInt8 _animateSelect = 1
+	string referenceId = ""
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -5837745501698697486

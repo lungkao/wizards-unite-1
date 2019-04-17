@@ -1,0 +1,71 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 64
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 39
+	string m_Name = ""
+	vector _pathPrefabs
+		Array Array
+		int size = 6
+			[0]
+			PPtr<$UFOView> data
+				int m_FileID = 5
+				SInt64 m_PathID = -3762044985274790071
+			[1]
+			PPtr<$UFOView> data
+				int m_FileID = 5
+				SInt64 m_PathID = -1177975787494194048
+			[2]
+			PPtr<$UFOView> data
+				int m_FileID = 5
+				SInt64 m_PathID = -3470861661235763313
+			[3]
+			PPtr<$UFOView> data
+				int m_FileID = 5
+				SInt64 m_PathID = -8590738572305049639
+			[4]
+			PPtr<$UFOView> data
+				int m_FileID = 5
+				SInt64 m_PathID = -4413504150265724420
+			[5]
+			PPtr<$UFOView> data
+				int m_FileID = 5
+				SInt64 m_PathID = 437057965616968565
+	vector _ufoPrefabs
+		Array Array
+		int size = 6
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 5
+				SInt64 m_PathID = 1604792938309601981
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 5
+				SInt64 m_PathID = 1604792938309601981
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 5
+				SInt64 m_PathID = 1604792938309601981
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 5
+				SInt64 m_PathID = -1613680865728741661
+			[4]
+			PPtr<$GameObject> data
+				int m_FileID = 5
+				SInt64 m_PathID = -1613680865728741661
+			[5]
+			PPtr<$GameObject> data
+				int m_FileID = 5
+				SInt64 m_PathID = -1613680865728741661
+	float _spawnPeriod = 2
+	float _spawnVariance = 6
+	int _ufoPoolSizeMax = 6
+	int _activeUFOMax = 6
+	PPtr<$Transform> _spawnPoint
+		int m_FileID = 0
+		SInt64 m_PathID = 270
+	UInt8 spawning = 1

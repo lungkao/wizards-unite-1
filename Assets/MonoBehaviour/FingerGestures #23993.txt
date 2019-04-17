@@ -1,0 +1,17 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1937265627342713737
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4304217772327627616
+	string m_Name = ""
+	UInt8 makePersistent = 1
+	UInt8 detectUnityRemote = 1
+	PPtr<$FGInputProvider> mouseInputProviderPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 9200716279195680325
+	PPtr<$FGInputProvider> touchInputProviderPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 6492815727899707726

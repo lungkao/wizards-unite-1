@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7236421723788657193
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7658923849543841356
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.2745098
+		float g = 0.2745098
+		float b = 0.2745098
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 7
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> TitleText
+		int m_FileID = 0
+		SInt64 m_PathID = 4663084112672234183
+	PPtr<$TextMeshProUGUI> BodyText
+		int m_FileID = 0
+		SInt64 m_PathID = -4291650946313391584
+	PPtr<$NestedButton> _nestedButtonA
+		int m_FileID = 0
+		SInt64 m_PathID = -5189694087359133461
+	PPtr<$NestedButton> _nestedButtonB
+		int m_FileID = 0
+		SInt64 m_PathID = -7209287337401564834
+	PPtr<$TextMeshProUGUI> _linkAText
+		int m_FileID = 0
+		SInt64 m_PathID = -4655845199041838105
+	PPtr<$TextMeshProUGUI> _linkBText
+		int m_FileID = 0
+		SInt64 m_PathID = -6487561744611041643
+	PPtr<$GameObject> _warningIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 4233174904295323685

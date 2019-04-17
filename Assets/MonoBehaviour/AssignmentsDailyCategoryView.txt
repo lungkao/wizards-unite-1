@@ -1,0 +1,98 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5429927108348774199
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5885555634750207762
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _enterAnimationPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _exitAnimationPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _singleTaskQuestPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 6390014913026959446
+	PPtr<$GameObject> _dailyLoginPrefab
+		int m_FileID = 12
+		SInt64 m_PathID = 5354115530015555227
+	PPtr<$SnapLayoutGroup> _snapLayoutGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -8316032781366703394
+	PPtr<$Transform> _dailyQuestsParent
+		int m_FileID = 0
+		SInt64 m_PathID = 5604156892890343838
+	PPtr<$Transform> _dailyLoginParent
+		int m_FileID = 0
+		SInt64 m_PathID = 4333584144464508127
+	PPtr<$GameObject> _dailyLoginComingSoonParent
+		int m_FileID = 0
+		SInt64 m_PathID = 628227427234477511
+	PPtr<$GameObject> _dailyQuestsCompletedObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5488932592529457506
+	vector _selectedTabObjects
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7942989575822653725
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1791305629814579086
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8069764447179055268
+	PPtr<$TextMeshProUGUI> _timeUntilResetText
+		int m_FileID = 0
+		SInt64 m_PathID = -833515204324136585
+	PPtr<$TextMeshProUGUI> _subheaderText
+		int m_FileID = 0
+		SInt64 m_PathID = -1680684563005868945
+	PPtr<$TextMeshProUGUI> _resetText
+		int m_FileID = 0
+		SInt64 m_PathID = 7799625358886926921
+	vector _assignmentsBanks
+		Array Array
+		int size = 1
+			[0]
+			string data = "BNK_SFX_MAP"
+	string _collectQuestSFX = "event:/UI/QuestUI/QuestCompleteCollection"
+	string _completeAllQuestSFX = "event:/UI/QuestUI/AllQuestComplete"
+	Vector3f _dailyLoginScaling
+		float x = 0.8
+		float y = 0.8
+		float z = 0.8
+	Vector2f _dailyLoginMinOffset
+		float x = 0
+		float y = 150
+	Vector2f _dailyLoginMaxOffset
+		float x = 0
+		float y = 0
+	vector _layoutElementsToFitToScreen
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$LayoutElement> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6401350823161162724
+			[1]
+			PPtr<$LayoutElement> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8783323974304690036

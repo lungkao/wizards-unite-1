@@ -1,0 +1,26 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -582160068484540446
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4215115540663473899
+	string m_Name = ""
+	UInt8 _instantiateOnStart = 1
+	UInt8 _updateInstanceLayer = 1
+	TriggerEvent _onPrefabInstantiated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$GameObject> _prefab
+		int m_FileID = 6
+		SInt64 m_PathID = 6392046805930118025
+	PPtr<$Image> _image
+		int m_FileID = 0
+		SInt64 m_PathID = -1390927974834921935
+	PPtr<$Transform> _labelParentTransform
+		int m_FileID = 0
+		SInt64 m_PathID = -2754054479819155858

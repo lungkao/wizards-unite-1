@@ -1,0 +1,69 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2603897479945155117
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5143363217474676551
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	vector _notifPrefabs
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3583038549428948438
+			[1]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8416906757589645914
+			[2]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2331428906103497362
+			[3]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6665203883160219574
+			[4]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3984136330297471826
+	PPtr<$NestedPrefab> _xpBarPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -4447731096693505831
+	PPtr<$PassportMediaView> _passportMediaView
+		int m_FileID = 0
+		SInt64 m_PathID = 8099803657817292258
+	PPtr<$AdvancedUIButton> _potionButton
+		int m_FileID = 0
+		SInt64 m_PathID = 5790926534860094792
+	PPtr<$TextMeshProUGUI> _xpText
+		int m_FileID = 0
+		SInt64 m_PathID = 4515437937441873604
+	PPtr<$TextMeshProUGUI> _levelText
+		int m_FileID = 0
+		SInt64 m_PathID = 6744932122805313904
+	PPtr<$TextMeshProUGUI> _nameText
+		int m_FileID = 0
+		SInt64 m_PathID = 2793247119722248621
+	PPtr<$TextMeshProUGUI> _professionText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _renownText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _greenhouse_DEBUG_button
+		int m_FileID = 0
+		SInt64 m_PathID = 0

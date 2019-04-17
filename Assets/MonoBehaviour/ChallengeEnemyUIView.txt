@@ -1,0 +1,128 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7361018587287200496
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1904896165648306145
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _enemyIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 1986232881357222436
+	PPtr<$Image> _enemyIconFrame
+		int m_FileID = 0
+		SInt64 m_PathID = 4063934725496069282
+	PPtr<$Image> _hpBar
+		int m_FileID = 0
+		SInt64 m_PathID = -7488459302573293928
+	PPtr<$TextMeshProUGUI> _levelText
+		int m_FileID = 0
+		SInt64 m_PathID = 2956411402737161818
+	PPtr<$GameObject> _playerMarkerUI
+		int m_FileID = 0
+		SInt64 m_PathID = 7373130424328275328
+	PPtr<$ChallengePlayerMarker> _playerMarker
+		int m_FileID = 0
+		SInt64 m_PathID = -9185040475141337664
+	PPtr<$GameObject> _buffIndicator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _debuffIndicator
+		int m_FileID = 0
+		SInt64 m_PathID = 7753428083786549071
+	PPtr<$GameObject> _bothBuffIndicator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _actualTargetSelection
+		int m_FileID = 0
+		SInt64 m_PathID = -5862928257225842698
+	PPtr<$GameObject> _potentialTargetSelection
+		int m_FileID = 0
+		SInt64 m_PathID = -5123578520384738970
+	PPtr<$GameObject> _positiveAffinityMarker
+		int m_FileID = 0
+		SInt64 m_PathID = -2354473658829263920
+	PPtr<$GameObject> _negativeAffinityMarker
+		int m_FileID = 0
+		SInt64 m_PathID = -573793466552081032
+	PPtr<$Image> _affinityIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 6360614741278698390
+	PPtr<$GameObject> _mobRewardHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 3577728911567289641
+	PPtr<$GameObject> _selectedMarker
+		int m_FileID = 0
+		SInt64 m_PathID = -3892628885149690534
+	float _delayBeforeShowingPortrait = 0.5
+	PPtr<$GameObject> _apparateEffectPrefab
+		int m_FileID = 4
+		SInt64 m_PathID = -2603231415053074658
+	PPtr<$MobRewardView> _mobRewardPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6126968974061041904
+	PPtr<$Transform> _apparateTransform
+		int m_FileID = 0
+		SInt64 m_PathID = -5402867103634234720
+	ColorRGBA _brightColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	ColorRGBA _dimColor
+		float r = 0.4191176
+		float g = 0.4191176
+		float b = 0.4191176
+		float a = 1
+	vector _imagesToDim
+		Array Array
+		int size = 9
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4063934725496069282
+			[1]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1986232881357222436
+			[2]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8796429551568359447
+			[3]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7745491675684561553
+			[4]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6360614741278698390
+			[5]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7488459302573293928
+			[6]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[7]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[8]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+	string _enemyAppearsSFX = "event:/SFX/disapparate"
+	string _enemyDefeatedSFX = "event:/UI/FortressUI/EnemyDefeated"

@@ -1,0 +1,38 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3265836010939116236
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3554848400109508847
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	int _cellAlignment = 2
+	PPtr<$DOTweenAnimation> _cellAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -4882838113436830393
+	HapticKeyObject _hapticKeyRef
+		double time = 0
+		string key = ""
+	PPtr<$Image> _familyBannerIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -9013890290041660694
+	PPtr<$Image> _familyBannerTextIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -5428002591920923578
+	PPtr<$TextMeshProUGUI> _familyNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -581410682486934323
+	PPtr<$TextMeshProUGUI> _rankUpLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 7259212245384544798

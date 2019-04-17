@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3022005180888322721
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5624438613461446909
+	string m_Name = ""
+	string Style = ""
+	UInt8 width = 1
+	UInt8 height = 1
+	UInt8 sourceImage = 1
+	UInt8 color = 1
+	UInt8 imageType = 1

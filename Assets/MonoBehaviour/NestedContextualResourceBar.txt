@@ -1,0 +1,72 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7387618748101543993
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3672787571248537723
+	string m_Name = ""
+	UInt8 _instantiateOnStart = 1
+	UInt8 _updateInstanceLayer = 1
+	TriggerEvent _onPrefabInstantiated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$GameObject> _prefab
+		int m_FileID = 27
+		SInt64 m_PathID = 4934853924875024056
+	vector _contextVaultItems
+		Array Array
+		int size = 0
+	PPtr<$BaseUIView> _rootUIView
+		int m_FileID = 0
+		SInt64 m_PathID = 55075950414028146
+	int _leftButtonType = 0
+	UInt8 _showInfoButton = 1
+	UInt8 _showStoreButton = 0
+	UInt8 _showBG = 1
+	UInt8 _autoUpdate = 1
+	UInt8 _allowAnimation = 1
+	string _titleTextLocKey = "map_environment_tags_header"
+	ButtonClickedEvent _onTitleClicked
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 55075950414028146
+						string m_MethodName = "OnInfoTappedProxy"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	ButtonClickedEvent _leftButtonOverride
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	ButtonClickedEvent _rightButtonOverride
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	string _hyperlinkButtonId = ""
+	string _infoButtonId = ""
+	string _leftButtonTelemetryOverride = ""
+	string _rightButtonTelemetryOverride = ""

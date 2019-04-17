@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5863519196840637996
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2661612619478539945
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RegistryVisualConfig> RegistryVisualConfig
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _itemIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 3214433402746337690
+	PPtr<$TextMeshProUGUI> _shardLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3705064318860809432
+	PPtr<$TextMeshProUGUI> _itemName
+		int m_FileID = 0
+		SInt64 m_PathID = -2644491810576441380
+	PPtr<$VerticalLayoutGroup> _layoutGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 4179617390787794998
+	PPtr<$GameObject> _entryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 3925756547769668276

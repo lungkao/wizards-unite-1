@@ -1,0 +1,58 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4182253765653305319
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6847163183309266922
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$RectTransform> _spellBarContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 3120230561012461712
+	PPtr<$SwishSpellbarSegmentView> _spellbarSegment
+		int m_FileID = 0
+		SInt64 m_PathID = -3051407132788377676
+	PPtr<$RectTransform> _scoreMarkerTop
+		int m_FileID = 0
+		SInt64 m_PathID = -1157080436770893431
+	PPtr<$RectTransform> _scoreMarkerBottom
+		int m_FileID = 0
+		SInt64 m_PathID = 7112365384222711872
+	PPtr<$RectTransform> _scoreMarkerLeftAnchor
+		int m_FileID = 0
+		SInt64 m_PathID = 4920349105860173612
+	PPtr<$RectTransform> _scoreMarkerRightAnchor
+		int m_FileID = 0
+		SInt64 m_PathID = 3370952854763018728
+	vector _scoreThresholds
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8340905917474349126
+			[1]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3671062304896572490
+			[2]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8041186366177835029
+	PPtr<$GameObject> _spellBarGlow
+		int m_FileID = 0
+		SInt64 m_PathID = 7020336198184329267
+	PPtr<$DOTweenAnimation> _thresholdPassedAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -8282920921507684521

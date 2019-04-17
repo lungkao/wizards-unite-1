@@ -1,0 +1,26 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5697865302908353126
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8399038648871121995
+	string m_Name = ""
+	float _bobHeight = 0.05
+	float _lateralDrift = 0.05
+	float _horizontalTwist = 20
+	float _verticalTwist = 20
+	float _spin = 10
+	float _period = 1
+	float _minWaveCount = 1
+	float _maxWaveCount = 1
+	Vector3f _positionVariance
+		float x = 0
+		float y = 0
+		float z = 0
+	Vector3f _rotationVariance
+		float x = 0
+		float y = 0
+		float z = 0
+	UInt8 _stopFloatingOnRngSucceed = 0

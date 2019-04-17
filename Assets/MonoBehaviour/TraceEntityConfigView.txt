@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4882570496704177083
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1939938911713631281
+	string m_Name = ""
+	PPtr<$Transform> geometry
+		int m_FileID = 0
+		SInt64 m_PathID = 889904400376075887
+	AccessibilityTuple _accessibilityVisuals
+		Array Array
+		int size = 0
+	PPtr<$NestedPrefab> DarkDetectorNotif
+		int m_FileID = 0
+		SInt64 m_PathID = 1940056475668882524

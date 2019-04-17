@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2656748786901180273
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1880535836033777000
+	string m_Name = ""
+	Entry m_Delegates
+		Array Array
+		int size = 0
+	Entry delegates
+		Array Array
+		int size = 0

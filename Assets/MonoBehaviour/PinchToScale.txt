@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5467733417336159362
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4124310241790819627
+	string m_Name = ""
+	UInt8 _isActive = 1
+	Vector3f _scaleWeights
+		float x = 1
+		float y = 1
+		float z = 1
+	float _minScaleAmount = 0.25
+	float _maxScaleAmount = 4.5
+	float _sensitivity = 1.5
+	float _smoothingSpeed = 50

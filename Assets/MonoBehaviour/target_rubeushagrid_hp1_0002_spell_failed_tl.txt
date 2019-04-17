@@ -1,0 +1,42 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8213397227359743463
+	string m_Name = "target_rubeushagrid_hp1_0002_spell_failed_tl"
+	int m_NextId = 0
+	vector m_Tracks
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2682479040354088229
+			[1]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5276366716107807765
+			[2]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2795397292590568435
+			[3]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7121557680493635928
+			[4]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1203686168799581171
+	double m_FixedDuration = 0
+	EditorSettings m_EditorSettings
+		float m_Framerate = 60
+	int m_DurationMode = 0
+	UInt8 IsForceSequence = 1
+	PPtr<$TimelineAssetExtension> NextTimeline
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int WrapMode = 2

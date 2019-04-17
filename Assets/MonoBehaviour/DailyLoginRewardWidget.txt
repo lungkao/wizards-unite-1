@@ -1,0 +1,49 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -115273573088386837
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7730807411412932731
+	string m_Name = ""
+	PPtr<$GameObject> root
+		int m_FileID = 0
+		SInt64 m_PathID = -115273573088386837
+	PPtr<$TextMeshProUGUI> textAmount
+		int m_FileID = 0
+		SInt64 m_PathID = 5678487334964932086
+	PPtr<$GameObject> starTwinkleLoopRoot
+		int m_FileID = 0
+		SInt64 m_PathID = -7983811001562101167
+	PPtr<$DOTweenAnimation> starTwinkleLoopAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -5612857153865649322
+	float minStarTwinkleDelay = 0
+	float maxStarTwinkleDelay = 1
+	PPtr<$GameObject> starEnterAnimationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 4123626750413652366
+	PPtr<$GameObject> treasureBadgeRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 4652352548335841654
+	PPtr<$Image> treasureBadgeImage
+		int m_FileID = 0
+		SInt64 m_PathID = 3894449101440510488
+	PPtr<$GameObject> sparklyTreasureRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 606599799818245683
+	PPtr<$GameObject> specialSparklyTreasureRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 6655603108467623951
+	PPtr<$GameObject> dailyTreasureLoopRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 2226052966633650486
+	PPtr<$DOTweenAnimation> dailyTreasureLoopAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -5204864606814213914
+	PPtr<$Image> dailyTreasureLoopIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -2689446439539977670
+	float minDailyTreasureLoopDelay = 0
+	float maxDailyTreasureLoopDelay = 1.5

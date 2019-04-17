@@ -1,0 +1,81 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5382041672732375251
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7158511995225596621
+	string m_Name = ""
+	vector _detectors
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$Animator> data
+				int m_FileID = 0
+				SInt64 m_PathID = 903530071326649477
+			[1]
+			PPtr<$Animator> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8563879576292388874
+			[2]
+			PPtr<$Animator> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4549781501704618314
+	PPtr<$Animator> _meterAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 6112921811183313360
+	DetectorDataTuple slots
+		Array Array
+		int size = 3
+			[0]
+			DetectorDataTuple data
+				PPtr<$TextMeshPro> countdownText
+					int m_FileID = 0
+					SInt64 m_PathID = -4551680071222760354
+				PPtr<$TextMeshPro> availableText
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TextMeshPro> nicknameText
+					int m_FileID = 0
+					SInt64 m_PathID = -6706764914029044120
+				float activeDetectorStrength = 0.1
+			[1]
+			DetectorDataTuple data
+				PPtr<$TextMeshPro> countdownText
+					int m_FileID = 0
+					SInt64 m_PathID = -2055710992361076602
+				PPtr<$TextMeshPro> availableText
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TextMeshPro> nicknameText
+					int m_FileID = 0
+					SInt64 m_PathID = 7906465485667772416
+				float activeDetectorStrength = 0.4
+			[2]
+			DetectorDataTuple data
+				PPtr<$TextMeshPro> countdownText
+					int m_FileID = 0
+					SInt64 m_PathID = 4176440481846640443
+				PPtr<$TextMeshPro> availableText
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TextMeshPro> nicknameText
+					int m_FileID = 0
+					SInt64 m_PathID = -8702203669302290253
+				float activeDetectorStrength = 1
+	PPtr<$TextMeshPro> powerGaugeText
+		int m_FileID = 0
+		SInt64 m_PathID = 3957504202914828682
+	PPtr<$Button3D> placeButton
+		int m_FileID = 0
+		SInt64 m_PathID = -5603595541717230919
+	vector _placeDarkDetectorSFX
+		Array Array
+		int size = 3
+			[0]
+			string data = "event:/UI/Pub/DarkDetectorLv1"
+			[1]
+			string data = "event:/UI/Pub/DarkDetectorLv2"
+			[2]
+			string data = "event:/UI/Pub/DarkDetectorLv3"

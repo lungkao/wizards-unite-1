@@ -1,0 +1,109 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4027751602363317965
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7961809072252399815
+	string m_Name = ""
+	UInt8 interactable = 1
+	UInt8 doesIgnoreValidator = 0
+	UInt8 _singleTouchOnly = 1
+	PPtr<$Animator> _buttonAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _playDefaultAnims = 1
+	string _identifier = ""
+	string _onClickSoundEvent = "event:/UI/Menu_Click"
+	TriggerEvent _onTap
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = -2347954980295506184
+						string m_MethodName = "OnCloseButtonClicked"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	TriggerEvent _onDown
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	TriggerEvent _onHold
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	TriggerEvent _onUp
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	int _tapRecognitionParameters = 0
+	float _dragThresholdSeconds = 0.2
+	float _tapThresholdSeconds = 0.5
+	PPtr<$Image> _buttonImage
+		int m_FileID = 0
+		SInt64 m_PathID = 6068888782620658769
+	int _stateChangeType = 2
+	int _colorStateChangeTarget = 3
+	PPtr<$TextMeshProUGUI> _buttonText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA _defaultColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	ColorRGBA _pressedColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	ColorRGBA _highlightedColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	ColorRGBA _inactiveColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	PPtr<$Sprite> _defaultSprite
+		int m_FileID = 1
+		SInt64 m_PathID = -4745475127833913631
+	PPtr<$Sprite> _pressedSprite
+		int m_FileID = 1
+		SInt64 m_PathID = 12777151204670500
+	PPtr<$Sprite> _highlightedSprite
+		int m_FileID = 1
+		SInt64 m_PathID = 12777151204670500
+	PPtr<$Sprite> _inactiveSprite
+		int m_FileID = 1
+		SInt64 m_PathID = -4745475127833913631
+	PPtr<$Sprite> _disabledSprite
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Sprite> _disabledPressedSprite
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _telementryEnabled = 0

@@ -1,0 +1,42 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2819836770286043526
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7572871554821179621
+	string m_Name = ""
+	PPtr<$Image> _completedNodeIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -3642374251542936843
+	PPtr<$Image> _activeNodeIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 4903420093750685185
+	PPtr<$Image> _inactiveNodeIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -5958403888231525854
+	PPtr<$Image> _lockedeNodeIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -8829351690960568567
+	PPtr<$GameObject> _lockIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 1940332289255780005
+	PPtr<$GameObject> _mapAbilityFrame
+		int m_FileID = 0
+		SInt64 m_PathID = -6370803451773165038
+	Vector2f _mapAbilityIconScale
+		float x = 1.333
+		float y = 1.333
+	Vector2f _defaultIconScale
+		float x = 1
+		float y = 1
+	Vector2f _lockedIconScale
+		float x = 0.97
+		float y = 0.97
+	PPtr<$TextMeshProUGUI> _progressText
+		int m_FileID = 0
+		SInt64 m_PathID = -6711860245378909919
+	PPtr<$GameObject> _progressHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 5037415329946958502

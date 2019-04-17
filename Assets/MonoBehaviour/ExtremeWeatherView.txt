@@ -1,0 +1,19 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7678861944218015136
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6323936788367357372
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 0.6
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0

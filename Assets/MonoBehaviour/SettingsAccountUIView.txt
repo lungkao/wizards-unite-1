@@ -1,0 +1,89 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3562999652825887384
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7819222277047792813
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	Profile _generalProfile
+		PPtr<$GameObject> _profile
+			int m_FileID = 0
+			SInt64 m_PathID = -4912498345407750328
+		PPtr<$TextMeshProUGUI> _accountNameTitle
+			int m_FileID = 0
+			SInt64 m_PathID = 4455673516536393921
+		PPtr<$TextMeshProUGUI> _accountNameLabel
+			int m_FileID = 0
+			SInt64 m_PathID = 6459888534731571021
+		PPtr<$TextMeshProUGUI> _signOutButtonLabel
+			int m_FileID = 0
+			SInt64 m_PathID = 1300601175283307723
+		PPtr<$AdvancedUIButton> _signOutButton
+			int m_FileID = 0
+			SInt64 m_PathID = -8937519646081348379
+		PPtr<$TextMeshProUGUI> _versionTitle
+			int m_FileID = 0
+			SInt64 m_PathID = -5883164405175896994
+		PPtr<$TextMeshProUGUI> _versionLabel
+			int m_FileID = 0
+			SInt64 m_PathID = -3974277591399862377
+		PPtr<$TextMeshProUGUI> _accountIdTitle
+			int m_FileID = 0
+			SInt64 m_PathID = -7629435894763950410
+		PPtr<$TextMeshProUGUI> _accountIdLabel
+			int m_FileID = 0
+			SInt64 m_PathID = -8332390739245560117
+	Profile _kidProfile
+		PPtr<$GameObject> _profile
+			int m_FileID = 0
+			SInt64 m_PathID = -3177901094253632571
+		PPtr<$TextMeshProUGUI> _accountNameTitle
+			int m_FileID = 0
+			SInt64 m_PathID = 4455673516536393921
+		PPtr<$TextMeshProUGUI> _accountNameLabel
+			int m_FileID = 0
+			SInt64 m_PathID = 6459888534731571021
+		PPtr<$TextMeshProUGUI> _signOutButtonLabel
+			int m_FileID = 0
+			SInt64 m_PathID = 1300601175283307723
+		PPtr<$AdvancedUIButton> _signOutButton
+			int m_FileID = 0
+			SInt64 m_PathID = -8937519646081348379
+		PPtr<$TextMeshProUGUI> _versionTitle
+			int m_FileID = 0
+			SInt64 m_PathID = -5883164405175896994
+		PPtr<$TextMeshProUGUI> _versionLabel
+			int m_FileID = 0
+			SInt64 m_PathID = -3974277591399862377
+		PPtr<$TextMeshProUGUI> _accountIdTitle
+			int m_FileID = 0
+			SInt64 m_PathID = -7629435894763950410
+		PPtr<$TextMeshProUGUI> _accountIdLabel
+			int m_FileID = 0
+			SInt64 m_PathID = -8332390739245560117
+	AccountButton _facebookLoginButton
+		PPtr<$AdvancedUIButton> button
+			int m_FileID = 0
+			SInt64 m_PathID = -6889365049710686752
+		PPtr<$TextMeshProUGUI> label
+			int m_FileID = 0
+			SInt64 m_PathID = -1840870548208151662
+	AccountButton _googleLoginButton
+		PPtr<$AdvancedUIButton> button
+			int m_FileID = 0
+			SInt64 m_PathID = 1837260573467326873
+		PPtr<$TextMeshProUGUI> label
+			int m_FileID = 0
+			SInt64 m_PathID = -5089175914201609280

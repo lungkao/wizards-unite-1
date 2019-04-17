@@ -1,0 +1,48 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4716797436375148593
+	string m_Name = "ChallengeDefeatPriorityQueue"
+	UInt8 showSummaryCell = 1
+	UInt8 showPatronus = 0
+	PPtr<$Sprite> backgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Mesh> cliffPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Mesh> hogwartsPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float scrollingDelay = 0
+	RewardCellInfo priorityQueue
+		Array Array
+		int size = 2
+			[0]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 5199986156520175293
+				int cellType = 4
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 500
+			[1]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = -2785677395000928511
+				int cellType = 6
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 600

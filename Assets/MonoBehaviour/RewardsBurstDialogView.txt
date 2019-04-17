@@ -1,0 +1,22 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3746682737255471274
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 846120574961592078
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.6102941
+		float g = 0.6102941
+		float b = 0.6102941
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$RewardBurstWidget> _rewardAnimWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 6642321718001017619

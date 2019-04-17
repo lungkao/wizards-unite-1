@@ -1,0 +1,71 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1407299707854556145
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7696996162193326041
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _title
+		int m_FileID = 0
+		SInt64 m_PathID = 7504558207301045302
+	PPtr<$TextMeshProUGUI> _description
+		int m_FileID = 0
+		SInt64 m_PathID = -6098648767450689306
+	PPtr<$TextMeshProUGUI> _marketingText
+		int m_FileID = 0
+		SInt64 m_PathID = -5147453690808690351
+	PPtr<$Image> _packImage
+		int m_FileID = 0
+		SInt64 m_PathID = 6588839632046583717
+	PPtr<$NestedBuyButton> _buyButton
+		int m_FileID = 0
+		SInt64 m_PathID = -1936385694518180894
+	PPtr<$NestedButton> _cancelButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2347625681553480540
+	PPtr<$TextMeshProUGUI> _saleCostText
+		int m_FileID = 0
+		SInt64 m_PathID = 4293307150065874362
+	PPtr<$TextMeshProUGUI> _salePercentText
+		int m_FileID = 0
+		SInt64 m_PathID = 1399776169045103266
+	PPtr<$GameObject> _saleObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4995874809542853618
+	PPtr<$GameObject> _limitObject
+		int m_FileID = 0
+		SInt64 m_PathID = -962408858937846887
+	PPtr<$TextMeshProUGUI> _limitText
+		int m_FileID = 0
+		SInt64 m_PathID = -8907732878313682099
+	PPtr<$GameObject> _timerObject
+		int m_FileID = 0
+		SInt64 m_PathID = 203404967151418358
+	PPtr<$TextMeshProUGUI> _timerText
+		int m_FileID = 0
+		SInt64 m_PathID = -7267724630597111819
+	PPtr<$GameObject> _infoButton
+		int m_FileID = 0
+		SInt64 m_PathID = -4197115824469729566
+	PPtr<$GridLayoutGroup> _contentParent
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$StoreItemPurchaseView> _itemPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float _stickerScaleSize = 1.5
+	PPtr<$RewardBurstWidget> _rewardBurst
+		int m_FileID = 0
+		SInt64 m_PathID = 1786835265902976090

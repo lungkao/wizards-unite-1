@@ -1,0 +1,67 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5765673040960491899
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2118604443022224174
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _potionIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -6218410115234802140
+	PPtr<$TextMeshProUGUI> _potionNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -9072812678730440916
+	PPtr<$TextMeshProUGUI> _useLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 2953331274769220842
+	PPtr<$TextMeshProUGUI> _inventoryCountTextField
+		int m_FileID = 0
+		SInt64 m_PathID = -5970872894682158448
+	PPtr<$TextMeshProUGUI> _brewTimeField
+		int m_FileID = 0
+		SInt64 m_PathID = 7098966990933373242
+	PPtr<$PotionCraftingIngredientEntryView> _ingredientsEntryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -2050625529547077351
+	PPtr<$Transform> _ingredientsContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4556655777024542887
+	PPtr<$GameObject> _brewButton
+		int m_FileID = 0
+		SInt64 m_PathID = 1540418164223226054
+	PPtr<$GameObject> _brewTimeContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 5060821130210790017
+	PPtr<$GameObject> _brewMissingButtonContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 7018720759753469882
+	PPtr<$TextMeshProUGUI> _brewMissingTimeField
+		int m_FileID = 0
+		SInt64 m_PathID = 8884274544734383610
+	PPtr<$GameObject> _brewMissingIngredientsCostContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -3276169049612463588
+	PPtr<$TextMeshProUGUI> _brewMissingIngredientsCostField
+		int m_FileID = 0
+		SInt64 m_PathID = 2526387923789185622
+	PPtr<$TextMeshProUGUI> _lockLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -2337182518705308786
+	PPtr<$GameObject> _lockContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4960085687034274599
+	PPtr<$GameObject> _contentContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8400828533640357480

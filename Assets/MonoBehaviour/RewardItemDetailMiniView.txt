@@ -1,0 +1,84 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3104573211093051998
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7739162842504544877
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _firstTimeText
+		int m_FileID = 0
+		SInt64 m_PathID = -5281079699814116403
+	PPtr<$TextMeshProUGUI> _amountText
+		int m_FileID = 0
+		SInt64 m_PathID = 2287648014951140637
+	PPtr<$TextMeshProUGUI> _lvlText
+		int m_FileID = 0
+		SInt64 m_PathID = 7630706152198887852
+	PPtr<$TextMeshProUGUI> _nameText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _collectableNameText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _collectableNameTextAlt
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _collectionIconVfxTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$UIAnimationCoroutineRunner> _animRunner
+		int m_FileID = 0
+		SInt64 m_PathID = -2750357143041047958
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = -4647751248894371824
+	PPtr<$GameObject> _iconVfxTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AnimatedProgressBarWidgetView> _xpBar
+		int m_FileID = 0
+		SInt64 m_PathID = -4676632305908259883
+	PPtr<$CollectionItemPhotoView> _collectionItem
+		int m_FileID = 0
+		SInt64 m_PathID = -6218977682383497275
+	PPtr<$CanvasGroup> _canvasGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -8127398357666033116
+	PPtr<$ParticleEffectUI> _rarityEffect
+		int m_FileID = 0
+		SInt64 m_PathID = 1798348249647450826
+	PPtr<$Image> _lvlUpBadge
+		int m_FileID = 0
+		SInt64 m_PathID = -6215407080129003765
+	PPtr<$GameObject> _levelUpElements
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$CanvasGroup> _bonusIconContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _bonusIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float _bonusIconAlphaAnim = 0
+	vector _subcanvases
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$SubcanvasView> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6944376439338462342
+	PPtr<$Transform> _vfxTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 5759151083682462417

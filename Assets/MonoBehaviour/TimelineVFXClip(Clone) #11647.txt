@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2443869438978968678
+	string m_Name = "TimelineVFXClip(Clone)"
+	TimelineVFXBehaviour template
+		ChoreographyNodeVFX node
+			string UiOwner = ""
+			int VfxAction = 0
+			PPtr<$VFXBase> Prefab
+				int m_FileID = 2
+				SInt64 m_PathID = -1987138300776421716
+			UInt8 HasColorTint = 0
+			ColorRGBA ColorTint
+				float r = 1
+				float g = 1
+				float b = 1
+				float a = 1
+			int StartAttachment = 0
+			int EndAttachment = 2
+			string StartTransform = "SpellOrigin"
+			string EndTransform = "Default Default"
+			float PlaybackSpeed = 1
+			float AlphaFadeTime = 0.5
+			int TravelStyle = 0
+			PPtr<$VFXSpline> SplinePrefab
+				int m_FileID = 3
+				SInt64 m_PathID = -971660641987494926
+			string FollowVFXIdentifier = ""
+			int VfxMessage = 5
+			UInt8 useClipDuration = 1
+			float Life = 3.872488
+			string ParentTimelineName = "vfx_spell_arresto_momentum_projectile_lvl_01_tl"
+			string Identifier = "momentum_beam_thin_1"
+			string StartTargetPrefabName = ""
+			string EndTargetPrefabName = ""

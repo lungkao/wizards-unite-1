@@ -1,0 +1,59 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8307547997292232753
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 31602889984770973
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> BackgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = -1751592653641216573
+	PPtr<$GameObject> Toggle
+		int m_FileID = 0
+		SInt64 m_PathID = 8696299341203830823
+	PPtr<$TextMeshProUGUI> Text
+		int m_FileID = 0
+		SInt64 m_PathID = -6355042117964147353
+	ToggleStateInfo OnInfo
+		ColorRGBA color
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		Vector3f position
+			float x = 21
+			float y = 3.45
+			float z = 0
+		string text = "AR ON"
+		PPtr<$GameObject> toggleState
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	ToggleStateInfo OffInfo
+		ColorRGBA color
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		Vector3f position
+			float x = -21
+			float y = 3.45
+			float z = 0
+		string text = "AR OFF"
+		PPtr<$GameObject> toggleState
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	PPtr<$GameObject> Deactivated
+		int m_FileID = 0
+		SInt64 m_PathID = 0

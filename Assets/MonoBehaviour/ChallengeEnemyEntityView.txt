@@ -1,0 +1,17 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2139096527846734013
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 9083805310291739877
+	string m_Name = ""
+	float _mapEntityRotateSpeed = 100
+	UInt8 needToRotate = 0
+	PPtr<$ChallengeEnemyUIView> _enemyUIPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4868752520043231080
+	PPtr<$Canvas> _uiCanvas
+		int m_FileID = 0
+		SInt64 m_PathID = 8524939776932607143

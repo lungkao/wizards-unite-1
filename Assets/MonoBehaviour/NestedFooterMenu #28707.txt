@@ -1,0 +1,68 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -9084940416608009267
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5913396896002853080
+	string m_Name = ""
+	UInt8 _instantiateOnStart = 1
+	UInt8 _updateInstanceLayer = 1
+	TriggerEvent _onPrefabInstantiated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$GameObject> _prefab
+		int m_FileID = 5
+		SInt64 m_PathID = -5275791304202714378
+	UInt8 _showBG = 0
+	PPtr<$BaseUIView> _parentView
+		int m_FileID = 0
+		SInt64 m_PathID = 4147532849431731587
+	int _orderInDialog = 0
+	FooterMenuButtonData _buttonData
+		Array Array
+		int size = 0
+	FooterMenuButtonData _closeButtonData
+		PPtr<$Sprite> defaultSprite
+			int m_FileID = 3
+			SInt64 m_PathID = -4745475127833913631
+		PPtr<$Sprite> pressedSprite
+			int m_FileID = 3
+			SInt64 m_PathID = 12777151204670500
+		PPtr<$Sprite> highlightedSprite
+			int m_FileID = 3
+			SInt64 m_PathID = 12777151204670500
+		PPtr<$Sprite> inactiveSprite
+			int m_FileID = 3
+			SInt64 m_PathID = -4745475127833913631
+		string locText = ""
+		int notif = 0
+		TriggerEvent onTapEvent
+			PersistentCallGroup m_PersistentCalls
+				PersistentCall m_Calls
+					Array Array
+					int size = 1
+						[0]
+						PersistentCall data
+							PPtr<$Object> m_Target
+								int m_FileID = 0
+								SInt64 m_PathID = 4147532849431731587
+							string m_MethodName = "OnCloseProxy"
+							int m_Mode = 1
+							ArgumentCache m_Arguments
+								PPtr<$Object> m_ObjectArgument
+									int m_FileID = 0
+									SInt64 m_PathID = 0
+								string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+								int m_IntArgument = 0
+								float m_FloatArgument = 0
+								string m_StringArgument = ""
+								UInt8 m_BoolArgument = 0
+							int m_CallState = 2
+			string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+		string buttonIdentifier = ""
+	int _initialButtonIndex = -1

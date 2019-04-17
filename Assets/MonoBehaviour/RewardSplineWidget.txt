@@ -1,0 +1,87 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -125837593484747366
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2475168205702122482
+	string m_Name = ""
+	RewardsFlowTuple _rewardsFlow
+		PPtr<$Spline> rewardAnimPath
+			int m_FileID = 0
+			SInt64 m_PathID = 3471965494498127623
+		AnimationCurve rewardAnimTweenCurve
+			vector m_Curve
+				Array Array
+				int size = 5
+					[0]
+					Keyframe data
+						float time = 1.272187E-06
+						float value = -3.72529E-09
+						float inSlope = 0
+						float outSlope = 0
+					[1]
+					Keyframe data
+						float time = 0.4999999
+						float value = 0
+						float inSlope = 1.788858E-08
+						float outSlope = 1.788858E-08
+					[2]
+					Keyframe data
+						float time = 0.833
+						float value = 0.54
+						float inSlope = 4.564364
+						float outSlope = 4.564364
+					[3]
+					Keyframe data
+						float time = 0.908
+						float value = 0.865
+						float inSlope = 2.754491
+						float outSlope = 2.754491
+					[4]
+					Keyframe data
+						float time = 1
+						float value = 1
+						float inSlope = 0
+						float outSlope = 0
+			int m_PreInfinity = 2
+			int m_PostInfinity = 2
+			int m_RotationOrder = 0
+		PPtr<$DOTweenAnimation> alphaTween
+			int m_FileID = 0
+			SInt64 m_PathID = -7061927748643740617
+		float rewardAnimTotalTime = 1.8
+	PPtr<$Transform> _finalTweenNode
+		int m_FileID = 0
+		SInt64 m_PathID = 2174130991284535048
+	PPtr<$GameObject> _suitcaseAnimationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$DOTweenAnimation> _suitcaseAnimationStart
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float _suitcaseAnimationDelay = 0
+	PPtr<$DOTweenAnimation> _suitcaseAnimationStars
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float _suitcaseAnimationStarDelay = 0
+	PPtr<$DOTweenAnimation> _rewardBurstAnimationStart
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _rewardScrimGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _rewardNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _rewardQuantityLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _hapticsEnabled = 0
+	PPtr<$Image> _defaultImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector _resetAnimations
+		Array Array
+		int size = 0

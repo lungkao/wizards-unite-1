@@ -1,0 +1,66 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7816355515219993555
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1780921354776573977
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$CollectionItemPhotoView> _photoView
+		int m_FileID = 0
+		SInt64 m_PathID = -7025843162569301724
+	PPtr<$CollectionItemPhotoView> _shardedPhotoView
+		int m_FileID = 0
+		SInt64 m_PathID = -2197960067536880258
+	PPtr<$TextMeshProUGUI> _name
+		int m_FileID = 0
+		SInt64 m_PathID = -5550968700629998885
+	PPtr<$GameObject> _descriptionSection
+		int m_FileID = 0
+		SInt64 m_PathID = -3703078304679526442
+	PPtr<$TextMeshProUGUI> _encounteredTimes
+		int m_FileID = 0
+		SInt64 m_PathID = 8284706393529769416
+	PPtr<$TextMeshProUGUI> _shards
+		int m_FileID = 0
+		SInt64 m_PathID = -3334694623132303441
+	PPtr<$TextMeshProUGUI> _description
+		int m_FileID = 0
+		SInt64 m_PathID = -4721276703284176280
+	PPtr<$TextMeshProUGUI> _threatLevel
+		int m_FileID = 0
+		SInt64 m_PathID = -5943431268269088627
+	PPtr<$GameObject> _returnInfoSection
+		int m_FileID = 0
+		SInt64 m_PathID = 8089485404463882091
+	PPtr<$TextMeshProUGUI> _encounteredData
+		int m_FileID = 0
+		SInt64 m_PathID = -8914684521961784529
+	PPtr<$TextMeshProUGUI> _encounteredLocation
+		int m_FileID = 0
+		SInt64 m_PathID = 5922323022108116937
+	PPtr<$TextMeshProUGUI> _returnedLocation
+		int m_FileID = 0
+		SInt64 m_PathID = -3358757721811870618
+	PPtr<$AdvancedUIButton> _pictureModeButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2627865007403352790
+	ColorRGBA _pictureModeNotAvailableColor
+		float r = 0.5
+		float g = 0.5
+		float b = 0.5
+		float a = 1
+	PPtr<$RegistryVisualConfig> _registryVisuals
+		int m_FileID = 4
+		SInt64 m_PathID = 4696069914392138691

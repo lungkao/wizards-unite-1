@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 9105738979189410144
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5959818387101263589
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Toggle> PauseTimeToggle
+		int m_FileID = 0
+		SInt64 m_PathID = 8005860389665687160
+	PPtr<$Toggle> EncounterPauseToggle
+		int m_FileID = 0
+		SInt64 m_PathID = -620136171126002718
+	PPtr<$Button> DebugBreakButton
+		int m_FileID = 0
+		SInt64 m_PathID = -458431484594407470
+	PPtr<$TextMeshProUGUI> TextLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 2246647456419828937

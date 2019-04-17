@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5603447785930008107
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1686738224048274629
+	string m_Name = ""
+	PPtr<$Image> _imgWood
+		int m_FileID = 0
+		SInt64 m_PathID = -8868813380844528612
+	PPtr<$AdvancedUIButton> _btnWood
+		int m_FileID = 0
+		SInt64 m_PathID = -6057655870930008460
+	PPtr<$TextMeshProUGUI> _labelWood
+		int m_FileID = 0
+		SInt64 m_PathID = -7375969515393729900

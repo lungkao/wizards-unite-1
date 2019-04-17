@@ -1,0 +1,52 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5598121825149752456
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5129047683693720904
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$PlayerStatsEntryView> _playerStatsEntryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7145504545241321887
+	PPtr<$GameObject> _playerStatsContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 7159079571975285951
+	PPtr<$GameObject> _conditionalBuffsContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -2699186851688915908
+	PPtr<$TextMeshProUGUI> _professionName
+		int m_FileID = 0
+		SInt64 m_PathID = -1936283338339051028
+	PPtr<$TextMeshProUGUI> _professionDesc
+		int m_FileID = 0
+		SInt64 m_PathID = -4112947216202860284
+	PPtr<$GameObject> _upgradeButton
+		int m_FileID = 0
+		SInt64 m_PathID = -925199629110369052
+	PPtr<$GameObject> _switchButton
+		int m_FileID = 0
+		SInt64 m_PathID = 7293374868387274519
+	PPtr<$GameObject> _switchLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 6953436338165720859
+	PPtr<$Image> _backgroundImg
+		int m_FileID = 0
+		SInt64 m_PathID = 1073972392829325942
+	PPtr<$Image> _backgroundHeaderImg
+		int m_FileID = 0
+		SInt64 m_PathID = 7340679944798372963
+	PPtr<$NestedProgressBar> _progressBarPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4470795587149761591

@@ -1,0 +1,51 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3561070127149726370
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3760155968876788492
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RKImuAwareMaterialController> ImuMaterialController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$RegistryVisualConfig> RegistryVisualConfig
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _frameImage
+		int m_FileID = 0
+		SInt64 m_PathID = -5903027990531416362
+	PPtr<$TextMeshProUGUI> _titleLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -7369673624565421327
+	PPtr<$TextMeshProUGUI> _levelLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -3154719863064221594
+	PPtr<$TextMeshProUGUI> _collectedCountLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -5002370480108777471
+	PPtr<$TextMeshProUGUI> _pageNumberLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -6129757256692423549
+	PPtr<$GameObject> _prestigeGameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6444461924631848020
+	PPtr<$AdvancedUIButton> _prestigeButton
+		int m_FileID = 0
+		SInt64 m_PathID = -4602092412983401
+	float frameCrossFadeDurationSecs = 2
+	string _onFrameTransitionSoundEvent = "event:/UI/RegistryFamily/PrestigePage"
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 8556111394284106898

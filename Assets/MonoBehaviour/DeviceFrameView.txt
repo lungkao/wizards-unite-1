@@ -1,0 +1,21 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6514957629357210528
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5953615936844967099
+	string m_Name = ""
+	PPtr<$CanvasGroup> _header
+		int m_FileID = 0
+		SInt64 m_PathID = 2032397672729799976
+	PPtr<$CanvasGroup> _footer
+		int m_FileID = 0
+		SInt64 m_PathID = -3670180198982569874
+	PPtr<$RectTransform> _dialogContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8922808215922949509
+	PPtr<$RectTransform> _fullScreenContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 7845393336766165371

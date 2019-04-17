@@ -1,0 +1,125 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8343870507761863969
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3247008419908941948
+	string m_Name = ""
+	vector _yieldScrollBars
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$Scrollbar> data
+				int m_FileID = 0
+				SInt64 m_PathID = -418657586478345788
+			[1]
+			PPtr<$Scrollbar> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2380836354670605243
+			[2]
+			PPtr<$Scrollbar> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3054958138174841710
+	vector _spellAmountScrollBars
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$Scrollbar> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6597605282966819186
+			[1]
+			PPtr<$Scrollbar> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6832619062084388216
+			[2]
+			PPtr<$Scrollbar> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6964588236296059795
+	vector _yieldTextValues
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5227733040889372086
+			[1]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1335253335028878819
+			[2]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2619524922097512482
+			[3]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2121239396734164216
+	vector _yieldHighlightedTextValues
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8666916787055477594
+			[1]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4539482637284609718
+			[2]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6739026556658789350
+			[3]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -715383198680599086
+	vector _spellAmountTextValues
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -219403833163707450
+			[1]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8356072417181712442
+			[2]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7118994121383670724
+	vector _spellAmountHighlightedTextValues
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6133540083321075061
+			[1]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2505257597600138779
+			[2]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5236969448482926494
+	PPtr<$TextMeshProUGUI> _specificSpellAmountText
+		int m_FileID = 0
+		SInt64 m_PathID = 2766744484567230985
+	vector _specificQuantitySpellBarPositions
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8550162232355537419
+			[1]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4248351504709798004
+			[2]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7405671985273435751

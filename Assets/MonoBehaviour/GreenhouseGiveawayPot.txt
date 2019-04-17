@@ -1,0 +1,17 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 248
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 126
+	string m_Name = ""
+	int _index = 0
+	PPtr<$GameObject> _plantModel
+		int m_FileID = 0
+		SInt64 m_PathID = 248
+	float _upThreshold = 0.15
+	PPtr<$Animator> _potAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 447

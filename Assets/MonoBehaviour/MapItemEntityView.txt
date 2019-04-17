@@ -1,0 +1,26 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7667114755184628200
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2150571331054886710
+	string m_Name = ""
+	float _mapEntityRotateSpeed = 100
+	UInt8 needToRotate = 0
+	PPtr<$LazyLoadNestedPrefab> _prefabLoader
+		int m_FileID = 0
+		SInt64 m_PathID = -3240689986362779801
+	PPtr<$ParticleSystem> _appearVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 9037892229312158523
+	PPtr<$ParticleSystem> _collectVFX
+		int m_FileID = 0
+		SInt64 m_PathID = -7511478100185451243
+	PPtr<$ParticleSystem> _despawnVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 2168803013233370639
+	string ingredientHapticKey = "proto_haptic_medium"
+	string _onSpawnSFX = "event:/SFX/Map/TraceSpawn"
+	string _onCollectSFX = "event:/SFX/Map/ItemCollected"

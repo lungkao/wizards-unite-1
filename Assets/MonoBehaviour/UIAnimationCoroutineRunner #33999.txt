@@ -1,0 +1,67 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8087372109074178834
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7588266338992543041
+	string m_Name = ""
+	TimelineDictionary _timelines
+		StringTimelineAssetPair _timelineMap
+			Array Array
+			int size = 9
+				[0]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_collection_show"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = -6127556279221721831
+				[1]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_family_xp_show"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = 7844424645213524582
+				[2]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_family_xp_bonus"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = 7036083885969307002
+				[3]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_family_xp_hide"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = -5843500747274554150
+				[4]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_player_xp_show"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = 4395262381014449611
+				[5]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_player_xp_bonus"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = -8472298936360871003
+				[6]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_player_xp_hide"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = -3611443729570963530
+				[7]
+				StringTimelineAssetPair data
+					string _key = "reward_detail_default"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = -5886875356224410233
+				[8]
+				StringTimelineAssetPair data
+					string _key = "level_up"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = -1109786874953275100

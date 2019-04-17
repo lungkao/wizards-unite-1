@@ -1,0 +1,25 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7903499488003786066
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8075467365576858355
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$PortkeyBonusRewardBurstWidget> _rewardBurst
+		int m_FileID = 0
+		SInt64 m_PathID = 3439460176634223907
+	PPtr<$PortkeyWrackspurtRewardSlotsCollectionView> _rewardSlotsCollection
+		int m_FileID = 0
+		SInt64 m_PathID = -1014286962761782489

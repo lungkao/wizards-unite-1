@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7795618983711629295
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3345176815070688027
+	string m_Name = ""
+	PPtr<$Transform> _cameraParent
+		int m_FileID = 0
+		SInt64 m_PathID = -1969125762828405138
+	Vector3f _cameraRotationOffset
+		float x = 0
+		float y = 180
+		float z = 0
+	float _cameraLerpTime = 1
+	PPtr<$GameObject> _logoObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5282763071724394051
+	ObjectDisableTuple _objectsToDisable
+		Array Array
+		int size = 2
+			[0]
+			ObjectDisableTuple data
+				PPtr<$GameObject> _gameObject
+					int m_FileID = 0
+					SInt64 m_PathID = 2662717889721005450
+				float _normalizedTime = 0.838
+			[1]
+			ObjectDisableTuple data
+				PPtr<$GameObject> _gameObject
+					int m_FileID = 0
+					SInt64 m_PathID = -4910516096797309778
+				float _normalizedTime = 0.95
+	string BANK_REF = "BNK_SFX_UI"
+	string OWL_SOUND = "event:/SFX/OwlIntro"

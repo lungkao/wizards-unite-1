@@ -1,0 +1,14 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5292503537204573849
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3593431111374680722
+	string m_Name = ""
+	PPtr<$BaseUIView> _parentDialog
+		int m_FileID = 0
+		SInt64 m_PathID = -4702317357803194240
+	int _orderInDialog = 1
+	UInt8 _applyOnStart = 1

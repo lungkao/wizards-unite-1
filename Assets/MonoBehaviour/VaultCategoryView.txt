@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8518165477764923924
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3407127688802063916
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RectTransform> _groupParent
+		int m_FileID = 0
+		SInt64 m_PathID = 4201809853409749959
+	PPtr<$VaultGroupView> _groupContainerPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4664627526364645435
+	PPtr<$TextMeshProUGUI> _categoryName
+		int m_FileID = 0
+		SInt64 m_PathID = 5535178764652579030
+	PPtr<$VaultCapacityView> _capacityView
+		int m_FileID = 0
+		SInt64 m_PathID = 2870722754036679728
+	PPtr<$LayoutElement> _layoutElement
+		int m_FileID = 0
+		SInt64 m_PathID = -8123082985116423809
+	PPtr<$TextMeshProUGUI> _capacityLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -7745631142839500913

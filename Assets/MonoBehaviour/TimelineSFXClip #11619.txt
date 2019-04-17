@@ -1,0 +1,17 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8146330218184166736
+	string m_Name = "TimelineSFXClip"
+	TimelineSFXBehaviour template
+		ChoreographyNodeSFX node
+			string Event = "event:/SFX/Spells/MelojinxRecanto"
+			string Identifier = ""
+			int EventType = 0
+			SerializableAudioParameter ParameterList
+				Array Array
+				int size = 0

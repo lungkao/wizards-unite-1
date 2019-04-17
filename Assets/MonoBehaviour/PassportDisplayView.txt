@@ -1,0 +1,28 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3960583681753580909
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3047689317985768997
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _passportDataContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -7909680020676770032
+	PPtr<$PassportAnimation> _PassportAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -7029567414649830575
+	PPtr<$GameObject> _loadingView
+		int m_FileID = 0
+		SInt64 m_PathID = 8020718808255792416

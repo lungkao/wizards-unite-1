@@ -1,0 +1,51 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1946966796939994002
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7799764995327435624
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 1
+	ColorRGBA ScrimColorShading
+		float r = 0.2867647
+		float g = 0.2867647
+		float b = 0.2867647
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> PrestigeLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -4255667172573259786
+	PPtr<$TextMeshProUGUI> PrestigeLevelLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 8344057781398901386
+	PPtr<$TextMeshProUGUI> FamilyNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -6235555039722613167
+	PPtr<$TextMeshProUGUI> MaxPrestigeLevelLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -280837217674711915
+	PPtr<$Image> FamilyBannerIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 1654292751959929431
+	PPtr<$Image> FamilyDecorBannerIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -4322854137659182410
+	PPtr<$GameObject> RewardWidgetContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 6051187328832432092
+	PPtr<$GenericRewardsWidget> RewardsWidgetPrefab
+		int m_FileID = 4
+		SInt64 m_PathID = -4514020736890933321
+	string _onPageCompleteSoundEvent = "event:/MusicPlayer/Music Player"
+	SerializableAudioParameter ParameterList
+		Array Array
+		int size = 1
+			[0]
+			SerializableAudioParameter data
+				string ParamName = "MusicState"
+				float ParamValue = 71

@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5864209191438471361
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8030008863164220804
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$CollectionFamilyHeaderView> HeaderView
+		int m_FileID = 0
+		SInt64 m_PathID = 618544893949086186
+	PPtr<$GameObject> ContentPanelNormal
+		int m_FileID = 0
+		SInt64 m_PathID = -570678534550336294
+	PPtr<$GameObject> CollectionItemNormalPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 2512935603696969224
+	PPtr<$GameObject> ContentPanelSharded
+		int m_FileID = 0
+		SInt64 m_PathID = -28678637851606461
+	PPtr<$GameObject> CollectionItemShardedPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7486135585636604250
+	PPtr<$RegistryVisualConfig> RegistryVisualConfig
+		int m_FileID = 0
+		SInt64 m_PathID = 0

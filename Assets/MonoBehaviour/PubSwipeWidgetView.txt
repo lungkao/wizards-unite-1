@@ -1,0 +1,105 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3397683432971211935
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3101305490918298796
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RectTransform> _pointerIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -403812476852581637
+	PPtr<$Transform> _buttonPos
+		int m_FileID = 0
+		SInt64 m_PathID = -1334562314476414105
+	PPtr<$AdvancedUIButton> _swipeButton
+		int m_FileID = 0
+		SInt64 m_PathID = 8322939034297427498
+	PPtr<$NestedParticleSystem> _swipeTrail
+		int m_FileID = 0
+		SInt64 m_PathID = -5984724217750514920
+	UnityEvent _onSwipe
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 8907942250085062301
+						string m_MethodName = "OnSwipeProxy"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UInt8 _interactable = 0
+	vector _visibleNodes
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8738816954679134716
+	vector _invisibleNodes
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7289608171903412938
+			[1]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6631777175390393508
+			[2]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6390009185948762619
+			[3]
+			PPtr<$RectTransform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3141531997827113812
+	PPtr<$Image> _spellGlyph
+		int m_FileID = 0
+		SInt64 m_PathID = 8861182600714952354
+	float _spellGlyphHideShowTime = 0.5
+	AnimationCurve _spellGlyphHideShowCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 2
+					float outSlope = 2
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	string hapticKey = "proto_haptic_medium"

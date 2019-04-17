@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2953893236880613184
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3744330827172686794
+	string m_Name = ""
+	PPtr<$Animator> _animatorMasterNotePotion
+		int m_FileID = 0
+		SInt64 m_PathID = 2742976271044483602

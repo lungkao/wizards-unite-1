@@ -1,0 +1,44 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4412331440356532338
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3494642942936630536
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 1
+	int _uiHideLevel = 0
+	PageDescription Pages
+		Array Array
+		int size = 2
+			[0]
+			PageDescription data
+				PPtr<$GameObject> ContentContainer
+					int m_FileID = 0
+					SInt64 m_PathID = 3740134056065140747
+				PPtr<$DOTweenAnimation> _animTween
+					int m_FileID = 0
+					SInt64 m_PathID = 2893757891237196437
+			[1]
+			PageDescription data
+				PPtr<$GameObject> ContentContainer
+					int m_FileID = 0
+					SInt64 m_PathID = -1631136277338493228
+				PPtr<$DOTweenAnimation> _animTween
+					int m_FileID = 0
+					SInt64 m_PathID = -9189892241825834975
+	PPtr<$TextMeshProUGUI> _buildNumber
+		int m_FileID = 0
+		SInt64 m_PathID = 506110784748673116
+	PPtr<$NestedFooterMenu> _nestedFooterMenu
+		int m_FileID = 0
+		SInt64 m_PathID = 6815956163648956274

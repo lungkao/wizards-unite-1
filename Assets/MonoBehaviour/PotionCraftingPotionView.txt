@@ -1,0 +1,49 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7523937998461808712
+	UInt8 m_Enabled = 0
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4393513585270504206
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 1
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _potionNameField
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _potionDescriptionField
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _potionImageField
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _inventoryCountField
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _craftingTimeField
+		int m_FileID = 0
+		SInt64 m_PathID = 483924554114303406
+	PPtr<$Transform> _ingredientsContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4275334692441764488
+	PPtr<$PotionCraftingIngredientEntryView> _ingredientsEntryPrefab
+		int m_FileID = 13
+		SInt64 m_PathID = -2050625529547077351
+	PPtr<$PotionCraftingRuneEntry> _runesPrefab
+		int m_FileID = 13
+		SInt64 m_PathID = -8044855768748172324
+	PPtr<$GameObject> _runesContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _masterNoteDescription
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8771529984148356683
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3912978833017275063
+	string m_Name = ""
+	PPtr<$PassportRegistrationViewStepDotNode> _dotPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 3200618478440045284

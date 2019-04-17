@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -193321634950846714
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1403183004088866265
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Transform> origin
+		int m_FileID = 0
+		SInt64 m_PathID = -7569734508941795045
+	PPtr<$UIAnimationCoroutineRunner> _deliveryAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 7918393130553823782
+	PPtr<$UIAnimationCoroutineRunner> _vesselAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = -355020863177347418
+	PPtr<$Renderer> _vesselRenderer
+		int m_FileID = 0
+		SInt64 m_PathID = 662761541306698693
+	PPtr<$Camera> _renderCamera
+		int m_FileID = 0
+		SInt64 m_PathID = 4605086701089227933
+	PPtr<$NestedPrefab> _rareVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 7287412374994908598

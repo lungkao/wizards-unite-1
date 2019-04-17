@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1937265627342713737
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4134658124151815609
+	string m_Name = ""
+	int DistanceUnit = 2
+	int MaxSimultaneousGestures = 1
+	int ResetMode = 0
+	PPtr<$ScreenRaycaster> Raycaster
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$FingerClusterManager> ClusterManager
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GestureRecognizerDelegate> Delegate
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 UseSendMessage = 1
+	string EventMessageName = "OnPinchRecognized"
+	PPtr<$GameObject> EventMessageTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int SendMessageToSelection = 0
+	UInt8 IsExclusive = 0
+	int _requiredFingerCount = 1
+	float MinDOT = -0.7
+	float MinDistance = 0.25

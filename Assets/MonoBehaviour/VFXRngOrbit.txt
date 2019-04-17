@@ -1,0 +1,4260 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 271960985580018779
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7126369403648450113
+	string m_Name = ""
+	UInt8 fadeOutWhenDead = 0
+	float _fadeOutTime = 0.2
+	UInt8 _disableLightsWhenDead = 1
+	UInt8 isLooping = 1
+	float Life = -24935.89
+	int type = 2
+	vector breakIntoVFXPrefabs
+		Array Array
+		int size = 0
+	int VfxMessage = 0
+	vector _playerParticleSys
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1921788921274533829
+			[1]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = 87600640532135290
+			[2]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5394217716394655532
+			[3]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4488638574669266981
+	vector _enemyParticleSys
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8545893504578838004
+			[1]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = 411158978549514956
+			[2]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1308234106723144551
+			[3]
+			PPtr<$ParticleSystem> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9051517481167985678
+	PhaseParam phases
+		Array Array
+		int size = 10
+			[0]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 5
+				float maxLife = 5
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.35
+								float inSlope = 0.4444445
+								float outSlope = 0.4444445
+							[1]
+							Keyframe data
+								float time = 0.9
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.001
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.9
+								float value = 0.001
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.25
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.25
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			[1]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 2
+				float maxLife = 2
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2.25
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.001
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.001
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -0.75
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -0.75
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.25
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.25
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+			[2]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 1
+				float minLife = 5
+				float maxLife = 5
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 7
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.4
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 0.401
+								float value = 1.25
+								float inSlope = 500.0064
+								float outSlope = 0
+							[3]
+							Keyframe data
+								float time = 0.5
+								float value = 1.25
+								float inSlope = 0
+								float outSlope = 0
+							[4]
+							Keyframe data
+								float time = 0.599
+								float value = 1.25
+								float inSlope = 0
+								float outSlope = -499.9766
+							[5]
+							Keyframe data
+								float time = 0.6
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[6]
+							Keyframe data
+								float time = 1
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 7
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.4
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 0.401
+								float value = 1
+								float inSlope = 250.0032
+								float outSlope = 0
+							[3]
+							Keyframe data
+								float time = 0.5
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[4]
+							Keyframe data
+								float time = 0.599
+								float value = 1
+								float inSlope = 0
+								float outSlope = -249.9883
+							[5]
+							Keyframe data
+								float time = 0.6
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[6]
+							Keyframe data
+								float time = 1
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 7
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.0016
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.4
+								float value = 0.0016
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 0.41
+								float value = 0.0016
+								float inSlope = 0
+								float outSlope = 0
+							[3]
+							Keyframe data
+								float time = 0.5
+								float value = 0.0016
+								float inSlope = 0
+								float outSlope = 0
+							[4]
+							Keyframe data
+								float time = 0.59
+								float value = 0.0016
+								float inSlope = 0
+								float outSlope = 0
+							[5]
+							Keyframe data
+								float time = 0.6
+								float value = 0.0016
+								float inSlope = 0
+								float outSlope = 0
+							[6]
+							Keyframe data
+								float time = 1
+								float value = 0.0016
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 7
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.15
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 0.4
+									float value = -1.15
+									float inSlope = 0
+									float outSlope = 0
+								[2]
+								Keyframe data
+									float time = 0.401
+									float value = -2
+									float inSlope = -850.011
+									float outSlope = 0
+								[3]
+								Keyframe data
+									float time = 0.5
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+								[4]
+								Keyframe data
+									float time = 0.599
+									float value = -2
+									float inSlope = 0
+									float outSlope = 849.9603
+								[5]
+								Keyframe data
+									float time = 0.6
+									float value = -1.15
+									float inSlope = 0
+									float outSlope = 0
+								[6]
+								Keyframe data
+									float time = 1
+									float value = -1.15
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 7
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 0.4
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[2]
+								Keyframe data
+									float time = 0.401
+									float value = -3
+									float inSlope = -1250.016
+									float outSlope = 0
+								[3]
+								Keyframe data
+									float time = 0.5
+									float value = -3
+									float inSlope = 0
+									float outSlope = 0
+								[4]
+								Keyframe data
+									float time = 0.599
+									float value = -3
+									float inSlope = 0
+									float outSlope = 1249.942
+								[5]
+								Keyframe data
+									float time = 0.6
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[6]
+								Keyframe data
+									float time = 1
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+			[3]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 2
+				float maxLife = 2
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1.001353
+								float value = 0.9994929
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.001
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.0008
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			[4]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 2
+				float maxLife = 2
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 3
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.5087957
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 1
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.00075
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.00075
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			[5]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 5
+				float maxLife = 5
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 7
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.409
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 0.41
+								float value = 1.5
+								float inSlope = 500.0064
+								float outSlope = 0
+							[3]
+							Keyframe data
+								float time = 0.5
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = 0
+							[4]
+							Keyframe data
+								float time = 0.59
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = -499.9766
+							[5]
+							Keyframe data
+								float time = 0.591
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[6]
+							Keyframe data
+								float time = 1
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 7
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.409
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 0.41
+								float value = 1
+								float inSlope = 250.0032
+								float outSlope = 0
+							[3]
+							Keyframe data
+								float time = 0.5
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[4]
+							Keyframe data
+								float time = 0.59
+								float value = 1
+								float inSlope = 0
+								float outSlope = -249.9883
+							[5]
+							Keyframe data
+								float time = 0.591
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[6]
+							Keyframe data
+								float time = 1
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 9
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.1
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 0.2
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[3]
+							Keyframe data
+								float time = 0.4
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[4]
+							Keyframe data
+								float time = 0.5
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[5]
+							Keyframe data
+								float time = 0.6
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[6]
+							Keyframe data
+								float time = 0.8
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[7]
+							Keyframe data
+								float time = 0.9
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[8]
+							Keyframe data
+								float time = 1
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 7
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 0.409
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+								[2]
+								Keyframe data
+									float time = 0.41
+									float value = -3
+									float inSlope = -1500.019
+									float outSlope = 0
+								[3]
+								Keyframe data
+									float time = 0.5
+									float value = -3
+									float inSlope = 0
+									float outSlope = 0
+								[4]
+								Keyframe data
+									float time = 0.59
+									float value = -3
+									float inSlope = 0
+									float outSlope = 1499.93
+								[5]
+								Keyframe data
+									float time = 0.591
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+								[6]
+								Keyframe data
+									float time = 1
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 7
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 0.409
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[2]
+								Keyframe data
+									float time = 0.41
+									float value = -3.25
+									float inSlope = -1500.019
+									float outSlope = 0
+								[3]
+								Keyframe data
+									float time = 0.5
+									float value = -3.25
+									float inSlope = 0
+									float outSlope = 0
+								[4]
+								Keyframe data
+									float time = 0.59
+									float value = -3.25
+									float inSlope = 0
+									float outSlope = 1499.93
+								[5]
+								Keyframe data
+									float time = 0.591
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[6]
+								Keyframe data
+									float time = 1
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			[6]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 1
+				float maxLife = 1
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1.001353
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.75
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.0015
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.00125
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.75
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			[7]
+			PhaseParam data
+				UInt8 skipPhase = 0
+				UInt8 isLooping = 1
+				float minLife = 9
+				float maxLife = 9
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 3
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.5087957
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 1
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 1.1
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.00125
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0.00125
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5725493
+						float b = 1
+						float a = 0.5647059
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0.5647059
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.6086955
+						float g = 0
+						float b = 1
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0.5012786
+						float g = 0
+						float b = 0.8235294
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.6275863
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.4206896
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0.213793
+						float b = 1
+						float a = 1
+					ColorRGBA key3
+						float r = 0
+						float g = 0.213793
+						float b = 1
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 13685
+					UInt16 ctime2 = 65535
+					UInt16 ctime3 = 65535
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 54934
+					UInt16 atime3 = 65535
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 3
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.9897567
+						float g = 0.2573529
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0.9036512
+						float g = 0.3014706
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0.6551723
+						float g = 0
+						float b = 1
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 13685
+					UInt16 ctime2 = 65535
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 3
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 1
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.4
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.4
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			[8]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 5
+				float maxLife = 5
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 3
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.5
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 1
+								float value = 0.25
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 3
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.5087957
+								float value = 0.5
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 1
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 3
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.00125
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.5087957
+								float value = 0.00125
+								float inSlope = 0
+								float outSlope = 0
+							[2]
+							Keyframe data
+								float time = 1
+								float value = 0.0005
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0.4980392
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0.3843137
+						float g = 0
+						float b = 0.6313726
+						float a = 0.4980392
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0.854902
+						float g = 0.1647058
+						float b = 0.7486116
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 0
+					ColorRGBA key4
+						float r = 0.854902
+						float g = 0.1647058
+						float b = 0.7486116
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0.8344827
+						float b = 1
+						float a = 0
+					ColorRGBA key6
+						float r = 0.854902
+						float g = 0.1647058
+						float b = 0.7486116
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 49151
+					UInt16 ctime2 = 19661
+					UInt16 ctime3 = 29491
+					UInt16 ctime4 = 39175
+					UInt16 ctime5 = 49151
+					UInt16 ctime6 = 58982
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 49151
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 0
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -1.5
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = -2
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 0
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+			[9]
+			PhaseParam data
+				UInt8 skipPhase = 1
+				UInt8 isLooping = 0
+				float minLife = 2
+				float maxLife = 2
+				float radiusMultiplier = 0.25
+				AnimationCurve radiusOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1.5
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.1
+								float value = 100
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float speedMultiplier = 8
+				AnimationCurve speedOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.4
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				float trailLifetimeMultiplier = 2
+				AnimationCurve trailLifeOverPhaseLife
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0.001
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 0.4
+								float value = 0.0001
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 0
+				UInt8 affectColor = 1
+				Gradient playerTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyTrailColorOverPhaseLife
+					ColorRGBA key0
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 0
+						float g = 0.5738163
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient playerParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				Gradient enemyParticleColorOverPhaseLife
+					ColorRGBA key0
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key1
+						float r = 1
+						float g = 1
+						float b = 1
+						float a = 1
+					ColorRGBA key2
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key3
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key4
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key5
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key6
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					ColorRGBA key7
+						float r = 0
+						float g = 0
+						float b = 0
+						float a = 0
+					UInt16 ctime0 = 0
+					UInt16 ctime1 = 65535
+					UInt16 ctime2 = 0
+					UInt16 ctime3 = 0
+					UInt16 ctime4 = 0
+					UInt16 ctime5 = 0
+					UInt16 ctime6 = 0
+					UInt16 ctime7 = 0
+					UInt16 atime0 = 0
+					UInt16 atime1 = 65535
+					UInt16 atime2 = 0
+					UInt16 atime3 = 0
+					UInt16 atime4 = 0
+					UInt16 atime5 = 0
+					UInt16 atime6 = 0
+					UInt16 atime7 = 0
+					int m_Mode = 0
+					UInt8 m_NumColorKeys = 2
+					UInt8 m_NumAlphaKeys = 2
+				UInt8 affectTrailMaterialScroll = 0
+				MaterialScrollAnimationCurve materialScrollOverPhaseLife
+					AnimationCurve xVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve yVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve zVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+					AnimationCurve wVelocityOverLife
+						vector m_Curve
+							Array Array
+							int size = 2
+								[0]
+								Keyframe data
+									float time = 0
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+								[1]
+								Keyframe data
+									float time = 1
+									float value = 0
+									float inSlope = 0
+									float outSlope = 0
+						int m_PreInfinity = 2
+						int m_PostInfinity = 2
+						int m_RotationOrder = 4
+	UInt8 hasOutcomeRoll = 0
+	PPtr<$ParticleSystem> successParticleSys
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ParticleSystem> failParticleSys
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int _rotateStyle = 0

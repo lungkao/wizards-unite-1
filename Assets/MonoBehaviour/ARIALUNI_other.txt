@@ -1,0 +1,2971 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4002064078594445791
+	string m_Name = "ARIALUNI_other"
+	int hashCode = 1607768766
+	PPtr<$Material> material
+		int m_FileID = 0
+		SInt64 m_PathID = -6671254804586133888
+	int materialHashCode = 1005569397
+	int fontAssetType = 1
+	FaceInfo m_fontInfo
+		string Name = "Arial Unicode MS"
+		float PointSize = 88
+		float Scale = 1
+		int CharacterCount = 255
+		float LineHeight = 117.9375
+		float Baseline = 0
+		float Ascender = 94.0625
+		float CapHeight = 63
+		float Descender = -23.875
+		float CenterLine = 0
+		float SuperscriptOffset = 94.0625
+		float SubscriptOffset = -11
+		float SubSize = 0.5
+		float Underline = -11
+		float UnderlineThickness = 4.382813
+		float strikethrough = 25.52273
+		float strikethroughThickness = 4.382813
+		float TabWidth = 244.375
+		float Padding = 5
+		float AtlasWidth = 1024
+		float AtlasHeight = 1024
+	PPtr<$Texture2D> atlas
+		int m_FileID = 0
+		SInt64 m_PathID = -2607703056712129545
+	TMP_Glyph m_glyphInfoList
+		Array Array
+		int size = 255
+			[0]
+			TMP_Glyph data
+				int id = 32
+				float x = 6
+				float y = 1029
+				float width = 24.4375
+				float height = 117.9375
+				float xOffset = 0
+				float yOffset = 94.0625
+				float xAdvance = 24.4375
+				float scale = 1
+			[1]
+			TMP_Glyph data
+				int id = 33
+				float x = 819
+				float y = 578
+				float width = 9.5625
+				float height = 63
+				float xOffset = 7.4375
+				float yOffset = 63
+				float xAdvance = 24.4375
+				float scale = 1
+			[2]
+			TMP_Glyph data
+				int id = 34
+				float x = 290
+				float y = 577
+				float width = 23.9375
+				float height = 22.375
+				float xOffset = 3.5625
+				float yOffset = 63
+				float xAdvance = 31.25
+				float scale = 1
+			[3]
+			TMP_Glyph data
+				int id = 35
+				float x = 794
+				float y = 783
+				float width = 46.9375
+				float height = 65.125
+				float xOffset = 0.9375
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[4]
+			TMP_Glyph data
+				int id = 36
+				float x = 218
+				float y = 476
+				float width = 41.625
+				float height = 77.875
+				float xOffset = 3.3125
+				float yOffset = 68.875
+				float xAdvance = 48.9375
+				float scale = 1
+			[5]
+			TMP_Glyph data
+				int id = 37
+				float x = 732
+				float y = 951
+				float width = 65.625
+				float height = 66.4375
+				float xOffset = 6.4375
+				float yOffset = 64.125
+				float xAdvance = 78.25
+				float scale = 1
+			[6]
+			TMP_Glyph data
+				int id = 38
+				float x = 965
+				float y = 952
+				float width = 52.875
+				float height = 65.5625
+				float xOffset = 3.75
+				float yOffset = 64.125
+				float xAdvance = 58.6875
+				float scale = 1
+			[7]
+			TMP_Glyph data
+				int id = 39
+				float x = 359
+				float y = 15
+				float width = 8.8125
+				float height = 22.375
+				float xOffset = 3.9375
+				float yOffset = 63
+				float xAdvance = 16.8125
+				float scale = 1
+			[8]
+			TMP_Glyph data
+				int id = 40
+				float x = 90
+				float y = 841
+				float width = 20.8125
+				float height = 82.5625
+				float xOffset = 5.25
+				float yOffset = 64.125
+				float xAdvance = 29.3125
+				float scale = 1
+			[9]
+			TMP_Glyph data
+				int id = 41
+				float x = 76
+				float y = 381
+				float width = 20.8125
+				float height = 82.5625
+				float xOffset = 3.125
+				float yOffset = 64.125
+				float xAdvance = 29.3125
+				float scale = 1
+			[10]
+			TMP_Glyph data
+				int id = 42
+				float x = 949
+				float y = 85
+				float width = 28.375
+				float height = 26.875
+				float xOffset = 2.875
+				float yOffset = 64.125
+				float xAdvance = 34.25
+				float scale = 1
+			[11]
+			TMP_Glyph data
+				int id = 43
+				float x = 876
+				float y = 182
+				float width = 41.6875
+				float height = 41.6875
+				float xOffset = 4.8125
+				float yOffset = 51.9375
+				float xAdvance = 51.375
+				float scale = 1
+			[12]
+			TMP_Glyph data
+				int id = 44
+				float x = 948
+				float y = 466
+				float width = 9.3125
+				float height = 21.25
+				float xOffset = 7.375
+				float yOffset = 8.8125
+				float xAdvance = 24.4375
+				float scale = 1
+			[13]
+			TMP_Glyph data
+				int id = 45
+				float x = 670
+				float y = 9
+				float width = 23.6875
+				float height = 7.75
+				float xOffset = 2.8125
+				float yOffset = 26.6875
+				float xAdvance = 29.3125
+				float scale = 1
+			[14]
+			TMP_Glyph data
+				int id = 46
+				float x = 931
+				float y = 769
+				float width = 8.8125
+				float height = 8.8125
+				float xOffset = 7.8125
+				float yOffset = 8.8125
+				float xAdvance = 24.4375
+				float scale = 1
+			[15]
+			TMP_Glyph data
+				int id = 47
+				float x = 919
+				float y = 789
+				float width = 24.4375
+				float height = 65.125
+				float xOffset = 0
+				float yOffset = 63
+				float xAdvance = 24.4375
+				float scale = 1
+			[16]
+			TMP_Glyph data
+				int id = 48
+				float x = 906
+				float y = 693
+				float width = 41.0625
+				float height = 64.375
+				float xOffset = 3.9375
+				float yOffset = 63.3125
+				float xAdvance = 48.9375
+				float scale = 1
+			[17]
+			TMP_Glyph data
+				int id = 49
+				float x = 385
+				float y = 519
+				float width = 23.25
+				float height = 63.3125
+				float xOffset = 9.75
+				float yOffset = 63.3125
+				float xAdvance = 48.9375
+				float scale = 1
+			[18]
+			TMP_Glyph data
+				int id = 50
+				float x = 396
+				float y = 368
+				float width = 41.75
+				float height = 63.3125
+				float xOffset = 2.6875
+				float yOffset = 63.3125
+				float xAdvance = 48.9375
+				float scale = 1
+			[19]
+			TMP_Glyph data
+				int id = 51
+				float x = 385
+				float y = 443
+				float width = 41.3125
+				float height = 64.375
+				float xOffset = 3.8125
+				float yOffset = 63.3125
+				float xAdvance = 48.9375
+				float scale = 1
+			[20]
+			TMP_Glyph data
+				int id = 52
+				float x = 514
+				float y = 294
+				float width = 43.5625
+				float height = 63
+				float xOffset = 1.3125
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[21]
+			TMP_Glyph data
+				int id = 53
+				float x = 449
+				float y = 368
+				float width = 41.75
+				float height = 63.1875
+				float xOffset = 3.6875
+				float yOffset = 62.1875
+				float xAdvance = 48.9375
+				float scale = 1
+			[22]
+			TMP_Glyph data
+				int id = 54
+				float x = 502
+				float y = 368
+				float width = 41.5625
+				float height = 64.375
+				float xOffset = 3.6875
+				float yOffset = 63.3125
+				float xAdvance = 48.9375
+				float scale = 1
+			[23]
+			TMP_Glyph data
+				int id = 55
+				float x = 623
+				float y = 294
+				float width = 40.8125
+				float height = 62.125
+				float xOffset = 4.1875
+				float yOffset = 62.1875
+				float xAdvance = 48.9375
+				float scale = 1
+			[24]
+			TMP_Glyph data
+				int id = 56
+				float x = 555
+				float y = 368
+				float width = 41.5
+				float height = 64.375
+				float xOffset = 3.6875
+				float yOffset = 63.3125
+				float xAdvance = 48.9375
+				float scale = 1
+			[25]
+			TMP_Glyph data
+				int id = 57
+				float x = 608
+				float y = 368
+				float width = 41.375
+				float height = 64.375
+				float xOffset = 3.75
+				float yOffset = 63.3125
+				float xAdvance = 48.9375
+				float scale = 1
+			[26]
+			TMP_Glyph data
+				int id = 58
+				float x = 581
+				float y = 22
+				float width = 8.75
+				float height = 45.5625
+				float xOffset = 7.875
+				float yOffset = 45.625
+				float xAdvance = 24.4375
+				float scale = 1
+			[27]
+			TMP_Glyph data
+				int id = 59
+				float x = 228
+				float y = 113
+				float width = 9.3125
+				float height = 58
+				float xOffset = 7.375
+				float yOffset = 45.625
+				float xAdvance = 24.4375
+				float scale = 1
+			[28]
+			TMP_Glyph data
+				int id = 60
+				float x = 929
+				float y = 182
+				float width = 41.6875
+				float height = 42.625
+				float xOffset = 4.8125
+				float yOffset = 52.4375
+				float xAdvance = 51.375
+				float scale = 1
+			[29]
+			TMP_Glyph data
+				int id = 61
+				float x = 302
+				float y = 125
+				float width = 41.6875
+				float height = 26.375
+				float xOffset = 4.8125
+				float yOffset = 44.3125
+				float xAdvance = 51.375
+				float scale = 1
+			[30]
+			TMP_Glyph data
+				int id = 62
+				float x = 249
+				float y = 113
+				float width = 41.6875
+				float height = 42.625
+				float xOffset = 4.8125
+				float yOffset = 52.4375
+				float xAdvance = 51.375
+				float scale = 1
+			[31]
+			TMP_Glyph data
+				int id = 63
+				float x = 661
+				float y = 368
+				float width = 40.625
+				float height = 64.0625
+				float xOffset = 4
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[32]
+			TMP_Glyph data
+				int id = 64
+				float x = 6
+				float y = 935
+				float width = 81.375
+				float height = 82.625
+				float xOffset = 4.9375
+				float yOffset = 64.1875
+				float xAdvance = 89.3125
+				float scale = 1
+			[33]
+			TMP_Glyph data
+				int id = 65
+				float x = 269
+				float y = 688
+				float width = 58.875
+				float height = 63
+				float xOffset = -0.125
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[34]
+			TMP_Glyph data
+				int id = 66
+				float x = 900
+				float y = 543
+				float width = 47.5625
+				float height = 63
+				float xOffset = 6.5
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[35]
+			TMP_Glyph data
+				int id = 67
+				float x = 339
+				float y = 742
+				float width = 55.625
+				float height = 65.125
+				float xOffset = 4.4375
+				float yOffset = 64.125
+				float xAdvance = 63.5625
+				float scale = 1
+			[36]
+			TMP_Glyph data
+				int id = 68
+				float x = 717
+				float y = 713
+				float width = 52.0625
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[37]
+			TMP_Glyph data
+				int id = 69
+				float x = 959
+				float y = 499
+				float width = 47.0625
+				float height = 63
+				float xOffset = 6.9375
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[38]
+			TMP_Glyph data
+				int id = 70
+				float x = 569
+				float y = 294
+				float width = 42.5
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 53.75
+				float scale = 1
+			[39]
+			TMP_Glyph data
+				int id = 71
+				float x = 337
+				float y = 819
+				float width = 58.25
+				float height = 65.125
+				float xOffset = 4.5
+				float yOffset = 64.125
+				float xAdvance = 68.4375
+				float scale = 1
+			[40]
+			TMP_Glyph data
+				int id = 72
+				float x = 575
+				float y = 650
+				float width = 49.4375
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[41]
+			TMP_Glyph data
+				int id = 73
+				float x = 650
+				float y = 10
+				float width = 8.375
+				float height = 63
+				float xOffset = 8.0625
+				float yOffset = 63
+				float xAdvance = 24.4375
+				float scale = 1
+			[42]
+			TMP_Glyph data
+				int id = 74
+				float x = 726
+				float y = 292
+				float width = 34.5625
+				float height = 64.0625
+				float xOffset = 2.3125
+				float yOffset = 63
+				float xAdvance = 44
+				float scale = 1
+			[43]
+			TMP_Glyph data
+				int id = 75
+				float x = 781
+				float y = 709
+				float width = 52.0625
+				float height = 63
+				float xOffset = 6.4375
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[44]
+			TMP_Glyph data
+				int id = 76
+				float x = 675
+				float y = 294
+				float width = 39.375
+				float height = 63
+				float xOffset = 6.5625
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[45]
+			TMP_Glyph data
+				int id = 77
+				float x = 339
+				float y = 668
+				float width = 59.9375
+				float height = 63
+				float xOffset = 6.6875
+				float yOffset = 63
+				float xAdvance = 73.3125
+				float scale = 1
+			[46]
+			TMP_Glyph data
+				int id = 78
+				float x = 575
+				float y = 576
+				float width = 49.5625
+				float height = 63
+				float xOffset = 6.9375
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[47]
+			TMP_Glyph data
+				int id = 79
+				float x = 953
+				float y = 875
+				float width = 60.3125
+				float height = 65.125
+				float xOffset = 4.125
+				float yOffset = 64.125
+				float xAdvance = 68.4375
+				float scale = 1
+			[48]
+			TMP_Glyph data
+				int id = 80
+				float x = 326
+				float y = 520
+				float width = 48
+				float height = 63
+				float xOffset = 6.75
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[49]
+			TMP_Glyph data
+				int id = 81
+				float x = 598
+				float y = 872
+				float width = 61.4375
+				float height = 69
+				float xOffset = 4.125
+				float yOffset = 64.125
+				float xAdvance = 68.4375
+				float scale = 1
+			[50]
+			TMP_Glyph data
+				int id = 82
+				float x = 410
+				float y = 601
+				float width = 55.5
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[51]
+			TMP_Glyph data
+				int id = 83
+				float x = 513
+				float y = 652
+				float width = 50.1875
+				float height = 65.125
+				float xOffset = 3.9375
+				float yOffset = 64.125
+				float xAdvance = 58.6875
+				float scale = 1
+			[52]
+			TMP_Glyph data
+				int id = 84
+				float x = 697
+				float y = 580
+				float width = 49.875
+				float height = 63
+				float xOffset = 1.875
+				float yOffset = 63
+				float xAdvance = 53.75
+				float scale = 1
+			[53]
+			TMP_Glyph data
+				int id = 85
+				float x = 636
+				float y = 581
+				float width = 49.5625
+				float height = 64.0625
+				float xOffset = 6.9375
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[54]
+			TMP_Glyph data
+				int id = 86
+				float x = 587
+				float y = 798
+				float width = 57.625
+				float height = 63
+				float xOffset = 0.5
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[55]
+			TMP_Glyph data
+				int id = 87
+				float x = 367
+				float y = 955
+				float width = 81.0625
+				float height = 63
+				float xOffset = 1.0625
+				float yOffset = 63
+				float xAdvance = 83.0625
+				float scale = 1
+			[56]
+			TMP_Glyph data
+				int id = 88
+				float x = 656
+				float y = 789
+				float width = 57.75
+				float height = 63
+				float xOffset = 0.375
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[57]
+			TMP_Glyph data
+				int id = 89
+				float x = 725
+				float y = 787
+				float width = 57.75
+				float height = 63
+				float xOffset = 0.375
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[58]
+			TMP_Glyph data
+				int id = 90
+				float x = 758
+				float y = 578
+				float width = 49.8125
+				float height = 63
+				float xOffset = 1.5625
+				float yOffset = 63
+				float xAdvance = 53.75
+				float scale = 1
+			[59]
+			TMP_Glyph data
+				int id = 91
+				float x = 105
+				float y = 7
+				float width = 17.0625
+				float height = 80.5
+				float xOffset = 5.9375
+				float yOffset = 63
+				float xAdvance = 24.4375
+				float scale = 1
+			[60]
+			TMP_Glyph data
+				int id = 92
+				float x = 477
+				float y = 654
+				float width = 24.4375
+				float height = 65.125
+				float xOffset = 0
+				float yOffset = 63
+				float xAdvance = 24.4375
+				float scale = 1
+			[61]
+			TMP_Glyph data
+				int id = 93
+				float x = 249
+				float y = 384
+				float width = 17.0625
+				float height = 80.5
+				float xOffset = 1.375
+				float yOffset = 63
+				float xAdvance = 24.4375
+				float scale = 1
+			[62]
+			TMP_Glyph data
+				int id = 94
+				float x = 173
+				float y = 203
+				float width = 36.75
+				float height = 34.375
+				float xOffset = 2.25
+				float yOffset = 63
+				float xAdvance = 41.3125
+				float scale = 1
+			[63]
+			TMP_Glyph data
+				int id = 95
+				float x = 581
+				float y = 6
+				float width = 45
+				float height = 4.375
+				float xOffset = -0.5625
+				float yOffset = -6.5625
+				float xAdvance = 44
+				float scale = 1
+			[64]
+			TMP_Glyph data
+				int id = 96
+				float x = 840
+				float y = 450
+				float width = 15.875
+				float height = 12.0625
+				float xOffset = 3.6875
+				float yOffset = 64.125
+				float xAdvance = 29.3125
+				float scale = 1
+			[65]
+			TMP_Glyph data
+				int id = 97
+				float x = 392
+				float y = 235
+				float width = 42.0625
+				float height = 47.6875
+				float xOffset = 3.3125
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[66]
+			TMP_Glyph data
+				int id = 98
+				float x = 713
+				float y = 368
+				float width = 39.625
+				float height = 64.0625
+				float xOffset = 5.875
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[67]
+			TMP_Glyph data
+				int id = 99
+				float x = 978
+				float y = 364
+				float width = 39.8125
+				float height = 47.6875
+				float xOffset = 3.4375
+				float yOffset = 46.625
+				float xAdvance = 44
+				float scale = 1
+			[68]
+			TMP_Glyph data
+				int id = 100
+				float x = 789
+				float y = 444
+				float width = 39.5625
+				float height = 64.0625
+				float xOffset = 3.125
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[69]
+			TMP_Glyph data
+				int id = 101
+				float x = 446
+				float y = 235
+				float width = 42.0625
+				float height = 47.6875
+				float xOffset = 3.4375
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[70]
+			TMP_Glyph data
+				int id = 102
+				float x = 477
+				float y = 731
+				float width = 26.6875
+				float height = 64.0625
+				float xOffset = 0.6875
+				float yOffset = 64.125
+				float xAdvance = 24.4375
+				float scale = 1
+			[71]
+			TMP_Glyph data
+				int id = 103
+				float x = 662
+				float y = 217
+				float width = 40.25
+				float height = 65.125
+				float xOffset = 3
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[72]
+			TMP_Glyph data
+				int id = 104
+				float x = 812
+				float y = 141
+				float width = 37.25
+				float height = 63
+				float xOffset = 5.875
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[73]
+			TMP_Glyph data
+				int id = 105
+				float x = 718
+				float y = 11
+				float width = 7.75
+				float height = 63
+				float xOffset = 5.875
+				float yOffset = 63
+				float xAdvance = 19.5625
+				float scale = 1
+			[74]
+			TMP_Glyph data
+				int id = 106
+				float x = 76
+				float y = 6
+				float width = 17.5625
+				float height = 81.375
+				float xOffset = -4
+				float yOffset = 63
+				float xAdvance = 19.5625
+				float scale = 1
+			[75]
+			TMP_Glyph data
+				int id = 107
+				float x = 379
+				float y = 86
+				float width = 37.875
+				float height = 63
+				float xOffset = 5.75
+				float yOffset = 63
+				float xAdvance = 44
+				float scale = 1
+			[76]
+			TMP_Glyph data
+				int id = 108
+				float x = 830
+				float y = 10
+				float width = 7.75
+				float height = 63
+				float xOffset = 5.875
+				float yOffset = 63
+				float xAdvance = 19.5625
+				float scale = 1
+			[77]
+			TMP_Glyph data
+				int id = 109
+				float x = 176
+				float y = 339
+				float width = 62
+				float height = 46.625
+				float xOffset = 5.6875
+				float yOffset = 46.625
+				float xAdvance = 73.3125
+				float scale = 1
+			[78]
+			TMP_Glyph data
+				int id = 110
+				float x = 379
+				float y = 28
+				float width = 37.125
+				float height = 46.625
+				float xOffset = 5.9375
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[79]
+			TMP_Glyph data
+				int id = 111
+				float x = 500
+				float y = 235
+				float width = 42.75
+				float height = 47.6875
+				float xOffset = 3.0625
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[80]
+			TMP_Glyph data
+				int id = 112
+				float x = 772
+				float y = 292
+				float width = 39.5625
+				float height = 64.125
+				float xOffset = 5.9375
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[81]
+			TMP_Glyph data
+				int id = 113
+				float x = 818
+				float y = 368
+				float width = 39.5625
+				float height = 64.125
+				float xOffset = 3.3125
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[82]
+			TMP_Glyph data
+				int id = 114
+				float x = 477
+				float y = 596
+				float width = 24.8125
+				float height = 46.625
+				float xOffset = 5.625
+				float yOffset = 46.625
+				float xAdvance = 29.3125
+				float scale = 1
+			[83]
+			TMP_Glyph data
+				int id = 115
+				float x = 532
+				float y = 20
+				float width = 37.875
+				float height = 47.6875
+				float xOffset = 2.6875
+				float yOffset = 46.625
+				float xAdvance = 44
+				float scale = 1
+			[84]
+			TMP_Glyph data
+				int id = 116
+				float x = 357
+				float y = 164
+				float width = 22.1875
+				float height = 62.25
+				float xOffset = 1.5
+				float yOffset = 61.625
+				float xAdvance = 24.4375
+				float scale = 1
+			[85]
+			TMP_Glyph data
+				int id = 117
+				float x = 792
+				float y = 520
+				float width = 37
+				float height = 46.625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[86]
+			TMP_Glyph data
+				int id = 118
+				float x = 631
+				float y = 519
+				float width = 41.75
+				float height = 45.5625
+				float xOffset = 1.125
+				float yOffset = 45.625
+				float xAdvance = 44
+				float scale = 1
+			[87]
+			TMP_Glyph data
+				int id = 119
+				float x = 265
+				float y = 762
+				float width = 62.625
+				float height = 45.5625
+				float xOffset = 0.375
+				float yOffset = 45.625
+				float xAdvance = 63.5625
+				float scale = 1
+			[88]
+			TMP_Glyph data
+				int id = 120
+				float x = 738
+				float y = 521
+				float width = 42.75
+				float height = 45.5625
+				float xOffset = 0.5625
+				float yOffset = 45.625
+				float xAdvance = 44
+				float scale = 1
+			[89]
+			TMP_Glyph data
+				int id = 121
+				float x = 823
+				float y = 292
+				float width = 41.875
+				float height = 64.0625
+				float xOffset = 1.375
+				float yOffset = 45.625
+				float xAdvance = 44
+				float scale = 1
+			[90]
+			TMP_Glyph data
+				int id = 122
+				float x = 428
+				float y = 28
+				float width = 40.375
+				float height = 45.5625
+				float xOffset = 1.75
+				float yOffset = 45.625
+				float xAdvance = 44
+				float scale = 1
+			[91]
+			TMP_Glyph data
+				int id = 123
+				float x = 76
+				float y = 287
+				float width = 24.875
+				float height = 82.5625
+				float xOffset = 2.4375
+				float yOffset = 64.125
+				float xAdvance = 29.375
+				float scale = 1
+			[92]
+			TMP_Glyph data
+				int id = 124
+				float x = 234
+				float y = 247
+				float width = 6.75
+				float height = 80.5
+				float xOffset = 8.0625
+				float yOffset = 63
+				float xAdvance = 22.875
+				float scale = 1
+			[93]
+			TMP_Glyph data
+				int id = 125
+				float x = 76
+				float y = 193
+				float width = 24.8125
+				float height = 82.5625
+				float xOffset = 2.0625
+				float yOffset = 64.125
+				float xAdvance = 29.375
+				float scale = 1
+			[94]
+			TMP_Glyph data
+				int id = 160
+				float x = 6
+				float y = 1029
+				float width = 0
+				float height = 0
+				float xOffset = 0
+				float yOffset = 0
+				float xAdvance = 24.4375
+				float scale = 1
+			[95]
+			TMP_Glyph data
+				int id = 161
+				float x = 526
+				float y = 85
+				float width = 9.625
+				float height = 63
+				float xOffset = 9.6875
+				float yOffset = 45.5625
+				float xAdvance = 29.3125
+				float scale = 1
+			[96]
+			TMP_Glyph data
+				int id = 170
+				float x = 849
+				float y = 28
+				float width = 28.75
+				float height = 32.0625
+				float xOffset = 1.8125
+				float yOffset = 64.125
+				float xAdvance = 32.5625
+				float scale = 1
+			[97]
+			TMP_Glyph data
+				int id = 171
+				float x = 853
+				float y = 72
+				float width = 36.75
+				float height = 39.1875
+				float xOffset = 6
+				float yOffset = 42.375
+				float xAdvance = 48.9375
+				float scale = 1
+			[98]
+			TMP_Glyph data
+				int id = 186
+				float x = 889
+				float y = 28
+				float width = 28.25
+				float height = 32.3125
+				float xOffset = 1.875
+				float yOffset = 64.125
+				float xAdvance = 32.125
+				float scale = 1
+			[99]
+			TMP_Glyph data
+				int id = 187
+				float x = 901
+				float y = 72
+				float width = 36.75
+				float height = 39.1875
+				float xOffset = 6
+				float yOffset = 42.375
+				float xAdvance = 48.9375
+				float scale = 1
+			[100]
+			TMP_Glyph data
+				int id = 191
+				float x = 498
+				float y = 159
+				float width = 40.6875
+				float height = 64.0625
+				float xOffset = 6.5625
+				float yOffset = 45.6875
+				float xAdvance = 53.75
+				float scale = 1
+			[101]
+			TMP_Glyph data
+				int id = 192
+				float x = 6
+				float y = 200
+				float width = 58.875
+				float height = 79.1875
+				float xOffset = -0.125
+				float yOffset = 79.25
+				float xAdvance = 58.6875
+				float scale = 1
+			[102]
+			TMP_Glyph data
+				int id = 193
+				float x = 6
+				float y = 109
+				float width = 58.875
+				float height = 79.1875
+				float xOffset = -0.125
+				float yOffset = 79.25
+				float xAdvance = 58.6875
+				float scale = 1
+			[103]
+			TMP_Glyph data
+				int id = 194
+				float x = 6
+				float y = 18
+				float width = 58.875
+				float height = 79.1875
+				float xOffset = -0.125
+				float yOffset = 79.25
+				float xAdvance = 58.6875
+				float scale = 1
+			[104]
+			TMP_Glyph data
+				int id = 195
+				float x = 78
+				float y = 476
+				float width = 58.875
+				float height = 77.9375
+				float xOffset = -0.125
+				float yOffset = 77.9375
+				float xAdvance = 58.6875
+				float scale = 1
+			[105]
+			TMP_Glyph data
+				int id = 196
+				float x = 148
+				float y = 476
+				float width = 58.875
+				float height = 77.5
+				float xOffset = -0.125
+				float yOffset = 77.5
+				float xAdvance = 58.6875
+				float scale = 1
+			[106]
+			TMP_Glyph data
+				int id = 197
+				float x = 6
+				float y = 383
+				float width = 58.875
+				float height = 81
+				float xOffset = -0.125
+				float yOffset = 81
+				float xAdvance = 58.6875
+				float scale = 1
+			[107]
+			TMP_Glyph data
+				int id = 198
+				float x = 177
+				float y = 955
+				float width = 83.125
+				float height = 63
+				float xOffset = 0
+				float yOffset = 63
+				float xAdvance = 88
+				float scale = 1
+			[108]
+			TMP_Glyph data
+				int id = 199
+				float x = 122
+				float y = 842
+				float width = 55.6875
+				float height = 82.4375
+				float xOffset = 4.4375
+				float yOffset = 64.125
+				float xAdvance = 63.5625
+				float scale = 1
+			[109]
+			TMP_Glyph data
+				int id = 200
+				float x = 84
+				float y = 750
+				float width = 47.0625
+				float height = 79.1875
+				float xOffset = 6.9375
+				float yOffset = 79.25
+				float xAdvance = 58.6875
+				float scale = 1
+			[110]
+			TMP_Glyph data
+				int id = 201
+				float x = 145
+				float y = 565
+				float width = 47.0625
+				float height = 79.1875
+				float xOffset = 6.9375
+				float yOffset = 79.25
+				float xAdvance = 58.6875
+				float scale = 1
+			[111]
+			TMP_Glyph data
+				int id = 202
+				float x = 204
+				float y = 565
+				float width = 47.0625
+				float height = 79.1875
+				float xOffset = 6.9375
+				float yOffset = 79.25
+				float xAdvance = 58.6875
+				float scale = 1
+			[112]
+			TMP_Glyph data
+				int id = 203
+				float x = 195
+				float y = 23
+				float width = 47.0625
+				float height = 77.5
+				float xOffset = 6.9375
+				float yOffset = 77.5
+				float xAdvance = 58.6875
+				float scale = 1
+			[113]
+			TMP_Glyph data
+				int id = 204
+				float x = 804
+				float y = 860
+				float width = 15.875
+				float height = 79.1875
+				float xOffset = 1.3125
+				float yOffset = 79.25
+				float xAdvance = 24.4375
+				float scale = 1
+			[114]
+			TMP_Glyph data
+				int id = 205
+				float x = 263
+				float y = 570
+				float width = 15.875
+				float height = 79.1875
+				float xOffset = 7.375
+				float yOffset = 79.25
+				float xAdvance = 24.4375
+				float scale = 1
+			[115]
+			TMP_Glyph data
+				int id = 206
+				float x = 189
+				float y = 112
+				float width = 27.1875
+				float height = 79.1875
+				float xOffset = -1.3125
+				float yOffset = 79.25
+				float xAdvance = 24.4375
+				float scale = 1
+			[116]
+			TMP_Glyph data
+				int id = 207
+				float x = 271
+				float y = 481
+				float width = 23.875
+				float height = 77.5
+				float xOffset = 0.3125
+				float yOffset = 77.5
+				float xAdvance = 24.4375
+				float scale = 1
+			[117]
+			TMP_Glyph data
+				int id = 209
+				float x = 671
+				float y = 863
+				float width = 49.5625
+				float height = 77.8125
+				float xOffset = 6.9375
+				float yOffset = 77.8125
+				float xAdvance = 63.5625
+				float scale = 1
+			[118]
+			TMP_Glyph data
+				int id = 210
+				float x = 6
+				float y = 659
+				float width = 60.3125
+				float height = 80.25
+				float xOffset = 4.125
+				float yOffset = 79.25
+				float xAdvance = 68.4375
+				float scale = 1
+			[119]
+			TMP_Glyph data
+				int id = 211
+				float x = 6
+				float y = 567
+				float width = 60.3125
+				float height = 80.25
+				float xOffset = 4.125
+				float yOffset = 79.25
+				float xAdvance = 68.4375
+				float scale = 1
+			[120]
+			TMP_Glyph data
+				int id = 212
+				float x = 6
+				float y = 475
+				float width = 60.3125
+				float height = 80.25
+				float xOffset = 4.125
+				float yOffset = 79.25
+				float xAdvance = 68.4375
+				float scale = 1
+			[121]
+			TMP_Glyph data
+				int id = 213
+				float x = 732
+				float y = 861
+				float width = 60.3125
+				float height = 78.875
+				float xOffset = 4.125
+				float yOffset = 77.8125
+				float xAdvance = 68.4375
+				float scale = 1
+			[122]
+			TMP_Glyph data
+				int id = 214
+				float x = 189
+				float y = 847
+				float width = 60.3125
+				float height = 78.5625
+				float xOffset = 4.125
+				float yOffset = 77.5
+				float xAdvance = 68.4375
+				float scale = 1
+			[123]
+			TMP_Glyph data
+				int id = 216
+				float x = 176
+				float y = 397
+				float width = 61.6875
+				float height = 67.875
+				float xOffset = 3.5625
+				float yOffset = 65.3125
+				float xAdvance = 68.4375
+				float scale = 1
+			[124]
+			TMP_Glyph data
+				int id = 217
+				float x = 143
+				float y = 750
+				float width = 49.5625
+				float height = 80.25
+				float xOffset = 6.9375
+				float yOffset = 79.25
+				float xAdvance = 63.5625
+				float scale = 1
+			[125]
+			TMP_Glyph data
+				int id = 218
+				float x = 112
+				float y = 295
+				float width = 49.5625
+				float height = 80.25
+				float xOffset = 6.9375
+				float yOffset = 79.25
+				float xAdvance = 63.5625
+				float scale = 1
+			[126]
+			TMP_Glyph data
+				int id = 219
+				float x = 112
+				float y = 203
+				float width = 49.5625
+				float height = 80.25
+				float xOffset = 6.9375
+				float yOffset = 79.25
+				float xAdvance = 63.5625
+				float scale = 1
+			[127]
+			TMP_Glyph data
+				int id = 220
+				float x = 173
+				float y = 249
+				float width = 49.5625
+				float height = 78.5625
+				float xOffset = 6.9375
+				float yOffset = 77.5
+				float xAdvance = 63.5625
+				float scale = 1
+			[128]
+			TMP_Glyph data
+				int id = 223
+				float x = 492
+				float y = 444
+				float width = 44.5
+				float height = 65.125
+				float xOffset = 6.3125
+				float yOffset = 64.125
+				float xAdvance = 53.75
+				float scale = 1
+			[129]
+			TMP_Glyph data
+				int id = 224
+				float x = 252
+				float y = 243
+				float width = 42.0625
+				float height = 65.125
+				float xOffset = 3.3125
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[130]
+			TMP_Glyph data
+				int id = 225
+				float x = 554
+				float y = 217
+				float width = 42.0625
+				float height = 65.125
+				float xOffset = 3.3125
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[131]
+			TMP_Glyph data
+				int id = 226
+				float x = 608
+				float y = 217
+				float width = 42.0625
+				float height = 65.125
+				float xOffset = 3.3125
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[132]
+			TMP_Glyph data
+				int id = 227
+				float x = 714
+				float y = 216
+				float width = 42.0625
+				float height = 64.0625
+				float xOffset = 3.3125
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[133]
+			TMP_Glyph data
+				int id = 228
+				float x = 603
+				float y = 444
+				float width = 42.0625
+				float height = 63.625
+				float xOffset = 3.3125
+				float yOffset = 62.5625
+				float xAdvance = 48.9375
+				float scale = 1
+			[134]
+			TMP_Glyph data
+				int id = 229
+				float x = 438
+				float y = 443
+				float width = 42.0625
+				float height = 67.25
+				float xOffset = 3.3125
+				float yOffset = 66.1875
+				float xAdvance = 48.9375
+				float scale = 1
+			[135]
+			TMP_Glyph data
+				int id = 230
+				float x = 365
+				float y = 896
+				float width = 71.75
+				float height = 47.6875
+				float xOffset = 3
+				float yOffset = 46.625
+				float xAdvance = 78.25
+				float scale = 1
+			[136]
+			TMP_Glyph data
+				int id = 231
+				float x = 657
+				float y = 444
+				float width = 39.8125
+				float height = 63.875
+				float xOffset = 3.4375
+				float yOffset = 46.625
+				float xAdvance = 44
+				float scale = 1
+			[137]
+			TMP_Glyph data
+				int id = 232
+				float x = 708
+				float y = 444
+				float width = 42.0625
+				float height = 65.125
+				float xOffset = 3.4375
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[138]
+			TMP_Glyph data
+				int id = 233
+				float x = 840
+				float y = 474
+				float width = 42.0625
+				float height = 65.125
+				float xOffset = 3.4375
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[139]
+			TMP_Glyph data
+				int id = 234
+				float x = 894
+				float y = 466
+				float width = 42.0625
+				float height = 65.125
+				float xOffset = 3.4375
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[140]
+			TMP_Glyph data
+				int id = 235
+				float x = 303
+				float y = 163
+				float width = 42.0625
+				float height = 63.625
+				float xOffset = 3.4375
+				float yOffset = 62.5625
+				float xAdvance = 48.9375
+				float scale = 1
+			[141]
+			TMP_Glyph data
+				int id = 236
+				float x = 762
+				float y = 445
+				float width = 15.875
+				float height = 64.0625
+				float xOffset = 1.125
+				float yOffset = 64.125
+				float xAdvance = 24.4375
+				float scale = 1
+			[142]
+			TMP_Glyph data
+				int id = 237
+				float x = 352
+				float y = 49
+				float width = 15.875
+				float height = 64.0625
+				float xOffset = 7.375
+				float yOffset = 64.125
+				float xAdvance = 24.4375
+				float scale = 1
+			[143]
+			TMP_Glyph data
+				int id = 238
+				float x = 407
+				float y = 820
+				float width = 27.1875
+				float height = 64.0625
+				float xOffset = -1.3125
+				float yOffset = 64.125
+				float xAdvance = 24.4375
+				float scale = 1
+			[144]
+			TMP_Glyph data
+				int id = 239
+				float x = 477
+				float y = 522
+				float width = 23.875
+				float height = 62.5625
+				float xOffset = 0.4375
+				float yOffset = 62.5625
+				float xAdvance = 24.4375
+				float scale = 1
+			[145]
+			TMP_Glyph data
+				int id = 241
+				float x = 428
+				float y = 85
+				float width = 37.125
+				float height = 63
+				float xOffset = 5.9375
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[146]
+			TMP_Glyph data
+				int id = 242
+				float x = 768
+				float y = 215
+				float width = 42.75
+				float height = 65.125
+				float xOffset = 3.0625
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[147]
+			TMP_Glyph data
+				int id = 243
+				float x = 822
+				float y = 215
+				float width = 42.75
+				float height = 65.125
+				float xOffset = 3.0625
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[148]
+			TMP_Glyph data
+				int id = 244
+				float x = 869
+				float y = 389
+				float width = 42.75
+				float height = 65.125
+				float xOffset = 3.0625
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[149]
+			TMP_Glyph data
+				int id = 245
+				float x = 764
+				float y = 368
+				float width = 42.75
+				float height = 64.0625
+				float xOffset = 3.0625
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[150]
+			TMP_Glyph data
+				int id = 246
+				float x = 391
+				float y = 160
+				float width = 42.75
+				float height = 63.625
+				float xOffset = 3.0625
+				float yOffset = 62.5625
+				float xAdvance = 48.9375
+				float scale = 1
+			[151]
+			TMP_Glyph data
+				int id = 248
+				float x = 550
+				float y = 154
+				float width = 42.75
+				float height = 51.8125
+				float xOffset = 5.5
+				float yOffset = 48.4375
+				float xAdvance = 53.75
+				float scale = 1
+			[152]
+			TMP_Glyph data
+				int id = 249
+				float x = 337
+				float y = 443
+				float width = 37
+				float height = 65.125
+				float xOffset = 5.75
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[153]
+			TMP_Glyph data
+				int id = 250
+				float x = 876
+				float y = 312
+				float width = 37
+				float height = 65.125
+				float xOffset = 5.75
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[154]
+			TMP_Glyph data
+				int id = 251
+				float x = 876
+				float y = 235
+				float width = 37
+				float height = 65.125
+				float xOffset = 5.75
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[155]
+			TMP_Glyph data
+				int id = 252
+				float x = 547
+				float y = 79
+				float width = 37
+				float height = 63.625
+				float xOffset = 5.75
+				float yOffset = 62.5625
+				float xAdvance = 48.9375
+				float scale = 1
+			[156]
+			TMP_Glyph data
+				int id = 260
+				float x = 99
+				float y = 936
+				float width = 66.75
+				float height = 81.3125
+				float xOffset = -0.125
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[157]
+			TMP_Glyph data
+				int id = 261
+				float x = 901
+				float y = 617
+				float width = 46.875
+				float height = 64.9375
+				float xOffset = 3.3125
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[158]
+			TMP_Glyph data
+				int id = 262
+				float x = 78
+				float y = 657
+				float width = 55.625
+				float height = 81.625
+				float xOffset = 4.4375
+				float yOffset = 80.625
+				float xAdvance = 63.5625
+				float scale = 1
+			[159]
+			TMP_Glyph data
+				int id = 263
+				float x = 923
+				float y = 389
+				float width = 39.8125
+				float height = 65.125
+				float xOffset = 3.4375
+				float yOffset = 64.125
+				float xAdvance = 44
+				float scale = 1
+			[160]
+			TMP_Glyph data
+				int id = 280
+				float x = 204
+				float y = 754
+				float width = 49.8125
+				float height = 81.3125
+				float xOffset = 6.9375
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[161]
+			TMP_Glyph data
+				int id = 281
+				float x = 924
+				float y = 236
+				float width = 42.0625
+				float height = 64.9375
+				float xOffset = 3.4375
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[162]
+			TMP_Glyph data
+				int id = 286
+				float x = 6
+				float y = 291
+				float width = 58.25
+				float height = 80.625
+				float xOffset = 4.5
+				float yOffset = 79.5625
+				float xAdvance = 68.4375
+				float scale = 1
+			[163]
+			TMP_Glyph data
+				int id = 287
+				float x = 76
+				float y = 99
+				float width = 40.25
+				float height = 82.0625
+				float xOffset = 3
+				float yOffset = 63.5625
+				float xAdvance = 48.9375
+				float scale = 1
+			[164]
+			TMP_Glyph data
+				int id = 304
+				float x = 306
+				float y = 487
+				float width = 8.375
+				float height = 77.1875
+				float xOffset = 8.0625
+				float yOffset = 77.1875
+				float xAdvance = 24.4375
+				float scale = 1
+			[165]
+			TMP_Glyph data
+				int id = 305
+				float x = 649
+				float y = 84
+				float width = 7.75
+				float height = 45.5625
+				float xOffset = 8.3125
+				float yOffset = 45.625
+				float xAdvance = 24.4375
+				float scale = 1
+			[166]
+			TMP_Glyph data
+				int id = 321
+				float x = 420
+				float y = 527
+				float width = 45.875
+				float height = 63
+				float xOffset = 0
+				float yOffset = 63
+				float xAdvance = 48.9375
+				float scale = 1
+			[167]
+			TMP_Glyph data
+				int id = 322
+				float x = 306
+				float y = 246
+				float width = 19.125
+				float height = 63
+				float xOffset = 0.0625
+				float yOffset = 63
+				float xAdvance = 19.5625
+				float scale = 1
+			[168]
+			TMP_Glyph data
+				int id = 323
+				float x = 128
+				float y = 111
+				float width = 49.5625
+				float height = 80.5625
+				float xOffset = 6.9375
+				float yOffset = 80.625
+				float xAdvance = 63.5625
+				float scale = 1
+			[169]
+			TMP_Glyph data
+				int id = 324
+				float x = 303
+				float y = 49
+				float width = 37.125
+				float height = 64.0625
+				float xOffset = 5.9375
+				float yOffset = 64.125
+				float xAdvance = 48.9375
+				float scale = 1
+			[170]
+			TMP_Glyph data
+				int id = 338
+				float x = 552
+				float y = 952
+				float width = 79.625
+				float height = 65.125
+				float xOffset = 5.5
+				float yOffset = 64.125
+				float xAdvance = 88
+				float scale = 1
+			[171]
+			TMP_Glyph data
+				int id = 339
+				float x = 277
+				float y = 896
+				float width = 76.1875
+				float height = 47.6875
+				float xOffset = 3.3125
+				float yOffset = 46.625
+				float xAdvance = 83.0625
+				float scale = 1
+			[172]
+			TMP_Glyph data
+				int id = 346
+				float x = 207
+				float y = 661
+				float width = 50.1875
+				float height = 81.625
+				float xOffset = 3.9375
+				float yOffset = 80.625
+				float xAdvance = 58.6875
+				float scale = 1
+			[173]
+			TMP_Glyph data
+				int id = 347
+				float x = 290
+				float y = 611
+				float width = 37.875
+				float height = 65.125
+				float xOffset = 2.6875
+				float yOffset = 64.125
+				float xAdvance = 44
+				float scale = 1
+			[174]
+			TMP_Glyph data
+				int id = 350
+				float x = 145
+				float y = 656
+				float width = 50.1875
+				float height = 82.5625
+				float xOffset = 3.9375
+				float yOffset = 64.125
+				float xAdvance = 58.6875
+				float scale = 1
+			[175]
+			TMP_Glyph data
+				int id = 351
+				float x = 254
+				float y = 36
+				float width = 37.875
+				float height = 65.125
+				float xOffset = 2.6875
+				float yOffset = 46.625
+				float xAdvance = 44
+				float scale = 1
+			[176]
+			TMP_Glyph data
+				int id = 377
+				float x = 134
+				float y = 19
+				float width = 49.8125
+				float height = 80.5625
+				float xOffset = 1.5625
+				float yOffset = 80.625
+				float xAdvance = 53.75
+				float scale = 1
+			[177]
+			TMP_Glyph data
+				int id = 378
+				float x = 604
+				float y = 141
+				float width = 40.375
+				float height = 64.0625
+				float xOffset = 1.75
+				float yOffset = 64.125
+				float xAdvance = 44
+				float scale = 1
+			[178]
+			TMP_Glyph data
+				int id = 379
+				float x = 831
+				float y = 866
+				float width = 49.8125
+				float height = 77.1875
+				float xOffset = 1.5625
+				float yOffset = 77.1875
+				float xAdvance = 53.75
+				float scale = 1
+			[179]
+			TMP_Glyph data
+				int id = 380
+				float x = 708
+				float y = 142
+				float width = 40.375
+				float height = 62.5625
+				float xOffset = 1.75
+				float yOffset = 62.5625
+				float xAdvance = 44
+				float scale = 1
+			[180]
+			TMP_Glyph data
+				int id = 1025
+				float x = 278
+				float y = 394
+				float width = 47.0625
+				float height = 75.625
+				float xOffset = 6.9375
+				float yOffset = 75.625
+				float xAdvance = 58.6875
+				float scale = 1
+			[181]
+			TMP_Glyph data
+				int id = 1040
+				float x = 517
+				float y = 803
+				float width = 58.875
+				float height = 63
+				float xOffset = -0.125
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[182]
+			TMP_Glyph data
+				int id = 1041
+				float x = 512
+				float y = 521
+				float width = 47.5
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 57.625
+				float scale = 1
+			[183]
+			TMP_Glyph data
+				int id = 1042
+				float x = 337
+				float y = 369
+				float width = 47.5625
+				float height = 63
+				float xOffset = 6.5
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[184]
+			TMP_Glyph data
+				int id = 1043
+				float x = 760
+				float y = 141
+				float width = 40.75
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 49.875
+				float scale = 1
+			[185]
+			TMP_Glyph data
+				int id = 1044
+				float x = 108
+				float y = 387
+				float width = 56.4375
+				float height = 77.6875
+				float xOffset = 0.0625
+				float yOffset = 63
+				float xAdvance = 59.5625
+				float scale = 1
+			[186]
+			TMP_Glyph data
+				int id = 1045
+				float x = 278
+				float y = 320
+				float width = 47.0625
+				float height = 63
+				float xOffset = 6.9375
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[187]
+			TMP_Glyph data
+				int id = 1046
+				float x = 460
+				float y = 955
+				float width = 80.625
+				float height = 63
+				float xOffset = 0.25
+				float yOffset = 63
+				float xAdvance = 81.1875
+				float scale = 1
+			[188]
+			TMP_Glyph data
+				int id = 1047
+				float x = 959
+				float y = 573
+				float width = 46
+				float height = 65.25
+				float xOffset = 3.4375
+				float yOffset = 64.125
+				float xAdvance = 53.125
+				float scale = 1
+			[189]
+			TMP_Glyph data
+				int id = 1048
+				float x = 845
+				float y = 695
+				float width = 49.625
+				float height = 63
+				float xOffset = 6.9375
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[190]
+			TMP_Glyph data
+				int id = 1049
+				float x = 892
+				float y = 866
+				float width = 49.625
+				float height = 77.5
+				float xOffset = 6.9375
+				float yOffset = 77.5625
+				float xAdvance = 63.5625
+				float scale = 1
+			[191]
+			TMP_Glyph data
+				int id = 1050
+				float x = 548
+				float y = 444
+				float width = 44
+				float height = 63.0625
+				float xOffset = 7
+				float yOffset = 63.125
+				float xAdvance = 51.375
+				float scale = 1
+			[192]
+			TMP_Glyph data
+				int id = 1051
+				float x = 651
+				float y = 714
+				float width = 54.25
+				float height = 64
+				float xOffset = 0.75
+				float yOffset = 63
+				float xAdvance = 62.0625
+				float scale = 1
+			[193]
+			TMP_Glyph data
+				int id = 1052
+				float x = 339
+				float y = 594
+				float width = 59.9375
+				float height = 63
+				float xOffset = 6.6875
+				float yOffset = 63
+				float xAdvance = 73.3125
+				float scale = 1
+			[194]
+			TMP_Glyph data
+				int id = 1053
+				float x = 959
+				float y = 724
+				float width = 49.4375
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[195]
+			TMP_Glyph data
+				int id = 1054
+				float x = 265
+				float y = 819
+				float width = 60.3125
+				float height = 65.125
+				float xOffset = 4.125
+				float yOffset = 64.125
+				float xAdvance = 68.4375
+				float scale = 1
+			[196]
+			TMP_Glyph data
+				int id = 1055
+				float x = 959
+				float y = 650
+				float width = 49.5
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 63.625
+				float scale = 1
+			[197]
+			TMP_Glyph data
+				int id = 1056
+				float x = 337
+				float y = 295
+				float width = 48
+				float height = 63
+				float xOffset = 6.75
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[198]
+			TMP_Glyph data
+				int id = 1057
+				float x = 852
+				float y = 789
+				float width = 55.625
+				float height = 65.125
+				float xOffset = 4.4375
+				float yOffset = 64.125
+				float xAdvance = 63.5625
+				float scale = 1
+			[199]
+			TMP_Glyph data
+				int id = 1058
+				float x = 840
+				float y = 621
+				float width = 49.875
+				float height = 63
+				float xOffset = 1.875
+				float yOffset = 63
+				float xAdvance = 53.75
+				float scale = 1
+			[200]
+			TMP_Glyph data
+				int id = 1059
+				float x = 410
+				float y = 675
+				float width = 55.25
+				float height = 63.75
+				float xOffset = 0.375
+				float yOffset = 63
+				float xAdvance = 55.875
+				float scale = 1
+			[201]
+			TMP_Glyph data
+				int id = 1060
+				float x = 446
+				float y = 807
+				float width = 59.875
+				float height = 63
+				float xOffset = 3.5
+				float yOffset = 63
+				float xAdvance = 66.875
+				float scale = 1
+			[202]
+			TMP_Glyph data
+				int id = 1061
+				float x = 515
+				float y = 729
+				float width = 57.75
+				float height = 63
+				float xOffset = 0.375
+				float yOffset = 63
+				float xAdvance = 58.6875
+				float scale = 1
+			[203]
+			TMP_Glyph data
+				int id = 1062
+				float x = 78
+				float y = 565
+				float width = 55.25
+				float height = 80.5
+				float xOffset = 6.875
+				float yOffset = 63
+				float xAdvance = 65.125
+				float scale = 1
+			[204]
+			TMP_Glyph data
+				int id = 1063
+				float x = 396
+				float y = 294
+				float width = 48
+				float height = 63
+				float xOffset = 5.0625
+				float yOffset = 63
+				float xAdvance = 60.1875
+				float scale = 1
+			[205]
+			TMP_Glyph data
+				int id = 1064
+				float x = 809
+				float y = 955
+				float width = 66.875
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 80.9375
+				float scale = 1
+			[206]
+			TMP_Glyph data
+				int id = 1065
+				float x = 6
+				float y = 843
+				float width = 72.5
+				float height = 80.5
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 82.625
+				float scale = 1
+			[207]
+			TMP_Glyph data
+				int id = 1066
+				float x = 887
+				float y = 955
+				float width = 66.625
+				float height = 63
+				float xOffset = 0
+				float yOffset = 63
+				float xAdvance = 69.8125
+				float scale = 1
+			[208]
+			TMP_Glyph data
+				int id = 1067
+				float x = 448
+				float y = 881
+				float width = 63.4375
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 77.6875
+				float scale = 1
+			[209]
+			TMP_Glyph data
+				int id = 1068
+				float x = 455
+				float y = 294
+				float width = 47.5
+				float height = 63
+				float xOffset = 7
+				float yOffset = 63
+				float xAdvance = 57.625
+				float scale = 1
+			[210]
+			TMP_Glyph data
+				int id = 1069
+				float x = 955
+				float y = 798
+				float width = 55.6875
+				float height = 65.125
+				float xOffset = 3.3125
+				float yOffset = 64.125
+				float xAdvance = 63.0625
+				float scale = 1
+			[211]
+			TMP_Glyph data
+				int id = 1070
+				float x = 643
+				float y = 952
+				float width = 77.4375
+				float height = 65.125
+				float xOffset = 7
+				float yOffset = 64.125
+				float xAdvance = 88.5
+				float scale = 1
+			[212]
+			TMP_Glyph data
+				int id = 1071
+				float x = 584
+				float y = 724
+				float width = 55.5
+				float height = 63
+				float xOffset = 0.9375
+				float yOffset = 63
+				float xAdvance = 63.5625
+				float scale = 1
+			[213]
+			TMP_Glyph data
+				int id = 1072
+				float x = 684
+				float y = 521
+				float width = 42.0625
+				float height = 47.6875
+				float xOffset = 3.3125
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[214]
+			TMP_Glyph data
+				int id = 1073
+				float x = 924
+				float y = 312
+				float width = 42.875
+				float height = 65.5
+				float xOffset = 3.9375
+				float yOffset = 64.4375
+				float xAdvance = 50.4375
+				float scale = 1
+			[215]
+			TMP_Glyph data
+				int id = 1074
+				float x = 601
+				float y = 27
+				float width = 37.5
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 46.6875
+				float scale = 1
+			[216]
+			TMP_Glyph data
+				int id = 1075
+				float x = 717
+				float y = 85
+				float width = 26.1875
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 33.6875
+				float scale = 1
+			[217]
+			TMP_Glyph data
+				int id = 1076
+				float x = 840
+				float y = 551
+				float width = 48.6875
+				float height = 58.5
+				float xOffset = 0
+				float yOffset = 45.625
+				float xAdvance = 51.3125
+				float scale = 1
+			[218]
+			TMP_Glyph data
+				int id = 1077
+				float x = 861
+				float y = 123
+				float width = 42.0625
+				float height = 47.6875
+				float xOffset = 3.4375
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[219]
+			TMP_Glyph data
+				int id = 1078
+				float x = 406
+				float y = 750
+				float width = 59.3125
+				float height = 45.5625
+				float xOffset = -0.3125
+				float yOffset = 45.625
+				float xAdvance = 58.875
+				float scale = 1
+			[220]
+			TMP_Glyph data
+				int id = 1079
+				float x = 982
+				float y = 187
+				float width = 35.0625
+				float height = 47.6875
+				float xOffset = 2.0625
+				float yOffset = 46.625
+				float xAdvance = 40.3125
+				float scale = 1
+			[221]
+			TMP_Glyph data
+				int id = 1080
+				float x = 668
+				float y = 85
+				float width = 37.5625
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 49.1875
+				float scale = 1
+			[222]
+			TMP_Glyph data
+				int id = 1081
+				float x = 477
+				float y = 85
+				float width = 37.5625
+				float height = 63
+				float xOffset = 5.75
+				float yOffset = 63
+				float xAdvance = 49.1875
+				float scale = 1
+			[223]
+			TMP_Glyph data
+				int id = 1082
+				float x = 785
+				float y = 27
+				float width = 33.4375
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 38.4375
+				float scale = 1
+			[224]
+			TMP_Glyph data
+				int id = 1083
+				float x = 337
+				float y = 238
+				float width = 43.4375
+				float height = 45.8125
+				float xOffset = 0.9375
+				float yOffset = 45.625
+				float xAdvance = 50.25
+				float scale = 1
+			[225]
+			TMP_Glyph data
+				int id = 1084
+				float x = 571
+				float y = 519
+				float width = 48.5
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 60.125
+				float scale = 1
+			[226]
+			TMP_Glyph data
+				int id = 1085
+				float x = 670
+				float y = 28
+				float width = 36.9375
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 48.5625
+				float scale = 1
+			[227]
+			TMP_Glyph data
+				int id = 1086
+				float x = 915
+				float y = 123
+				float width = 42.75
+				float height = 47.6875
+				float xOffset = 3.0625
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[228]
+			TMP_Glyph data
+				int id = 1087
+				float x = 982
+				float y = 130
+				float width = 36
+				float height = 45.5625
+				float xOffset = 5.875
+				float yOffset = 45.625
+				float xAdvance = 47.6875
+				float scale = 1
+			[229]
+			TMP_Glyph data
+				int id = 1088
+				float x = 978
+				float y = 423
+				float width = 39.5625
+				float height = 64.125
+				float xOffset = 5.9375
+				float yOffset = 46.625
+				float xAdvance = 48.9375
+				float scale = 1
+			[230]
+			TMP_Glyph data
+				int id = 1089
+				float x = 978
+				float y = 305
+				float width = 39.8125
+				float height = 47.6875
+				float xOffset = 3.4375
+				float yOffset = 46.625
+				float xAdvance = 44
+				float scale = 1
+			[231]
+			TMP_Glyph data
+				int id = 1090
+				float x = 755
+				float y = 84
+				float width = 37.0625
+				float height = 45.5625
+				float xOffset = 1.5625
+				float yOffset = 45.625
+				float xAdvance = 40.3125
+				float scale = 1
+			[232]
+			TMP_Glyph data
+				int id = 1091
+				float x = 445
+				float y = 159
+				float width = 41.875
+				float height = 64.0625
+				float xOffset = 1.375
+				float yOffset = 45.625
+				float xAdvance = 44
+				float scale = 1
+			[233]
+			TMP_Glyph data
+				int id = 1092
+				float x = 6
+				float y = 751
+				float width = 66.125
+				float height = 80.5
+				float xOffset = 3.25
+				float yOffset = 63
+				float xAdvance = 72.4375
+				float scale = 1
+			[234]
+			TMP_Glyph data
+				int id = 1093
+				float x = 595
+				float y = 84
+				float width = 42.75
+				float height = 45.5625
+				float xOffset = 0.5625
+				float yOffset = 45.625
+				float xAdvance = 44
+				float scale = 1
+			[235]
+			TMP_Glyph data
+				int id = 1094
+				float x = 656
+				float y = 142
+				float width = 41
+				float height = 63.0625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 49.4375
+				float scale = 1
+			[236]
+			TMP_Glyph data
+				int id = 1095
+				float x = 737
+				float y = 27
+				float width = 37
+				float height = 45.5625
+				float xOffset = 4
+				float yOffset = 45.625
+				float xAdvance = 46.9375
+				float scale = 1
+			[237]
+			TMP_Glyph data
+				int id = 1096
+				float x = 636
+				float y = 657
+				float width = 58.5
+				float height = 45.5625
+				float xOffset = 6
+				float yOffset = 45.625
+				float xAdvance = 70.5625
+				float scale = 1
+			[238]
+			TMP_Glyph data
+				int id = 1097
+				float x = 523
+				float y = 877
+				float width = 63.625
+				float height = 63.0625
+				float xOffset = 6
+				float yOffset = 45.625
+				float xAdvance = 72.4375
+				float scale = 1
+			[239]
+			TMP_Glyph data
+				int id = 1098
+				float x = 774
+				float y = 652
+				float width = 51.8125
+				float height = 45.5625
+				float xOffset = 0
+				float yOffset = 45.625
+				float xAdvance = 54.5625
+				float scale = 1
+			[240]
+			TMP_Glyph data
+				int id = 1099
+				float x = 513
+				float y = 595
+				float width = 51
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 63.0625
+				float scale = 1
+			[241]
+			TMP_Glyph data
+				int id = 1100
+				float x = 804
+				float y = 84
+				float width = 37.5
+				float height = 45.5625
+				float xOffset = 5.75
+				float yOffset = 45.625
+				float xAdvance = 46
+				float scale = 1
+			[242]
+			TMP_Glyph data
+				int id = 1101
+				float x = 978
+				float y = 246
+				float width = 39.625
+				float height = 47.625
+				float xOffset = 2.0625
+				float yOffset = 46.625
+				float xAdvance = 44.875
+				float scale = 1
+			[243]
+			TMP_Glyph data
+				int id = 1102
+				float x = 706
+				float y = 654
+				float width = 56.5625
+				float height = 47.625
+				float xOffset = 5.75
+				float yOffset = 46.625
+				float xAdvance = 65.5
+				float scale = 1
+			[244]
+			TMP_Glyph data
+				int id = 1103
+				float x = 480
+				float y = 28
+				float width = 40.375
+				float height = 45.5625
+				float xOffset = 1.375
+				float yOffset = 45.625
+				float xAdvance = 47.6875
+				float scale = 1
+			[245]
+			TMP_Glyph data
+				int id = 1105
+				float x = 249
+				float y = 167
+				float width = 42.0625
+				float height = 64.4375
+				float xOffset = 3.4375
+				float yOffset = 63.375
+				float xAdvance = 48.9375
+				float scale = 1
+			[246]
+			TMP_Glyph data
+				int id = 8211
+				float x = 303
+				float y = 31
+				float width = 45
+				float height = 6.3125
+				float xOffset = -0.5625
+				float yOffset = 26
+				float xAdvance = 44
+				float scale = 1
+			[247]
+			TMP_Glyph data
+				int id = 8212
+				float x = 177
+				float y = 937
+				float width = 89
+				float height = 6.3125
+				float xOffset = -0.5625
+				float yOffset = 26
+				float xAdvance = 88
+				float scale = 1
+			[248]
+			TMP_Glyph data
+				int id = 8217
+				float x = 249
+				float y = 352
+				float width = 9
+				float height = 20.5625
+				float xOffset = 4.9375
+				float yOffset = 63
+				float xAdvance = 19.5625
+				float scale = 1
+			[249]
+			TMP_Glyph data
+				int id = 8218
+				float x = 252
+				float y = 320
+				float width = 8.9375
+				float height = 20.625
+				float xOffset = 4.625
+				float yOffset = 9
+				float xAdvance = 19.5625
+				float scale = 1
+			[250]
+			TMP_Glyph data
+				int id = 8220
+				float x = 989
+				float y = 98
+				float width = 22.3125
+				float height = 20.5625
+				float xOffset = 3.75
+				float yOffset = 64.125
+				float xAdvance = 29.3125
+				float scale = 1
+			[251]
+			TMP_Glyph data
+				int id = 8221
+				float x = 929
+				float y = 40
+				float width = 22.3125
+				float height = 20.5625
+				float xOffset = 3.125
+				float yOffset = 63
+				float xAdvance = 29.3125
+				float scale = 1
+			[252]
+			TMP_Glyph data
+				int id = 8222
+				float x = 989
+				float y = 66
+				float width = 22.3125
+				float height = 20.625
+				float xOffset = 3.125
+				float yOffset = 9
+				float xAdvance = 29.3125
+				float scale = 1
+			[253]
+			TMP_Glyph data
+				int id = 8230
+				float x = 852
+				float y = 769
+				float width = 67.375
+				float height = 8.8125
+				float xOffset = 10.3125
+				float yOffset = 8.8125
+				float xAdvance = 88
+				float scale = 1
+			[254]
+			TMP_Glyph data
+				int id = 8470
+				float x = 272
+				float y = 955
+				float width = 83.75
+				float height = 63
+				float xOffset = 6.9375
+				float yOffset = 63
+				float xAdvance = 94.4375
+				float scale = 1
+	KerningTable m_kerningInfo
+		KerningPair kerningPairs
+			Array Array
+			int size = 0
+	KerningPair m_kerningPair
+		unsigned int m_FirstGlyph = 0
+		GlyphValueRecord m_FirstGlyphAdjustments
+			float xPlacement = 0
+			float yPlacement = 0
+			float xAdvance = 0
+			float yAdvance = 0
+		unsigned int m_SecondGlyph = 0
+		GlyphValueRecord m_SecondGlyphAdjustments
+			float xPlacement = 0
+			float yPlacement = 0
+			float xAdvance = 0
+			float yAdvance = 0
+		float xOffset = 0
+	vector fallbackFontAssets
+		Array Array
+		int size = 0
+	FontCreationSetting fontCreationSettings
+		string fontSourcePath = ""
+		int fontSizingMode = 0
+		int fontSize = 0
+		int fontPadding = 0
+		int fontPackingMode = 0
+		int fontAtlasWidth = 0
+		int fontAtlasHeight = 0
+		int fontCharacterSet = 0
+		int fontStyle = 0
+		float fontStlyeModifier = 0
+		int fontRenderMode = 0
+		UInt8 fontKerning = 0
+	TMP_FontWeights fontWeights
+		Array Array
+		int size = 10
+			[0]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[1]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[2]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[3]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[4]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[5]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[6]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[7]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[8]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[9]
+			TMP_FontWeights data
+				PPtr<$TMP_FontAsset> regularTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				PPtr<$TMP_FontAsset> italicTypeface
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+	float normalStyle = 0
+	float normalSpacingOffset = 0
+	float boldStyle = 0.75
+	float boldSpacing = 7
+	UInt8 italicStyle = 35
+	UInt8 tabSize = 10

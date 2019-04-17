@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7084194073357190853
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1306924047424113461
+	string m_Name = ""
+	int _renderWidth = 512
+	int _renderHeight = 512
+	float _vfov = 35
+	float _scaleBias = 1
+	Vector3f _localOffset
+		float x = 0
+		float y = -0.4
+		float z = 2.1
+	PPtr<$Transform> _rttCameraParent
+		int m_FileID = 0
+		SInt64 m_PathID = 8211653496549780985

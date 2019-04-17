@@ -1,0 +1,71 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3788008386699191283
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7696996162193326041
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _title
+		int m_FileID = 0
+		SInt64 m_PathID = 2070470337990419839
+	PPtr<$TextMeshProUGUI> _description
+		int m_FileID = 0
+		SInt64 m_PathID = -3671038369409056850
+	PPtr<$TextMeshProUGUI> _marketingText
+		int m_FileID = 0
+		SInt64 m_PathID = -4328387176224280187
+	PPtr<$Image> _packImage
+		int m_FileID = 0
+		SInt64 m_PathID = 1472771354653754430
+	PPtr<$NestedBuyButton> _buyButton
+		int m_FileID = 0
+		SInt64 m_PathID = -3639894058127724740
+	PPtr<$NestedButton> _cancelButton
+		int m_FileID = 0
+		SInt64 m_PathID = 5145207851854274952
+	PPtr<$TextMeshProUGUI> _saleCostText
+		int m_FileID = 0
+		SInt64 m_PathID = 2175125756412199243
+	PPtr<$TextMeshProUGUI> _salePercentText
+		int m_FileID = 0
+		SInt64 m_PathID = 4535796523000033268
+	PPtr<$GameObject> _saleObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1101849000976535125
+	PPtr<$GameObject> _limitObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2702779009939096424
+	PPtr<$TextMeshProUGUI> _limitText
+		int m_FileID = 0
+		SInt64 m_PathID = 2679392828824965306
+	PPtr<$GameObject> _timerObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1407269620558851927
+	PPtr<$TextMeshProUGUI> _timerText
+		int m_FileID = 0
+		SInt64 m_PathID = 850667415806957844
+	PPtr<$GameObject> _infoButton
+		int m_FileID = 0
+		SInt64 m_PathID = 171824073299151029
+	PPtr<$GridLayoutGroup> _contentParent
+		int m_FileID = 0
+		SInt64 m_PathID = -6584966001537696730
+	PPtr<$StoreItemPurchaseView> _itemPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -3344651259883912438
+	float _stickerScaleSize = 1.5
+	PPtr<$RewardBurstWidget> _rewardBurst
+		int m_FileID = 0
+		SInt64 m_PathID = -7800809929777872775

@@ -1,0 +1,82 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -29615859997723688
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4888080414723569326
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _selectedHouseDescription
+		int m_FileID = 0
+		SInt64 m_PathID = -1814071730203933026
+	PPtr<$TextMeshProUGUI> _selectedHouseName
+		int m_FileID = 0
+		SInt64 m_PathID = 5338223553072059570
+	vector _houses
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$PassportHouseView> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6399385405179593771
+			[1]
+			PPtr<$PassportHouseView> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1722033327651710754
+			[2]
+			PPtr<$PassportHouseView> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8469888867037475163
+			[3]
+			PPtr<$PassportHouseView> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4351817899692013915
+	PPtr<$Image> _bannerImage
+		int m_FileID = 0
+		SInt64 m_PathID = -5529552101173164911
+	vector _houseBanners
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 291480732300793395
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4991405547572528623
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5820364212308870844
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5226972733022793506
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3428136558113070866
+	PPtr<$GameObject> _confirmButton
+		int m_FileID = 0
+		SInt64 m_PathID = -2107219148441712250
+	PPtr<$GameObject> _noSelection
+		int m_FileID = 0
+		SInt64 m_PathID = -6127338041142491951
+	PPtr<$GameObject> _schoolLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -3977579709580512952
+	PPtr<$Animator> _animCtrl
+		int m_FileID = 0
+		SInt64 m_PathID = 3248895159611417755

@@ -1,0 +1,64 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8098048064517376335
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1407828756113062284
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _potionNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3343796769776416778
+	PPtr<$TextMeshProUGUI> _potionDescriptionLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 257568239753120146
+	PPtr<$GameObject> _potionDurationObject
+		int m_FileID = 0
+		SInt64 m_PathID = -578552215270231661
+	PPtr<$TextMeshProUGUI> _potionDurationAmountLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 4148411309218669431
+	PPtr<$NestedButton> _usePotionButton
+		int m_FileID = 0
+		SInt64 m_PathID = 8534933561568238502
+	PPtr<$GameObject> _potionAlreadyActiveObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2327754008287388752
+	PPtr<$TextMeshProUGUI> _potionCannotUseLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3787582178153039874
+	PPtr<$AnimationEventListener> _potionConsumedEffect
+		int m_FileID = 0
+		SInt64 m_PathID = 2868354597128046869
+	PPtr<$Image> _potionBackgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = -4310986276351257751
+	PPtr<$Image> _potionBubblesImage
+		int m_FileID = 0
+		SInt64 m_PathID = -6744416105381916713
+	PPtr<$GameObject> _divider
+		int m_FileID = 0
+		SInt64 m_PathID = -5857274267869828396
+	PPtr<$TextMeshProUGUI> _potionHelpText
+		int m_FileID = 0
+		SInt64 m_PathID = -7837365333650314542
+	PPtr<$GameObject> _potionCarousel
+		int m_FileID = 0
+		SInt64 m_PathID = 8983561271994763394
+	PPtr<$GameObject> _fullTray
+		int m_FileID = 0
+		SInt64 m_PathID = -5956884312287300792
+	PPtr<$PotionItemEntryUIView> _potionItemEntryViewPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -2951909039864491800

@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1063807062937626207
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4570608338495775770
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _professionNameTextField
+		int m_FileID = 0
+		SInt64 m_PathID = -8305519711175447717
+	PPtr<$TextMeshProUGUI> _professionDescTextField
+		int m_FileID = 0
+		SInt64 m_PathID = 3469148233854870104
+	PPtr<$Image> _professionIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 2775605125531572626
+	PPtr<$Image> _mentorIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -5243732013080059275
+	PPtr<$TextMeshProUGUI> _mentorName
+		int m_FileID = 0
+		SInt64 m_PathID = -8104659630405937090
+	PPtr<$TextMeshProUGUI> _mentorDesc
+		int m_FileID = 0
+		SInt64 m_PathID = 2374767355948479304

@@ -1,0 +1,147 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6872003208111042437
+	string m_Name = "GreenhouseRecipes"
+	GreenhouseRecipeMap Recipes
+		Array Array
+		int size = 3
+			[0]
+			GreenhouseRecipeMap data
+				string Id = "proto_vaultitem_ingredients_acromantulavenom"
+				GreenhouseRecipe Recipe
+					string RecipeId = ""
+					string PlantId = "proto_vaultitem_ingredients_acromantulavenom"
+					float GrowingTime = 60
+					vector NbPlantsYieldedPerTier
+						Array Array
+						int size = 4
+							[0]
+							int data = 1
+							[1]
+							int data = 2
+							[2]
+							int data = 4
+							[3]
+							int data = 8
+					vector NbSpellsNeededPerTier
+						Array Array
+						int size = 3
+							[0]
+							int data = 5
+							[1]
+							int data = 10
+							[2]
+							int data = 20
+					IngredientInfo Ingredients
+						Array Array
+						int size = 2
+							[0]
+							IngredientInfo data
+								string IngredientId = "proto_vaultitem_ingredients_alihotsy"
+								int Quantity = 1
+								int Price = 1
+							[1]
+							IngredientInfo data
+								string IngredientId = "proto_vaultitem_ingredients_armadillobile"
+								int Quantity = 2
+								int Price = 2
+			[1]
+			GreenhouseRecipeMap data
+				string Id = "proto_vaultitem_potion_brainelixir"
+				GreenhouseRecipe Recipe
+					string RecipeId = ""
+					string PlantId = "proto_vaultitem_potion_brainelixir"
+					float GrowingTime = 60
+					vector NbPlantsYieldedPerTier
+						Array Array
+						int size = 4
+							[0]
+							int data = 1
+							[1]
+							int data = 2
+							[2]
+							int data = 3
+							[3]
+							int data = 8
+					vector NbSpellsNeededPerTier
+						Array Array
+						int size = 3
+							[0]
+							int data = 10
+							[1]
+							int data = 20
+							[2]
+							int data = 40
+					IngredientInfo Ingredients
+						Array Array
+						int size = 2
+							[0]
+							IngredientInfo data
+								string IngredientId = "proto_vaultitem_potion_extimulo"
+								int Quantity = 1
+								int Price = 1
+							[1]
+							IngredientInfo data
+								string IngredientId = "proto_vaultitem_potion_felix_felicis"
+								int Quantity = 2
+								int Price = 2
+			[2]
+			GreenhouseRecipeMap data
+				string Id = "proto_vaultitem_potion_extimulo"
+				GreenhouseRecipe Recipe
+					string RecipeId = ""
+					string PlantId = "proto_vaultitem_potion_extimulo"
+					float GrowingTime = 60
+					vector NbPlantsYieldedPerTier
+						Array Array
+						int size = 4
+							[0]
+							int data = 1
+							[1]
+							int data = 2
+							[2]
+							int data = 3
+							[3]
+							int data = 7
+					vector NbSpellsNeededPerTier
+						Array Array
+						int size = 3
+							[0]
+							int data = 25
+							[1]
+							int data = 50
+							[2]
+							int data = 100
+					IngredientInfo Ingredients
+						Array Array
+						int size = 2
+							[0]
+							IngredientInfo data
+								string IngredientId = "proto_vaultitem_potion_healing"
+								int Quantity = 1
+								int Price = 1
+							[1]
+							IngredientInfo data
+								string IngredientId = "proto_vaultitem_potion_felix_felicis"
+								int Quantity = 2
+								int Price = 2
+	OptionRentGreenhousePot OptionsRentGreenhousePot
+		Array Array
+		int size = 3
+			[0]
+			OptionRentGreenhousePot data
+				SInt64 Minutes = 1440
+				int Cost = 140
+			[1]
+			OptionRentGreenhousePot data
+				SInt64 Minutes = 180
+				int Cost = 35
+			[2]
+			OptionRentGreenhousePot data
+				SInt64 Minutes = 480
+				int Cost = 70

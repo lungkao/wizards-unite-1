@@ -1,0 +1,64 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3924582419662518682
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1596062879286102761
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _levelText
+		int m_FileID = 0
+		SInt64 m_PathID = 717899034855826216
+	PPtr<$NestedProgressBar> _xpBarPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -3230149472436227292
+	PPtr<$GameObject> _buffBarHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -8261352377678871265
+	PPtr<$PassportMediaView> _passportMediaView
+		int m_FileID = 0
+		SInt64 m_PathID = -5071384919175637806
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7770623473506438622
+	PPtr<$NestedPrefab> _weatherNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 628307238398299855
+	PPtr<$NestedPrefab> _assignmentsNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 8698378407026485979
+	PPtr<$NestedPrefab> _profileNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 1058219533378786156
+	PPtr<$GameObject> _compassImage
+		int m_FileID = 0
+		SInt64 m_PathID = -1563719226548374854
+	PPtr<$Image> _envTagImage
+		int m_FileID = 0
+		SInt64 m_PathID = 2944769181935687578
+	PPtr<$GameObject> _envTagButtonGO
+		int m_FileID = 0
+		SInt64 m_PathID = 5539597516944945591
+	PPtr<$NestedParticleSystem> _suitcaseVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 6124384992514506493
+	PPtr<$SplineNode> mainMenuRewardTarget
+		int m_FileID = 0
+		SInt64 m_PathID = -2894344376720189054
+	PPtr<$AdvancedUIButton> _assignmentsButton
+		int m_FileID = 0
+		SInt64 m_PathID = 9169049286672680165
+	PPtr<$MapHudStoreButtonView> _storePackButton
+		int m_FileID = 0
+		SInt64 m_PathID = 4188478828773936951

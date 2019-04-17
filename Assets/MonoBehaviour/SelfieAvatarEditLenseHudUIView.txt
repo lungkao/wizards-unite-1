@@ -1,0 +1,112 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3895036680732230802
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7660009542895261462
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 1
+	int _uiHideLevel = 0
+	vector _optionButtons
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8640946218322149841
+			[1]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4137896286828083725
+			[2]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7310788731918298001
+	vector _optionButtonsAsset
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8260704355234191110
+			[1]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2947934807304413538
+			[2]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2346990908549548430
+	PPtr<$GameObject> _elementPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -4664051266303929585
+	PPtr<$ScrollListView> _scrollList
+		int m_FileID = 0
+		SInt64 m_PathID = 1142445842377419189
+	PPtr<$Sprite> _backgroundImage
+		int m_FileID = 5
+		SInt64 m_PathID = -6527137706069932509
+	PPtr<$GameObject> _lockedAssetFilter
+		int m_FileID = 0
+		SInt64 m_PathID = 7097365669653274294
+	PPtr<$TextMeshProUGUI> _lockLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -4999744177969899032
+	PPtr<$GameObject> _buyButton
+		int m_FileID = 0
+		SInt64 m_PathID = 3725374048537169026
+	PPtr<$TextMeshProUGUI> _buyButtonLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -7053652665791490683
+	PPtr<$GameObject> _takePictureButton
+		int m_FileID = 0
+		SInt64 m_PathID = 6081729254165819017
+	PPtr<$GameObject> _loadingSpiner
+		int m_FileID = 0
+		SInt64 m_PathID = 9053394772063748714
+	PPtr<$ScrollRectWithParentYield> _lensesScrollRect
+		int m_FileID = 0
+		SInt64 m_PathID = -7760723870517745037
+	PPtr<$GameObject> _switchCameraButton
+		int m_FileID = 0
+		SInt64 m_PathID = -7716594245051932447
+	PPtr<$GameObject> _confirmButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2455702890900419171
+	PPtr<$Image> _recordProgressBar
+		int m_FileID = 0
+		SInt64 m_PathID = -4462198744328550123
+	PPtr<$TextMeshProUGUI> _noLenseLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 8771181206862923758
+	PPtr<$GameObject> _instructionPictureLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -6604773412666990794
+	PPtr<$GameObject> _randomButton
+		int m_FileID = 0
+		SInt64 m_PathID = -3542444948077633209
+	PPtr<$Animator> _recordAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 4740665974138467910
+	PPtr<$GameObject> _bgToggle
+		int m_FileID = 0
+		SInt64 m_PathID = 2501375297598194508
+	PPtr<$NestedPrefab> _lensesTopNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -1638463018184968691
+	PPtr<$NestedPrefab> _lensesMiddleNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -5349476558771703852
+	PPtr<$NestedPrefab> _lensesBottomNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -5804700089593900740

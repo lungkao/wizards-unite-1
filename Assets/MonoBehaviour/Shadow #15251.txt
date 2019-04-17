@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7846676399835194952
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7660903648136475665
+	string m_Name = ""
+	ColorRGBA m_EffectColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0.5
+	Vector2f m_EffectDistance
+		float x = 1
+		float y = -1
+	UInt8 m_UseGraphicAlpha = 1

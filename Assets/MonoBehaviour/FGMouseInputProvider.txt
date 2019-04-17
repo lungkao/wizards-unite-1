@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2681855637678457584
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4267781353063144322
+	string m_Name = ""
+	int maxButtons = 3
+	string pinchAxis = "Mouse ScrollWheel"
+	float pinchAxisScale = 100
+	float pinchResetTimeDelay = 0.15
+	float initialPinchDistance = 150
+	string twistAxis = "Mouse ScrollWheel"
+	float twistAxisScale = 100
+	int twistKey = 306
+	float twistResetTimeDelay = 0.15
+	int pivotKey = 308
+	int twistAndPinchKey = 304

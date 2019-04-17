@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2002194730241808462
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6546582623995370032
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _glyph
+		int m_FileID = 0
+		SInt64 m_PathID = -6023437283189101422
+	PPtr<$GameObject> _glyphContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1416468726468533451
+	PPtr<$DOTweenAnimation> _glyphIntroTween
+		int m_FileID = 0
+		SInt64 m_PathID = 3119170952650325594
+	PPtr<$Image> _outroGlyph
+		int m_FileID = 0
+		SInt64 m_PathID = -3490206860969096161
+	PPtr<$GameObject> _outroGlyphContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4600742040593274164
+	PPtr<$DOTweenAnimation> _outroGlyphTween
+		int m_FileID = 0
+		SInt64 m_PathID = 6194563080374787940
+	PPtr<$GameObject> _failedCheckpointContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 29858676019719434
+	PPtr<$DOTweenAnimation> _targetTween
+		int m_FileID = 0
+		SInt64 m_PathID = -4933033261442785348

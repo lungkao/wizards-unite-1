@@ -1,0 +1,279 @@
+
+WandCore.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+D_B_leg
+  rotate: false
+  xy: 794, 1256
+  size: 82, 94
+  orig: 82, 94
+  offset: 0, 0
+  index: -1
+D_Back_foot
+  rotate: true
+  xy: 1967, 1816
+  size: 83, 73
+  orig: 83, 73
+  offset: 0, 0
+  index: -1
+D_Back_wing
+  rotate: false
+  xy: 1464, 1356
+  size: 292, 275
+  orig: 292, 275
+  offset: 0, 0
+  index: -1
+D_Body
+  rotate: true
+  xy: 1779, 1645
+  size: 401, 186
+  orig: 401, 186
+  offset: 0, 0
+  index: -1
+D_F_claw
+  rotate: true
+  xy: 1601, 209
+  size: 21, 31
+  orig: 21, 31
+  offset: 0, 0
+  index: -1
+D_F_foot
+  rotate: false
+  xy: 1288, 1284
+  size: 62, 66
+  orig: 62, 66
+  offset: 0, 0
+  index: -1
+D_F_leg
+  rotate: false
+  xy: 1967, 1901
+  size: 69, 145
+  orig: 69, 145
+  offset: 0, 0
+  index: -1
+D_F_wing
+  rotate: false
+  xy: 1464, 1633
+  size: 313, 413
+  orig: 313, 413
+  offset: 0, 0
+  index: -1
+D_Tail
+  rotate: false
+  xy: 1158, 265
+  size: 253, 307
+  orig: 253, 307
+  offset: 0, 0
+  index: -1
+D_Under_mouth
+  rotate: false
+  xy: 878, 1262
+  size: 120, 88
+  orig: 120, 88
+  offset: 0, 0
+  index: -1
+Flame01
+  rotate: true
+  xy: 1000, 1263
+  size: 87, 92
+  orig: 87, 92
+  offset: 0, 0
+  index: -1
+LigthVFX01
+  rotate: false
+  xy: 2, 1256
+  size: 790, 790
+  orig: 790, 790
+  offset: 0, 0
+  index: -1
+LigthVFX02
+  rotate: false
+  xy: 2, 17
+  size: 536, 540
+  orig: 536, 540
+  offset: 0, 0
+  index: -1
+LigthVFX03
+  rotate: true
+  xy: 675, 574
+  size: 680, 675
+  orig: 680, 675
+  offset: 0, 0
+  index: -1
+LigthVFX05
+  rotate: false
+  xy: 2, 559
+  size: 671, 695
+  orig: 671, 695
+  offset: 0, 0
+  index: -1
+LigthVFX06
+  rotate: false
+  xy: 794, 1352
+  size: 668, 694
+  orig: 668, 694
+  offset: 0, 0
+  index: -1
+LigthVFX07
+  rotate: false
+  xy: 1352, 690
+  size: 644, 660
+  orig: 644, 660
+  offset: 0, 0
+  index: -1
+P_B_leg
+  rotate: true
+  xy: 1875, 340
+  size: 142, 109
+  orig: 142, 109
+  offset: 0, 0
+  index: -1
+P_B_wing
+  rotate: false
+  xy: 869, 236
+  size: 287, 336
+  orig: 287, 336
+  offset: 0, 0
+  index: -1
+P_Body
+  rotate: true
+  xy: 869, 55
+  size: 179, 256
+  orig: 179, 256
+  offset: 0, 0
+  index: -1
+P_F_leg
+  rotate: true
+  xy: 1696, 364
+  size: 118, 177
+  orig: 118, 177
+  offset: 0, 0
+  index: -1
+P_F_wing
+  rotate: false
+  xy: 540, 182
+  size: 327, 375
+  orig: 327, 375
+  offset: 0, 0
+  index: -1
+P_Head
+  rotate: true
+  xy: 1674, 209
+  size: 153, 174
+  orig: 153, 174
+  offset: 0, 0
+  index: -1
+P_Tail
+  rotate: false
+  xy: 1413, 232
+  size: 259, 221
+  orig: 259, 221
+  offset: 0, 0
+  index: -1
+flame02
+  rotate: true
+  xy: 1372, 16
+  size: 82, 85
+  orig: 82, 85
+  offset: 0, 0
+  index: -1
+flame03
+  rotate: true
+  xy: 1195, 1268
+  size: 82, 91
+  orig: 82, 91
+  offset: 0, 0
+  index: -1
+u_B_ear
+  rotate: false
+  xy: 540, 39
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+u_B_legL
+  rotate: false
+  xy: 1127, 2
+  size: 96, 232
+  orig: 96, 232
+  offset: 0, 0
+  index: -1
+u_B_legR
+  rotate: true
+  xy: 540, 78
+  size: 102, 273
+  orig: 102, 273
+  offset: 0, 0
+  index: -1
+u_Body
+  rotate: false
+  xy: 1413, 455
+  size: 281, 233
+  orig: 281, 233
+  offset: 0, 0
+  index: -1
+u_F_ear
+  rotate: false
+  xy: 1352, 633
+  size: 34, 55
+  orig: 34, 55
+  offset: 0, 0
+  index: -1
+u_F_legL
+  rotate: true
+  xy: 1601, 95
+  size: 112, 161
+  orig: 112, 161
+  offset: 0, 0
+  index: -1
+u_F_legR
+  rotate: true
+  xy: 1372, 100
+  size: 130, 227
+  orig: 130, 227
+  offset: 0, 0
+  index: -1
+u_Hair
+  rotate: false
+  xy: 1696, 484
+  size: 284, 204
+  orig: 284, 204
+  offset: 0, 0
+  index: -1
+u_Horn
+  rotate: false
+  xy: 1094, 1272
+  size: 99, 78
+  orig: 99, 78
+  offset: 0, 0
+  index: -1
+u_Neck
+  rotate: true
+  xy: 1850, 215
+  size: 123, 174
+  orig: 123, 174
+  offset: 0, 0
+  index: -1
+u_Tail
+  rotate: false
+  xy: 1225, 45
+  size: 145, 218
+  orig: 145, 218
+  offset: 0, 0
+  index: -1
+u_Toupette
+  rotate: false
+  xy: 1764, 95
+  size: 109, 112
+  orig: 109, 112
+  offset: 0, 0
+  index: -1
+u_head
+  rotate: true
+  xy: 1875, 113
+  size: 100, 154
+  orig: 100, 154
+  offset: 0, 0
+  index: -1

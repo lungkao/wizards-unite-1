@@ -1,0 +1,50 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5043475819474385388
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8712836218919502049
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RawImage> SpellResolutionView
+		int m_FileID = 0
+		SInt64 m_PathID = -8017885183245022789
+	PPtr<$RectTransform> _playArea
+		int m_FileID = 0
+		SInt64 m_PathID = 94515257574301046
+	PPtr<$RectTransform> _directTraceInteractArea
+		int m_FileID = 0
+		SInt64 m_PathID = 4243383133862090286
+	PPtr<$Image> _glyph
+		int m_FileID = 0
+		SInt64 m_PathID = 8091581077704793081
+	PPtr<$Image> _glyphBG
+		int m_FileID = 0
+		SInt64 m_PathID = 7147498643456597642
+	PPtr<$Image> _previewGlyph
+		int m_FileID = 0
+		SInt64 m_PathID = -2272802557454919631
+	PPtr<$TextMeshProUGUI> _hiddenDebugField
+		int m_FileID = 0
+		SInt64 m_PathID = 6882458505762766143
+	PPtr<$GameObject> _tapBurstContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -454421151652915213
+	PPtr<$SwishNodeView> _nodePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4144026855695775171
+	PPtr<$GameObject> _failedCheckpointContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 6167956732958667184
+	UInt8 ShouldPlayFailAnim = 0

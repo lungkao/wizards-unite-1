@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2443869438978968678
+	string m_Name = "TimelineVFXClip"
+	TimelineVFXBehaviour template
+		ChoreographyNodeVFX node
+			string UiOwner = "UI_Rewards_Flow"
+			int VfxAction = 0
+			PPtr<$VFXBase> Prefab
+				int m_FileID = 12
+				SInt64 m_PathID = -5657512555747010422
+			UInt8 HasColorTint = 0
+			ColorRGBA ColorTint
+				float r = 1
+				float g = 1
+				float b = 1
+				float a = 1
+			int StartAttachment = 4
+			int EndAttachment = 4
+			string StartTransform = "icon_reward_vfx_target"
+			string EndTransform = "icon_reward_vfx_target"
+			float PlaybackSpeed = 1
+			float AlphaFadeTime = 0.5
+			int TravelStyle = 0
+			PPtr<$VFXSpline> SplinePrefab
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			string FollowVFXIdentifier = ""
+			int VfxMessage = 0
+			UInt8 useClipDuration = 1
+			float Life = 1.25
+			string ParentTimelineName = "rewards_item_detail_show_default_tl"
+			string Identifier = "detail_show_vfx_vault_item"
+			string StartTargetPrefabName = "UI_Rewards_ItemDetail"
+			string EndTargetPrefabName = "UI_Rewards_ItemDetail"

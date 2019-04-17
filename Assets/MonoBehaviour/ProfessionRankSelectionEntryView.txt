@@ -1,0 +1,53 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4429405376372905981
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7026605604021945802
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$ProfessionRankSelectionButtonView> _lockButton
+		int m_FileID = 0
+		SInt64 m_PathID = 4369270220038282377
+	PPtr<$ProfessionRankSelectionButtonView> _selectButton
+		int m_FileID = 0
+		SInt64 m_PathID = -4361956346806936817
+	PPtr<$GameObject> _comingSoonButton
+		int m_FileID = 0
+		SInt64 m_PathID = -15203221991995919
+	PPtr<$GameObject> _expandableArea
+		int m_FileID = 0
+		SInt64 m_PathID = -7413519656606846615
+	PPtr<$ProfessionNodeSelectionScreenView> _professionNodeSelectionPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7376107006187054687
+	string _onRankUnlockedSound = "event:/UI/LevelUp"
+	PPtr<$GameObject> _imageWrapper
+		int m_FileID = 0
+		SInt64 m_PathID = 7289602788458458429
+	PPtr<$GameObject> _bottomDivider
+		int m_FileID = 0
+		SInt64 m_PathID = -2069133309932548220
+	PPtr<$Image> _image
+		int m_FileID = 0
+		SInt64 m_PathID = -396552970483335439
+	PPtr<$Image> _imageOpen
+		int m_FileID = 0
+		SInt64 m_PathID = -3014549551367497085
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -5219161597247252950
+	PPtr<$DOTweenAnimation> _ambientAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -1080943692166579912

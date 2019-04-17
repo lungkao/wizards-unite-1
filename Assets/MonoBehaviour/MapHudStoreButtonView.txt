@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6798718324459493412
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4025589940469061334
+	string m_Name = ""
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = 1378624873706171318
+	PPtr<$GameObject> _timerContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -5643114415179090728
+	PPtr<$TextMeshProUGUI> _timerText
+		int m_FileID = 0
+		SInt64 m_PathID = -5545248087000812589

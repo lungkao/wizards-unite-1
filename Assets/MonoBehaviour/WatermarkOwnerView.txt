@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4708489107129347182
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2410729956883475754
+	string m_Name = ""
+	vector _watermarkTextFields
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9099038207367208794
+			[1]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2084780871189492134
+			[2]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -687971712345308741

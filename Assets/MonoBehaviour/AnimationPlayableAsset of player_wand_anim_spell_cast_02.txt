@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4254285674700211252
+	string m_Name = "AnimationPlayableAsset of player_wand_anim_spell_cast_02"
+	PPtr<$AnimationClip> m_Clip
+		int m_FileID = 12
+		SInt64 m_PathID = -6382180037798430075
+	Vector3f m_Position
+		float x = 0
+		float y = 0
+		float z = 0
+	Quaternionf m_Rotation
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 1
+	UInt8 m_UseTrackMatchFields = 0
+	int m_MatchTargetFields = 63
+	UInt8 m_RemoveStartOffset = 1

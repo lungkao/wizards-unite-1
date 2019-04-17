@@ -1,0 +1,63 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3601574341656570493
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5875307834685517234
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	float _nodeWidth = 110
+	float _nodeHeight = 125
+	float _connectorDistanceOffset = 0
+	float _connectorPositionOffset = 0
+	float _connectorWidth = 4
+	PPtr<$Sprite> _unavailableConnector
+		int m_FileID = 0
+		SInt64 m_PathID = -742856656551323236
+	PPtr<$Sprite> _availableConnector
+		int m_FileID = 0
+		SInt64 m_PathID = 3110099366105772109
+	PPtr<$Sprite> _mapAbilityAvailableConnector
+		int m_FileID = 0
+		SInt64 m_PathID = 3110099366105772109
+	PPtr<$GameObject> connectorNorth
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$GameObject> connectorNorthEast
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$GameObject> connectorEast
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$GameObject> connectorSouthEast
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$GameObject> connectorSouth
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$GameObject> connectorSouthWest
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$GameObject> connectorWest
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$GameObject> connectorNorthWest
+		int m_FileID = 0
+		SInt64 m_PathID = -5528213034546342671
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -1002871397080729044
+	PPtr<$NestedPrefab> _nodeIconPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7306430931011041916

@@ -1,0 +1,63 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1312770253668610748
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5563920655168585938
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 1
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$ProfessionNodeLevelSelectionEntryView> _professionNodeSelectionEntryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -3225263643595467357
+	PPtr<$Transform> _scrollContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 2355427121930189670
+	PPtr<$TextMeshProUGUI> _nextActionDesc
+		int m_FileID = 0
+		SInt64 m_PathID = -1663633573828968561
+	PPtr<$TextMeshProUGUI> _professionNodeName
+		int m_FileID = 0
+		SInt64 m_PathID = -4444935101845288273
+	PPtr<$AdvancedUIButton> _unlockButton
+		int m_FileID = 0
+		SInt64 m_PathID = 1879565511207709657
+	vector _unlockButtonCurrencyTextField
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6294108134726941415
+			[1]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 223816119764380266
+	vector _unlockButtonCurrencyImg
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8147812196287468788
+			[1]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3019057703154764287
+	PPtr<$GameObject> _closeButton
+		int m_FileID = 0
+		SInt64 m_PathID = -6690549950531542099
+	string onProfessionNodeUpgradedSfx = "event:/UI/Professions/UpgradeSkill"
+	PPtr<$NestedPrefab> _nodeIconPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7792321152566806296

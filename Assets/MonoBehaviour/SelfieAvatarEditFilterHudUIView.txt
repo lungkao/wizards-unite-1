@@ -1,0 +1,89 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4821557448766129527
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2032327674890372600
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	vector _optionButtons
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1337707328500272986
+			[1]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8071748793296982437
+	vector _optionButtonsAsset
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1059290189073868856
+			[1]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7142796895860390564
+	PPtr<$GameObject> _elementPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 8650862646590898758
+	PPtr<$ScrollListView> _scrollList
+		int m_FileID = 0
+		SInt64 m_PathID = 4764541581166895094
+	PPtr<$Sprite> _backgroundImage
+		int m_FileID = 5
+		SInt64 m_PathID = -9126294328764194579
+	PPtr<$GameObject> _lockedAssetFilter
+		int m_FileID = 0
+		SInt64 m_PathID = 4281607893715860997
+	PPtr<$TextMeshProUGUI> _lockLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -1430023284542015589
+	PPtr<$GameObject> _buyButton
+		int m_FileID = 0
+		SInt64 m_PathID = 1567102210743139059
+	PPtr<$TextMeshProUGUI> _buyButtonLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 7705286765021585431
+	PPtr<$GameObject> _takePictureButton
+		int m_FileID = 0
+		SInt64 m_PathID = -1193642594201907404
+	PPtr<$GameObject> _loadingSpiner
+		int m_FileID = 0
+		SInt64 m_PathID = -2833312908379794239
+	PPtr<$RectTransform> _garbagePosition
+		int m_FileID = 0
+		SInt64 m_PathID = 8870541758248409973
+	PPtr<$RectTransform> _stickerIconPosition
+		int m_FileID = 0
+		SInt64 m_PathID = -5266694493292363744
+	PPtr<$AdvancedUIButton> _stickerMenuButton
+		int m_FileID = 0
+		SInt64 m_PathID = 4802509249686167549
+	PPtr<$GameObject> _nextButton
+		int m_FileID = 0
+		SInt64 m_PathID = -1193642594201907404
+	PPtr<$NestedPrefab> _filterNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 6068591510524763869
+	PPtr<$NestedPrefab> _frameNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6945374237218972356
+	PPtr<$NestedPrefab> _stickerNotifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 5635755563566528396

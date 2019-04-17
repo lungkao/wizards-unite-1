@@ -1,0 +1,30 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1004961824616678308
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2932298557774191994
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _titleText
+		int m_FileID = 0
+		SInt64 m_PathID = -8398211965563607389
+	PPtr<$TextMeshProUGUI> _bodyText1
+		int m_FileID = 0
+		SInt64 m_PathID = 2896636273166011507
+	PPtr<$TextMeshProUGUI> _bodyText2
+		int m_FileID = 0
+		SInt64 m_PathID = -2880657084660347675
+	TweenAnimationChain _anim
+		string firstAnim = "bg_entry"

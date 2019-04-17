@@ -1,0 +1,88 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8684569112039102924
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5780882923486105249
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _shortDescContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1941136419432692760
+	PPtr<$GameObject> _lockedContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4852191730262765550
+	PPtr<$TextMeshProUGUI> _lockedValueText
+		int m_FileID = 0
+		SInt64 m_PathID = 2418522106327128510
+	PPtr<$TextMeshProUGUI> _lockedLabelText
+		int m_FileID = 0
+		SInt64 m_PathID = -33565799312657739
+	PPtr<$GameObject> _unlockedContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 3085902298440580326
+	PPtr<$TextMeshProUGUI> _unlockedValueText
+		int m_FileID = 0
+		SInt64 m_PathID = -7852436635325455308
+	PPtr<$TextMeshProUGUI> _unlockedLabelText
+		int m_FileID = 0
+		SInt64 m_PathID = 7960017168776185893
+	PPtr<$GameObject> _upgradeArrowContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1104220210231654494
+	PPtr<$TextMeshProUGUI> _currentValueText
+		int m_FileID = 0
+		SInt64 m_PathID = 133382792195917699
+	PPtr<$TextMeshProUGUI> _upgradedValueText
+		int m_FileID = 0
+		SInt64 m_PathID = -2598751048950063082
+	PPtr<$GameObject> _completedContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 3896828861901507042
+	PPtr<$TextMeshProUGUI> _completedValueText
+		int m_FileID = 0
+		SInt64 m_PathID = -296358160269082265
+	PPtr<$TextMeshProUGUI> _completedLabelText
+		int m_FileID = 0
+		SInt64 m_PathID = -4997957142198022318
+	PPtr<$GameObject> _longDescContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -709097116302682058
+	PPtr<$GameObject> _lockedLongDescContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1556889227945809692
+	PPtr<$TextMeshProUGUI> _lockedLongDescValueText
+		int m_FileID = 0
+		SInt64 m_PathID = -577524061378960115
+	PPtr<$TextMeshProUGUI> _lockedLongDescLabelText
+		int m_FileID = 0
+		SInt64 m_PathID = -2584412075090453426
+	PPtr<$GameObject> _unlockedLongDescContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -8758312978537310896
+	PPtr<$TextMeshProUGUI> _unlockedLongDescValueText
+		int m_FileID = 0
+		SInt64 m_PathID = -1685704732513200045
+	PPtr<$TextMeshProUGUI> _unlockedLongDescLabelText
+		int m_FileID = 0
+		SInt64 m_PathID = 8622543889631377646
+	PPtr<$GameObject> _completedLongDescContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -3636391375412201123
+	PPtr<$TextMeshProUGUI> _completedLongDescValueText
+		int m_FileID = 0
+		SInt64 m_PathID = -4364194798509501027
+	PPtr<$TextMeshProUGUI> _completedLongDescLabelText
+		int m_FileID = 0
+		SInt64 m_PathID = 0

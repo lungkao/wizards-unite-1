@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1780497916694095307
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5036803250907690995
+	string m_Name = ""
+	int uvAnimationTileX = 3
+	int uvAnimationTileY = 3
+	float framesPerSecond = 12

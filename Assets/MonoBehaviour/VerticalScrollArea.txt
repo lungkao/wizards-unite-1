@@ -1,0 +1,13 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1254398690090009262
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4717690426303698813
+	string m_Name = ""
+	PPtr<$VerticalSnapLayoutGroup> verticalSnapLayout
+		int m_FileID = 0
+		SInt64 m_PathID = -3588431411608266257
+	string swipeSoundEffect = ""

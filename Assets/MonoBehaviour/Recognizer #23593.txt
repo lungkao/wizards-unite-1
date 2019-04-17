@@ -1,0 +1,50 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1937265627342713737
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4972954702342209569
+	string m_Name = ""
+	PatternReference _AllPatternReferences
+		Array Array
+		int size = 6
+			[0]
+			PatternReference data
+				PPtr<$GesturePattern> _pattern
+					int m_FileID = 0
+					SInt64 m_PathID = -8664469580176158014
+				int _gesture = 1
+			[1]
+			PatternReference data
+				PPtr<$GesturePattern> _pattern
+					int m_FileID = 0
+					SInt64 m_PathID = -2697941435255545920
+				int _gesture = 2
+			[2]
+			PatternReference data
+				PPtr<$GesturePattern> _pattern
+					int m_FileID = 0
+					SInt64 m_PathID = -5112100559968312911
+				int _gesture = 3
+			[3]
+			PatternReference data
+				PPtr<$GesturePattern> _pattern
+					int m_FileID = 0
+					SInt64 m_PathID = 9077413887022986047
+				int _gesture = 3
+			[4]
+			PatternReference data
+				PPtr<$GesturePattern> _pattern
+					int m_FileID = 0
+					SInt64 m_PathID = -3638845861978416618
+				int _gesture = 4
+			[5]
+			PatternReference data
+				PPtr<$GesturePattern> _pattern
+					int m_FileID = 0
+					SInt64 m_PathID = -295555333854178134
+				int _gesture = 4
+	float _accelerationThreshold = 3
+	float _scoreToAccept = 0.8

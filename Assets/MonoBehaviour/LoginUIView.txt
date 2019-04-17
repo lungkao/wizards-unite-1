@@ -1,0 +1,94 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4223715659178307199
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4299860195619882612
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _hpwuBackgroundGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -4260712974497056522
+	PPtr<$GameObject> _dateOfBirthGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 4999142784917870331
+	PPtr<$TextMeshProUGUI> _dateOfBirthPrompt
+		int m_FileID = 0
+		SInt64 m_PathID = -1512191404419770588
+	PPtr<$TextMeshProUGUI> _monthField
+		int m_FileID = 0
+		SInt64 m_PathID = -1469450662649802552
+	PPtr<$TextMeshProUGUI> _dayField
+		int m_FileID = 0
+		SInt64 m_PathID = -2430736308592274695
+	PPtr<$TextMeshProUGUI> _yearField
+		int m_FileID = 0
+		SInt64 m_PathID = 8311481924913311339
+	PPtr<$NestedButton> _submitButton
+		int m_FileID = 0
+		SInt64 m_PathID = 1743513156010592757
+	PPtr<$GameObject> _createAccountGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 6811691220452494030
+	PPtr<$TextMeshProUGUI> _createAccountPrompt
+		int m_FileID = 0
+		SInt64 m_PathID = 8916247981820479224
+	PPtr<$GameObject> _createUnderAgeAccountGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 1433204929019056034
+	PPtr<$TextMeshProUGUI> _createUnderAgeAccountPrompt
+		int m_FileID = 0
+		SInt64 m_PathID = -7462588030176988093
+	PPtr<$TextMeshProUGUI> _privacyPolicy
+		int m_FileID = 0
+		SInt64 m_PathID = -5203037898688390433
+	PPtr<$TextMeshProUGUI> _helpLink
+		int m_FileID = 0
+		SInt64 m_PathID = -6378131986518474079
+	PPtr<$GameObject> _superAwesome_group
+		int m_FileID = 0
+		SInt64 m_PathID = -4497851049116254131
+	PPtr<$TMP_InputField> _superAwesome_username
+		int m_FileID = 0
+		SInt64 m_PathID = 2777728706954510525
+	PPtr<$TMP_InputField> _superAwesome_password
+		int m_FileID = 0
+		SInt64 m_PathID = 5117956367593748987
+	PPtr<$TextMeshProUGUI> _superAwesome_usernamePrompt
+		int m_FileID = 0
+		SInt64 m_PathID = 8535735130945351350
+	PPtr<$TextMeshProUGUI> _superAwesome_passwordPrompt
+		int m_FileID = 0
+		SInt64 m_PathID = 2011756586757017332
+	PPtr<$NestedButton> _superAwesome_login
+		int m_FileID = 0
+		SInt64 m_PathID = -8872375171009440660
+	PPtr<$TextMeshProUGUI> _superAwesome_dontHaveAccountPrompt
+		int m_FileID = 0
+		SInt64 m_PathID = 2172534247944978699
+	PPtr<$TextMeshProUGUI> _superAwesome_createAccount
+		int m_FileID = 0
+		SInt64 m_PathID = -8917098275678648520
+	PPtr<$TextMeshProUGUI> _superAwesome_forgotPassword
+		int m_FileID = 0
+		SInt64 m_PathID = -6731184233578251817
+	PPtr<$GameObject> _superAwesome_unauthorizedGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 7852244190224820662
+	PPtr<$TextMeshProUGUI> _superAwesome_unauthorizedTitle
+		int m_FileID = 0
+		SInt64 m_PathID = 4013899342574938598
+	PPtr<$TextMeshProUGUI> _superAwesome_unauthorizedDescription
+		int m_FileID = 0
+		SInt64 m_PathID = -6246972908027942562

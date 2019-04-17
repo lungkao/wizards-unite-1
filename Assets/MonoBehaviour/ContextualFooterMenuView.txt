@@ -1,0 +1,66 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5275791304202714378
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1406906839632007890
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _bg
+		int m_FileID = 0
+		SInt64 m_PathID = -8896562033157159558
+	vector _buttons
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5306911019834921559
+			[1]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3415550627845929581
+			[2]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8854129047210741649
+			[3]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -249364366919927351
+	vector _notifPrefabs
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2516491402488210170
+			[1]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1800769761310150476
+			[2]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7677961292280248425
+			[3]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1355064523820152642
+	PPtr<$AdvancedUIButton> _closeButton
+		int m_FileID = 0
+		SInt64 m_PathID = -3121282088514053813
+	PPtr<$Image> _highlightImage
+		int m_FileID = 0
+		SInt64 m_PathID = 3481387743063248159

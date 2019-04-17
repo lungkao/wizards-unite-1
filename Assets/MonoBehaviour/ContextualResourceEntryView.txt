@@ -1,0 +1,41 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 119961194315105445
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8055223501008025544
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _resourceImage
+		int m_FileID = 0
+		SInt64 m_PathID = -9209563397574341637
+	PPtr<$TextMeshProUGUI> _resourceText
+		int m_FileID = 0
+		SInt64 m_PathID = 1329197074971392718
+	ColorRGBA _defaultColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	ColorRGBA _overCapacityColor
+		float r = 0.5921569
+		float g = 0.1529412
+		float b = 0.1529412
+		float a = 1
+	PPtr<$DOTweenAnimation> _resourceIconAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -2995040670408564647
+	PPtr<$DOTweenAnimation> _resourceTextAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = 299007356711172693

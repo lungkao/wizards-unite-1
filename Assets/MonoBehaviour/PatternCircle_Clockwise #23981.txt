@@ -1,0 +1,74 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2331726676162494325
+	string m_Name = "PatternCircle_Clockwise"
+	string id = "Clockwise"
+	int _masterNoteType = 3
+	vector points
+		Array Array
+		int size = 0
+	GestureData gesture
+		GestureLine lines
+			Array Array
+			int size = 1
+				[0]
+				GestureLine data
+					vector points
+						Array Array
+						int size = 12
+							[0]
+							Vector2f data
+								float x = 0.75
+								float y = 0.9375
+							[1]
+							Vector2f data
+								float x = 0.9375
+								float y = 0.75
+							[2]
+							Vector2f data
+								float x = 1
+								float y = 0.5
+							[3]
+							Vector2f data
+								float x = 0.9375
+								float y = 0.25
+							[4]
+							Vector2f data
+								float x = 0.75
+								float y = 0.0625
+							[5]
+							Vector2f data
+								float x = 0.5
+								float y = 0
+							[6]
+							Vector2f data
+								float x = 0.25
+								float y = 0.0625
+							[7]
+							Vector2f data
+								float x = 0.0625
+								float y = 0.25
+							[8]
+							Vector2f data
+								float x = 0
+								float y = 0.5
+							[9]
+							Vector2f data
+								float x = 0.0625
+								float y = 0.75
+							[10]
+							Vector2f data
+								float x = 0.25
+								float y = 0.9375
+							[11]
+							Vector2f data
+								float x = 0.5
+								float y = 1
+					UInt8 closedLine = 1
+	UInt8 useLinesOrder = 0
+	UInt8 useLinesDirections = 1

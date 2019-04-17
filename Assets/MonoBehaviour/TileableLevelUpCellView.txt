@@ -1,0 +1,41 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7277526394855195717
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2134359372600458490
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	int _cellAlignment = 2
+	PPtr<$DOTweenAnimation> _cellAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -6219421977081301642
+	HapticKeyObject _hapticKeyRef
+		double time = 0.5
+		string key = "proto_haptic_medium"
+	PPtr<$TextMeshProUGUI> levelRankOld
+		int m_FileID = 0
+		SInt64 m_PathID = -6519726952571437813
+	PPtr<$TextMeshProUGUI> levelRankNew
+		int m_FileID = 0
+		SInt64 m_PathID = -3918828151045696476
+	PPtr<$TextMeshProUGUI> levelRankNewFade
+		int m_FileID = 0
+		SInt64 m_PathID = 3921231960922813374
+	PPtr<$TextMeshProUGUI> maxLevel
+		int m_FileID = 0
+		SInt64 m_PathID = 4018990781998574138
+	PPtr<$AudioClipParam> audioEvent
+		int m_FileID = 0
+		SInt64 m_PathID = 2669414813587757521

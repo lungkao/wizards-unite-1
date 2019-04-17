@@ -1,0 +1,52 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6629716426307741951
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4579388813419230680
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _plantSpriteSwapper
+		int m_FileID = 0
+		SInt64 m_PathID = -1984594539191286897
+	PPtr<$TextMeshProUGUI> _plantName
+		int m_FileID = 0
+		SInt64 m_PathID = 1108437015439811461
+	PPtr<$AdvancedUIButton> _spellcastingButton
+		int m_FileID = 0
+		SInt64 m_PathID = -2495716768101860634
+	PPtr<$AdvancedUIButton> _normalGrowButton
+		int m_FileID = 0
+		SInt64 m_PathID = 3669924797627443829
+	PPtr<$AdvancedUIButton> _rentGrowButton
+		int m_FileID = 0
+		SInt64 m_PathID = -1886360202232648376
+	PPtr<$GreenhouseRecipeEntryView> _recipesPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 6730941568458834660
+	PPtr<$GameObject> _recipesContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 3077893704549098717
+	PPtr<$Animator> _potionListAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 7596086952292110085
+	PPtr<$ScrollRectWithParentYield> _scrollRect
+		int m_FileID = 0
+		SInt64 m_PathID = 4669416669358334964
+	PPtr<$GreenhouseSpellBarView> _spellBarView
+		int m_FileID = 0
+		SInt64 m_PathID = 568501811561923510
+	PPtr<$TextMeshProUGUI> _rentalPotTimer
+		int m_FileID = 0
+		SInt64 m_PathID = 36351610595537298

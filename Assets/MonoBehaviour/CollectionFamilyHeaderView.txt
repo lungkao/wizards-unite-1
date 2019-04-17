@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3183500815110134837
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4581221529063306156
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _familyNameText
+		int m_FileID = 0
+		SInt64 m_PathID = 8976422663593230225
+	PPtr<$TextMeshProUGUI> _familyLevelText
+		int m_FileID = 0
+		SInt64 m_PathID = 7194389410935844383
+	PPtr<$Image> _familyIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -7103022630154714016
+	PPtr<$ProgressBarWidgetView> _progressBarWidget
+		int m_FileID = 0
+		SInt64 m_PathID = -1114226620719592872
+	PPtr<$Animator> _levelUpAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AdvancedUIButton> _familyInfoButton
+		int m_FileID = 0
+		SInt64 m_PathID = 0

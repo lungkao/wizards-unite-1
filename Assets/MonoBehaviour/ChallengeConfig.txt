@@ -1,0 +1,96 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5552692012012328178
+	string m_Name = "ChallengeConfig"
+	vector PlayerIcons
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8674182955381310854
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8408735529490875384
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4373057111901497766
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = -246373785654534147
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8913658297242716255
+	vector RunestoneSlotIcons
+		Array Array
+		int size = 10
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[5]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[6]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[7]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[8]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[9]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+	string InformationScreenTitle = "challenge_title"
+	string InformationScreenDescription = "challenge_info_description"
+	ChallengeInformationPageConfig InformationScreenPages
+		Array Array
+		int size = 4
+			[0]
+			ChallengeInformationPageConfig data
+				string Description = "challenge_info_page1_description"
+				string IconPath = "ui_info_pagination_panels_1"
+			[1]
+			ChallengeInformationPageConfig data
+				string Description = "challenge_info_page2_description"
+				string IconPath = "ui_info_pagination_panels_2"
+			[2]
+			ChallengeInformationPageConfig data
+				string Description = "challenge_info_page3_description"
+				string IconPath = "ui_info_pagination_panels_3"
+			[3]
+			ChallengeInformationPageConfig data
+				string Description = "challenge_info_page4_description"
+				string IconPath = "ui_info_pagination_panels_4"

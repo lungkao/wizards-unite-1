@@ -1,0 +1,61 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7754275278825160615
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8223315427677841187
+	string m_Name = ""
+	PPtr<$TextMeshProUGUI> _progressBarTextLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -363220956215890320
+	PPtr<$TextMeshProUGUI> _currentStatusLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _nextStatusLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$RectTransform> backgroundBar
+		int m_FileID = 0
+		SInt64 m_PathID = 8079138672056234187
+	PPtr<$RectTransform> foregroundBar
+		int m_FileID = 0
+		SInt64 m_PathID = -6901060521387359439
+	PPtr<$Image> _barMoveableRewardImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _barSmallRewardImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _barLargeRewardImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA filledColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	ColorRGBA unfilledColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	string _onBarAnimationSoundEvent = "event:/UI/RewardsScreen/FamilyPointsGained"
+	string _onBarFilledSoundEvent = ""
+	SerializableAudioParameter BarFilledParameterList
+		Array Array
+		int size = 0
+	UInt8 fillOnShow = 0
+	float _interpolationTime = 0.75
+	float _minInterpolationTime = 1.25
+	PPtr<$Animator> _barFilledAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _blockInputWhileAnimating = 0
+	PPtr<$VFXBase> _staticBarVfxPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$VFXBase> _animatingBarVfxPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0

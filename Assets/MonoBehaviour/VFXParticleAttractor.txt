@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6699516593294106552
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3880633474170573919
+	string m_Name = ""
+	PPtr<$Transform> _target
+		int m_FileID = 0
+		SInt64 m_PathID = 7134223094789825299
+	float _startDelay = 1
+	float _attractionForce = 100
+	float _particleMass = 1
+	float _maxVelocity = 1500
+	float _dampingRatio = 1
+	UInt8 _disableEmissionAfterDelay = 0

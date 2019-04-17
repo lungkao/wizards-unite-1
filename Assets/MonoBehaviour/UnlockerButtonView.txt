@@ -1,0 +1,47 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6057833586269355609
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4203873473726007326
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _contentView
+		int m_FileID = 0
+		SInt64 m_PathID = -2266296941334073707
+	PPtr<$TextMeshProUGUI> _quantity
+		int m_FileID = 0
+		SInt64 m_PathID = -5467090338483392828
+	PPtr<$Image> _infinity
+		int m_FileID = 0
+		SInt64 m_PathID = -4729657630333372519
+	PPtr<$TextMeshProUGUI> _useUnlockerLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -2469316300879237798
+	PPtr<$AdvancedUIButton> _button
+		int m_FileID = 0
+		SInt64 m_PathID = 6379968538660744946
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 3086441624606817450
+	ColorRGBA _disabledColor
+		float r = 0.6392157
+		float g = 0.6392157
+		float b = 0.6392157
+		float a = 1
+	ColorRGBA _enabledColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1

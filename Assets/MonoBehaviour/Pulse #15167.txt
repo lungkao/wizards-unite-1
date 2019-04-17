@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2464196659059319054
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4514004730457124028
+	string m_Name = ""
+	float _pulseTime = 0.5
+	Vector3f _amount
+		float x = 0
+		float y = 0
+		float z = 0
+	UInt8 _continuous = 0

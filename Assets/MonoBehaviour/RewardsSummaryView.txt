@@ -1,0 +1,47 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1650943079240713669
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3854059928447183372
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RewardItemDetailMiniView> _miniItemDetailPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6701952429568536306
+	vector _containers
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2333697429325045548
+			[1]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3637813185846156384
+			[2]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3637813185846156384
+			[3]
+			PPtr<$Transform> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2790192856344937958
+	PPtr<$CanvasGroup> _canvasGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -9051833979235172332
+	PPtr<$UIAnimationCoroutineRunner> _animator
+		int m_FileID = 0
+		SInt64 m_PathID = -1711710176386514942

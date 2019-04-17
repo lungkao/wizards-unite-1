@@ -1,0 +1,29 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5708160987517412411
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8072186483416559693
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _emptySlot
+		int m_FileID = 0
+		SInt64 m_PathID = 8544082524730449733
+	vector _fullSlots
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$RewardTupleEntryView> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3199410903045389988

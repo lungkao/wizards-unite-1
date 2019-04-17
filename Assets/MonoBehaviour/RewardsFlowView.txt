@@ -1,0 +1,70 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3581213674599545024
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4499364063234488525
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.5661765
+		float g = 0.5786657
+		float b = 0.5786657
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$Transform> _rewardWidgetContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1173535263632100250
+	PPtr<$RewardItemDetailView> _itemDetailPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -9096270173166601891
+	PPtr<$RewardsGroupDetailView> _groupDetailPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7154554907541697750
+	PPtr<$NestedPrefab> _summary
+		int m_FileID = 0
+		SInt64 m_PathID = 8797367666837393799
+	PPtr<$NestedPrefab> _vesselContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 6499548409171321671
+	PPtr<$NestedButton> _closeButton
+		int m_FileID = 0
+		SInt64 m_PathID = 6028312136174360255
+	PPtr<$NestedButton> _goToRegistryButton
+		int m_FileID = 0
+		SInt64 m_PathID = -4438839718157547879
+	PPtr<$TextMeshProUGUI> _titleText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	RewardGroupPriorityTuple _groupPriority
+		Array Array
+		int size = 4
+			[0]
+			RewardGroupPriorityTuple data
+				int lootGroup = 3
+				int vaultItemGroup = 0
+				string protoId = ""
+				UInt8 useRewardItemDetail = 1
+			[1]
+			RewardGroupPriorityTuple data
+				int lootGroup = 2
+				int vaultItemGroup = 0
+				string protoId = ""
+				UInt8 useRewardItemDetail = 1
+			[2]
+			RewardGroupPriorityTuple data
+				int lootGroup = 0
+				int vaultItemGroup = 2
+				string protoId = "vault_item_xp"
+				UInt8 useRewardItemDetail = 1
+			[3]
+			RewardGroupPriorityTuple data
+				int lootGroup = 0
+				int vaultItemGroup = 2
+				string protoId = "vault_item_coins"
+				UInt8 useRewardItemDetail = 1

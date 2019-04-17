@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7307985686661809391
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3865100399743813455
+	string m_Name = ""
+	PPtr<$Camera> _wandCamera
+		int m_FileID = 0
+		SInt64 m_PathID = -508416715155787716
+	PPtr<$Transform> _wandContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1386237428332849646
+	PPtr<$Material> _wandMaterialRef
+		int m_FileID = 0
+		SInt64 m_PathID = 5618622792123955827
+	PPtr<$RenderTexture> _textureWithAA
+		int m_FileID = 0
+		SInt64 m_PathID = 3156846529835431916
+	PPtr<$RenderTexture> _textureNoAA
+		int m_FileID = 0
+		SInt64 m_PathID = 5070388536431526957

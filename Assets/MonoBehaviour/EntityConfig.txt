@@ -1,0 +1,28 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7242619676155574434
+	string m_Name = "EntityConfig"
+	float frameBudget = 0.003
+	PPtr<$OutpostEntityView> Outpost
+		int m_FileID = 0
+		SInt64 m_PathID = 897768695114321184
+	PPtr<$TraceEntityView> defaultTrace
+		int m_FileID = 0
+		SInt64 m_PathID = 1695501219414068748
+	PPtr<$LandmarkEntityView> Landmark
+		int m_FileID = 5
+		SInt64 m_PathID = 7469413695187154931
+	PPtr<$FortressEntityView> Fortress
+		int m_FileID = 0
+		SInt64 m_PathID = 5509413538676433496
+	PPtr<$MapItemEntityView> Ingredient
+		int m_FileID = 0
+		SInt64 m_PathID = -8776738355883911217
+	PPtr<$GreenhouseEntityView> Greenhouse
+		int m_FileID = 0
+		SInt64 m_PathID = -819738569829593360

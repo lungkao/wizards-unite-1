@@ -1,0 +1,176 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4716797436375148593
+	string m_Name = "LevelUpRewardsPriorityQueue"
+	UInt8 showSummaryCell = 1
+	UInt8 showPatronus = 0
+	PPtr<$Sprite> backgroundImage
+		int m_FileID = 4
+		SInt64 m_PathID = 1389776826630529130
+	PPtr<$Mesh> cliffPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -1603783513360879144
+	PPtr<$Mesh> hogwartsPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -3305056192995465210
+	float scrollingDelay = 2
+	RewardCellInfo priorityQueue
+		Array Array
+		int size = 12
+			[0]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 7277526394855195717
+				int cellType = 10
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 3
+						[0]
+						int data = 1
+						[1]
+						int data = 2
+						[2]
+						int data = 4
+				int numCanDisplay = 1
+				int priority = 100
+			[1]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 5434044126963007424
+				int cellType = 0
+				int displayLootType = 3
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 1
+						[0]
+						int data = 3
+				int numCanDisplay = 1
+				int priority = 875
+			[2]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 4300926416755428646
+				int cellType = 1
+				int displayLootType = 2
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 200
+			[3]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 807510606808438874
+				int cellType = 5
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 1000
+			[4]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = -2785677395000928511
+				int cellType = 6
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 1000
+			[5]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 7489325309139872136
+				int cellType = 1
+				int displayLootType = 1
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 300
+			[6]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 3923471829668453796
+				int cellType = 2
+				int displayLootType = 1
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 400
+			[7]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = -2947891907583745285
+				int cellType = 2
+				int displayLootType = 4
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 500
+			[8]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 6417265749282029156
+				int cellType = 11
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 1
+				int priority = 900
+			[9]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 914822298099209154
+				int cellType = 2
+				int displayLootType = 1
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 6
+				int priority = 350
+			[10]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 815570955070963826
+				int cellType = 3
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 0
+				int priority = 250
+			[11]
+			RewardCellInfo data
+				PPtr<$GameObject> tileableRewardCell
+					int m_FileID = 5
+					SInt64 m_PathID = 7952149044627755595
+				int cellType = 3
+				int displayLootType = 0
+				vector collectionItemFamilyTypeFilters
+					Array Array
+					int size = 0
+				int numCanDisplay = 0
+				int priority = 850

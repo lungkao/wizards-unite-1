@@ -1,0 +1,11 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4237374730798526834
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1654861418359182445
+	string m_Name = ""
+	int m_AspectMode = 2
+	float m_AspectRatio = 1.6

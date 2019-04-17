@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4800050163941320600
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1443228123566972765
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$VideoPlayer> _player
+		int m_FileID = 0
+		SInt64 m_PathID = -6187480530010921067
+	PPtr<$AudioSource> _audioSource
+		int m_FileID = 0
+		SInt64 m_PathID = 2893370283197685725
+	PPtr<$TMP_Text> _infoText
+		int m_FileID = 0
+		SInt64 m_PathID = -3355237659057040383
+	PPtr<$AdvancedUIButton> _clickCatcher
+		int m_FileID = 0
+		SInt64 m_PathID = 6678938272662320990

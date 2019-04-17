@@ -1,0 +1,55 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1468386587093038551
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1695140279876706990
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$UnlockerButtonView> _unlockerButtonPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -4100289277493414841
+	PPtr<$NestedButton> _portkeyButton
+		int m_FileID = 0
+		SInt64 m_PathID = -4868404679861600060
+	PPtr<$GameObject> _unlockerContentAnchor
+		int m_FileID = 0
+		SInt64 m_PathID = 6306174564404099566
+	PPtr<$Image> _walkboxImage
+		int m_FileID = 0
+		SInt64 m_PathID = -1059163032997714985
+	PPtr<$Image> _portkeyImage
+		int m_FileID = 0
+		SInt64 m_PathID = -7044955040775509247
+	PPtr<$Image> _unlockingWalkboxImage
+		int m_FileID = 0
+		SInt64 m_PathID = 3897890896577419749
+	PPtr<$TextMeshProUGUI> _walkboxName
+		int m_FileID = 0
+		SInt64 m_PathID = -7279069240190994244
+	PPtr<$TextMeshProUGUI> _mainBodyText
+		int m_FileID = 0
+		SInt64 m_PathID = 7302972699959309555
+	PPtr<$ProgressBarWidgetView> _progressBarWidgetView
+		int m_FileID = 0
+		SInt64 m_PathID = -4200823475953394615
+	PPtr<$GameObject> _hintParent
+		int m_FileID = 0
+		SInt64 m_PathID = -2841585105433687422
+	PPtr<$Image> _backgroundItem
+		int m_FileID = 0
+		SInt64 m_PathID = -558052130494391500
+	PPtr<$RectTransform> _unlockerPositioner
+		int m_FileID = 0
+		SInt64 m_PathID = 2295950919068149657

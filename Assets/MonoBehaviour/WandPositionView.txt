@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 10
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 8
+	string m_Name = ""
+	PPtr<$Transform> pivot
+		int m_FileID = 0
+		SInt64 m_PathID = 13
+	PPtr<$Transform> pivot_wide_screen
+		int m_FileID = 0
+		SInt64 m_PathID = 15

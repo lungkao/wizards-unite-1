@@ -1,0 +1,46 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -9097375156113360546
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -434860999970623997
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _fullNameContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -9112654438538803574
+	PPtr<$GameObject> _codeNameContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8097483220253528528
+	PPtr<$PassportRegistrationViewInputField> _forename
+		int m_FileID = 0
+		SInt64 m_PathID = 1410528718782271780
+	PPtr<$PassportRegistrationViewInputField> _surname
+		int m_FileID = 0
+		SInt64 m_PathID = 1391602092050046855
+	PPtr<$PassportRegistrationViewInputField> _codename
+		int m_FileID = 0
+		SInt64 m_PathID = -6601975368216867358
+	PPtr<$PassportRegistrationViewStepDots> _stepDots
+		int m_FileID = 0
+		SInt64 m_PathID = -3890365538033902049
+	PPtr<$AdvancedUIButton> _confirmButton
+		int m_FileID = 0
+		SInt64 m_PathID = -1323387405280751280
+	PPtr<$GameObject> _backButton
+		int m_FileID = 0
+		SInt64 m_PathID = 7254750044564054831
+	PPtr<$Animator> _animator
+		int m_FileID = 0
+		SInt64 m_PathID = 7607063156335190199

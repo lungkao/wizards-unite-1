@@ -1,0 +1,34 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6769477710764925183
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3223764338886470897
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4096555756346693674
+	PPtr<$Image> _cauldronImageContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 5690283139355130983
+	PPtr<$GameObject> _notificationTime
+		int m_FileID = 0
+		SInt64 m_PathID = 6103789412710043002
+	PPtr<$TextMeshProUGUI> _notificationTimeText
+		int m_FileID = 0
+		SInt64 m_PathID = -3552677206219473716
+	PPtr<$Animator> _cauldronAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = -5190052960106279206

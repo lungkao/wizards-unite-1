@@ -1,0 +1,303 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5354115530015555227
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3052871102163264647
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.6617647
+		float g = 0.6617647
+		float b = 0.6617647
+		float a = 0.8823529
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _daysTillMonthReset
+		int m_FileID = 0
+		SInt64 m_PathID = -8391056888870001003
+	PPtr<$TextMeshProUGUI> _timeTillNextDailyRewardText
+		int m_FileID = 0
+		SInt64 m_PathID = -1076671447193774310
+	PPtr<$TextMeshProUGUI> _monthText
+		int m_FileID = 0
+		SInt64 m_PathID = -7136219642227652003
+	vector _rewardList
+		Array Array
+		int size = 31
+			[0]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3736555857844522887
+			[1]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 991879924324913192
+			[2]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 750306581908905243
+			[3]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3853204719010301923
+			[4]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7857504523169932023
+			[5]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6753691182307811038
+			[6]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1746424473840843009
+			[7]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2108180492699918330
+			[8]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4014433137228792309
+			[9]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 535126743196818331
+			[10]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3806832271244418633
+			[11]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4813260163507709344
+			[12]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1153291303936383710
+			[13]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 59506049680038648
+			[14]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1534566800567049609
+			[15]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6807546565298589265
+			[16]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2337651475581148664
+			[17]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7792199239968608448
+			[18]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5836909452364636187
+			[19]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5671691526882046401
+			[20]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4552036929721711786
+			[21]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6326536191872381354
+			[22]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3032974762532207556
+			[23]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6575131126965886419
+			[24]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8489877170792252416
+			[25]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6989886849057276622
+			[26]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3267235233124035556
+			[27]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4883606607637783230
+			[28]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4408449953478115618
+			[29]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6962406028529803620
+			[30]
+			PPtr<$NestedDailyLoginRewardWidget> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5520952379605483380
+	vector _lineList
+		Array Array
+		int size = 30
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2112731703837864537
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3617179719766591931
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1961341275181692765
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -625653779572223008
+			[4]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3991161469292790652
+			[5]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7626005304447312752
+			[6]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1674383848694590897
+			[7]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1820667643783325415
+			[8]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1963482221476469907
+			[9]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7529542597959352643
+			[10]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9159527004549820821
+			[11]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2254754923236277265
+			[12]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7754741020038041739
+			[13]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2651081772380495739
+			[14]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8473813956020583629
+			[15]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2378955988877518874
+			[16]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2831850027775720786
+			[17]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8596039848794126265
+			[18]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4564514934749711709
+			[19]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4577965033313062210
+			[20]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 700448382783678789
+			[21]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3201884188455620831
+			[22]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2188839196721937169
+			[23]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6819748164837709703
+			[24]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1091258001274649435
+			[25]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2131404305187724641
+			[26]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 770304175489199848
+			[27]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 149860340179930942
+			[28]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8573302750254967759
+			[29]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3493138140508913020
+	PPtr<$GameObject> _closeButton
+		int m_FileID = 0
+		SInt64 m_PathID = 7969355940116905442
+	PPtr<$TextMeshProUGUI> _dailyLoginTreasureText
+		int m_FileID = 0
+		SInt64 m_PathID = -933364299718557631
+	PPtr<$GameObject> _treasureGainedLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -9022483560159359334
+	PPtr<$TextMeshProUGUI> _treasureAmount
+		int m_FileID = 0
+		SInt64 m_PathID = -3429518926216609068
+	PPtr<$Image> _treasureIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -3789799202556551735
+	float rewardBurstDelay = 2
+	PPtr<$NestedPrefab> _nestedRewardSpline
+		int m_FileID = 0
+		SInt64 m_PathID = -6785356374709265904
+	PPtr<$Image> _backgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = -740818211478324205
+	string BANK_REF = "BNK_SFX_MAP"
+	string SPRKLY_TREASURE_COLLECTION_SOUND_NAME = "event:/SFX/Map/DailyLoginRewardCollect"
+	string NORMAL_TREASURE_COLLECTION_SOUND_NAME = "event:/SFX/Map/DailyLoginRewardCollect"

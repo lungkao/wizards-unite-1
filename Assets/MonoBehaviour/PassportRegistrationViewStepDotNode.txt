@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 27630953892329047
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6862615878149027656
+	string m_Name = ""
+	PPtr<$GameObject> _selected
+		int m_FileID = 0
+		SInt64 m_PathID = -8777286785408903831
+	PPtr<$GameObject> _unselected
+		int m_FileID = 0
+		SInt64 m_PathID = 2920336689091745028

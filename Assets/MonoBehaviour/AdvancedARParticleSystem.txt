@@ -1,0 +1,14 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -9011664912068314449
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3796772030261086830
+	string m_Name = ""
+	PPtr<$ParticleSystem> _particleSystem
+		int m_FileID = 0
+		SInt64 m_PathID = -7369206578960680820
+	float _spawnRate = 0.01
+	int _poolSize = 15

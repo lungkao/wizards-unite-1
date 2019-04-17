@@ -1,0 +1,76 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 9209420046027134363
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8061891719934294888
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _target
+		int m_FileID = 0
+		SInt64 m_PathID = 4854661941036550459
+	PPtr<$GameObject> _alignText
+		int m_FileID = 0
+		SInt64 m_PathID = 5969082602461164607
+	PPtr<$GameObject> _lookText
+		int m_FileID = 0
+		SInt64 m_PathID = 5658074184326689955
+	SearchReticle _reticles
+		Array Array
+		int size = 2
+			[0]
+			SearchReticle data
+				PPtr<$GameObject> root
+					int m_FileID = 0
+					SInt64 m_PathID = -652305849122366874
+				PPtr<$GameObject> active
+					int m_FileID = 0
+					SInt64 m_PathID = -6832000165122023893
+			[1]
+			SearchReticle data
+				PPtr<$GameObject> root
+					int m_FileID = 0
+					SInt64 m_PathID = -6383867657029591081
+				PPtr<$GameObject> active
+					int m_FileID = 0
+					SInt64 m_PathID = 7596778294274443864
+	vector _tintedElements
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1636712659407765666
+	PPtr<$Image> _familyIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -3362286205422281360
+	float _lockMoveSpeed = 300
+	float _lockScaleSpeed = 8
+	float _unlockedScale = 1.75
+	vector _lockAnimations
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$ReversibleAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2369938511204694155
+	PPtr<$Image> _targetGlyph
+		int m_FileID = 0
+		SInt64 m_PathID = -3270214518323770012
+	PPtr<$Image> _reticleGlyph
+		int m_FileID = 0
+		SInt64 m_PathID = 4600720374675477148
+	PPtr<$Image> _alignedGlyph
+		int m_FileID = 0
+		SInt64 m_PathID = -1490737648476802934

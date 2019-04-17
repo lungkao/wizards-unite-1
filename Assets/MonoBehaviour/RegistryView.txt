@@ -1,0 +1,44 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7077524107704874858
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2525267655771267387
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 1
+	int _uiHideLevel = 0
+	PPtr<$Transform> inactivePanelTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Transform> activePanelTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$NestedFooterMenu> _footer
+		int m_FileID = 0
+		SInt64 m_PathID = 858641860561002409
+	string _imageBgName = "ui_bg_fullscreen_1"
+	PPtr<$Image> _imageBg
+		int m_FileID = 0
+		SInt64 m_PathID = -6292717881133411025
+	PPtr<$GameObject> _categoryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7767445549699049400
+	PPtr<$LoadingSpinnerView> _loadingSpinnerView
+		int m_FileID = 0
+		SInt64 m_PathID = -6296479664145518517
+	PPtr<$RegistryVisualConfig> RegistryVisuals
+		int m_FileID = 0
+		SInt64 m_PathID = 4696069914392138691
+	PPtr<$RKImuAwareMaterialController> _imuMaterialController
+		int m_FileID = 0
+		SInt64 m_PathID = -4254393761017918812

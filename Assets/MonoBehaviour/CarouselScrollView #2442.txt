@@ -1,0 +1,16 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7264157724749776259
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8822668399782475579
+	string m_Name = ""
+	PPtr<$CarouselSizeFitter> contentLayout
+		int m_FileID = 0
+		SInt64 m_PathID = 3082830726644430052
+	int scrollDirection = 1
+	float minimumVelocity = 900
+	float deceleration = 986
+	float throwSensitivitySeconds = 1

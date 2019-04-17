@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -930964654995195383
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6889425225480984581
+	string m_Name = ""
+	float _mapEntityRotateSpeed = 100
+	UInt8 needToRotate = 0
+	PPtr<$Animator> _animator
+		int m_FileID = 0
+		SInt64 m_PathID = 2618329467510431303
+	float _randomAngleInterval = 5
+	PPtr<$NestedPrefab> _nestedActiveFortressEffect
+		int m_FileID = 0
+		SInt64 m_PathID = -5308024813466023108

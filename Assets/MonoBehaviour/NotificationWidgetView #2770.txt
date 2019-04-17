@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7773359527021266710
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 14511243897109828
+	string m_Name = ""
+	PPtr<$TextMeshProUGUI> _countDisplay
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _displayCount = 1
+	UInt8 binaryDisplay = 1
+	int displayCap = 9

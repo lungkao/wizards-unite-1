@@ -1,0 +1,90 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1074629536840904537
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6148321082603544220
+	string m_Name = ""
+	float _mapEntityRotateSpeed = 100
+	UInt8 needToRotate = 0
+	PPtr<$MeshFilter> _meshFilter
+		int m_FileID = 0
+		SInt64 m_PathID = 5483705693808328934
+	PPtr<$MeshRenderer> _meshRenderer
+		int m_FileID = 0
+		SInt64 m_PathID = -6764716889069521248
+	float _displayTime = 6
+	AnimationCurve _alphaCurve
+		vector m_Curve
+			Array Array
+			int size = 4
+				[0]
+				Keyframe data
+					float time = -0.04166794
+					float value = -0.02500153
+					float inSlope = 3.82107
+					float outSlope = 3.82107
+				[1]
+				Keyframe data
+					float time = 0.2973767
+					float value = 1.010967
+					float inSlope = 0.1290395
+					float outSlope = 0.1290395
+				[2]
+				Keyframe data
+					float time = 0.4928128
+					float value = 0.9948611
+					float inSlope = -0.09531773
+					float outSlope = -0.09531773
+				[3]
+				Keyframe data
+					float time = 0.9874878
+					float value = -0.006248474
+					float inSlope = -1.528125
+					float outSlope = -1.528125
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _randomAngleInterval = 5
+	FamilyToSFXDictionary _onTapSFX
+		KVP _gmtIdToSFXMap
+			Array Array
+			int size = 9
+				[0]
+				KVP data
+					string _key = "proto_collectionfamily_darkarts"
+					string _value = "event:/UI/RegistryFamily/DarkArtsFamily"
+				[1]
+				KVP data
+					string _key = "proto_collectionfamily_hogwartsschool"
+					string _value = "event:/UI/RegistryFamily/HogwartsSchoolFamily"
+				[2]
+				KVP data
+					string _key = "proto_collectionfamily_legendsofhogwarts"
+					string _value = "event:/UI/RegistryFamily/LegendsofHogwartsFamily"
+				[3]
+				KVP data
+					string _key = "proto_collectionfamily_magicalgamesandsports"
+					string _value = "event:/UI/RegistryFamily/MagicalGamesandSportsFamily"
+				[4]
+				KVP data
+					string _key = "proto_collectionfamily_magizoology"
+					string _value = "event:/UI/RegistryFamily/MagizoologyFamily"
+				[5]
+				KVP data
+					string _key = "proto_collectionfamily_ministry"
+					string _value = "event:/UI/RegistryFamily/MinistryofMagicFamily"
+				[6]
+				KVP data
+					string _key = "proto_collectionfamily_mysteriousartefacts"
+					string _value = "event:/UI/Family_Hogwarts"
+				[7]
+				KVP data
+					string _key = "proto_collectionfamily_oddities"
+					string _value = "event:/UI/RegistryFamily/OdditiesFamily"
+				[8]
+				KVP data
+					string _key = "proto_collectionfamily_wondersofthewizardingworld"
+					string _value = "event:/UI/RegistryFamily/WizardingWorldFamily"

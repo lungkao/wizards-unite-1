@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2990724450980007946
+	string m_Name = "vfx hand dust poof 02"
+	UInt8 m_Locked = 0
+	UInt8 m_Muted = 0
+	string m_CustomPlayableFullTypename = ""
+	PPtr<$AnimationClip> m_AnimClip
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$PlayableAsset> m_Parent
+		int m_FileID = 0
+		SInt64 m_PathID = 5660678565532106052
+	vector m_Children
+		Array Array
+		int size = 0
+	TimelineClip m_Clips
+		Array Array
+		int size = 0

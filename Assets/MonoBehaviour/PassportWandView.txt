@@ -1,0 +1,45 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3058404445570806308
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 393656969713894750
+	string m_Name = ""
+	PPtr<$Transform> _container
+		int m_FileID = 0
+		SInt64 m_PathID = -3186432751883168341
+	PPtr<$Material> _wandMaterialRef
+		int m_FileID = 0
+		SInt64 m_PathID = 5618622792123955827
+	PPtr<$Image> _woodIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -4138926001082706076
+	PPtr<$Image> _coreIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -9156148279034729926
+	PPtr<$Image> _flexIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 1618810708013784268
+	PPtr<$TextMeshProUGUI> _lengthLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3588403839766402247
+	PPtr<$GameObject> _woodParent
+		int m_FileID = 0
+		SInt64 m_PathID = 5724747054925379180
+	PPtr<$GameObject> _coreParent
+		int m_FileID = 0
+		SInt64 m_PathID = 613860263894019391
+	PPtr<$GameObject> _flexParent
+		int m_FileID = 0
+		SInt64 m_PathID = -4789812846916608525
+	PPtr<$GameObject> _lengthParent
+		int m_FileID = 0
+		SInt64 m_PathID = 8351234437105585444
+	PPtr<$GameObject> _noWandLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -8620808475548200023
+	PPtr<$GameObject> _vfxContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

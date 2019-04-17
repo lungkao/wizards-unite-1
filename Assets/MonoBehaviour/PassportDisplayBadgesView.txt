@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6341427615465755939
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4213506825301353593
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _badgePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -3703125286851226988
+	PPtr<$Transform> _badgeContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -1760177069582494853
+	PPtr<$TextMeshProUGUI> _favoriteCounter
+		int m_FileID = 0
+		SInt64 m_PathID = -7188362304050857754
+	PPtr<$TextMeshProUGUI> _badgeDescription
+		int m_FileID = 0
+		SInt64 m_PathID = 5176246997244482574
+	PPtr<$Image> _displayedBadge
+		int m_FileID = 0
+		SInt64 m_PathID = -8707035419205467299
+	PPtr<$GameObject> _confirmButton
+		int m_FileID = 0
+		SInt64 m_PathID = 8179869392559034190

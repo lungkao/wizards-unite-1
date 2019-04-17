@@ -1,0 +1,19 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6323766166436878060
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2260457074477208276
+	string m_Name = ""
+	PPtr<$Transform> NearPosition
+		int m_FileID = 0
+		SInt64 m_PathID = 8733051194972246670
+	PPtr<$Transform> FarPosition
+		int m_FileID = 0
+		SInt64 m_PathID = -7138872153093206627
+	PPtr<$Camera> _theCamera
+		int m_FileID = 0
+		SInt64 m_PathID = 1969207390656480723
+	float _defaultZoom = 0.18

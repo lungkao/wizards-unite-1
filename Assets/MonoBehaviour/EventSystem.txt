@@ -1,0 +1,14 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1738261223795293839
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5857151776342280516
+	string m_Name = ""
+	PPtr<$GameObject> m_FirstSelected
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_sendNavigationEvents = 1
+	int m_DragThreshold = 5

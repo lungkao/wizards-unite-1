@@ -1,0 +1,16 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6845848875285437719
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7117324540036428187
+	string m_Name = ""
+	string m_HorizontalAxis = "Horizontal"
+	string m_VerticalAxis = "Vertical"
+	string m_SubmitButton = "Submit"
+	string m_CancelButton = "Cancel"
+	float m_InputActionsPerSecond = 10
+	float m_RepeatDelay = 0.5
+	UInt8 m_ForceModuleActive = 0

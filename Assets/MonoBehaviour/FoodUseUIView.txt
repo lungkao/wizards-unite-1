@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5092294506296295358
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7608384853699122182
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _containerNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -6738969404281419425
+	PPtr<$TextMeshProUGUI> _containerDescriptionLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -2373561119163320776
+	PPtr<$NestedButton> _useContainerButton
+		int m_FileID = 0
+		SInt64 m_PathID = 7411724071954007256
+	PPtr<$TextMeshProUGUI> _containerCannotUseLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -2478991062483521663
+	PPtr<$GameObject> _dialogContent
+		int m_FileID = 0
+		SInt64 m_PathID = 607361480602245691
+	PPtr<$VaultItemEntryUIView> _itemView
+		int m_FileID = 0
+		SInt64 m_PathID = 7316109878409973192

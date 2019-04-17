@@ -1,0 +1,93 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2256841816200757524
+	string m_Name = "Spell Cast SFX"
+	UInt8 m_Locked = 0
+	UInt8 m_Muted = 0
+	string m_CustomPlayableFullTypename = ""
+	PPtr<$AnimationClip> m_AnimClip
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$PlayableAsset> m_Parent
+		int m_FileID = 0
+		SInt64 m_PathID = 8673236249457329211
+	vector m_Children
+		Array Array
+		int size = 0
+	TimelineClip m_Clips
+		Array Array
+		int size = 1
+			[0]
+			TimelineClip data
+				double m_Start = 1
+				double m_ClipIn = 0
+				PPtr<$Object> m_Asset
+					int m_FileID = 0
+					SInt64 m_PathID = 1244461717430664828
+				double m_Duration = 1.63333333333333
+				double m_TimeScale = 1
+				PPtr<$TrackAsset> m_ParentTrack
+					int m_FileID = 0
+					SInt64 m_PathID = 4919013401457467405
+				double m_EaseInDuration = 0
+				double m_EaseOutDuration = 0
+				double m_BlendInDuration = 0
+				double m_BlendOutDuration = 0
+				AnimationCurve m_MixInCurve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 0
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				AnimationCurve m_MixOutCurve
+					vector m_Curve
+						Array Array
+						int size = 2
+							[0]
+							Keyframe data
+								float time = 0
+								float value = 1
+								float inSlope = 0
+								float outSlope = 0
+							[1]
+							Keyframe data
+								float time = 1
+								float value = 0
+								float inSlope = 0
+								float outSlope = 0
+					int m_PreInfinity = 2
+					int m_PostInfinity = 2
+					int m_RotationOrder = 4
+				int m_BlendInCurveMode = 0
+				int m_BlendOutCurveMode = 0
+				vector m_ExposedParameterNames
+					Array Array
+					int size = 0
+				PPtr<$AnimationClip> m_AnimationCurves
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+				UInt8 m_Recordable = 0
+				int m_PostExtrapolationMode = 0
+				int m_PreExtrapolationMode = 0
+				double m_PostExtrapolationTime = 0
+				double m_PreExtrapolationTime = 0
+				string m_DisplayName = "TimelineSFXClip"
+				int m_Version = 1

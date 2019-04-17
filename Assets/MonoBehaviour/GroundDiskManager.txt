@@ -1,0 +1,16 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 150
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 40
+	string m_Name = ""
+	Vector3f _farClipScale
+		float x = 0.7
+		float y = 0.7
+		float z = 0.7
+	PPtr<$Camera> _mainCamera
+		int m_FileID = 0
+		SInt64 m_PathID = 385

@@ -1,0 +1,55 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6902496109941226016
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7536124033886344586
+	string m_Name = ""
+	PPtr<$Recognizer> _recognizer
+		int m_FileID = 0
+		SInt64 m_PathID = 1293082024850748117
+	PPtr<$GameObject> _fxPosition
+		int m_FileID = 0
+		SInt64 m_PathID = -4563084786891052407
+	PPtr<$GameObject> _fxPositionSecondFinger
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ParticleSystem> _fxParticle
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ParticleSystem> _fxParticleSecondFinger
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ParticleSystem> _fxParticleTap
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ResultEvent OnRecognize
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 1293082024850748117
+						string m_MethodName = "OnPatternRecognized"
+						int m_Mode = 0
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "DrawDetector+ResultEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	int _minLines = 1
+	int _maxLines = 1
+	int _removeStrategy = 0
+	UInt8 _clearNotRecognizedLines = 0
+	UInt8 _fixedArea = 1

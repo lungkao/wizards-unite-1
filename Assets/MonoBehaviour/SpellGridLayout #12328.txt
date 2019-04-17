@@ -1,0 +1,61 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4145002431027121712
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5649447668617140643
+	string m_Name = ""
+	SpellGridNode _spellNodes
+		Array Array
+		int size = 5
+			[0]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 6851846108983386825
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[1]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -8961363353687910358
+				UInt8 doHaptic = 1
+				string sfxEvent = ""
+			[2]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 7132623591055957918
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_02"
+			[3]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -8653495641095858743
+				UInt8 doHaptic = 1
+				string sfxEvent = ""
+			[4]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 6736298012008622768
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_03"
+	PPtr<$Image> _glyph
+		int m_FileID = 0
+		SInt64 m_PathID = 3295546567481237417
+	PPtr<$Image> _glyphBG
+		int m_FileID = 0
+		SInt64 m_PathID = -1390166332003989439
+	PPtr<$Image> _glyphPreview
+		int m_FileID = 0
+		SInt64 m_PathID = -4811973079738881866
+	float _timerLength = 2.5
+	float _perfectRadius = 12
+	float _greatRadius = 25
+	float _goodRadius = 35
+	float _checkpointRadius = 75

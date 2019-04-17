@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6754687801075581120
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7394802328979551665
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.2745098
+		float g = 0.2745098
+		float b = 0.2745098
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = 2633856980376600353
+	PPtr<$TextMeshProUGUI> _descriptionText
+		int m_FileID = 0
+		SInt64 m_PathID = -1541608453317759906
+	PPtr<$TextMeshProUGUI> _titleText
+		int m_FileID = 0
+		SInt64 m_PathID = 2268505132502893304
+	PPtr<$TextMeshProUGUI> _itemAmtText
+		int m_FileID = 0
+		SInt64 m_PathID = -5268317872817429124
+	PPtr<$NestedButton> _useButton
+		int m_FileID = 0
+		SInt64 m_PathID = -6933064693491149009
+	PPtr<$NestedButton> _deleteButton
+		int m_FileID = 0
+		SInt64 m_PathID = 3737589537900007810
+	PPtr<$NestedButton> _okButton
+		int m_FileID = 0
+		SInt64 m_PathID = -3533623808994137477
+	PPtr<$PotionUseOrDeleteWidget> _potionWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 3612670790206446986

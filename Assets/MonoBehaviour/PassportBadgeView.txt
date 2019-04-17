@@ -1,0 +1,55 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3703125286851226988
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8306288918996999653
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0
+		float g = 0.4206896
+		float b = 1
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _selectedStatus
+		int m_FileID = 0
+		SInt64 m_PathID = 4630376506188148677
+	PPtr<$GameObject> _normalStatus
+		int m_FileID = 0
+		SInt64 m_PathID = 5182718517602070573
+	PPtr<$GameObject> _lockedStatus
+		int m_FileID = 0
+		SInt64 m_PathID = 8341030534116254233
+	PPtr<$Image> _normalBgImage
+		int m_FileID = 0
+		SInt64 m_PathID = -2306704363928309238
+	PPtr<$Image> _favoriteStatus
+		int m_FileID = 0
+		SInt64 m_PathID = -7039773240165934635
+	PPtr<$Sprite> _favoriteSprite
+		int m_FileID = 0
+		SInt64 m_PathID = -7943924343123859662
+	PPtr<$AdvancedUIButton> _favoriteButton
+		int m_FileID = 0
+		SInt64 m_PathID = 4309625946604304750
+	PPtr<$Sprite> _notFavoriteSprite
+		int m_FileID = 0
+		SInt64 m_PathID = -5890016341410880767
+	PPtr<$Image> _normalBadgeImage
+		int m_FileID = 0
+		SInt64 m_PathID = 8968817156508573387
+	PPtr<$Image> _selectedBadgeImage
+		int m_FileID = 0
+		SInt64 m_PathID = 7668794057526229577
+	PPtr<$Image> _lockedBadgeImage
+		int m_FileID = 0
+		SInt64 m_PathID = -1667500878936959931
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 6324006403423767392

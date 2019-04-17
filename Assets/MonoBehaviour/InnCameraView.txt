@@ -1,0 +1,42 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4049016130685482152
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1788774734079758975
+	string m_Name = ""
+	PPtr<$Transform> _cameraPos
+		int m_FileID = 0
+		SInt64 m_PathID = -709871929126773771
+	PPtr<$Transform> _innCameraPos
+		int m_FileID = 0
+		SInt64 m_PathID = -5649788152445338254
+	PPtr<$Transform> _darkDetectorCameraPos
+		int m_FileID = 0
+		SInt64 m_PathID = 3188264158780146549
+	AnimationCurve _cameraSwivleCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 2
+					float outSlope = 2
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _cameraSwivelTime = 1
+	int _currentPosition = 0
+	PPtr<$DOTweenAnimation> _introAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = 0

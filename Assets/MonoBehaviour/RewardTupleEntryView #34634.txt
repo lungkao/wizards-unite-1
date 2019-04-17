@@ -1,0 +1,74 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5034103394386414617
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2184360805499365858
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	float animatedSpineScale = 0.5
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = -7399271124019594781
+	PPtr<$TextMeshProUGUI> _amtText
+		int m_FileID = 0
+		SInt64 m_PathID = 947633508273220379
+	PPtr<$TextMeshProUGUI> _nameText
+		int m_FileID = 0
+		SInt64 m_PathID = -3902894097356625038
+	PPtr<$StarRarityWidget> _rarityWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _isCost = 0
+	PPtr<$DOTweenAnimation> _animTween
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _collectableItemBanner
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _shardText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$NestedButton> _expandButton
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _fullLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA _defaultTextColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	ColorRGBA _atCapacityTextColor
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	float _expandFontSize = 0
+	PPtr<$GameObject> _multiplierRoot
+		int m_FileID = 0
+		SInt64 m_PathID = -6360645604664510214
+	PPtr<$TextMeshProUGUI> _multiplierText
+		int m_FileID = 0
+		SInt64 m_PathID = -3902894097356625038
+	PPtr<$Image> _colorPlate
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Transform> _centerPoint
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _backgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0

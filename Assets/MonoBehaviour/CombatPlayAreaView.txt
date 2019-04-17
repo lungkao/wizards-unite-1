@@ -1,0 +1,136 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7773298729096843554
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6090677621282506453
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RectTransform> _playArea
+		int m_FileID = 0
+		SInt64 m_PathID = -6465803605007150601
+	PPtr<$RectTransform> _touchPadInteractArea
+		int m_FileID = 0
+		SInt64 m_PathID = 8987124435552385271
+	PPtr<$RectTransform> _directTraceInteractArea
+		int m_FileID = 0
+		SInt64 m_PathID = 4267122799137298930
+	PPtr<$CombatAttackTargetView> _attackTargetPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -6019419180485232485
+	PPtr<$CombatDefendTargetView> _defendTargetPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 722053289897032309
+	PPtr<$CombatGlyphTargetView> _glyphTargetPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4270539568091612298
+	PPtr<$CanvasGroup> _topBarCanvasGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -2072358519949471259
+	PPtr<$TextMeshProUGUI> _playerName
+		int m_FileID = 0
+		SInt64 m_PathID = -9028289421380226914
+	PPtr<$Transform> _playerHPBarContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -2838009468069130906
+	PPtr<$Image> _playerHPBar
+		int m_FileID = 0
+		SInt64 m_PathID = 3760284641302936004
+	PPtr<$Image> _playerHPTempDamageBar
+		int m_FileID = 0
+		SInt64 m_PathID = -653883650953532440
+	PPtr<$TextMeshProUGUI> _playerHPBarText
+		int m_FileID = 0
+		SInt64 m_PathID = -7664296178086298456
+	PPtr<$TextMeshProUGUI> _enemyName
+		int m_FileID = 0
+		SInt64 m_PathID = 6497895994251677348
+	PPtr<$Transform> _enemyHPBarContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8383965316087664
+	PPtr<$Image> _enemyHPBar
+		int m_FileID = 0
+		SInt64 m_PathID = -3064030859986815702
+	PPtr<$Image> _enemyHPTempDamageBar
+		int m_FileID = 0
+		SInt64 m_PathID = -6734218774860802213
+	PPtr<$TextMeshProUGUI> _enemyHPBarText
+		int m_FileID = 0
+		SInt64 m_PathID = 6902443503402112335
+	PPtr<$TextMeshProUGUI> _hiddenDebugStats
+		int m_FileID = 0
+		SInt64 m_PathID = 5927078821618594111
+	float _introAnimTime = 1
+	float _hpDmgBarAnimTime = 0.25
+	float _hpDmgWaitTime = 1
+	PPtr<$Image> _shieldOverlay
+		int m_FileID = 0
+		SInt64 m_PathID = 4962066452186259348
+	PPtr<$Image> _shieldBorder
+		int m_FileID = 0
+		SInt64 m_PathID = -8973706716712511888
+	PPtr<$Image> _damageBorder
+		int m_FileID = 0
+		SInt64 m_PathID = -950860585048952605
+	PPtr<$Image> _damageOverlay
+		int m_FileID = 0
+		SInt64 m_PathID = -1185556687806373884
+	PPtr<$TextMeshProUGUI> _spellGameSuccessText
+		int m_FileID = 0
+		SInt64 m_PathID = 5346082039754153325
+	AnimationCurve _spellGameSuccessAnimCurve
+		vector m_Curve
+			Array Array
+			int size = 3
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 2.142857
+					float outSlope = 2.142857
+				[1]
+				Keyframe data
+					float time = 0.7
+					float value = 1.5
+					float inSlope = 0.2380952
+					float outSlope = 0.2380952
+				[2]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = -1.666667
+					float outSlope = -1.666667
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _playerFullScreenDmgAnimTime = 0.75
+	float _hpBarScaleUpTime = 0.25
+	Vector3f _hpBarScaleUpTarget
+		float x = 1.075
+		float y = 1.125
+		float z = 0
+	PPtr<$TextMeshProUGUI> _challengeTimerText
+		int m_FileID = 0
+		SInt64 m_PathID = 5009721661734312704
+	PPtr<$GameObject> _playerBuffIconAnchor
+		int m_FileID = 0
+		SInt64 m_PathID = 4756672941235849624
+	PPtr<$GameObject> _enemyBuffIconAnchor
+		int m_FileID = 0
+		SInt64 m_PathID = 4748334970616247749
+	PPtr<$BuffIconView> _buffIconPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7627702276080638235
+	string _protegoDampenerSnapshotSfx = "snapshot:/ProtegoAttackLPF"
+	string _extraDamageSfx = "event:/UI/CombatUI/HitBlockFail"

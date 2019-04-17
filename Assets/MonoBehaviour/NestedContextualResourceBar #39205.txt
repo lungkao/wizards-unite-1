@@ -1,0 +1,55 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2250986118231963230
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3672787571248537723
+	string m_Name = ""
+	UInt8 _instantiateOnStart = 1
+	UInt8 _updateInstanceLayer = 1
+	TriggerEvent _onPrefabInstantiated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$GameObject> _prefab
+		int m_FileID = 2
+		SInt64 m_PathID = 4934853924875024056
+	vector _contextVaultItems
+		Array Array
+		int size = 0
+	PPtr<$BaseUIView> _rootUIView
+		int m_FileID = 0
+		SInt64 m_PathID = -6243134304858099836
+	int _leftButtonType = 2
+	UInt8 _showInfoButton = 0
+	UInt8 _showStoreButton = 0
+	UInt8 _showBG = 1
+	UInt8 _autoUpdate = 1
+	UInt8 _allowAnimation = 1
+	string _titleTextLocKey = "settings_settings_title"
+	ButtonClickedEvent _onTitleClicked
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	ButtonClickedEvent _leftButtonOverride
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	ButtonClickedEvent _rightButtonOverride
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	string _hyperlinkButtonId = ""
+	string _infoButtonId = ""
+	string _leftButtonTelemetryOverride = ""
+	string _rightButtonTelemetryOverride = ""

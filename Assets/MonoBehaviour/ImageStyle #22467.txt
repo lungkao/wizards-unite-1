@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 625879891157442326
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5624438613461446909
+	string m_Name = ""
+	string Style = "XButton"
+	UInt8 width = 0
+	UInt8 height = 0
+	UInt8 sourceImage = 1
+	UInt8 color = 1
+	UInt8 imageType = 1

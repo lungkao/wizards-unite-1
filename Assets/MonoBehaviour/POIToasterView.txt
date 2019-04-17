@@ -1,0 +1,62 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6920825139330328591
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -5431474396835034633
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> contentText
+		int m_FileID = 0
+		SInt64 m_PathID = -3885536718424110246
+	PPtr<$Text> systemContentText
+		int m_FileID = 0
+		SInt64 m_PathID = 4946467127170614625
+	PPtr<$AnimationEventListener> animator
+		int m_FileID = 0
+		SInt64 m_PathID = -7639522498739225228
+	float _viewTimeSec = 3.5
+	PPtr<$TextMeshProUGUI> descText
+		int m_FileID = 0
+		SInt64 m_PathID = 7934415491017920307
+	PPtr<$GameObject> detectorIconParent
+		int m_FileID = 0
+		SInt64 m_PathID = 7033821784127771428
+	vector numDetectorsIcons
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6011792316836790214
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7610292456943878352
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3620416478683702222
+	PPtr<$GameObject> familyBannerReference
+		int m_FileID = 0
+		SInt64 m_PathID = 6535359019857708876
+	PPtr<$GameObject> containerFamilyReference
+		int m_FileID = 0
+		SInt64 m_PathID = 118179205621546531
+	PPtr<$TextMeshProUGUI> timerText
+		int m_FileID = 0
+		SInt64 m_PathID = 6929220389405335839
+	PPtr<$GameObject> timeRemainingReference
+		int m_FileID = 0
+		SInt64 m_PathID = -1907178643202552099

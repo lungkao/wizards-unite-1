@@ -1,0 +1,46 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4761168826804085283
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5162523648560857710
+	string m_Name = ""
+	PPtr<$SkeletonDataAsset> skeletonDataAsset
+		int m_FileID = 0
+		SInt64 m_PathID = 5451480225230889158
+	string initialSkinName = "default"
+	UInt8 initialFlipX = 0
+	UInt8 initialFlipY = 0
+	vector separatorSlotNames
+		Array Array
+		int size = 0
+	float zSpacing = 0
+	UInt8 useClipping = 1
+	UInt8 immutableTriangles = 0
+	UInt8 pmaVertexColors = 1
+	UInt8 clearStateOnDisable = 0
+	UInt8 tintBlack = 0
+	UInt8 singleSubmesh = 0
+	UInt8 addNormals = 0
+	UInt8 calculateTangents = 0
+	UInt8 logErrors = 0
+	UInt8 disableRenderingOnOverride = 1
+	MecanimTranslator translator
+		UInt8 autoReset = 0
+		vector layerMixModes
+			Array Array
+			int size = 6
+				[0]
+				int data = 0
+				[1]
+				int data = 0
+				[2]
+				int data = 0
+				[3]
+				int data = 0
+				[4]
+				int data = 0
+				[5]
+				int data = 0

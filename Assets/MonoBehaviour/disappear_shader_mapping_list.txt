@@ -1,0 +1,116 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4492882291980721803
+	string m_Name = "disappear_shader_mapping_list"
+	ShaderMapping shaderMappings
+		Array Array
+		int size = 13
+			[0]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = -4982883274894189837
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = -6388579970036933093
+			[1]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = -7990060485163712392
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = 2425713362400839214
+			[2]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = 4738517669684946642
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = -963695289367201847
+			[3]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = 7669652196570071321
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = -1893802131410923377
+			[4]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = -7978290654526145992
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = 3821727551267299020
+			[5]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = -781421035823989336
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = 5544907285955151031
+			[6]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = 619071722516040115
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = 321937320089245590
+			[7]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = 6028993191817310001
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = 6725369434072888241
+			[8]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 0
+					SInt64 m_PathID = -8566364041059430351
+				PPtr<$Shader> replacement
+					int m_FileID = 0
+					SInt64 m_PathID = -5210350403380307017
+			[9]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = -1138993137800150452
+				PPtr<$Shader> replacement
+					int m_FileID = 7
+					SInt64 m_PathID = 1762705381158960402
+			[10]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 7
+					SInt64 m_PathID = 7157363677683766634
+				PPtr<$Shader> replacement
+					int m_FileID = 0
+					SInt64 m_PathID = -6370599843856994944
+			[11]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 0
+					SInt64 m_PathID = 1363048944060015209
+				PPtr<$Shader> replacement
+					int m_FileID = 0
+					SInt64 m_PathID = 7559003429529776401
+			[12]
+			ShaderMapping data
+				PPtr<$Shader> original
+					int m_FileID = 0
+					SInt64 m_PathID = 31219879697203485
+				PPtr<$Shader> replacement
+					int m_FileID = 0
+					SInt64 m_PathID = -8033138718066898077

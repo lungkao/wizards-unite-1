@@ -1,0 +1,21 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 9
+	string m_Name = ""
+	PPtr<$Camera> MainCamera
+		int m_FileID = 0
+		SInt64 m_PathID = 24
+	ColorRGBA DistortionTint
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	float DistortionWeight = 4
+	PPtr<$Light> MainDirectionalLight
+		int m_FileID = 0
+		SInt64 m_PathID = 31

@@ -1,0 +1,77 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6390014913026959446
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4894675148378046590
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _backgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = 5437626160696335970
+	PPtr<$Sprite> _standardBackgroundSprite
+		int m_FileID = 2
+		SInt64 m_PathID = 5183409884127604069
+	PPtr<$Sprite> _collectableBackgroundSprite
+		int m_FileID = 2
+		SInt64 m_PathID = 5183409884127604069
+	PPtr<$Sprite> _collectedBackgroundSprite
+		int m_FileID = 2
+		SInt64 m_PathID = -3049536623639017478
+	PPtr<$TextMeshProUGUI> _questText
+		int m_FileID = 0
+		SInt64 m_PathID = 2385966193018374492
+	PPtr<$TextMeshProUGUI> _progressText
+		int m_FileID = 0
+		SInt64 m_PathID = -2822986226029844249
+	PPtr<$TextMeshProUGUI> _rewardText
+		int m_FileID = 0
+		SInt64 m_PathID = -6298586736417495839
+	PPtr<$Image> _rewardImage
+		int m_FileID = 0
+		SInt64 m_PathID = 7050639643585270911
+	PPtr<$GameObject> _rewardGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -855301805070872695
+	PPtr<$GameObject> _completeGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 8769061267648589671
+	PPtr<$AdvancedUIButton> _collectButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2252264100474997948
+	PPtr<$Image> _statusIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 4719563545230735185
+	PPtr<$Sprite> _notCollectedStatusSprite
+		int m_FileID = 0
+		SInt64 m_PathID = 7348346370848959054
+	PPtr<$Sprite> _collectedStatusSprite
+		int m_FileID = 0
+		SInt64 m_PathID = -4013896549932645889
+	PPtr<$GameObject> _collectedCheckmark
+		int m_FileID = 0
+		SInt64 m_PathID = 2725723527147081575
+	PPtr<$Slider> _progressBar
+		int m_FileID = 0
+		SInt64 m_PathID = 3210927948182496118
+	PPtr<$DOTweenAnimation> _alphaDoTween
+		int m_FileID = 0
+		SInt64 m_PathID = -4408005997980632047
+	PPtr<$GameObject> _progressTextGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -7512557252885004159
+	PPtr<$NestedParticleSystem> _collectButtonFrontVFX
+		int m_FileID = 0
+		SInt64 m_PathID = -8397888726631245577
+	float _rewardDelay = 2

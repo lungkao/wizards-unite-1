@@ -1,0 +1,30 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5144005223011764090
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2453497889881666310
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$AnimationEventListener> _potionConsumedEffect
+		int m_FileID = 0
+		SInt64 m_PathID = -3877204242143809109
+	PPtr<$Image> _potionBackgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = 2158702139237456223
+	PPtr<$Image> _potionBubblesImage
+		int m_FileID = 0
+		SInt64 m_PathID = 6023685018364478309
+	string BANK_REF = "BNK_SFX_UI"
+	string POTION_CONSUMING_SOUND_EFFECT = "event:/UI/UI_drink_potion"

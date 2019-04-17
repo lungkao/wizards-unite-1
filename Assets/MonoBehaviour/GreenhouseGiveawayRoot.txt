@@ -1,0 +1,30 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 158
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 125
+	string m_Name = ""
+	PPtr<$Animator> _animatorPots
+		int m_FileID = 0
+		SInt64 m_PathID = 450
+	PPtr<$Animator> _animatorArrows
+		int m_FileID = 0
+		SInt64 m_PathID = 451
+	vector _pots
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$GreenhouseGiveawayPot> data
+				int m_FileID = 0
+				SInt64 m_PathID = 609
+			[1]
+			PPtr<$GreenhouseGiveawayPot> data
+				int m_FileID = 0
+				SInt64 m_PathID = 611
+			[2]
+			PPtr<$GreenhouseGiveawayPot> data
+				int m_FileID = 0
+				SInt64 m_PathID = 616

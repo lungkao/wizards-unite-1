@@ -1,0 +1,39 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6638769131263933076
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7902566301165297698
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$Image> _previewImage
+		int m_FileID = 0
+		SInt64 m_PathID = 2237425170046863265
+	PPtr<$Image> _flashImage
+		int m_FileID = 0
+		SInt64 m_PathID = -7884157074365158227
+	vector _previewSaveTweens
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4441642712446422568
+			[1]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2291172848478859643
+	PPtr<$DOTweenAnimation> _flashTween
+		int m_FileID = 0
+		SInt64 m_PathID = 7609326807591578095

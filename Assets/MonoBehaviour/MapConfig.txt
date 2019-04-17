@@ -1,0 +1,57 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -3651254087056170062
+	string m_Name = "MapConfig"
+	float frameBudget = 0.003
+	PPtr<$Material> BuildingMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -708589875083112092
+	PPtr<$Material> GroundMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -3397686388116208303
+	PPtr<$Material> ParkMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 7446051640833967142
+	PPtr<$LineRenderer> RoadPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 5105897386116564426
+	PPtr<$LineRenderer> RoadEdgePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 5273993228400431563
+	PPtr<$LineRenderer> PathPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 9203595477832077693
+	PPtr<$LineRenderer> PathEdgePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -1269731520149740882
+	PPtr<$Material> WaterMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = -5094678279460786937
+	PPtr<$LineRenderer> WaterEdgePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -8106230917959880696
+	PPtr<$LineRenderer> BuildingEdgePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -8106230917959880696
+	PPtr<$LineRenderer> ParkEdgePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -8106230917959880696
+	Vector3f BuildingOffset
+		float x = 0.1
+		float y = 0.1
+		float z = 0.1
+	Vector3f WaterOffset
+		float x = 0.1
+		float y = 0.1
+		float z = 0.1
+	Vector3f ParkOffset
+		float x = 0.1
+		float y = 0.1
+		float z = 0.1
+	float mapScale = 2000
+	float edgeMinDistance = 1

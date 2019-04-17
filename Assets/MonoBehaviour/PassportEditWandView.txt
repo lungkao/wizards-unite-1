@@ -1,0 +1,92 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1800091472111316375
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2031619413584421322
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	PPtr<$PassportWandView> _wandView
+		int m_FileID = 0
+		SInt64 m_PathID = -6102729036633417052
+	PPtr<$RawImage> _wand2DImage
+		int m_FileID = 0
+		SInt64 m_PathID = -7501309330376062221
+	PPtr<$ScrollRectNestedWood> _wandWoodScrollList
+		int m_FileID = 0
+		SInt64 m_PathID = -5610967543960618433
+	PPtr<$ScrollListItemWandWoodCntr> _wandWoodItemCntrPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 3023233273374608981
+	vector _coreButtons
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5408849588623858555
+			[1]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8643060710928209921
+			[2]
+			PPtr<$AdvancedUIButton> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1134794391728372622
+	vector _coreAnimations
+		Array Array
+		int size = 3
+			[0]
+			PPtr<$SkeletonGraphic> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6599018583400919181
+			[1]
+			PPtr<$SkeletonGraphic> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7375654044793354835
+			[2]
+			PPtr<$SkeletonGraphic> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1497903549352491411
+	PPtr<$Slider> _flexibilitySlider
+		int m_FileID = 0
+		SInt64 m_PathID = 7657970647803165439
+	PPtr<$ExtendedTextMeshProUGUI> _wandFlexibilityValue
+		int m_FileID = 0
+		SInt64 m_PathID = 7087466088272171473
+	PPtr<$Image> _wandFlexibilityImage
+		int m_FileID = 0
+		SInt64 m_PathID = 8007809437124065565
+	PPtr<$ParticleSystem> _wandFlexibilityFXPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7464557349350641825
+	float _wandFlexibilityVfxEmissionMultiplier = 1.5
+	PPtr<$Transform> _wandFlexibilityFXParentTransform
+		int m_FileID = 0
+		SInt64 m_PathID = 2267211963584634057
+	PPtr<$Slider> _lengthSlider
+		int m_FileID = 0
+		SInt64 m_PathID = 8589949319604707782
+	PPtr<$TextMeshProUGUI> _wandLengthValue
+		int m_FileID = 0
+		SInt64 m_PathID = 5294994690260654133
+	PPtr<$TextMeshProUGUI> _revealConfirmButtonLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -615843227090973392
+	PPtr<$GameObject> _revealConfirmButton
+		int m_FileID = 0
+		SInt64 m_PathID = -7239841139626036373
+	PPtr<$GameObject> _wand3DimensionPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -7307985686661809391

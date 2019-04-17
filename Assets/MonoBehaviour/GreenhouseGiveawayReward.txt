@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6757976386933678170
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8086061165325496455
+	string m_Name = ""
+	PPtr<$RewardBurstWidget> _wholeRewardBurst
+		int m_FileID = 0
+		SInt64 m_PathID = 3572490367370721269

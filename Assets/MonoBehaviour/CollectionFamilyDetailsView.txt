@@ -1,0 +1,58 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4740286259763574698
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1827954185026967729
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$Image> _familyIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 2261766540397456087
+	PPtr<$Image> _landmarkIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -8270288403188188607
+	PPtr<$TextMeshProUGUI> _name
+		int m_FileID = 0
+		SInt64 m_PathID = 231132915497771894
+	PPtr<$TextMeshProUGUI> _level
+		int m_FileID = 0
+		SInt64 m_PathID = -1968802198728139344
+	PPtr<$TextMeshProUGUI> _description
+		int m_FileID = 0
+		SInt64 m_PathID = 7724799386836929123
+	PPtr<$ProgressBarWidgetView> _progressBarWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 2266054491088333462
+	PPtr<$Image> _smallChestIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -8070454724656384918
+	PPtr<$Image> _largeChestIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -7702104984852384405
+	PPtr<$TextMeshProUGUI> _xpForNextChestLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3459005443040804867
+	PPtr<$GameObject> _nextChestInfoSection
+		int m_FileID = 0
+		SInt64 m_PathID = 34571932544499365
+	PPtr<$GameObject> _rewardsSection
+		int m_FileID = 0
+		SInt64 m_PathID = -1998099398313830254
+	PPtr<$Button> _levelUpButton
+		int m_FileID = 0
+		SInt64 m_PathID = 8090517772349760005
+	PPtr<$GameObject> _backButton
+		int m_FileID = 0
+		SInt64 m_PathID = 5025770535776734629

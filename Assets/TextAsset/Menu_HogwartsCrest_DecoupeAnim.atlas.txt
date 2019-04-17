@@ -1,0 +1,237 @@
+
+Menu_HogwartsCrest_DecoupeAnim.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+badger_bck_arm
+  rotate: false
+  xy: 1833, 634
+  size: 165, 184
+  orig: 165, 184
+  offset: 0, 0
+  index: -1
+badger_bck_leg
+  rotate: false
+  xy: 843, 25
+  size: 176, 120
+  orig: 176, 120
+  offset: 0, 0
+  index: -1
+badger_body
+  rotate: true
+  xy: 1286, 360
+  size: 264, 405
+  orig: 264, 405
+  offset: 0, 0
+  index: -1
+badger_frnt_arm
+  rotate: true
+  xy: 692, 21
+  size: 183, 149
+  orig: 183, 149
+  offset: 0, 0
+  index: -1
+badger_head
+  rotate: false
+  xy: 1021, 3
+  size: 164, 142
+  orig: 164, 142
+  offset: 0, 0
+  index: -1
+badger_tail
+  rotate: false
+  xy: 366, 77
+  size: 64, 104
+  orig: 64, 104
+  offset: 0, 0
+  index: -1
+blue
+  rotate: false
+  xy: 2, 183
+  size: 460, 472
+  orig: 460, 472
+  offset: 0, 0
+  index: -1
+crest_center
+  rotate: true
+  xy: 1652, 630
+  size: 166, 179
+  orig: 166, 179
+  offset: 0, 0
+  index: -1
+green
+  rotate: false
+  xy: 464, 206
+  size: 401, 449
+  orig: 401, 449
+  offset: 0, 0
+  index: -1
+house_crest
+  rotate: false
+  xy: 2, 657
+  size: 1310, 1386
+  orig: 1310, 1386
+  offset: 0, 0
+  index: -1
+lightray2
+  rotate: false
+  xy: 1589, 147
+  size: 212, 211
+  orig: 212, 211
+  offset: 0, 0
+  index: -1
+lion_bck_arm
+  rotate: true
+  xy: 1693, 390
+  size: 238, 193
+  orig: 238, 193
+  offset: 0, 0
+  index: -1
+lion_bck_leg
+  rotate: true
+  xy: 1803, 160
+  size: 228, 160
+  orig: 228, 160
+  offset: 0, 0
+  index: -1
+lion_body
+  rotate: false
+  xy: 1763, 1491
+  size: 218, 552
+  orig: 218, 552
+  offset: 0, 0
+  index: -1
+lion_frnt_arm
+  rotate: false
+  xy: 464, 33
+  size: 226, 171
+  orig: 226, 171
+  offset: 0, 0
+  index: -1
+lion_jaw
+  rotate: false
+  xy: 1462, 79
+  size: 80, 70
+  orig: 80, 70
+  offset: 0, 0
+  index: -1
+lion_snout
+  rotate: false
+  xy: 1355, 42
+  size: 105, 107
+  orig: 105, 107
+  offset: 0, 0
+  index: -1
+lion_tail
+  rotate: true
+  xy: 2, 40
+  size: 141, 362
+  orig: 141, 362
+  offset: 0, 0
+  index: -1
+lion_tongue
+  rotate: false
+  xy: 1888, 403
+  size: 64, 29
+  orig: 64, 29
+  offset: 0, 0
+  index: -1
+raven_base
+  rotate: true
+  xy: 1703, 1133
+  size: 356, 251
+  orig: 356, 251
+  offset: 0, 0
+  index: -1
+raven_bck_wing
+  rotate: true
+  xy: 1652, 798
+  size: 311, 156
+  orig: 311, 156
+  offset: 0, 0
+  index: -1
+raven_beak
+  rotate: true
+  xy: 1703, 1491
+  size: 77, 35
+  orig: 77, 35
+  offset: 0, 0
+  index: -1
+raven_body
+  rotate: false
+  xy: 867, 321
+  size: 417, 334
+  orig: 417, 334
+  offset: 0, 0
+  index: -1
+raven_frnt_wing
+  rotate: false
+  xy: 1286, 151
+  size: 301, 207
+  orig: 301, 207
+  offset: 0, 0
+  index: -1
+raven_frnt_wing2
+  rotate: false
+  xy: 867, 147
+  size: 315, 172
+  orig: 315, 172
+  offset: 0, 0
+  index: -1
+raven_leg
+  rotate: true
+  xy: 1187, 4
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 1314, 1111
+  size: 387, 457
+  orig: 387, 457
+  offset: 0, 0
+  index: -1
+snake_body
+  rotate: false
+  xy: 1314, 626
+  size: 336, 483
+  orig: 336, 483
+  offset: 0, 0
+  index: -1
+snake_body_mid
+  rotate: true
+  xy: 1888, 434
+  size: 198, 125
+  orig: 198, 125
+  offset: 0, 0
+  index: -1
+snake_jaw
+  rotate: false
+  xy: 1184, 248
+  size: 88, 71
+  orig: 88, 71
+  offset: 0, 0
+  index: -1
+snake_tail
+  rotate: false
+  xy: 1810, 820
+  size: 201, 311
+  orig: 201, 311
+  offset: 0, 0
+  index: -1
+snake_tongue
+  rotate: false
+  xy: 1983, 1978
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: -1
+yellow
+  rotate: false
+  xy: 1314, 1570
+  size: 447, 473
+  orig: 447, 473
+  offset: 0, 0
+  index: -1

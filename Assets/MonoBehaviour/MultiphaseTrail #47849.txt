@@ -1,0 +1,412 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1570427456492616586
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5447722797170228957
+	string m_Name = ""
+	int _innerPointCount = 60
+	int FixedPointCount = 2
+	float MotionDampeningPercent = 0.5
+	float majorMotionAmplitude = 0.1
+	AnimationCurve majorAmplitudeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0.5
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 0.5
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	Vector3f majorMotionSpeed
+		float x = 2
+		float y = 2
+		float z = 2
+	int majorFrequency = 1
+	AnimationCurve majorFrequencyNormalizeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	int minorFrequency = 1
+	float minorMotionAmplitude = 0.1
+	AnimationCurve minorAmplitudeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	AnimationCurve minorFrequencyNormalizeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	Vector2f minorMotionSpeed
+		float x = 1
+		float y = 1
+	vector Points
+		Array Array
+		int size = 62
+			[0]
+			Vector3f data
+				float x = 0
+				float y = 0.85
+				float z = -1.65
+			[1]
+			Vector3f data
+				float x = 0
+				float y = 0.8573771
+				float z = -1.62623
+			[2]
+			Vector3f data
+				float x = 0
+				float y = 0.8647541
+				float z = -1.602459
+			[3]
+			Vector3f data
+				float x = 0
+				float y = 0.8721312
+				float z = -1.578689
+			[4]
+			Vector3f data
+				float x = 0
+				float y = 0.8795082
+				float z = -1.554918
+			[5]
+			Vector3f data
+				float x = 0
+				float y = 0.8868853
+				float z = -1.531147
+			[6]
+			Vector3f data
+				float x = 0
+				float y = 0.8942623
+				float z = -1.507377
+			[7]
+			Vector3f data
+				float x = 0
+				float y = 0.9016393
+				float z = -1.483607
+			[8]
+			Vector3f data
+				float x = 0
+				float y = 0.9090164
+				float z = -1.459836
+			[9]
+			Vector3f data
+				float x = 0
+				float y = 0.9163935
+				float z = -1.436066
+			[10]
+			Vector3f data
+				float x = 0
+				float y = 0.9237705
+				float z = -1.412295
+			[11]
+			Vector3f data
+				float x = 0
+				float y = 0.9311476
+				float z = -1.388525
+			[12]
+			Vector3f data
+				float x = 0
+				float y = 0.9385246
+				float z = -1.364754
+			[13]
+			Vector3f data
+				float x = 0
+				float y = 0.9459016
+				float z = -1.340984
+			[14]
+			Vector3f data
+				float x = 0
+				float y = 0.9532787
+				float z = -1.317213
+			[15]
+			Vector3f data
+				float x = 0
+				float y = 0.9606557
+				float z = -1.293443
+			[16]
+			Vector3f data
+				float x = 0
+				float y = 0.9680328
+				float z = -1.269672
+			[17]
+			Vector3f data
+				float x = 0
+				float y = 0.9754099
+				float z = -1.245902
+			[18]
+			Vector3f data
+				float x = 0
+				float y = 0.9827869
+				float z = -1.222131
+			[19]
+			Vector3f data
+				float x = 0
+				float y = 0.9901639
+				float z = -1.198361
+			[20]
+			Vector3f data
+				float x = 0
+				float y = 0.997541
+				float z = -1.17459
+			[21]
+			Vector3f data
+				float x = 0
+				float y = 1.004918
+				float z = -1.15082
+			[22]
+			Vector3f data
+				float x = 0
+				float y = 1.012295
+				float z = -1.127049
+			[23]
+			Vector3f data
+				float x = 0
+				float y = 1.019672
+				float z = -1.103279
+			[24]
+			Vector3f data
+				float x = 0
+				float y = 1.027049
+				float z = -1.079508
+			[25]
+			Vector3f data
+				float x = 0
+				float y = 1.034426
+				float z = -1.055738
+			[26]
+			Vector3f data
+				float x = 0
+				float y = 1.041803
+				float z = -1.031967
+			[27]
+			Vector3f data
+				float x = 0
+				float y = 1.04918
+				float z = -1.008197
+			[28]
+			Vector3f data
+				float x = 0
+				float y = 1.056557
+				float z = -0.9844263
+			[29]
+			Vector3f data
+				float x = 0
+				float y = 1.063934
+				float z = -0.9606557
+			[30]
+			Vector3f data
+				float x = 0
+				float y = 1.071311
+				float z = -0.9368852
+			[31]
+			Vector3f data
+				float x = 0
+				float y = 1.078689
+				float z = -0.9131148
+			[32]
+			Vector3f data
+				float x = 0
+				float y = 1.086066
+				float z = -0.8893443
+			[33]
+			Vector3f data
+				float x = 0
+				float y = 1.093443
+				float z = -0.8655738
+			[34]
+			Vector3f data
+				float x = 0
+				float y = 1.10082
+				float z = -0.8418033
+			[35]
+			Vector3f data
+				float x = 0
+				float y = 1.108197
+				float z = -0.8180328
+			[36]
+			Vector3f data
+				float x = 0
+				float y = 1.115574
+				float z = -0.7942623
+			[37]
+			Vector3f data
+				float x = 0
+				float y = 1.122951
+				float z = -0.7704918
+			[38]
+			Vector3f data
+				float x = 0
+				float y = 1.130328
+				float z = -0.7467213
+			[39]
+			Vector3f data
+				float x = 0
+				float y = 1.137705
+				float z = -0.7229508
+			[40]
+			Vector3f data
+				float x = 0
+				float y = 1.145082
+				float z = -0.6991804
+			[41]
+			Vector3f data
+				float x = 0
+				float y = 1.152459
+				float z = -0.6754099
+			[42]
+			Vector3f data
+				float x = 0
+				float y = 1.159836
+				float z = -0.6516393
+			[43]
+			Vector3f data
+				float x = 0
+				float y = 1.167213
+				float z = -0.6278689
+			[44]
+			Vector3f data
+				float x = 0
+				float y = 1.17459
+				float z = -0.6040984
+			[45]
+			Vector3f data
+				float x = 0
+				float y = 1.181967
+				float z = -0.5803279
+			[46]
+			Vector3f data
+				float x = 0
+				float y = 1.189344
+				float z = -0.5565574
+			[47]
+			Vector3f data
+				float x = 0
+				float y = 1.196721
+				float z = -0.532787
+			[48]
+			Vector3f data
+				float x = 0
+				float y = 1.204098
+				float z = -0.5090164
+			[49]
+			Vector3f data
+				float x = 0
+				float y = 1.211475
+				float z = -0.4852459
+			[50]
+			Vector3f data
+				float x = 0
+				float y = 1.218852
+				float z = -0.4614755
+			[51]
+			Vector3f data
+				float x = 0
+				float y = 1.226229
+				float z = -0.4377049
+			[52]
+			Vector3f data
+				float x = 0
+				float y = 1.233607
+				float z = -0.4139345
+			[53]
+			Vector3f data
+				float x = 0
+				float y = 1.240984
+				float z = -0.390164
+			[54]
+			Vector3f data
+				float x = 0
+				float y = 1.248361
+				float z = -0.3663934
+			[55]
+			Vector3f data
+				float x = 0
+				float y = 1.255738
+				float z = -0.342623
+			[56]
+			Vector3f data
+				float x = 0
+				float y = 1.263115
+				float z = -0.3188525
+			[57]
+			Vector3f data
+				float x = 0
+				float y = 1.270492
+				float z = -0.295082
+			[58]
+			Vector3f data
+				float x = 0
+				float y = 1.277869
+				float z = -0.2713115
+			[59]
+			Vector3f data
+				float x = 0
+				float y = 1.285246
+				float z = -0.2475411
+			[60]
+			Vector3f data
+				float x = 0
+				float y = 1.292623
+				float z = -0.2237705
+			[61]
+			Vector3f data
+				float x = 0
+				float y = 1.3
+				float z = -0.2

@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8813568756546172900
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1941205883347884248
+	string m_Name = ""
+	PPtr<$PotionCraftingCategoryView> _potionCraftingCategoryView
+		int m_FileID = 0
+		SInt64 m_PathID = -2859573675520905472

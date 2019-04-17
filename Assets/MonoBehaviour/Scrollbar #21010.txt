@@ -1,0 +1,79 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8309895609983016663
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2779289319255223945
+	string m_Name = ""
+	Navigation m_Navigation
+		int m_Mode = 3
+		PPtr<$Selectable> m_SelectOnUp
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnDown
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnLeft
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnRight
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	int m_Transition = 1
+	ColorBlock m_Colors
+		ColorRGBA m_NormalColor
+			float r = 0.2941177
+			float g = 0.2117647
+			float b = 0.1529412
+			float a = 1
+		ColorRGBA m_HighlightedColor
+			float r = 0.5411765
+			float g = 0.3254902
+			float b = 0.1058824
+			float a = 1
+		ColorRGBA m_PressedColor
+			float r = 0.5411765
+			float g = 0.3254902
+			float b = 0.1058824
+			float a = 1
+		ColorRGBA m_DisabledColor
+			float r = 0.2941177
+			float g = 0.2117647
+			float b = 0.1529412
+			float a = 1
+		float m_ColorMultiplier = 1
+		float m_FadeDuration = 0.1
+	SpriteState m_SpriteState
+		PPtr<$Sprite> m_HighlightedSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Sprite> m_PressedSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Sprite> m_DisabledSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	AnimationTriggers m_AnimationTriggers
+		string m_NormalTrigger = "Normal"
+		string m_HighlightedTrigger = "Highlighted"
+		string m_PressedTrigger = "Pressed"
+		string m_DisabledTrigger = "Disabled"
+	UInt8 m_Interactable = 1
+	PPtr<$Graphic> m_TargetGraphic
+		int m_FileID = 0
+		SInt64 m_PathID = 1893530928868595597
+	PPtr<$RectTransform> m_HandleRect
+		int m_FileID = 0
+		SInt64 m_PathID = 5269222219708524496
+	int m_Direction = 2
+	float m_Value = 1
+	float m_Size = 0.9999989
+	int m_NumberOfSteps = 0
+	ScrollEvent m_OnValueChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"

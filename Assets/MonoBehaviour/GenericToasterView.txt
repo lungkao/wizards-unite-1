@@ -1,0 +1,29 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1275354159813182725
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1989673947556233719
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> contentText
+		int m_FileID = 0
+		SInt64 m_PathID = -1480721745928912699
+	PPtr<$Text> systemContentText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AnimationEventListener> animator
+		int m_FileID = 0
+		SInt64 m_PathID = 9151568623436289756
+	float _viewTimeSec = 3.5

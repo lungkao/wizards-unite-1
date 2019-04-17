@@ -1,0 +1,13 @@
+{
+    "links" : {
+        "en_US" : "https://www.nianticlabs.com/privacy/en/",
+        "fr_FR" : "https://www.nianticlabs.com/privacy/fr/",
+        "de_DE" : "https://www.nianticlabs.com/privacy/de/",
+        "it_IT" : "https://www.nianticlabs.com/privacy/it/",
+        "es_ES" : "https://www.nianticlabs.com/privacy/es/",
+        "ja_JP" : "https://www.nianticlabs.com/privacy/jp/",
+        "zh_TW" : "https://www.nianticlabs.com/privacy/zh_hant/",
+        "ko_KR" : "https://www.nianticlabs.com/privacy/ko/",
+        "pt_BR" : "https://www.nianticlabs.com/privacy/pt_br/"
+    }
+}

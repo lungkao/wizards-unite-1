@@ -1,0 +1,38 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6523215982354761501
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8119742639120806211
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	float _fillPercentagePerFrame = 0.5
+	PPtr<$CanvasGroup> canvasGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -9068034497957929821
+	PPtr<$Image> _background
+		int m_FileID = 0
+		SInt64 m_PathID = -1835933301318898156
+	PPtr<$Image> _foreground
+		int m_FileID = 0
+		SInt64 m_PathID = 7346254372472423469
+	PPtr<$TextMeshProUGUI> _warningText
+		int m_FileID = 0
+		SInt64 m_PathID = -6469528326919398681
+	PPtr<$Image> _progressBarBackground
+		int m_FileID = 0
+		SInt64 m_PathID = -6552234813528514064
+	PPtr<$Image> _progressBarForeground
+		int m_FileID = 0
+		SInt64 m_PathID = -9023100358306323904

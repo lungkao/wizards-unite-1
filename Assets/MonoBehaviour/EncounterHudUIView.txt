@@ -1,0 +1,109 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8702588234364968776
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6972176753109970834
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _energyBarHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 5650166225295589197
+	PPtr<$GameObject> _itemTrayHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -220218574766335337
+	PPtr<$GameObject> _introTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 5371832165805366559
+	PPtr<$GameObject> _activityTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -4842609399304816780
+	PPtr<$GameObject> _spellcastTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -4924504131668413422
+	PPtr<$GameObject> _spellcastFailTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 148590051590056050
+	PPtr<$GameObject> _spellcastSuccessTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 148590051590056050
+	PPtr<$GameObject> _spellgameFailTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -9191261549867554423
+	PPtr<$GameObject> _spellgameSuccessTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 5330613510298570089
+	PPtr<$GameObject> _spellgameTutorialTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 6777072130719960932
+	PPtr<$GameObject> _endingTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -2073707225046656131
+	PPtr<$GameObject> _potionButtonHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -5201621052558027076
+	PPtr<$GameObject> _fleeButtonHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -1101239640930829746
+	PPtr<$GameObject> _cameraButtonHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -2562890871920713359
+	PPtr<$GameObject> _combatFleeButtonHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 134034758167552546
+	PPtr<$GameObject> _combatCameraButtonHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -3719095733451462436
+	PPtr<$GameObject> _encounterInfoHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -3698534487746608521
+	PPtr<$GameObject> _itemUseUIHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -523644350165831208
+	PPtr<$GameObject> _ARToggleHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -3178660857157909775
+	PPtr<$GameObject> _buffBarHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -5246887079296189439
+	PPtr<$GameObject> _combatBuffBarHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 4762379099323854016
+	PPtr<$GameObject> _ARDirectionalTextHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 7416785873508656645
+	PPtr<$GameObject> _picturePreviewHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -8245613502886430528
+	PPtr<$GameObject> _pictureSubBarHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 2364076850494409619
+	PPtr<$GameObject> _pictureCameraHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 5853758367241153042
+	PPtr<$GameObject> _pictureCloseHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 5867499787127903920
+	PPtr<$GameObject> _pictureSaveHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -681432651466730966
+	PPtr<$GameObject> _pictureShareHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -5189968891436807609
+	PPtr<$GameObject> _pictureTrashHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -8365274505674696526
+	PPtr<$GameObject> _pictureResetHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -4368873359058084057

@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2106183688963004598
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5910671994379967415
+	string m_Name = ""
+	float customValue = 0
+	float tension = 1
+	Vector3f normal
+		float x = 0
+		float y = 1
+		float z = 0

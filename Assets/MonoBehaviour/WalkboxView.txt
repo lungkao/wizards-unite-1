@@ -1,0 +1,46 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6924741050192955731
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7190385565147643720
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _contentView
+		int m_FileID = 0
+		SInt64 m_PathID = 2260267760421829407
+	PPtr<$ProgressBarWidgetView> _progressBar
+		int m_FileID = 0
+		SInt64 m_PathID = -8755037277299436854
+	PPtr<$GameObject> _keyStrokeOutlineGameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7730203946832577356
+	PPtr<$Image> _walkboxImageInProgress
+		int m_FileID = 0
+		SInt64 m_PathID = -8345840438430942726
+	PPtr<$Image> _keyImage
+		int m_FileID = 0
+		SInt64 m_PathID = 1642677367230681568
+	PPtr<$TextMeshProUGUI> _nameDisplayText
+		int m_FileID = 0
+		SInt64 m_PathID = 6899629498438168603
+	PPtr<$Image> _selectionGlow
+		int m_FileID = 0
+		SInt64 m_PathID = -8108247886859027841
+	PPtr<$Image> _highlightGlow
+		int m_FileID = 0
+		SInt64 m_PathID = 7324080628041785671
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 9219739340852314084

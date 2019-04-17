@@ -1,0 +1,50 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5434044126963007424
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5807097206976126692
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	int _cellAlignment = 2
+	PPtr<$DOTweenAnimation> _cellAnimation
+		int m_FileID = 0
+		SInt64 m_PathID = -6085308038671672647
+	HapticKeyObject _hapticKeyRef
+		double time = 0
+		string key = "proto_haptic_ultra_light"
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = -2627529599704396645
+	PPtr<$TextMeshProUGUI> _amtText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _nameText
+		int m_FileID = 0
+		SInt64 m_PathID = 4362043670611926526
+	UInt8 _isCost = 0
+	PPtr<$RewardBonusWidget> _rewardBonusWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _banner
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _shardText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _maxShardsLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float _shardCountAnimDelay = 1
+	float _shardCountAnimLerpTime = 1

@@ -1,0 +1,314 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4479635444402914878
+	string m_Name = "EnvironmentalTagsConfig"
+	vector weatherLocalizeKeys
+		Array Array
+		int size = 8
+			[0]
+			string data = "map_environment_tags_weather_none"
+			[1]
+			string data = "map_environment_tags_weather_clear"
+			[2]
+			string data = "map_environment_tags_weather_rainy"
+			[3]
+			string data = "map_environment_tags_weather_partly_cloudy"
+			[4]
+			string data = "map_environment_tags_weather_overcast"
+			[5]
+			string data = "map_environment_tags_weather_windy"
+			[6]
+			string data = "map_environment_tags_weather_snow"
+			[7]
+			string data = "map_environment_tags_weather_fog"
+	vector weatherSprites
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 7191756462055080745
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -5407437831882312210
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -4694544389113268684
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -3336856439368952390
+			[5]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 8393410046859352266
+			[6]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 3820196140293152201
+			[7]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 7495430358982676569
+	vector weatherMapIcons
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -4965947997158037884
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 7521320788674319018
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 602162227992665232
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -3936385237395130999
+			[5]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -1375994808972477010
+			[6]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -2159071127817854861
+			[7]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 4822664832684946556
+	vector weatherNightSprites
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 4811468608750225033
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -5407437831882312210
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 8856053796038358469
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -3336856439368952390
+			[5]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 8393410046859352266
+			[6]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 3820196140293152201
+			[7]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 4118728414587533850
+	vector weatherNightMapIcons
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 1419743610361164089
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 7521320788674319018
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -4253828676976844813
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -3936385237395130999
+			[5]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -1375994808972477010
+			[6]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -2159071127817854861
+			[7]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 4822664832684946556
+	PPtr<$Sprite> weatherExtremeNotificationIcon
+		int m_FileID = 9
+		SInt64 m_PathID = 8584512077723942684
+	PPtr<$Sprite> weatherExtremeNotificationBackground
+		int m_FileID = 8
+		SInt64 m_PathID = -5132931836477617702
+	vector timeOfDayLocalizeKeys
+		Array Array
+		int size = 5
+			[0]
+			string data = "map_environment_tags_time_of_day_unset"
+			[1]
+			string data = "map_environment_tags_time_of_day_day"
+			[2]
+			string data = "map_environment_tags_time_of_day_night"
+			[3]
+			string data = "map_environment_tags_time_of_day_dawn"
+			[4]
+			string data = "map_environment_tags_time_of_day_dusk"
+	vector timeOfDaySprites
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -6384501917839842814
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 1492088962879467099
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 8590627293645810104
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -8017334134683923235
+	vector moonPhaseLocalizeKeys
+		Array Array
+		int size = 9
+			[0]
+			string data = "map_environment_tags_moon_phase_unset"
+			[1]
+			string data = "map_environment_tags_moon_phase_new_moon"
+			[2]
+			string data = "map_environment_tags_moon_phase_first_quarter_moon"
+			[3]
+			string data = "map_environment_tags_moon_phase_full_moon"
+			[4]
+			string data = "map_environment_tags_moon_phase_third_quarter_moon"
+			[5]
+			string data = "map_environment_tags_moon_phase_waxing_crescent_moon"
+			[6]
+			string data = "map_environment_tags_moon_phase_waxing_gibbous_moon"
+			[7]
+			string data = "map_environment_tags_moon_phase_waning_gibbous_moon"
+			[8]
+			string data = "map_environment_tags_moon_phase_waning_crescent_moon"
+	vector moonPhaseSprites
+		Array Array
+		int size = 9
+			[0]
+			PPtr<$Sprite> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 2975766066509631070
+			[2]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 6309813269860482120
+			[3]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 1419743610361164089
+			[4]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -7607104041150817823
+			[5]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -6247443410142170314
+			[6]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -8834603267605666936
+			[7]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = -129048919366786314
+			[8]
+			PPtr<$Sprite> data
+				int m_FileID = 9
+				SInt64 m_PathID = 13954736732234471
+	PPtr<$Sprite> infoSprite
+		int m_FileID = 9
+		SInt64 m_PathID = 2012290727324707252
+	vector soundEffectsBanks
+		Array Array
+		int size = 0
+	vector daySFX
+		Array Array
+		int size = 8
+			[0]
+			string data = ""
+			[1]
+			string data = ""
+			[2]
+			string data = ""
+			[3]
+			string data = ""
+			[4]
+			string data = ""
+			[5]
+			string data = ""
+			[6]
+			string data = ""
+			[7]
+			string data = ""
+	vector nightSFX
+		Array Array
+		int size = 8
+			[0]
+			string data = ""
+			[1]
+			string data = ""
+			[2]
+			string data = ""
+			[3]
+			string data = ""
+			[4]
+			string data = ""
+			[5]
+			string data = ""
+			[6]
+			string data = ""
+			[7]
+			string data = ""

@@ -1,0 +1,119 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3117436779375364169
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1442120226689109138
+	string m_Name = ""
+	PPtr<$MapCamera> _camera
+		int m_FileID = 0
+		SInt64 m_PathID = -8763979207247115040
+	PPtr<$TimelineCharacterTarget> _avatarTarget
+		int m_FileID = 0
+		SInt64 m_PathID = -2754641163904479175
+	PPtr<$GameObject> _playerAvatar
+		int m_FileID = 0
+		SInt64 m_PathID = -9029107031873333249
+	PPtr<$Transform> _compassTransform
+		int m_FileID = 0
+		SInt64 m_PathID = 2693959768752325370
+	RangeIndicatorView _rangeIndicator
+		PPtr<$Transform> _rangeIndicator
+			int m_FileID = 0
+			SInt64 m_PathID = -8665277472541944427
+		float _minRangeRingScale = 0
+		float _interactRangeFadeOutLeashScale = 2
+		float _interactRingAnimTime = 3
+		AnimationCurve _interactRingScaleAnimCurve
+			vector m_Curve
+				Array Array
+				int size = 2
+					[0]
+					Keyframe data
+						float time = 0
+						float value = 0.6003418
+						float inSlope = 0.9030533
+						float outSlope = 0.9030533
+					[1]
+					Keyframe data
+						float time = 1
+						float value = 1
+						float inSlope = 0
+						float outSlope = 0
+			int m_PreInfinity = 2
+			int m_PostInfinity = 2
+			int m_RotationOrder = 0
+		AnimationCurve _interactRingAlphaCurve
+			vector m_Curve
+				Array Array
+				int size = 4
+					[0]
+					Keyframe data
+						float time = 0
+						float value = 0
+						float inSlope = 0
+						float outSlope = 0
+					[1]
+					Keyframe data
+						float time = 0.04131594
+						float value = 0.07991439
+						float inSlope = 3.406496
+						float outSlope = 3.406496
+					[2]
+					Keyframe data
+						float time = 0.4939666
+						float value = 0.9956309
+						float inSlope = 0.05278764
+						float outSlope = 0.05278764
+					[3]
+					Keyframe data
+						float time = 1
+						float value = 1
+						float inSlope = 0
+						float outSlope = 0
+			int m_PreInfinity = 2
+			int m_PostInfinity = 2
+			int m_RotationOrder = 0
+		AnimationCurve _interactRingFadeoutLeashAlphaCurve
+			vector m_Curve
+				Array Array
+				int size = 3
+					[0]
+					Keyframe data
+						float time = 0.4589929
+						float value = 0.8486676
+						float inSlope = 1.99382
+						float outSlope = 1.99382
+					[1]
+					Keyframe data
+						float time = 0.5814357
+						float value = 0.9729515
+						float inSlope = 0.246622
+						float outSlope = 0.246622
+					[2]
+					Keyframe data
+						float time = 0.9996781
+						float value = 0.9990026
+						float inSlope = -3.908983E-06
+						float outSlope = -3.908983E-06
+			int m_PreInfinity = 2
+			int m_PostInfinity = 2
+			int m_RotationOrder = 0
+	PPtr<$Renderer> _avatarRenderer
+		int m_FileID = 0
+		SInt64 m_PathID = -6669184613287881444
+	Vector3f _targetPosition
+		float x = 0
+		float y = 0
+		float z = 0
+	float _catchupTime = 1
+	float _catchupDistance = 100
+	float _teleportDistance = 1000
+	float _turnSpeed = 360
+	float _avatarAcceleration = 40
+	float _noFlyZoneSqrDistance = 100
+	float _extendedIdleTime = 10
+	float _extendedIdleAnimTimeRange = 10
+	float _walkSpeed = 0.75

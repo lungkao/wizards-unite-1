@@ -1,0 +1,28 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 102
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 38
+	string m_Name = ""
+	UInt8 testShowShadowTextures = 0
+	int numShadowSlots = 1
+	int shadowTextureWidth = 96
+	int shadowTextureHeight = 96
+	PPtr<$Shader> shadowRenderSingleColorShader
+		int m_FileID = 6
+		SInt64 m_PathID = 357776743673256059
+	PPtr<$Shader> shadowRenderPlaneShader
+		int m_FileID = 6
+		SInt64 m_PathID = 8597161312925319367
+	PPtr<$Shader> blurShader
+		int m_FileID = 6
+		SInt64 m_PathID = 7496952058739959752
+	PPtr<$Camera> shadowCamera
+		int m_FileID = 0
+		SInt64 m_PathID = 386
+	float shadowDistanceFromGround = 0.15
+	BitField shadowLayerMask
+		unsigned int m_Bits = 512

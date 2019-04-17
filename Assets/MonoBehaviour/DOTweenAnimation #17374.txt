@@ -1,0 +1,144 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6984627887803998175
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6380373314413769357
+	string m_Name = ""
+	int updateType = 0
+	UInt8 isSpeedBased = 0
+	UInt8 hasOnStart = 0
+	UInt8 hasOnPlay = 0
+	UInt8 hasOnUpdate = 0
+	UInt8 hasOnStepComplete = 0
+	UInt8 hasOnComplete = 0
+	UInt8 hasOnTweenCreated = 0
+	UInt8 hasOnRewind = 0
+	UnityEvent onStart
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onPlay
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 0
+						string m_MethodName = "DOPlayById"
+						int m_Mode = 5
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = "collect_exit"
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onUpdate
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onStepComplete
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onComplete
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onTweenCreated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onRewind
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	float delay = 0.6
+	float duration = 0.4
+	int easeType = 3
+	AnimationCurve easeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	int loopType = 0
+	int loops = 1
+	string id = "ring_collect_1"
+	UInt8 isRelative = 0
+	UInt8 isFrom = 0
+	UInt8 isIndependentUpdate = 0
+	UInt8 autoKill = 0
+	UInt8 isActive = 1
+	UInt8 isValid = 1
+	PPtr<$Component> target
+		int m_FileID = 0
+		SInt64 m_PathID = -2063382103153931574
+	int animationType = 7
+	int targetType = 3
+	int forcedTargetType = 0
+	UInt8 autoPlay = 1
+	UInt8 useTargetAsV3 = 0
+	float endValueFloat = 0
+	Vector3f endValueV3
+		float x = 0
+		float y = 0
+		float z = 0
+	Vector2f endValueV2
+		float x = 0
+		float y = 0
+	ColorRGBA endValueColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	string endValueString = ""
+	Rectf endValueRect
+		float x = 0
+		float y = 0
+		float width = 0
+		float height = 0
+	PPtr<$Transform> endValueTransform
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 optionalBool0 = 0
+	float optionalFloat0 = 0
+	int optionalInt0 = 0
+	int optionalRotationMode = 0
+	int optionalScrambleMode = 0
+	string optionalString = ""

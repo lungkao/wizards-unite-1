@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 9007164473865312859
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8889104809410688697
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	float _fillPercentagePerFrame = 0.01
+	PPtr<$Image> _transitionScreen
+		int m_FileID = 0
+		SInt64 m_PathID = 5693899453478369522
+	float _transitionTime = 0.5
+	AnimationCurve _transitionCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 1
+					float outSlope = 1
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 1
+					float outSlope = 1
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0

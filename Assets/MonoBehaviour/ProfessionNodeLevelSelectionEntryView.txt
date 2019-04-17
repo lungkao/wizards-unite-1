@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3896696025191018942
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1077421873674140018
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$GameObject> _lockedContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4628585916947275733
+	PPtr<$Image> _lockedNodeImg
+		int m_FileID = 0
+		SInt64 m_PathID = -2317361694631762873
+	PPtr<$GameObject> _unlockedContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1978029317799747378
+	PPtr<$Image> _unlockedNodeImg
+		int m_FileID = 0
+		SInt64 m_PathID = -5452393117299185403
+	PPtr<$GameObject> _completedContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 1941368951645851048
+	PPtr<$ProfessionNodeLevelSelectionCardView> _professionNodeSelectionCardPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 1352054088050523465
+	PPtr<$Transform> _cardContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8193120112707572936
+	PPtr<$GameObject> _bottomDivider
+		int m_FileID = 0
+		SInt64 m_PathID = -89305907152417181

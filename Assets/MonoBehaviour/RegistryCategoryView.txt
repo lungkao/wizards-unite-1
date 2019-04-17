@@ -1,0 +1,49 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7767445549699049400
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 977350094369972890
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$RegistryVisualConfig> RegistryVisualConfig
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$RKImuAwareMaterialController> ImuMaterialController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _subCategoryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 1329515753988123197
+	PPtr<$SnapLayoutGroup> _snapLayoutGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -5554712407401942531
+	PPtr<$CategoryNavigationBarView> _categoryNavBar
+		int m_FileID = 0
+		SInt64 m_PathID = -3172736084318542708
+	PPtr<$FamilyNavigationItemView> _categoryNavItemPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 8434994515815881950
+	PPtr<$Image> _scrimImage
+		int m_FileID = 0
+		SInt64 m_PathID = -3984600286376014484
+	PPtr<$NestedPrefab> _xpBarPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 2414746025238913457
+	PPtr<$GameObject> _enterAnimationPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 9156829947304710814
+	PPtr<$GameObject> _exitAnimationPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 5512264602700363782

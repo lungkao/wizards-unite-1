@@ -1,0 +1,121 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2915317133798920660
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2475168205702122482
+	string m_Name = ""
+	RewardsFlowTuple _rewardsFlow
+		PPtr<$Spline> rewardAnimPath
+			int m_FileID = 0
+			SInt64 m_PathID = 6437459245525226522
+		AnimationCurve rewardAnimTweenCurve
+			vector m_Curve
+				Array Array
+				int size = 2
+					[0]
+					Keyframe data
+						float time = 0
+						float value = 0
+						float inSlope = 0
+						float outSlope = 0
+					[1]
+					Keyframe data
+						float time = 1
+						float value = 1
+						float inSlope = 0
+						float outSlope = 0
+			int m_PreInfinity = 2
+			int m_PostInfinity = 2
+			int m_RotationOrder = 0
+		PPtr<$DOTweenAnimation> alphaTween
+			int m_FileID = 0
+			SInt64 m_PathID = 6374659779070587718
+		float rewardAnimTotalTime = 1.2
+	PPtr<$Transform> _finalTweenNode
+		int m_FileID = 0
+		SInt64 m_PathID = -3495549302202086770
+	PPtr<$GameObject> _suitcaseAnimationRoot
+		int m_FileID = 0
+		SInt64 m_PathID = -4094489478992111778
+	PPtr<$DOTweenAnimation> _suitcaseAnimationStart
+		int m_FileID = 0
+		SInt64 m_PathID = -6479501341590214939
+	float _suitcaseAnimationDelay = 2.8
+	PPtr<$DOTweenAnimation> _suitcaseAnimationStars
+		int m_FileID = 0
+		SInt64 m_PathID = 7440321096434780634
+	float _suitcaseAnimationStarDelay = 2.4
+	PPtr<$DOTweenAnimation> _rewardBurstAnimationStart
+		int m_FileID = 0
+		SInt64 m_PathID = 6374659779070587718
+	PPtr<$GameObject> _rewardScrimGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 922021384785266036
+	PPtr<$TextMeshProUGUI> _rewardNameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 5292967770230159745
+	PPtr<$TextMeshProUGUI> _rewardQuantityLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3696537837421783071
+	UInt8 _hapticsEnabled = 1
+	PPtr<$Image> _defaultImage
+		int m_FileID = 0
+		SInt64 m_PathID = 7969662040677390303
+	vector _resetAnimations
+		Array Array
+		int size = 13
+			[0]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = -352706285708476424
+			[1]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6374659779070587718
+			[2]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5046212719331206064
+			[3]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6021213566126884275
+			[4]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6479501341590214939
+			[5]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7113456385852852140
+			[6]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7440321096434780634
+			[7]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = -934262133943731492
+			[8]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2685126206059219629
+			[9]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2440682991531666279
+			[10]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5892345069020085156
+			[11]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8844915056485838504
+			[12]
+			PPtr<$DOTweenAnimation> data
+				int m_FileID = 0
+				SInt64 m_PathID = 740975036704861275

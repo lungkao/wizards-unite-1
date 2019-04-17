@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6087079585415615369
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -34251909413751793
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _characterPortrait
+		int m_FileID = 0
+		SInt64 m_PathID = -1504849277594866901
+	PPtr<$TextMeshProUGUI> _characterName
+		int m_FileID = 0
+		SInt64 m_PathID = 5732491129144101445
+	PPtr<$TextMeshProUGUI> _contentText
+		int m_FileID = 0
+		SInt64 m_PathID = -1720939912589982347
+	PPtr<$TextMeshProUGUI> _tapToContinueText
+		int m_FileID = 0
+		SInt64 m_PathID = -8010133660699321076

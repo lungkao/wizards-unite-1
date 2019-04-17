@@ -1,0 +1,153 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6774801516999903931
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4031974359916797492
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.6029412
+		float g = 0.6029412
+		float b = 0.6029412
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _threatLevelText
+		int m_FileID = 0
+		SInt64 m_PathID = 4760162963773234044
+	PPtr<$Transform> _baseClockHand
+		int m_FileID = 0
+		SInt64 m_PathID = 5379363960652108352
+	PPtr<$Transform> _clockHand
+		int m_FileID = 0
+		SInt64 m_PathID = -5614285419254554018
+	PPtr<$Transform> _clockHand2
+		int m_FileID = 0
+		SInt64 m_PathID = -3913577713936851127
+	PPtr<$Image> _clockRingMask
+		int m_FileID = 0
+		SInt64 m_PathID = -3963084472641612240
+	PPtr<$Image> _clockRing
+		int m_FileID = 0
+		SInt64 m_PathID = -6570695052303264285
+	float starWaitTime = 1
+	float displayWaitTime = 1.5
+	float spinTransitionTime = 0.3
+	float macusaClockHoldOnScreenTime = 2.25
+	float hand2RotateTime = 1
+	float _initialHandRotation = 360
+	string _onClockWindingSoundEvent = "event:/UI/EncounterUI/LoopingWindUpLittleHand"
+	string _onClockDoneSoundEvent = "event:/UI/EncounterUI/SFX_ClockHand1_01"
+	string _onBarFillingSoundEvent = "event:/UI/EncounterUI/LoopingWindUpBigHand"
+	string _onBarDoneSoundEvent = "event:/UI/EncounterUI/SFX_ClockHand2_01"
+	MacusaClockConfig _thresholds
+		Array Array
+		int size = 8
+			[0]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_emergency"
+				float MaxThreshold = 0.01
+				float AngleOfSpace = 0.153
+				ColorRGBA Color
+					float r = 1
+					float g = 0.02352941
+					float b = 0
+					float a = 1
+			[1]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_severe"
+				float MaxThreshold = 0.04
+				float AngleOfSpace = 0.3
+				ColorRGBA Color
+					float r = 1
+					float g = 0.2784314
+					float b = 0
+					float a = 1
+			[2]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_very_high"
+				float MaxThreshold = 0.1
+				float AngleOfSpace = 0.42
+				ColorRGBA Color
+					float r = 1
+					float g = 0.5254902
+					float b = 0
+					float a = 1
+			[3]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_high"
+				float MaxThreshold = 0.21
+				float AngleOfSpace = 0.55
+				ColorRGBA Color
+					float r = 1
+					float g = 0.8039216
+					float b = 0
+					float a = 1
+			[4]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_med_high"
+				float MaxThreshold = 0.24
+				float AngleOfSpace = 0.67
+				ColorRGBA Color
+					float r = 0.7803922
+					float g = 0.8588236
+					float b = 0
+					float a = 1
+			[5]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_medium"
+				float MaxThreshold = 0.365
+				float AngleOfSpace = 0.78
+				ColorRGBA Color
+					float r = 0.5019608
+					float g = 0.8588236
+					float b = 0
+					float a = 1
+			[6]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_med_low"
+				float MaxThreshold = 0.4
+				float AngleOfSpace = 0.89
+				ColorRGBA Color
+					float r = 0.3098039
+					float g = 0.8470589
+					float b = 0
+					float a = 1
+			[7]
+			MacusaClockConfig data
+				string ThreatText = "threat_level_low"
+				float MaxThreshold = 1
+				float AngleOfSpace = 1
+				ColorRGBA Color
+					float r = 0.1019608
+					float g = 0.8274511
+					float b = 0
+					float a = 1
+	vector _starsToAnimate
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3459821997489251464
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8399108332388655692
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 329068371469897553
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5397045915092262117
+			[4]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6024081359353361588

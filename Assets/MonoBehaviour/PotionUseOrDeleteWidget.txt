@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3584477545364205672
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 9100042675910747459
+	string m_Name = ""
+	PPtr<$TextMeshProUGUI> _time
+		int m_FileID = 0
+		SInt64 m_PathID = -4319622817433475244
+	PPtr<$GameObject> _durationText
+		int m_FileID = 0
+		SInt64 m_PathID = -5578098076426715275
+	PPtr<$GameObject> _activeText
+		int m_FileID = 0
+		SInt64 m_PathID = 1545725039834305735

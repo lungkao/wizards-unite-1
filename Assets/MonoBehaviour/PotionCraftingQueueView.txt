@@ -1,0 +1,108 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2521488644544802515
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2700585455320180918
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _remainingTime
+		int m_FileID = 0
+		SInt64 m_PathID = 6363261467960179508
+	PPtr<$TextMeshProUGUI> _speedUpCostLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -8560410561054440902
+	PPtr<$GameObject> _feedbackFirstPotion
+		int m_FileID = 0
+		SInt64 m_PathID = -6785292624320349314
+	PotionSlot _potionSlots
+		Array Array
+		int size = 4
+			[0]
+			PotionSlot data
+				PPtr<$Image> Image
+					int m_FileID = 0
+					SInt64 m_PathID = 5336998203672989647
+				PPtr<$PotionAnimatorCompletedMasterNote> AnimatorMasterNote
+					int m_FileID = 0
+					SInt64 m_PathID = 4069306602721523743
+				PPtr<$AdvancedUIButton> Button
+					int m_FileID = 0
+					SInt64 m_PathID = 7201791692103833333
+			[1]
+			PotionSlot data
+				PPtr<$Image> Image
+					int m_FileID = 0
+					SInt64 m_PathID = 667672412704464241
+				PPtr<$PotionAnimatorCompletedMasterNote> AnimatorMasterNote
+					int m_FileID = 0
+					SInt64 m_PathID = -7680986592326982301
+				PPtr<$AdvancedUIButton> Button
+					int m_FileID = 0
+					SInt64 m_PathID = -8078352878348766354
+			[2]
+			PotionSlot data
+				PPtr<$Image> Image
+					int m_FileID = 0
+					SInt64 m_PathID = 7450794710526682432
+				PPtr<$PotionAnimatorCompletedMasterNote> AnimatorMasterNote
+					int m_FileID = 0
+					SInt64 m_PathID = -3536422019966346609
+				PPtr<$AdvancedUIButton> Button
+					int m_FileID = 0
+					SInt64 m_PathID = 1338626649023528853
+			[3]
+			PotionSlot data
+				PPtr<$Image> Image
+					int m_FileID = 0
+					SInt64 m_PathID = 1013154715473844645
+				PPtr<$PotionAnimatorCompletedMasterNote> AnimatorMasterNote
+					int m_FileID = 0
+					SInt64 m_PathID = -1864207180239184885
+				PPtr<$AdvancedUIButton> Button
+					int m_FileID = 0
+					SInt64 m_PathID = 5144113597093466323
+	PPtr<$GameObject> _potionQueueFooter
+		int m_FileID = 0
+		SInt64 m_PathID = 5406496212508783439
+	PPtr<$GameObject> _rentalCauldronFooter
+		int m_FileID = 0
+		SInt64 m_PathID = 6273230045513923529
+	PPtr<$GameObject> _rentCauldronButton
+		int m_FileID = 0
+		SInt64 m_PathID = -5506254785823969713
+	PPtr<$TextMeshProUGUI> _rentCauldronLockedLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 1365396232995320351
+	PPtr<$GameObject> _remainingDays
+		int m_FileID = 0
+		SInt64 m_PathID = -5562618457676499141
+	PPtr<$TextMeshProUGUI> _remainingCauldronTimeLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 1858542595731180140
+	PPtr<$GameObject> _ScreenToCollect
+		int m_FileID = 0
+		SInt64 m_PathID = -808425068724955222
+	PPtr<$Animator> _potionCollectedAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = -5005855457249549747
+	PPtr<$TextMeshProUGUI> _potionCollectedLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -7066685765968768558
+	PPtr<$Animator> _potionListAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = -5692051391726689908
+	PPtr<$ScrollRectWithParentYield> _scrollRect
+		int m_FileID = 0
+		SInt64 m_PathID = 5261259492666397143

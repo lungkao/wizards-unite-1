@@ -1,0 +1,46 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6452735556193879258
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2177855370712473182
+	string m_Name = ""
+	float _mapEntityRotateSpeed = 100
+	UInt8 needToRotate = 0
+	vector _rarityMarkers
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[2]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[3]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9029705993917622803
+			[4]
+			PPtr<$NestedPrefab> data
+				int m_FileID = 0
+				SInt64 m_PathID = 85759148504119192
+	PPtr<$ParticleSystem> _appearVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 5652522102345243692
+	PPtr<$ParticleSystem> _collectVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 3914651705994452310
+	PPtr<$ParticleSystem> _despawnVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 8664812655094012731
+	string _rareSpawnSFX = "event:/SFX/Map/RareTraceSpawn"
+	string _normalSpawnSFX = "event:/SFX/Map/TraceSpawn"
+	int _rareSoundEffectThresholt = 3

@@ -1,0 +1,22 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5768285645583016868
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8077262399075156545
+	string m_Name = ""
+	PPtr<$Transform> _tip
+		int m_FileID = 0
+		SInt64 m_PathID = 3849497482125976063
+	PPtr<$GameObject> _defaultWand
+		int m_FileID = 0
+		SInt64 m_PathID = -5074402221916893334
+	float _rotationSpeed = 180
+	PPtr<$Transform> _userWandParent
+		int m_FileID = 0
+		SInt64 m_PathID = -4738485763411078196
+	PPtr<$Material> _userWandMaterial
+		int m_FileID = 18
+		SInt64 m_PathID = 7803917652851295955
