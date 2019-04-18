@@ -3,7 +3,7 @@ import imageminPngquant from 'imagemin-pngquant';
 
 import Shared from './shared';
 
-imagemin(Shared.ImagePaths, Shared.ImageOutputFolder, {
+imagemin(Shared.ImagePaths.PNGsForMinification, Shared.ImageOutputFolder, {
     plugins: [
         imageminPngquant()
     ]

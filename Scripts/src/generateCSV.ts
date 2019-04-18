@@ -14,7 +14,7 @@ function GenerateWebFriendlyName(file: string, nameRegex: RegExp) {
     return null;
 }
 
-Shared.ImagePaths.forEach(path => {
+Shared.ImagePaths.PNGsForMinification.forEach(path => {
     glob(path, function(error, matches) {
         matches.forEach((file: string) => {
 
