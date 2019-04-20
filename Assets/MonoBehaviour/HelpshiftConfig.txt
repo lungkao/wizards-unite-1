@@ -1,8 +1,18 @@
-PPtr<GameObject> m_GameObject
-	int m_FileID = 0
-	int64 m_PathID = 0
-UInt8 m_Enabled = 1
-PPtr<MonoScript> m_Script
-	int m_FileID = 1
-	int64 m_PathID = 414
-string m_Name = "HelpshiftConfig"
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2707424564643693686
+	string m_Name = "HelpshiftConfig"
+	string apiKey = "cf596b8ef2dcf34f95effc9e303c2d77"
+	string domainName = "niantic.helpshift.com"
+	string iosAppId = "niantic_platform_20181030164401667-24b48994424bde5"
+	string androidAppId = "niantic_platform_20181030164401681-276cfa818fd231c"
+	string unityGameObject = "Bootstrap"
+	UInt8 enableInAppNotification = 0
+	UInt8 enableDefaultFallbackLanguage = 1
+	UInt8 enableLogging = 1
+	string supportNotificationChannelId = ""

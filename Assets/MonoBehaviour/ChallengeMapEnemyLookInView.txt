@@ -1,0 +1,115 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6451841381343799389
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8140716767739537020
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _enemyNameText
+		int m_FileID = 0
+		SInt64 m_PathID = 530490875485585586
+	PPtr<$Transform> _regularBanner
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Transform> _eliteBanner
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _enemyHPText
+		int m_FileID = 0
+		SInt64 m_PathID = -3255878492834005897
+	PPtr<$Transform> _enemyMarkerContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 4849223673268654190
+	PPtr<$ChallengeEnemyUIView> _enemyMarkerPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4868752520043231080
+	PPtr<$GameObject> _statAndBuffAnchor
+		int m_FileID = 0
+		SInt64 m_PathID = 2189168012112649912
+	PPtr<$BuffIconView> _buffIconPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7627702276080638235
+	PPtr<$SnapLayoutGroup> _infoPanelLayoutGroup
+		int m_FileID = 0
+		SInt64 m_PathID = -5283510463948569515
+	PPtr<$GameObject> _infoPanelLeftButton
+		int m_FileID = 0
+		SInt64 m_PathID = -160109017206517560
+	PPtr<$GameObject> _infoPanelRightButton
+		int m_FileID = 0
+		SInt64 m_PathID = -359788545803602964
+	PPtr<$GameObject> _nextMobButton
+		int m_FileID = 0
+		SInt64 m_PathID = 7243771749183134864
+	PPtr<$GameObject> _previousMobButton
+		int m_FileID = 0
+		SInt64 m_PathID = 5530497853133258193
+	ColorRGBA _advantageColor
+		float r = 0.0509804
+		float g = 0.4901961
+		float b = 0.04313726
+		float a = 1
+	ColorRGBA _neutralColor
+		float r = 0.2941177
+		float g = 0.2117647
+		float b = 0.1529412
+		float a = 1
+	ColorRGBA _disadvantageColor
+		float r = 0.2941177
+		float g = 0.2117647
+		float b = 0.1529412
+		float a = 1
+	PPtr<$Image> _affinityIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -1807304173441865189
+	PPtr<$TextMeshProUGUI> _affinityName
+		int m_FileID = 0
+		SInt64 m_PathID = -8494617277971540841
+	PPtr<$GameObject> _affinityDescriptionContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -8921368803318398039
+	PPtr<$Image> _affinityDescriptionIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 3057605243054616482
+	PPtr<$TextMeshProUGUI> _affinityDescriptionText
+		int m_FileID = 0
+		SInt64 m_PathID = 3140952532255484673
+	PPtr<$MobRewardView> _mobRewardView
+		int m_FileID = 0
+		SInt64 m_PathID = 4529852301132830570
+	PPtr<$MobRankTagView> _mobRankTagView
+		int m_FileID = 0
+		SInt64 m_PathID = -1756367223023379828
+	PPtr<$Transform> _availableContent
+		int m_FileID = 0
+		SInt64 m_PathID = 8900432704139483136
+	PPtr<$Transform> _unavailableContent
+		int m_FileID = 0
+		SInt64 m_PathID = 4398829748854927189
+	PPtr<$ScrollRectWithParentYield> _traitScrollRect
+		int m_FileID = 0
+		SInt64 m_PathID = 4417370511325196759
+	PPtr<$Transform> _traitContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 8859181048303003799
+	PPtr<$TextMeshProUGUI> _traitsTabFlavorText
+		int m_FileID = 0
+		SInt64 m_PathID = -5664172513434065084
+	PPtr<$ChallengeLookInTraitView> _traitPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 5323938172941106996
+	PPtr<$ToggleButtonUIView> _arToggleButton
+		int m_FileID = 0
+		SInt64 m_PathID = -4978339564223452742

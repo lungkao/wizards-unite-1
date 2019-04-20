@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 4886525982675197047
+		SInt64 m_PathID = 8578943680411333591
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -58,8 +58,8 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 0
-	float duration = 1.5
+	float delay = 0.2
+	float duration = 0.5
 	int easeType = 6
 	AnimationCurve easeCurve
 		vector m_Curve
@@ -80,18 +80,18 @@ MonoBehaviour Base
 		int m_PreInfinity = 2
 		int m_PostInfinity = 2
 		int m_RotationOrder = 4
-	int loopType = 1
-	int loops = -1
-	string id = ""
+	int loopType = 0
+	int loops = 1
+	string id = "CollectionStickerFade"
 	UInt8 isRelative = 0
 	UInt8 isFrom = 1
 	UInt8 isIndependentUpdate = 0
-	UInt8 autoKill = 0
+	UInt8 autoKill = 1
 	UInt8 isActive = 1
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = 7143516285765731310
+		SInt64 m_PathID = -1942123346661070089
 	int animationType = 7
 	int targetType = 3
 	int forcedTargetType = 0

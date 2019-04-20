@@ -1,0 +1,190 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2511641860096513481
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8890283587956622325
+	string m_Name = ""
+	PPtr<$Material> m_Material
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA m_Color
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	UInt8 m_RaycastTarget = 1
+	CullStateChangedEvent m_OnCullStateChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	string m_text = "TEXT"
+	UInt8 m_isRightToLeft = 0
+	PPtr<$TMP_FontAsset> m_fontAsset
+		int m_FileID = 4
+		SInt64 m_PathID = -4084404387857473446
+	PPtr<$Material> m_sharedMaterial
+		int m_FileID = 4
+		SInt64 m_PathID = 759570436981082190
+	vector m_fontSharedMaterials
+		Array Array
+		int size = 0
+	PPtr<$Material> m_fontMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	vector m_fontMaterials
+		Array Array
+		int size = 0
+	ColorRGBA m_fontColor32
+		unsigned int rgba = 4294967295
+	ColorRGBA m_fontColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	UInt8 m_enableVertexGradient = 0
+	VertexGradient m_fontColorGradient
+		ColorRGBA topLeft
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		ColorRGBA topRight
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		ColorRGBA bottomLeft
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		ColorRGBA bottomRight
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+	PPtr<$TMP_ColorGradient> m_fontColorGradientPreset
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TMP_SpriteAsset> m_spriteAsset
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_tintAllSprites = 0
+	UInt8 m_overrideHtmlColors = 0
+	ColorRGBA m_faceColor
+		unsigned int rgba = 4294967295
+	ColorRGBA m_outlineColor
+		unsigned int rgba = 4278190080
+	float m_fontSize = 40
+	float m_fontSizeBase = 30
+	int m_fontWeight = 400
+	UInt8 m_enableAutoSizing = 1
+	float m_fontSizeMin = 18
+	float m_fontSizeMax = 40
+	int m_fontStyle = 0
+	int m_textAlignment = 4098
+	UInt8 m_isAlignmentEnumConverted = 1
+	float m_characterSpacing = 0
+	float m_wordSpacing = 0
+	float m_lineSpacing = -15
+	float m_lineSpacingMax = 0
+	float m_paragraphSpacing = 0
+	float m_charWidthMaxAdj = 0
+	UInt8 m_enableWordWrapping = 1
+	float m_wordWrappingRatios = 0.4
+	int m_overflowMode = 3
+	int m_firstOverflowCharacterIndex = -1
+	PPtr<$TMP_Text> m_linkedTextComponent
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_isLinkedTextComponent = 0
+	UInt8 m_enableKerning = 1
+	UInt8 m_enableExtraPadding = 0
+	UInt8 checkPaddingRequired = 0
+	UInt8 m_isRichText = 1
+	UInt8 m_parseCtrlCharacters = 1
+	UInt8 m_isOrthographic = 1
+	UInt8 m_isCullingEnabled = 0
+	UInt8 m_ignoreRectMaskCulling = 0
+	UInt8 m_ignoreCulling = 1
+	int m_horizontalMapping = 0
+	int m_verticalMapping = 0
+	float m_uvLineOffset = 0
+	int m_geometrySortingOrder = 0
+	int m_firstVisibleCharacter = 0
+	UInt8 m_useMaxVisibleDescender = 1
+	int m_pageToDisplay = 1
+	Vector4f m_margin
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0
+	TMP_TextInfo m_textInfo
+		PPtr<$TMP_Text> textComponent
+			int m_FileID = 0
+			SInt64 m_PathID = -5736349084817076092
+		int characterCount = 4
+		int spriteCount = 0
+		int spaceCount = 0
+		int wordCount = 1
+		int linkCount = 0
+		int lineCount = 1
+		int pageCount = 1
+		int materialCount = 1
+	UInt8 m_havePropertiesChanged = 1
+	UInt8 m_isUsingLegacyAnimationComponent = 0
+	UInt8 m_isVolumetricText = 0
+	PPtr<$TMP_SpriteAnimator> m_spriteAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_isInputParsingRequired = 1
+	int m_inputSource = 0
+	UInt8 m_hasFontAssetChanged = 0
+	vector m_subTextObjects
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[1]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[2]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[3]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[4]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[5]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[6]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			[7]
+			PPtr<$TMP_SubMeshUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+	PPtr<$Material> m_baseMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector4f m_maskOffset
+		float x = 0
+		float y = 0
+		float z = 0
+		float w = 0

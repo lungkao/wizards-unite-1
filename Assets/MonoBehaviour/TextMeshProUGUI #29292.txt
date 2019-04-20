@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 5080943180868450205
+		SInt64 m_PathID = -8984588470606701636
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -22,7 +22,7 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "collections_page_complete_max_description"
+	string m_text = "profession_info_screen_section3_desc"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
 		int m_FileID = 1
@@ -40,11 +40,11 @@ MonoBehaviour Base
 		Array Array
 		int size = 0
 	ColorRGBA m_fontColor32
-		unsigned int rgba = 4282422722
+		unsigned int rgba = 4294967295
 	ColorRGBA m_fontColor
-		float r = 0.7607844
-		float g = 0.5843138
-		float b = 0.2509804
+		float r = 1
+		float g = 1
+		float b = 1
 		float a = 1
 	UInt8 m_enableVertexGradient = 0
 	VertexGradient m_fontColorGradient
@@ -80,18 +80,18 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 28.05
-	float m_fontSizeBase = 90
+	float m_fontSize = 22.25
+	float m_fontSizeBase = 32
 	int m_fontWeight = 400
 	UInt8 m_enableAutoSizing = 1
-	float m_fontSizeMin = 20
-	float m_fontSizeMax = 30
+	float m_fontSizeMin = 22
+	float m_fontSizeMax = 27
 	int m_fontStyle = 0
-	int m_textAlignment = 258
+	int m_textAlignment = 257
 	UInt8 m_isAlignmentEnumConverted = 1
 	float m_characterSpacing = 0
 	float m_wordSpacing = 0
-	float m_lineSpacing = -20
+	float m_lineSpacing = 0
 	float m_lineSpacingMax = 0
 	float m_paragraphSpacing = 0
 	float m_charWidthMaxAdj = 0
@@ -112,8 +112,8 @@ MonoBehaviour Base
 	UInt8 m_isCullingEnabled = 0
 	UInt8 m_ignoreRectMaskCulling = 0
 	UInt8 m_ignoreCulling = 1
-	int m_horizontalMapping = 1
-	int m_verticalMapping = 1
+	int m_horizontalMapping = 0
+	int m_verticalMapping = 0
 	float m_uvLineOffset = 0
 	int m_geometrySortingOrder = 0
 	int m_firstVisibleCharacter = 0
@@ -123,12 +123,12 @@ MonoBehaviour Base
 		float x = 0
 		float y = 0
 		float z = 0
-		float w = 0
+		float w = -0.0012944
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = -280837217674711915
-		int characterCount = 41
+			SInt64 m_PathID = 3255808974998561179
+		int characterCount = 36
 		int spriteCount = 0
 		int spaceCount = 0
 		int wordCount = 5

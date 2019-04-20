@@ -1,0 +1,85 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3875729712621309717
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7527421072949479140
+	string m_Name = ""
+	vector _ultraLodObject
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -49165404671272798
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5809215475370046826
+	vector _highLodObject
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -898706090657381891
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6160880808555835961
+	vector _mediumLodObject
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7579038475380206636
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -911087985872621960
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4361484838825568896
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4525971320964339437
+	vector _lowLodObject
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5794158424264426624
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6366315790032836559
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5653069726796298628
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7036553604592968507
+			[4]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -588298577564857309
+			[5]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7685166177156125144
+			[6]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -588298577564857309
+			[7]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2541283929616282443

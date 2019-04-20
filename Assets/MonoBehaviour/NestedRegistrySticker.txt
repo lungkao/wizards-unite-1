@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -8739900363549725128
+		SInt64 m_PathID = -5671582953213628782
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -16,11 +16,11 @@ MonoBehaviour Base
 				int size = 0
 		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$GameObject> _prefab
-		int m_FileID = 2
+		int m_FileID = 1
 		SInt64 m_PathID = 6392046805930118025
 	PPtr<$Image> _image
 		int m_FileID = 0
-		SInt64 m_PathID = 8087613842229793674
+		SInt64 m_PathID = -5788806192775910049
 	PPtr<$Transform> _labelParentTransform
 		int m_FileID = 0
-		SInt64 m_PathID = -5493038476599547022
+		SInt64 m_PathID = -2783968309783311581

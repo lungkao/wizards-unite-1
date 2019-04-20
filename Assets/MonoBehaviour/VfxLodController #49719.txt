@@ -1,0 +1,57 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -710231242270702315
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7527421072949479140
+	string m_Name = ""
+	vector _ultraLodObject
+		Array Array
+		int size = 1
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5274090598515290236
+	vector _highLodObject
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6228232993961770833
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1817893142730095428
+	vector _mediumLodObject
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3049650242388944191
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7374648869655442787
+	vector _lowLodObject
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7010084395258603294
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -984759006936809375
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7689542500628068263
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 3722913009880673866

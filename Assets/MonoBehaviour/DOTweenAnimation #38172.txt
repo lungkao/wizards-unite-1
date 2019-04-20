@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -9014714213898133370
+		SInt64 m_PathID = -5177446945049345251
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -13,7 +13,7 @@ MonoBehaviour Base
 	UInt8 hasOnPlay = 0
 	UInt8 hasOnUpdate = 0
 	UInt8 hasOnStepComplete = 0
-	UInt8 hasOnComplete = 1
+	UInt8 hasOnComplete = 0
 	UInt8 hasOnTweenCreated = 0
 	UInt8 hasOnRewind = 0
 	UnityEvent onStart
@@ -44,24 +44,7 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 1
-					[0]
-					PersistentCall data
-						PPtr<$Object> m_Target
-							int m_FileID = 0
-							SInt64 m_PathID = -8519025155018197021
-						string m_MethodName = "CellAnimationComplete"
-						int m_Mode = 1
-						ArgumentCache m_Arguments
-							PPtr<$Object> m_ObjectArgument
-								int m_FileID = 0
-								SInt64 m_PathID = 0
-							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
-							int m_IntArgument = 0
-							float m_FloatArgument = 0
-							string m_StringArgument = ""
-							UInt8 m_BoolArgument = 0
-						int m_CallState = 2
+				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onTweenCreated
 		PersistentCallGroup m_PersistentCalls
@@ -75,49 +58,73 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 0.25
-	float duration = 0.5
-	int easeType = 28
+	float delay = 0.31
+	float duration = 0.25
+	int easeType = 37
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
-			int size = 2
+			int size = 6
 				[0]
 				Keyframe data
-					float time = 0
-					float value = 0
+					float time = -0.05019945
+					float value = 0.05906691
 					float inSlope = 0
 					float outSlope = 0
 				[1]
 				Keyframe data
-					float time = 1
-					float value = 1
+					float time = 0.1569353
+					float value = -0.3190019
+					float inSlope = -2.231522
+					float outSlope = -2.231522
+				[2]
+				Keyframe data
+					float time = 0.6385002
+					float value = -0.1780465
+					float inSlope = 8.788586
+					float outSlope = 8.788586
+				[3]
+				Keyframe data
+					float time = 0.7154831
+					float value = 1.190135
+					float inSlope = 1.438661
+					float outSlope = 1.438661
+				[4]
+				Keyframe data
+					float time = 0.8506716
+					float value = 0.6948565
+					float inSlope = 0.05685137
+					float outSlope = 0.05685137
+				[5]
+				Keyframe data
+					float time = 0.9498006
+					float value = 1.059067
 					float inSlope = 0
 					float outSlope = 0
 		int m_PreInfinity = 2
 		int m_PostInfinity = 2
 		int m_RotationOrder = 4
-	int loopType = 0
+	int loopType = 1
 	int loops = 1
 	string id = ""
 	UInt8 isRelative = 0
-	UInt8 isFrom = 1
+	UInt8 isFrom = 0
 	UInt8 isIndependentUpdate = 0
 	UInt8 autoKill = 1
 	UInt8 isActive = 1
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = 2228699310796662380
-	int animationType = 5
-	int targetType = 11
+		SInt64 m_PathID = 8366421829287110907
+	int animationType = 1
+	int targetType = 5
 	int forcedTargetType = 0
-	UInt8 autoPlay = 0
+	UInt8 autoPlay = 1
 	UInt8 useTargetAsV3 = 0
 	float endValueFloat = 0
 	Vector3f endValueV3
 		float x = 0
-		float y = 0
+		float y = -1
 		float z = 0
 	Vector2f endValueV2
 		float x = 0
@@ -136,9 +143,9 @@ MonoBehaviour Base
 	PPtr<$Transform> endValueTransform
 		int m_FileID = 0
 		SInt64 m_PathID = 0
-	UInt8 optionalBool0 = 1
-	float optionalFloat0 = 0
-	int optionalInt0 = 0
+	UInt8 optionalBool0 = 0
+	float optionalFloat0 = 90
+	int optionalInt0 = 1
 	int optionalRotationMode = 0
 	int optionalScrambleMode = 0
 	string optionalString = ""

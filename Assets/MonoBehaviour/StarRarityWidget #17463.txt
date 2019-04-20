@@ -1,0 +1,32 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6240527164772233098
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1709917015048036440
+	string m_Name = ""
+	vector Stars
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4707569165783310083
+			[1]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1301481673465381721
+			[2]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7216364314173069261
+			[3]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4805052874501066541
+			[4]
+			PPtr<$GameObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7234267804877753488

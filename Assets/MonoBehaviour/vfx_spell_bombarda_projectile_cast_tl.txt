@@ -1,0 +1,50 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8213397227359743463
+	string m_Name = "vfx_spell_bombarda_projectile_cast_tl"
+	int m_NextId = 0
+	vector m_Tracks
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5376160709113207271
+			[1]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9175098590501602978
+			[2]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7101848800353338056
+			[3]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8893426767432518466
+			[4]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1702493526438040869
+			[5]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8689628519417511637
+			[6]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8878647452350256756
+	double m_FixedDuration = 0
+	EditorSettings m_EditorSettings
+		float m_Framerate = 60
+	int m_DurationMode = 0
+	UInt8 IsForceSequence = 1
+	PPtr<$TimelineAssetExtension> NextTimeline
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int WrapMode = 2

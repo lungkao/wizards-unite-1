@@ -1,0 +1,70 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1511542808205646328
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6974160543375621190
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 1
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$DOTweenAnimation> _transitionInTween
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _hogwartsOverlayObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$ScrollRect> _rewardScrollRect
+		int m_FileID = 0
+		SInt64 m_PathID = 7728623894876254690
+	float _scrollInitialWaitTime = 1.5
+	UInt8 _useNormalizedScroll = 0
+	float _scrollSpeedMultiplier = 225
+	float _cellAnimScreenPos = 0.25
+	PPtr<$Transform> _rewardCellContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 7568635494805540853
+	PPtr<$RewardPatronusManager> _rewardPatronusManager
+		int m_FileID = 0
+		SInt64 m_PathID = -8876993166276569051
+	PPtr<$GameObject> _backgroundImageGO
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _cliffOverlayObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	AnimationCurve _gradientCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 1
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 1
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	Vector3f _overlayParallaxOffset
+		float x = 0
+		float y = 800
+		float z = 0
+	PPtr<$CanvasGroup> _canvasGroup
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 3741662314533406696
+		SInt64 m_PathID = -5170343026320813394
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -18,7 +18,7 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = -8409150637986770089
+							SInt64 m_PathID = 271197319682009332
 						string m_MethodName = "OnNestedPrefabLoaded"
 						int m_Mode = 1
 						ArgumentCache m_Arguments
@@ -33,5 +33,5 @@ MonoBehaviour Base
 						int m_CallState = 2
 		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$GameObject> _prefab
-		int m_FileID = 2
+		int m_FileID = 1
 		SInt64 m_PathID = -3561070127149726370

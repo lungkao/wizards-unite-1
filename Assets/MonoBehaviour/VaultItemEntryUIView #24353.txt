@@ -1,0 +1,46 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2282421043807050866
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1670791555088593276
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _itemNameText
+		int m_FileID = 0
+		SInt64 m_PathID = 1595506521918174731
+	PPtr<$TextMeshProUGUI> _itemQtyText
+		int m_FileID = 0
+		SInt64 m_PathID = 2472062452928980375
+	PPtr<$RectTransform> _rect
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$LayoutElement> _layoutElement
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = 7958576495809415137
+	PPtr<$GameObject> notificationBadge
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> selectionHighlight
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AnimationEventListener> transitionAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$AdvancedUIButton> _useButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2520080131499121882

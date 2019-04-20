@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -7150553489345500519
+		SInt64 m_PathID = -2227764799139663688
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -15,21 +15,21 @@ MonoBehaviour Base
 		float g = 1
 		float b = 1
 		float a = 1
-	UInt8 m_RaycastTarget = 1
+	UInt8 m_RaycastTarget = 0
 	CullStateChangedEvent m_OnCullStateChanged
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "Dark Arts"
+	string m_text = "passport_share_download"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 4
-		SInt64 m_PathID = 3111171929222542297
+		int m_FileID = 2
+		SInt64 m_PathID = -5596591088150043721
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 4
-		SInt64 m_PathID = 7939762594030095772
+		int m_FileID = 2
+		SInt64 m_PathID = -8003657262731169876
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -80,16 +80,16 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 30
-	float m_fontSizeBase = 40
+	float m_fontSize = 18
+	float m_fontSizeBase = 18
 	int m_fontWeight = 400
-	UInt8 m_enableAutoSizing = 1
+	UInt8 m_enableAutoSizing = 0
 	float m_fontSizeMin = 18
-	float m_fontSizeMax = 30
+	float m_fontSizeMax = 25
 	int m_fontStyle = 17
-	int m_textAlignment = 514
+	int m_textAlignment = 4098
 	UInt8 m_isAlignmentEnumConverted = 1
-	float m_characterSpacing = 5
+	float m_characterSpacing = 0
 	float m_wordSpacing = 0
 	float m_lineSpacing = 0
 	float m_lineSpacingMax = 0
@@ -127,13 +127,13 @@ MonoBehaviour Base
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = -7755640389458890373
-		int characterCount = 9
+			SInt64 m_PathID = 7394055395921797949
+		int characterCount = 23
 		int spriteCount = 0
-		int spaceCount = 1
-		int wordCount = 2
+		int spaceCount = 0
+		int wordCount = 3
 		int linkCount = 0
-		int lineCount = 1
+		int lineCount = 2
 		int pageCount = 1
 		int materialCount = 1
 	UInt8 m_havePropertiesChanged = 1

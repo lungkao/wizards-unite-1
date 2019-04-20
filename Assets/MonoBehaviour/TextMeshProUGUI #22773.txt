@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 2532642099065289407
+		SInt64 m_PathID = -4583455814937599942
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -15,21 +15,21 @@ MonoBehaviour Base
 		float g = 1
 		float b = 1
 		float a = 1
-	UInt8 m_RaycastTarget = 0
+	UInt8 m_RaycastTarget = 1
 	CullStateChangedEvent m_OnCullStateChanged
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "Lvl. 1"
+	string m_text = "Okay"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 4
-		SInt64 m_PathID = -4084404387857473446
+		int m_FileID = 1
+		SInt64 m_PathID = -5596591088150043721
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 4
-		SInt64 m_PathID = 759570436981082190
+		int m_FileID = 1
+		SInt64 m_PathID = -8003657262731169876
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -80,18 +80,18 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 40
-	float m_fontSizeBase = 40
+	float m_fontSize = 32
+	float m_fontSizeBase = 32
 	int m_fontWeight = 400
-	UInt8 m_enableAutoSizing = 1
+	UInt8 m_enableAutoSizing = 0
 	float m_fontSizeMin = 18
-	float m_fontSizeMax = 40
-	int m_fontStyle = 0
-	int m_textAlignment = 258
+	float m_fontSizeMax = 72
+	int m_fontStyle = 17
+	int m_textAlignment = 516
 	UInt8 m_isAlignmentEnumConverted = 1
 	float m_characterSpacing = 0
 	float m_wordSpacing = 0
-	float m_lineSpacing = 0
+	float m_lineSpacing = -10
 	float m_lineSpacingMax = 0
 	float m_paragraphSpacing = 0
 	float m_charWidthMaxAdj = 0
@@ -121,17 +121,17 @@ MonoBehaviour Base
 	int m_pageToDisplay = 1
 	Vector4f m_margin
 		float x = 0
-		float y = 0
+		float y = 8.370746
 		float z = 0
 		float w = 0
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = 6744932122805313904
-		int characterCount = 6
+			SInt64 m_PathID = 4495349417280824791
+		int characterCount = 4
 		int spriteCount = 0
-		int spaceCount = 1
-		int wordCount = 2
+		int spaceCount = 0
+		int wordCount = 1
 		int linkCount = 0
 		int lineCount = 1
 		int pageCount = 1

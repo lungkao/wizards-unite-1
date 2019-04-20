@@ -1,8 +1,8 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 855976459865570360
-	UInt8 m_Enabled = 1
+		SInt64 m_PathID = -2430610004567572418
+	UInt8 m_Enabled = 0
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = 5913396896002853080
@@ -18,8 +18,8 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = -4108616042465636576
-						string m_MethodName = "OnNestedPrefabLoaded"
+							SInt64 m_PathID = 4611032758480100123
+						string m_MethodName = ""
 						int m_Mode = 1
 						ArgumentCache m_Arguments
 							PPtr<$Object> m_ObjectArgument
@@ -30,74 +30,57 @@ MonoBehaviour Base
 							float m_FloatArgument = 0
 							string m_StringArgument = ""
 							UInt8 m_BoolArgument = 0
-						int m_CallState = 2
+						int m_CallState = 1
 		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$GameObject> _prefab
-		int m_FileID = 10
+		int m_FileID = 14
 		SInt64 m_PathID = -5275791304202714378
 	UInt8 _showBG = 1
 	PPtr<$BaseUIView> _parentView
 		int m_FileID = 0
-		SInt64 m_PathID = -4108616042465636576
-	int _orderInDialog = 20
+		SInt64 m_PathID = -6199193541747634149
+	int _orderInDialog = 0
 	FooterMenuButtonData _buttonData
 		Array Array
 		int size = 2
 			[0]
 			FooterMenuButtonData data
 				PPtr<$Sprite> defaultSprite
-					int m_FileID = 0
-					SInt64 m_PathID = 6902400096586235550
+					int m_FileID = 1
+					SInt64 m_PathID = -6418222167648599385
 				PPtr<$Sprite> pressedSprite
-					int m_FileID = 0
-					SInt64 m_PathID = 4550853401519336919
+					int m_FileID = 1
+					SInt64 m_PathID = -3878905806400988982
 				PPtr<$Sprite> highlightedSprite
-					int m_FileID = 0
-					SInt64 m_PathID = 4550853401519336919
+					int m_FileID = 1
+					SInt64 m_PathID = -3878905806400988982
 				PPtr<$Sprite> inactiveSprite
-					int m_FileID = 0
-					SInt64 m_PathID = 6902400096586235550
-				string locText = "assignments_daily_events_tab"
+					int m_FileID = 1
+					SInt64 m_PathID = -6418222167648599385
+				string locText = "challenge_lobby_tab"
 				int notif = 0
 				TriggerEvent onTapEvent
 					PersistentCallGroup m_PersistentCalls
 						PersistentCall m_Calls
 							Array Array
-							int size = 1
-								[0]
-								PersistentCall data
-									PPtr<$Object> m_Target
-										int m_FileID = 0
-										SInt64 m_PathID = -4108616042465636576
-									string m_MethodName = "OnDailyTabProxy"
-									int m_Mode = 1
-									ArgumentCache m_Arguments
-										PPtr<$Object> m_ObjectArgument
-											int m_FileID = 0
-											SInt64 m_PathID = 0
-										string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
-										int m_IntArgument = 0
-										float m_FloatArgument = 0
-										string m_StringArgument = ""
-										UInt8 m_BoolArgument = 0
-									int m_CallState = 2
+							int size = 0
 					string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 				string buttonIdentifier = ""
 			[1]
 			FooterMenuButtonData data
 				PPtr<$Sprite> defaultSprite
-					int m_FileID = 0
-					SInt64 m_PathID = -2385262339588440544
+					int m_FileID = 1
+					SInt64 m_PathID = -6621351500456754691
 				PPtr<$Sprite> pressedSprite
-					int m_FileID = 0
-					SInt64 m_PathID = 4911769741317235657
+					int m_FileID = 1
+					SInt64 m_PathID = 6844170875751702509
 				PPtr<$Sprite> highlightedSprite
-					int m_FileID = 0
-					SInt64 m_PathID = 4911769741317235657
+					int m_FileID = 1
+					SInt64 m_PathID = 6844170875751702509
 				PPtr<$Sprite> inactiveSprite
-					int m_FileID = 0
-					SInt64 m_PathID = -2385262339588440544
-				string locText = "assignments_events_tab"
+					int m_FileID = 1
+					SInt64 m_PathID = -6621351500456754691
+				string locText = "floo_lobby_tab"
 				int notif = 0
 				TriggerEvent onTapEvent
 					PersistentCallGroup m_PersistentCalls
@@ -108,8 +91,8 @@ MonoBehaviour Base
 								PersistentCall data
 									PPtr<$Object> m_Target
 										int m_FileID = 0
-										SInt64 m_PathID = -4108616042465636576
-									string m_MethodName = "OnEventsTabProxy"
+										SInt64 m_PathID = 4611032758480100123
+									string m_MethodName = ""
 									int m_Mode = 1
 									ArgumentCache m_Arguments
 										PPtr<$Object> m_ObjectArgument
@@ -125,16 +108,16 @@ MonoBehaviour Base
 				string buttonIdentifier = ""
 	FooterMenuButtonData _closeButtonData
 		PPtr<$Sprite> defaultSprite
-			int m_FileID = 2
+			int m_FileID = 1
 			SInt64 m_PathID = -4745475127833913631
 		PPtr<$Sprite> pressedSprite
-			int m_FileID = 2
+			int m_FileID = 1
 			SInt64 m_PathID = 12777151204670500
 		PPtr<$Sprite> highlightedSprite
-			int m_FileID = 2
+			int m_FileID = 1
 			SInt64 m_PathID = 12777151204670500
 		PPtr<$Sprite> inactiveSprite
-			int m_FileID = 2
+			int m_FileID = 1
 			SInt64 m_PathID = -4745475127833913631
 		string locText = ""
 		int notif = 0
@@ -147,8 +130,8 @@ MonoBehaviour Base
 						PersistentCall data
 							PPtr<$Object> m_Target
 								int m_FileID = 0
-								SInt64 m_PathID = -4108616042465636576
-							string m_MethodName = "OnCloseProxy"
+								SInt64 m_PathID = 0
+							string m_MethodName = "OnBackButtonClicked"
 							int m_Mode = 1
 							ArgumentCache m_Arguments
 								PPtr<$Object> m_ObjectArgument
@@ -162,4 +145,4 @@ MonoBehaviour Base
 							int m_CallState = 2
 			string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 		string buttonIdentifier = ""
-	int _initialButtonIndex = 0
+	int _initialButtonIndex = -1

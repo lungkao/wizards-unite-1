@@ -1,0 +1,97 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7409972404277324730
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5495524847487066123
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _timerText
+		int m_FileID = 0
+		SInt64 m_PathID = -8897493721454035857
+	PPtr<$TextMeshProUGUI> _enemyCounterText
+		int m_FileID = 0
+		SInt64 m_PathID = 2700598467977771474
+	vector _participants
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$ChallengePlayerAvatarMarker> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8142702319263752060
+			[1]
+			PPtr<$ChallengePlayerAvatarMarker> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6261812251922106075
+			[2]
+			PPtr<$ChallengePlayerAvatarMarker> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6164775626348576404
+			[3]
+			PPtr<$ChallengePlayerAvatarMarker> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3922660785993363223
+			[4]
+			PPtr<$ChallengePlayerAvatarMarker> data
+				int m_FileID = 0
+				SInt64 m_PathID = -122852785241839547
+	PPtr<$GameObject> _mapAbilityPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 2642730069077167194
+	PPtr<$GameObject> _mapAbilityTooltipPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7548309396487672635
+	PPtr<$GameObject> _instructionsPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -1548206231869053250
+	PPtr<$Transform> _mapAbilityHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 8587218526661508251
+	PPtr<$GameObject> _knockedOutBarContainer
+		int m_FileID = 0
+		SInt64 m_PathID = 3392574776225737487
+	PPtr<$Image> _knockedOutBarFG
+		int m_FileID = 0
+		SInt64 m_PathID = -1125095485032183058
+	PPtr<$Image> _knockOutBoxScrim
+		int m_FileID = 0
+		SInt64 m_PathID = 3352603438602110391
+	PPtr<$GameObject> _fleeButtonHolder
+		int m_FileID = 0
+		SInt64 m_PathID = -683898743502896997
+	PPtr<$GameObject> _enemyLookInHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 2799126373441924012
+	float _introductionVisibilityTimer = 4
+	PPtr<$GameObject> _focusDisplayHolder
+		int m_FileID = 0
+		SInt64 m_PathID = 4531196306298032457
+	PPtr<$GameObject> _focusDisplayPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -2976635731802964965
+	string _allyUsedMapAbilitySFX = "event:/UI/FortressUI/AllyUseChallengeAbility"
+	string _fleeChallengeOverrideSFX = "event:/UI/FortressUI/LeaveChallenge"
+	ColorRGBA _playerHealthColor
+		float r = 0.1568628
+		float g = 0.7921569
+		float b = 0.2509804
+		float a = 1
+	ColorRGBA _allyHealthColor
+		float r = 0.2431373
+		float g = 0.7058824
+		float b = 0.8823529
+		float a = 1
+	PPtr<$MobRewardDooberUIView> mobRewardDooberPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -606325415652354007

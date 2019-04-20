@@ -1,0 +1,35 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 7467806329486466109
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5543189412066841600
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	ColorRGBA _misssingIngredientsColor
+		float r = 0.5921569
+		float g = 0.1529412
+		float b = 0.1529412
+		float a = 1
+	ColorRGBA _completeIngredientsColor
+		float r = 0.172549
+		float g = 0.5019608
+		float b = 0.07450981
+		float a = 1
+	PPtr<$Image> _ingredientVisuals
+		int m_FileID = 0
+		SInt64 m_PathID = -4764427889644193984
+	PPtr<$TextMeshProUGUI> _ingredientCountStatusTextField
+		int m_FileID = 0
+		SInt64 m_PathID = -473006836934102227

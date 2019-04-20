@@ -1,0 +1,138 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7180394661475446345
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5649447668617140643
+	string m_Name = ""
+	SpellGridNode _spellNodes
+		Array Array
+		int size = 16
+			[0]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 365723939541311073
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[1]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -5214300866865450599
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[2]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 2812042872829965424
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[3]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 1309552490513616215
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[4]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -7659124376586247640
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[5]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -1036041752920940652
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[6]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -1207066173326318117
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[7]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -5226877650824514085
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[8]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 1967768295242266540
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[9]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 7220390841729888230
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[10]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -3340875923711355395
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[11]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 5441641734837713880
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[12]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 384154768370298297
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[13]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = -8425259762593979136
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[14]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 5255697111104804967
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+			[15]
+			SpellGridNode data
+				PPtr<$GameObject> Node
+					int m_FileID = 0
+					SInt64 m_PathID = 9140823337299799570
+				UInt8 doHaptic = 1
+				string sfxEvent = "event:/SFX/spell_game_node_01"
+	PPtr<$Image> _glyph
+		int m_FileID = 0
+		SInt64 m_PathID = -8449688363229484967
+	PPtr<$Image> _glyphBG
+		int m_FileID = 0
+		SInt64 m_PathID = -1641875413333364178
+	PPtr<$Image> _glyphPreview
+		int m_FileID = 0
+		SInt64 m_PathID = -1608422924093229653
+	float _timerLength = 2
+	float _perfectRadius = 12
+	float _greatRadius = 25
+	float _goodRadius = 35
+	float _checkpointRadius = 75

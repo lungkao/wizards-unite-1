@@ -1,0 +1,59 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8746398347716731828
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 31602889984770973
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 1
+	PPtr<$Image> BackgroundImage
+		int m_FileID = 0
+		SInt64 m_PathID = -4798141325158780212
+	PPtr<$GameObject> Toggle
+		int m_FileID = 0
+		SInt64 m_PathID = 6416085985940521690
+	PPtr<$TextMeshProUGUI> Text
+		int m_FileID = 0
+		SInt64 m_PathID = -2690656919890544039
+	ToggleStateInfo OnInfo
+		ColorRGBA color
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		Vector3f position
+			float x = 21
+			float y = 3.45
+			float z = 0
+		string text = "BG ON"
+		PPtr<$GameObject> toggleState
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	ToggleStateInfo OffInfo
+		ColorRGBA color
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		Vector3f position
+			float x = -21
+			float y = 3.45
+			float z = 0
+		string text = "BG OFF"
+		PPtr<$GameObject> toggleState
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	PPtr<$GameObject> Deactivated
+		int m_FileID = 0
+		SInt64 m_PathID = 0

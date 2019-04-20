@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 3099470713918678495
+		SInt64 m_PathID = -5177446945049345251
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -58,9 +58,9 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 0
-	float duration = 1
-	int easeType = 1
+	float delay = 0.5
+	float duration = 0.15
+	int easeType = 30
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
@@ -80,28 +80,28 @@ MonoBehaviour Base
 		int m_PreInfinity = 2
 		int m_PostInfinity = 2
 		int m_RotationOrder = 4
-	int loopType = 0
+	int loopType = 1
 	int loops = 1
-	string id = "fade_in"
-	UInt8 isRelative = 0
+	string id = ""
+	UInt8 isRelative = 1
 	UInt8 isFrom = 0
 	UInt8 isIndependentUpdate = 0
-	UInt8 autoKill = 0
+	UInt8 autoKill = 1
 	UInt8 isActive = 1
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = 2051241667375517659
-	int animationType = 3
+		SInt64 m_PathID = 8366421829287110907
+	int animationType = 13
 	int targetType = 11
 	int forcedTargetType = 0
-	UInt8 autoPlay = 0
+	UInt8 autoPlay = 1
 	UInt8 useTargetAsV3 = 0
 	float endValueFloat = 0
 	Vector3f endValueV3
-		float x = 0
-		float y = 0
-		float z = 0
+		float x = 20
+		float y = 10
+		float z = 85.8
 	Vector2f endValueV2
 		float x = 0
 		float y = 0
@@ -120,8 +120,8 @@ MonoBehaviour Base
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	UInt8 optionalBool0 = 0
-	float optionalFloat0 = 0
-	int optionalInt0 = 0
-	int optionalRotationMode = 0
+	float optionalFloat0 = 32
+	int optionalInt0 = 3
+	int optionalRotationMode = 3
 	int optionalScrambleMode = 0
 	string optionalString = ""

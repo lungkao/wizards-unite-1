@@ -5,6 +5,7 @@ const Shared = {
     ImagePaths: {
         PNGsForMinification: [
             '../Assets/Sprite/spellpath_*_light.png',
+            '../Assets/Sprite/ui_gesture_rune_*.png',
             '../Assets/Sprite/ui_item_potion_*.png',
             '../Assets/Sprite/ui_item_ingredients_*.png'
         ],

@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 5705632459532596652
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4733654921260886782
+	string m_Name = ""
+	PPtr<$Material> m_Material
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA m_Color
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	UInt8 m_RaycastTarget = 1

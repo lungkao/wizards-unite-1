@@ -1,0 +1,61 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2509375538800611155
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8223315427677841187
+	string m_Name = ""
+	PPtr<$TextMeshProUGUI> _progressBarTextLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 8112345914968065583
+	PPtr<$TextMeshProUGUI> _currentStatusLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -2455738495493240249
+	PPtr<$TextMeshProUGUI> _nextStatusLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -2484618178847625222
+	PPtr<$RectTransform> backgroundBar
+		int m_FileID = 0
+		SInt64 m_PathID = 9037016235689359727
+	PPtr<$RectTransform> foregroundBar
+		int m_FileID = 0
+		SInt64 m_PathID = 7615502666143646589
+	PPtr<$Image> _barMoveableRewardImage
+		int m_FileID = 0
+		SInt64 m_PathID = -2179819360356197928
+	PPtr<$Image> _barSmallRewardImage
+		int m_FileID = 0
+		SInt64 m_PathID = -2180727608595908351
+	PPtr<$Image> _barLargeRewardImage
+		int m_FileID = 0
+		SInt64 m_PathID = 1638260898192512374
+	ColorRGBA filledColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	ColorRGBA unfilledColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	string _onBarAnimationSoundEvent = ""
+	string _onBarFilledSoundEvent = ""
+	SerializableAudioParameter BarFilledParameterList
+		Array Array
+		int size = 0
+	UInt8 fillOnShow = 1
+	float _interpolationTime = 1
+	float _minInterpolationTime = 1.25
+	PPtr<$Animator> _barFilledAnimator
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 _blockInputWhileAnimating = 0
+	PPtr<$VFXBase> _staticBarVfxPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$VFXBase> _animatingBarVfxPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0

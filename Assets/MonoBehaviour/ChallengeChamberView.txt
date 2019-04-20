@@ -1,0 +1,52 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 362020798991263940
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -583529890157291039
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$ChallengeChamberEntryView> _playerEntryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4145438691556194799
+	PPtr<$GameObject> _contentPanel
+		int m_FileID = 0
+		SInt64 m_PathID = 727335068468979123
+	PPtr<$NestedContextualResourceBar> _nestedHeader
+		int m_FileID = 0
+		SInt64 m_PathID = -242139440777197295
+	PPtr<$TextMeshProUGUI> _runestoneText
+		int m_FileID = 0
+		SInt64 m_PathID = -5227972499646824058
+	PPtr<$TextMeshProUGUI> _difficultyText
+		int m_FileID = 0
+		SInt64 m_PathID = -2802324805311546215
+	PPtr<$TextMeshProUGUI> _bossChanceText
+		int m_FileID = 0
+		SInt64 m_PathID = 4034290387705496963
+	PPtr<$TextMeshProUGUI> _challengeStartText
+		int m_FileID = 0
+		SInt64 m_PathID = -7321699599647813025
+	PPtr<$Image> _runestoneSlotIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -3840398877700261735
+	PPtr<$TextMeshProUGUI> _chamberNameText
+		int m_FileID = 0
+		SInt64 m_PathID = 8773746262320436016
+	PPtr<$Image> _poiImage
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string _challengeStartSFX = "event:/UI/FortressUI/ChallengeStart"
+	string _countdownTenSFX = "event:/UI/FortressUI/CountdowntoChallengeStart10s"
+	string _countdownOneSFX = "event:/UI/FortressUI/CountdowntoChallengeStart1s"

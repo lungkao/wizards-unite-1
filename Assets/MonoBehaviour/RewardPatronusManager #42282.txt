@@ -1,0 +1,80 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7401111991172854633
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8420220309046156146
+	string m_Name = ""
+	float _bloomThreshold = 0
+	float _bloomIntensity = 1.8
+	int _blurScale = 4
+	int _brightPass = 2
+	int _blendMode = 1
+	PPtr<$Transform> _rttParent
+		int m_FileID = 0
+		SInt64 m_PathID = 3337461485187538164
+	Vector2f _renderToTextureSize
+		float x = 1024
+		float y = 1024
+	PPtr<$GameObject> _patronusPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -2573270801405138177
+	ColorRGBA _backgroundColor
+		float r = 0.2087478
+		float g = 0.2145925
+		float b = 0.2426471
+		float a = 0
+	Vector3f _patronusOffset
+		float x = 0
+		float y = -0.54
+		float z = 4.3
+	PPtr<$RectTransform> _trailParent
+		int m_FileID = 0
+		SInt64 m_PathID = -8434033866141873658
+	PPtr<$GameObject> _trailTileablePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -235730611942291223
+	PPtr<$GameObject> _trailHalfPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 237917954698500007
+	PPtr<$GameObject> _trailEndPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -8273314272862865261
+	float _trailVfxSpeedMultiplier = 0.075
+	float _introTime = 0.5
+	float _startScreenPos = 0.5
+	float _endScreenPos = 0.4
+	AnimationCurve _positionOffsetCurve
+		vector m_Curve
+			Array Array
+			int size = 4
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0.35
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 0.04915413
+					float value = 0.3475
+					float inSlope = 0
+					float outSlope = 0
+				[2]
+				Keyframe data
+					float time = 0.1721258
+					float value = 0.2918354
+					float inSlope = -0.03325011
+					float outSlope = -0.03325011
+				[3]
+				Keyframe data
+					float time = 1
+					float value = 0.28
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	string _trailAudioEvent = "event:/UI/RewardsScreen/PatronusLoop"

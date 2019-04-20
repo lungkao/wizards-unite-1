@@ -1,0 +1,45 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5362996592124372506
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 3549795507669635357
+	string m_Name = ""
+	PPtr<$Image> _image
+		int m_FileID = 0
+		SInt64 m_PathID = -6298000561103912640
+	PPtr<$SpriteRenderer> _spriteRenderer
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _name
+		int m_FileID = 0
+		SInt64 m_PathID = 5595466630909213619
+	PPtr<$Image> _hitPointBarImage
+		int m_FileID = 0
+		SInt64 m_PathID = -9073669927874607395
+	PPtr<$Image> _individualFade
+		int m_FileID = 0
+		SInt64 m_PathID = 3733195701646643389
+	PPtr<$TextMeshProUGUI> _individualKnockoutCountdown
+		int m_FileID = 0
+		SInt64 m_PathID = -4033228108552457471
+	PPtr<$Image> _professionIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -9116534522623740913
+	PPtr<$GameObject> _actualTargetSelection
+		int m_FileID = 0
+		SInt64 m_PathID = -5947119739866265854
+	PPtr<$GameObject> _potentialTargetSelection
+		int m_FileID = 0
+		SInt64 m_PathID = 6269097429748575859
+	PPtr<$GameObject> _buffIndicator
+		int m_FileID = 0
+		SInt64 m_PathID = 4038280171664508916
+	PPtr<$GameObject> _debuffIndicator
+		int m_FileID = 0
+		SInt64 m_PathID = 6246691612459143528
+	PPtr<$GameObject> _bothBuffIndicator
+		int m_FileID = 0
+		SInt64 m_PathID = -3373497247347154427

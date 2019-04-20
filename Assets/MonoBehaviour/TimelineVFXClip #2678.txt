@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2443869438978968678
+	string m_Name = "TimelineVFXClip"
+	TimelineVFXBehaviour template
+		ChoreographyNodeVFX node
+			string UiOwner = ""
+			int VfxAction = 0
+			PPtr<$VFXBase> Prefab
+				int m_FileID = 13
+				SInt64 m_PathID = 6481370556679983262
+			UInt8 HasColorTint = 0
+			ColorRGBA ColorTint
+				float r = 1
+				float g = 1
+				float b = 1
+				float a = 1
+			int StartAttachment = 2
+			int EndAttachment = 2
+			string StartTransform = "Default Default"
+			string EndTransform = "Default Default"
+			float PlaybackSpeed = 1
+			float AlphaFadeTime = 0.5
+			int TravelStyle = 0
+			PPtr<$VFXSpline> SplinePrefab
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			string FollowVFXIdentifier = ""
+			int VfxMessage = 4
+			UInt8 useClipDuration = 1
+			float Life = 9.466666
+			string ParentTimelineName = "rng_finite_moment_shared_intro_tl"
+			string Identifier = ""
+			string StartTargetPrefabName = ""
+			string EndTargetPrefabName = ""

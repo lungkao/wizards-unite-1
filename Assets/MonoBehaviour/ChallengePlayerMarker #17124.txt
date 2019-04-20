@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 3214582874006909796
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7075469499369161433
+	string m_Name = ""
+	PPtr<$Image> _image
+		int m_FileID = 0
+		SInt64 m_PathID = -2134283187165947840
+	PPtr<$SpriteRenderer> _spriteRenderer
+		int m_FileID = 0
+		SInt64 m_PathID = 0

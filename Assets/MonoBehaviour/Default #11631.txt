@@ -15,7 +15,7 @@ MonoBehaviour Base
 		SInt64 m_PathID = 0
 	PPtr<$PlayableAsset> m_Parent
 		int m_FileID = 0
-		SInt64 m_PathID = -6158617356605296866
+		SInt64 m_PathID = 8399846929345248604
 	vector m_Children
 		Array Array
 		int size = 0
@@ -28,12 +28,12 @@ MonoBehaviour Base
 				double m_ClipIn = 0
 				PPtr<$Object> m_Asset
 					int m_FileID = 0
-					SInt64 m_PathID = -1081062300079770621
+					SInt64 m_PathID = -3216925260647110552
 				double m_Duration = 2.83333333333333
 				double m_TimeScale = 1
 				PPtr<$TrackAsset> m_ParentTrack
 					int m_FileID = 0
-					SInt64 m_PathID = 153248993225678569
+					SInt64 m_PathID = -4342848170463503669
 				double m_EaseInDuration = 0
 				double m_EaseOutDuration = 0
 				double m_BlendInDuration = -1

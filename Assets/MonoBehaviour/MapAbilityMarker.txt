@@ -1,0 +1,71 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2642730069077167194
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -918918278095591651
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RectTransform> _pointerIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 4658828291206357323
+	PPtr<$Transform> _buttonPos
+		int m_FileID = 0
+		SInt64 m_PathID = 8891299548936367424
+	PPtr<$Image> _availableImage
+		int m_FileID = 0
+		SInt64 m_PathID = -7725377665087585538
+	PPtr<$Image> _unavailableImage
+		int m_FileID = 0
+		SInt64 m_PathID = -3841691760923632088
+	PPtr<$GameObject> _unavailableUi
+		int m_FileID = 0
+		SInt64 m_PathID = 359164355300617672
+	PPtr<$GameObject> _availableUi
+		int m_FileID = 0
+		SInt64 m_PathID = 4458631293694393923
+	PPtr<$GameObject> _emptySlotUi
+		int m_FileID = 0
+		SInt64 m_PathID = -7363393506709187722
+	PPtr<$GameObject> _filledSlotUi
+		int m_FileID = 0
+		SInt64 m_PathID = -8932206275595976405
+	PPtr<$GameObject> _cooldownUi
+		int m_FileID = 0
+		SInt64 m_PathID = -8201039039124555093
+	PPtr<$TextMeshProUGUI> _cooldownTimer
+		int m_FileID = 0
+		SInt64 m_PathID = -3110079646289097235
+	PPtr<$TextMeshProUGUI> _focusCostLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 140643376173583046
+	PPtr<$TextMeshProUGUI> _nameLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -4503732125116836233
+	ColorRGBA _focusAvailableColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	ColorRGBA _focusUnvailableColor
+		float r = 0.3897059
+		float g = 0.09742647
+		float b = 0.34536
+		float a = 1
+	string _useMapAbilityOnAllySFX = "event:/UI/FortressUI/UseChallengeAbilityAlly"
+	string _useMapAbilityOnEnemySFX = "event:/UI/FortressUI/UseChallengeAbilityEnemy"
+	string _mapAbilityCooldownCompleteSFX = "event:/UI/FortressUI/AllyUseChallengeAbility"
+	PPtr<$DOTweenAnimation> _availableTween
+		int m_FileID = 0
+		SInt64 m_PathID = 397414652257961884

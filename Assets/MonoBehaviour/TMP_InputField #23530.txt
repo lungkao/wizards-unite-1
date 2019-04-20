@@ -1,0 +1,160 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1009608907166306482
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 8735515071413558316
+	string m_Name = ""
+	Navigation m_Navigation
+		int m_Mode = 3
+		PPtr<$Selectable> m_SelectOnUp
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnDown
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnLeft
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnRight
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	int m_Transition = 2
+	ColorBlock m_Colors
+		ColorRGBA m_NormalColor
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		ColorRGBA m_HighlightedColor
+			float r = 0.9607843
+			float g = 0.9607843
+			float b = 0.9607843
+			float a = 1
+		ColorRGBA m_PressedColor
+			float r = 0.7843137
+			float g = 0.7843137
+			float b = 0.7843137
+			float a = 1
+		ColorRGBA m_DisabledColor
+			float r = 0.7843137
+			float g = 0.7843137
+			float b = 0.7843137
+			float a = 0.5019608
+		float m_ColorMultiplier = 1
+		float m_FadeDuration = 0.1
+	SpriteState m_SpriteState
+		PPtr<$Sprite> m_HighlightedSprite
+			int m_FileID = 3
+			SInt64 m_PathID = 2446922061852478895
+		PPtr<$Sprite> m_PressedSprite
+			int m_FileID = 3
+			SInt64 m_PathID = 2446922061852478895
+		PPtr<$Sprite> m_DisabledSprite
+			int m_FileID = 3
+			SInt64 m_PathID = -8018035919488652477
+	AnimationTriggers m_AnimationTriggers
+		string m_NormalTrigger = "Normal"
+		string m_HighlightedTrigger = "Highlighted"
+		string m_PressedTrigger = "Pressed"
+		string m_DisabledTrigger = "Disabled"
+	UInt8 m_Interactable = 1
+	PPtr<$Graphic> m_TargetGraphic
+		int m_FileID = 0
+		SInt64 m_PathID = 2679160122459356248
+	PPtr<$RectTransform> m_TextViewport
+		int m_FileID = 0
+		SInt64 m_PathID = -9170344832683093794
+	PPtr<$TMP_Text> m_TextComponent
+		int m_FileID = 0
+		SInt64 m_PathID = -7185309969326442340
+	PPtr<$Graphic> m_Placeholder
+		int m_FileID = 0
+		SInt64 m_PathID = 8535735130945351350
+	PPtr<$Scrollbar> m_VerticalScrollbar
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TMP_ScrollbarEventHandler> m_VerticalScrollbarEventHandler
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float m_ScrollSensitivity = 1
+	int m_ContentType = 0
+	int m_InputType = 0
+	UInt16 m_AsteriskChar = 42
+	int m_KeyboardType = 0
+	int m_LineType = 0
+	UInt8 m_HideMobileInput = 0
+	int m_CharacterValidation = 0
+	string m_RegexValue = ""
+	float m_GlobalPointSize = 38
+	int m_CharacterLimit = 15
+	SubmitEvent m_OnEndEdit
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "TMPro.TMP_InputField+SubmitEvent, TextMeshPro-2017.3-1.0.56-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	SubmitEvent m_OnSubmit
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "TMPro.TMP_InputField+SubmitEvent, TextMeshPro-2017.3-1.0.56-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	SelectionEvent m_OnSelect
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "TMPro.TMP_InputField+SelectionEvent, TextMeshPro-2017.3-1.0.56-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	SelectionEvent m_OnDeselect
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "TMPro.TMP_InputField+SelectionEvent, TextMeshPro-2017.3-1.0.56-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	TextSelectionEvent m_OnTextSelection
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "TMPro.TMP_InputField+TextSelectionEvent, TextMeshPro-2017.3-1.0.56-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	TextSelectionEvent m_OnEndTextSelection
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "TMPro.TMP_InputField+TextSelectionEvent, TextMeshPro-2017.3-1.0.56-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	OnChangeEvent m_OnValueChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "TMPro.TMP_InputField+OnChangeEvent, TextMeshPro-2017.3-1.0.56-Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	ColorRGBA m_CaretColor
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 m_CustomCaretColor = 0
+	ColorRGBA m_SelectionColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	string m_Text = ""
+	float m_CaretBlinkRate = 0.85
+	int m_CaretWidth = 2
+	UInt8 m_ReadOnly = 0
+	UInt8 m_RichText = 1
+	PPtr<$TMP_FontAsset> m_GlobalFontAsset
+		int m_FileID = 2
+		SInt64 m_PathID = -5596591088150043721
+	UInt8 m_OnFocusSelectAll = 1
+	UInt8 m_ResetOnDeActivation = 1
+	UInt8 m_RestoreOriginalTextOnEscape = 1
+	UInt8 m_isRichTextEditingAllowed = 1
+	PPtr<$TMP_InputValidator> m_InputValidator
+		int m_FileID = 0
+		SInt64 m_PathID = 0

@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 6240527164772233098
+		SInt64 m_PathID = -3413236426532593739
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -13,20 +13,20 @@ MonoBehaviour Base
 			[0]
 			PPtr<$GameObject> data
 				int m_FileID = 0
-				SInt64 m_PathID = 4707569165783310083
+				SInt64 m_PathID = -7933690978002602088
 			[1]
 			PPtr<$GameObject> data
 				int m_FileID = 0
-				SInt64 m_PathID = 1301481673465381721
+				SInt64 m_PathID = 249933591039316209
 			[2]
 			PPtr<$GameObject> data
 				int m_FileID = 0
-				SInt64 m_PathID = 7216364314173069261
+				SInt64 m_PathID = 6428530987324122802
 			[3]
 			PPtr<$GameObject> data
 				int m_FileID = 0
-				SInt64 m_PathID = -4805052874501066541
+				SInt64 m_PathID = -7830655256579397536
 			[4]
 			PPtr<$GameObject> data
 				int m_FileID = 0
-				SInt64 m_PathID = 7234267804877753488
+				SInt64 m_PathID = 6721916035416440988

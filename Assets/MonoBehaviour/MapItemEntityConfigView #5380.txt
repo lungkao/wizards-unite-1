@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -3439269907326190338
+		SInt64 m_PathID = 5876319140360105575
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -9,7 +9,7 @@ MonoBehaviour Base
 	string m_Name = ""
 	PPtr<$Transform> geometry
 		int m_FileID = 0
-		SInt64 m_PathID = -3085511222639920300
+		SInt64 m_PathID = -6750160998517315648
 	AccessibilityTuple _accessibilityVisuals
 		Array Array
 		int size = 0

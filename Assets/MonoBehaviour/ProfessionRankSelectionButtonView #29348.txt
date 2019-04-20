@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8519108762600327366
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7644337875428510010
+	string m_Name = ""
+	PPtr<$TextMeshProUGUI> _nameTextField
+		int m_FileID = 0
+		SInt64 m_PathID = 22509791539767360
+	PPtr<$TextMeshProUGUI> _progressTextField
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _indexTextField
+		int m_FileID = 0
+		SInt64 m_PathID = 5511062812717399354

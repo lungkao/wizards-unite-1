@@ -1,0 +1,19 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3104573211093051998
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7588266338992543041
+	string m_Name = ""
+	TimelineDictionary _timelines
+		StringTimelineAssetPair _timelineMap
+			Array Array
+			int size = 1
+				[0]
+				StringTimelineAssetPair data
+					string _key = "rewards_item_detail_mini_show"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = -539789175916022799

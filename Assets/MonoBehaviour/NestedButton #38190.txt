@@ -1,0 +1,29 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1746901478475756953
+	UInt8 m_Enabled = 0
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5020536745277524165
+	string m_Name = ""
+	UInt8 _instantiateOnStart = 1
+	UInt8 _updateInstanceLayer = 0
+	TriggerEvent _onPrefabInstantiated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$GameObject> _prefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ButtonClickedEvent _onButtonClick
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	string _buttonIdentifier = ""
+	string _onClickSoundEventOverride = ""
+	string _localizationKey = ""

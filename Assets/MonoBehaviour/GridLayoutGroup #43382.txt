@@ -1,0 +1,25 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6482424636885819472
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1060463034229234878
+	string m_Name = ""
+	RectOffset m_Padding
+		int m_Left = 5
+		int m_Right = 0
+		int m_Top = 20
+		int m_Bottom = 120
+	int m_ChildAlignment = 1
+	int m_StartCorner = 0
+	int m_StartAxis = 0
+	Vector2f m_CellSize
+		float x = 150
+		float y = 150
+	Vector2f m_Spacing
+		float x = 10
+		float y = 10
+	int m_Constraint = 1
+	int m_ConstraintCount = 4

@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 5539597516944945591
+		SInt64 m_PathID = 6798718324459493412
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -14,7 +14,7 @@ MonoBehaviour Base
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	UInt8 _playDefaultAnims = 1
-	string _identifier = "Compass"
+	string _identifier = "StorePack"
 	string _onClickSoundEvent = "event:/UI/OpenMenu"
 	TriggerEvent _onTap
 		PersistentCallGroup m_PersistentCalls
@@ -25,8 +25,8 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = 8153691383662825780
-						string m_MethodName = "OnEnvironmentalTagsClickProxy"
+							SInt64 m_PathID = 4188478828773936951
+						string m_MethodName = "OnMapHudStoreButtonViewClickProxy"
 						int m_Mode = 1
 						ArgumentCache m_Arguments
 							PPtr<$Object> m_ObjectArgument
@@ -90,16 +90,16 @@ MonoBehaviour Base
 		float a = 0
 	PPtr<$Sprite> _defaultSprite
 		int m_FileID = 15
-		SInt64 m_PathID = 105659896345781320
+		SInt64 m_PathID = -6391920257191939505
 	PPtr<$Sprite> _pressedSprite
 		int m_FileID = 15
-		SInt64 m_PathID = 7545943236569406313
+		SInt64 m_PathID = -5652921059225943944
 	PPtr<$Sprite> _highlightedSprite
 		int m_FileID = 15
-		SInt64 m_PathID = 105659896345781320
+		SInt64 m_PathID = -5652921059225943944
 	PPtr<$Sprite> _inactiveSprite
 		int m_FileID = 15
-		SInt64 m_PathID = 105659896345781320
+		SInt64 m_PathID = -6391920257191939505
 	PPtr<$Sprite> _disabledSprite
 		int m_FileID = 0
 		SInt64 m_PathID = 0

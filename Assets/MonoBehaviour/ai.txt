@@ -1,8 +1,343 @@
-PPtr<GameObject> m_GameObject
-	int m_FileID = 0
-	int64 m_PathID = 0
-UInt8 m_Enabled = 1
-PPtr<MonoScript> m_Script
-	int m_FileID = 1
-	int64 m_PathID = 2515
-string m_Name = "ai"
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7304833595123974090
+	string m_Name = "ai"
+	int hashCode = 3304
+	PPtr<$Material> material
+		int m_FileID = 0
+		SInt64 m_PathID = 1441114643008960210
+	int materialHashCode = 0
+	PPtr<$Texture> spriteSheet
+		int m_FileID = 0
+		SInt64 m_PathID = -9169234403105042771
+	TMP_Sprite spriteInfoList
+		Array Array
+		int size = 16
+			[0]
+			TMP_Sprite data
+				int id = 0
+				float x = 0
+				float y = 384
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai00"
+				int hashCode = 3597544
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[1]
+			TMP_Sprite data
+				int id = 1
+				float x = 128
+				float y = 384
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai01"
+				int hashCode = 3597545
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[2]
+			TMP_Sprite data
+				int id = 2
+				float x = 257
+				float y = 384
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai02"
+				int hashCode = 3597546
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[3]
+			TMP_Sprite data
+				int id = 3
+				float x = 384
+				float y = 384
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai03"
+				int hashCode = 3597547
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[4]
+			TMP_Sprite data
+				int id = 4
+				float x = 0
+				float y = 256
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai04"
+				int hashCode = 3597548
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[5]
+			TMP_Sprite data
+				int id = 5
+				float x = 128
+				float y = 256
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai05"
+				int hashCode = 3597549
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[6]
+			TMP_Sprite data
+				int id = 6
+				float x = 256
+				float y = 256
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai06"
+				int hashCode = 3597550
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[7]
+			TMP_Sprite data
+				int id = 7
+				float x = 384
+				float y = 256
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai07"
+				int hashCode = 3597551
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[8]
+			TMP_Sprite data
+				int id = 8
+				float x = 0
+				float y = 128
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai08"
+				int hashCode = 3597536
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[9]
+			TMP_Sprite data
+				int id = 9
+				float x = 128
+				float y = 128
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai09"
+				int hashCode = 3597537
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[10]
+			TMP_Sprite data
+				int id = 10
+				float x = 256
+				float y = 128
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai10"
+				int hashCode = 3597513
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[11]
+			TMP_Sprite data
+				int id = 11
+				float x = 384
+				float y = 128
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai11"
+				int hashCode = 3597512
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[12]
+			TMP_Sprite data
+				int id = 12
+				float x = 0
+				float y = 0
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai12"
+				int hashCode = 3597515
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[13]
+			TMP_Sprite data
+				int id = 13
+				float x = 128
+				float y = 0
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai13"
+				int hashCode = 3597514
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[14]
+			TMP_Sprite data
+				int id = 14
+				float x = 256
+				float y = 0
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "ai14"
+				int hashCode = 3597517
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+			[15]
+			TMP_Sprite data
+				int id = 15
+				float x = 384
+				float y = 0
+				float width = 128
+				float height = 128
+				float xOffset = 0
+				float yOffset = 115.6
+				float xAdvance = 128
+				float scale = 1
+				string name = "sad"
+				int hashCode = 124054
+				int unicode = 0
+				Vector2f pivot
+					float x = -64
+					float y = 64
+				PPtr<$Sprite> sprite
+					int m_FileID = 0
+					SInt64 m_PathID = 0
+	vector fallbackSpriteAssets
+		Array Array
+		int size = 0

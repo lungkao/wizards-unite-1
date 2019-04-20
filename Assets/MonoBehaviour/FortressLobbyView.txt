@@ -1,0 +1,35 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5835679453525296812
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5175677642834726934
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 2
+	int _uiHideLevel = 0
+	PPtr<$FortressLobbyEntryView> _entryPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = -4592798491406097284
+	PPtr<$GameObject> _contentPanel
+		int m_FileID = 0
+		SInt64 m_PathID = 2394174754165953214
+	PPtr<$TextMeshProUGUI> _poiName
+		int m_FileID = 0
+		SInt64 m_PathID = -2088229691915519912
+	PPtr<$Text> _systemPoiName
+		int m_FileID = 0
+		SInt64 m_PathID = 6426556400507301884
+	PPtr<$Image> _poiImage
+		int m_FileID = 0
+		SInt64 m_PathID = -4917356163323788759
+	string _enterLobbySfx = "event:/UI/FortressUI/EnterLobby"

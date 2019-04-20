@@ -1,0 +1,47 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8418100385885468143
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8892613710530113120
+	string m_Name = ""
+	vector splineNodesArray
+		Array Array
+		int size = 5
+			[0]
+			PPtr<$SplineNode> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2497237444160265881
+			[1]
+			PPtr<$SplineNode> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1063900990515626562
+			[2]
+			PPtr<$SplineNode> data
+				int m_FileID = 0
+				SInt64 m_PathID = 441965182052275325
+			[3]
+			PPtr<$SplineNode> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1932410560095476038
+			[4]
+			PPtr<$SplineNode> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4331823055813100521
+	int interpolationMode = 0
+	int rotationMode = 2
+	int tangentMode = 1
+	int normalMode = 0
+	int updateMode = 0
+	int deltaFrames = 1
+	float deltaTime = 0.1
+	UInt8 perNodeTension = 0
+	float tension = 0.5
+	Vector3f normal
+		float x = 0
+		float y = 1
+		float z = 0
+	UInt8 autoClose = 0
+	int interpolationAccuracy = 5

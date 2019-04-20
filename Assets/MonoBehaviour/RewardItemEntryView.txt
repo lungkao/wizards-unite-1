@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 3999087345077913978
+		SInt64 m_PathID = -643394785491345554
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -20,17 +20,17 @@ MonoBehaviour Base
 	float animatedSpineScale = 0.5
 	PPtr<$Image> _icon
 		int m_FileID = 0
-		SInt64 m_PathID = -1557924018735495355
+		SInt64 m_PathID = 2255693830251741015
 	PPtr<$TextMeshProUGUI> _amtText
 		int m_FileID = 0
-		SInt64 m_PathID = 0
+		SInt64 m_PathID = -2311446514313758984
 	PPtr<$TextMeshProUGUI> _nameText
 		int m_FileID = 0
-		SInt64 m_PathID = 0
+		SInt64 m_PathID = -7409959863248560991
 	PPtr<$StarRarityWidget> _rarityWidget
 		int m_FileID = 0
-		SInt64 m_PathID = 0
-	UInt8 _isCost = 1
+		SInt64 m_PathID = -348707814034448589
+	UInt8 _isCost = 0
 	PPtr<$DOTweenAnimation> _animTween
 		int m_FileID = 0
 		SInt64 m_PathID = 0

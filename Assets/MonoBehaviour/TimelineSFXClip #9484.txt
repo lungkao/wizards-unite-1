@@ -9,7 +9,7 @@ MonoBehaviour Base
 	string m_Name = "TimelineSFXClip"
 	TimelineSFXBehaviour template
 		ChoreographyNodeSFX node
-			string Event = "event:/SFX/Encounters/RubeusHagrid/sfx_hagrid_idle2_web"
+			string Event = "event:/SFX/Encounters/RubeusHagrid/sfx_hagrid_idle0_webs"
 			string Identifier = ""
 			int EventType = 0
 			SerializableAudioParameter ParameterList

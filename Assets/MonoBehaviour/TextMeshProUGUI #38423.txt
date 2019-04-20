@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 7344995878373577862
+		SInt64 m_PathID = 3504770303389989786
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -15,21 +15,21 @@ MonoBehaviour Base
 		float g = 1
 		float b = 1
 		float a = 1
-	UInt8 m_RaycastTarget = 0
+	UInt8 m_RaycastTarget = 1
 	CullStateChangedEvent m_OnCullStateChanged
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "passport_share_download"
+	string m_text = "tf_levelup_rewards"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 3
-		SInt64 m_PathID = -5596591088150043721
+		int m_FileID = 4
+		SInt64 m_PathID = 3111171929222542297
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 3
-		SInt64 m_PathID = -8003657262731169876
+		int m_FileID = 4
+		SInt64 m_PathID = -4526645662046926572
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -40,11 +40,11 @@ MonoBehaviour Base
 		Array Array
 		int size = 0
 	ColorRGBA m_fontColor32
-		unsigned int rgba = 4294967295
+		unsigned int rgba = 4281479473
 	ColorRGBA m_fontColor
-		float r = 1
-		float g = 1
-		float b = 1
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
 		float a = 1
 	UInt8 m_enableVertexGradient = 0
 	VertexGradient m_fontColorGradient
@@ -80,14 +80,14 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 18
-	float m_fontSizeBase = 18
+	float m_fontSize = 28
+	float m_fontSizeBase = 28
 	int m_fontWeight = 400
 	UInt8 m_enableAutoSizing = 0
-	float m_fontSizeMin = 18
-	float m_fontSizeMax = 72
-	int m_fontStyle = 16
-	int m_textAlignment = 514
+	float m_fontSizeMin = 0
+	float m_fontSizeMax = 0
+	int m_fontStyle = 0
+	int m_textAlignment = 257
 	UInt8 m_isAlignmentEnumConverted = 1
 	float m_characterSpacing = 0
 	float m_wordSpacing = 0
@@ -103,7 +103,7 @@ MonoBehaviour Base
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	UInt8 m_isLinkedTextComponent = 0
-	UInt8 m_enableKerning = 1
+	UInt8 m_enableKerning = 0
 	UInt8 m_enableExtraPadding = 0
 	UInt8 checkPaddingRequired = 0
 	UInt8 m_isRichText = 1
@@ -127,13 +127,13 @@ MonoBehaviour Base
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = -4644602760549203039
-		int characterCount = 23
+			SInt64 m_PathID = 0
+		int characterCount = 18
 		int spriteCount = 0
 		int spaceCount = 0
 		int wordCount = 3
 		int linkCount = 0
-		int lineCount = 2
+		int lineCount = 1
 		int pageCount = 1
 		int materialCount = 1
 	UInt8 m_havePropertiesChanged = 1

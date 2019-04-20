@@ -15,7 +15,7 @@ MonoBehaviour Base
 		SInt64 m_PathID = 0
 	PPtr<$PlayableAsset> m_Parent
 		int m_FileID = 0
-		SInt64 m_PathID = 9155782458416425353
+		SInt64 m_PathID = -541100782236033465
 	vector m_Children
 		Array Array
 		int size = 0
@@ -24,16 +24,16 @@ MonoBehaviour Base
 		int size = 1
 			[0]
 			TimelineClip data
-				double m_Start = 0.127511896689732
+				double m_Start = 0.133333333333333
 				double m_ClipIn = 0
 				PPtr<$Object> m_Asset
 					int m_FileID = 0
-					SInt64 m_PathID = 4699360468811365999
-				double m_Duration = 2.37248810331027
+					SInt64 m_PathID = -5394312375367221140
+				double m_Duration = 3.87248810331027
 				double m_TimeScale = 1
 				PPtr<$TrackAsset> m_ParentTrack
 					int m_FileID = 0
-					SInt64 m_PathID = 6789243047000512156
+					SInt64 m_PathID = 1412223509473529980
 				double m_EaseInDuration = 0
 				double m_EaseOutDuration = 0
 				double m_BlendInDuration = 0

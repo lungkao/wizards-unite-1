@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 6606982882650868329
+	string m_Name = ""
+	ParamRandomizationConfig _paramConfig
+		Array Array
+		int size = 2
+			[0]
+			ParamRandomizationConfig data
+				string paramName = "IdleIndex"
+				int paramType = 3
+				float minVal = 0
+				float maxVal = 1
+			[1]
+			ParamRandomizationConfig data
+				string paramName = "AnimSpeedMultiplier"
+				int paramType = 1
+				float minVal = 0.2
+				float maxVal = 1

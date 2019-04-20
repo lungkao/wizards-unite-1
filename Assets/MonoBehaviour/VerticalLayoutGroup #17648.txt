@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -3532870160855369944
+		SInt64 m_PathID = -5136190613579183589
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -10,11 +10,11 @@ MonoBehaviour Base
 	RectOffset m_Padding
 		int m_Left = 0
 		int m_Right = 0
-		int m_Top = -30
-		int m_Bottom = 5
-	int m_ChildAlignment = 7
-	float m_Spacing = 10
-	UInt8 m_ChildForceExpandWidth = 1
+		int m_Top = 10
+		int m_Bottom = 8
+	int m_ChildAlignment = 1
+	float m_Spacing = 0
+	UInt8 m_ChildForceExpandWidth = 0
 	UInt8 m_ChildForceExpandHeight = 0
 	UInt8 m_ChildControlWidth = 1
 	UInt8 m_ChildControlHeight = 1

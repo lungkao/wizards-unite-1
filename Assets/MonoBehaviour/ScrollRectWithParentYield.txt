@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 4012667137665299551
+		SInt64 m_PathID = -1111097869990381035
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -9,17 +9,17 @@ MonoBehaviour Base
 	string m_Name = ""
 	PPtr<$RectTransform> m_Content
 		int m_FileID = 0
-		SInt64 m_PathID = -4686497349294366827
-	UInt8 m_Horizontal = 1
-	UInt8 m_Vertical = 0
-	int m_MovementType = 0
+		SInt64 m_PathID = -3535480206749934295
+	UInt8 m_Horizontal = 0
+	UInt8 m_Vertical = 1
+	int m_MovementType = 1
 	float m_Elasticity = 0.1
-	UInt8 m_Inertia = 0
+	UInt8 m_Inertia = 1
 	float m_DecelerationRate = 0.135
 	float m_ScrollSensitivity = 1
 	PPtr<$RectTransform> m_Viewport
 		int m_FileID = 0
-		SInt64 m_PathID = 0
+		SInt64 m_PathID = 8047439208769583156
 	PPtr<$Scrollbar> m_HorizontalScrollbar
 		int m_FileID = 0
 		SInt64 m_PathID = 0

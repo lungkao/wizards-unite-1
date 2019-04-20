@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 2721655099399733952
+		SInt64 m_PathID = -3387591202355986370
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -19,6 +19,6 @@ MonoBehaviour Base
 	int _uiHideLevel = 0
 	PPtr<$TextMeshProUGUI> _activityIntroText
 		int m_FileID = 0
-		SInt64 m_PathID = -6841050176722756917
+		SInt64 m_PathID = -8243524656902381086
 	TweenAnimationChain _anim
-		string firstAnim = "UI_Spellcast_Encounter_Spellgame_Brilliant_Start"
+		string firstAnim = "UI_Encounter_Spellgame_Tutorial_Start"

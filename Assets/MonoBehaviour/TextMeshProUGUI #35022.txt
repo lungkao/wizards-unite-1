@@ -1,8 +1,8 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 6190746019993613596
-	UInt8 m_Enabled = 1
+		SInt64 m_PathID = 7998145166873557538
+	UInt8 m_Enabled = 0
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = 8890283587956622325
@@ -22,14 +22,14 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "dailylogin_reward_label"
+	string m_text = "100/100"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 1
-		SInt64 m_PathID = -5596591088150043721
+		int m_FileID = 3
+		SInt64 m_PathID = 3111171929222542297
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 1
-		SInt64 m_PathID = -8003657262731169876
+		int m_FileID = 3
+		SInt64 m_PathID = 7939762594030095772
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -80,16 +80,16 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 31.1
-	float m_fontSizeBase = 30
+	float m_fontSize = 22
+	float m_fontSizeBase = 40
 	int m_fontWeight = 400
 	UInt8 m_enableAutoSizing = 1
 	float m_fontSizeMin = 18
-	float m_fontSizeMax = 48
-	int m_fontStyle = 0
-	int m_textAlignment = 514
+	float m_fontSizeMax = 22
+	int m_fontStyle = 17
+	int m_textAlignment = 1026
 	UInt8 m_isAlignmentEnumConverted = 1
-	float m_characterSpacing = 0
+	float m_characterSpacing = 5
 	float m_wordSpacing = 0
 	float m_lineSpacing = 0
 	float m_lineSpacingMax = 0
@@ -97,7 +97,7 @@ MonoBehaviour Base
 	float m_charWidthMaxAdj = 0
 	UInt8 m_enableWordWrapping = 1
 	float m_wordWrappingRatios = 0.4
-	int m_overflowMode = 0
+	int m_overflowMode = 3
 	int m_firstOverflowCharacterIndex = -1
 	PPtr<$TMP_Text> m_linkedTextComponent
 		int m_FileID = 0
@@ -127,11 +127,11 @@ MonoBehaviour Base
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = 5292967770230159745
-		int characterCount = 23
+			SInt64 m_PathID = -3538289605132559607
+		int characterCount = 7
 		int spriteCount = 0
 		int spaceCount = 0
-		int wordCount = 3
+		int wordCount = 2
 		int linkCount = 0
 		int lineCount = 1
 		int pageCount = 1

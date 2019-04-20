@@ -1,0 +1,31 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2901730955346394253
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1589156905564258925
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RegistryVisualConfig> RegistryVisualConfig
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Image> _oldIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -5056218086691968078
+	PPtr<$Image> _newIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 7296124857635451351
+	PPtr<$StarRarityWidget> _rarityWidget
+		int m_FileID = 0
+		SInt64 m_PathID = 0

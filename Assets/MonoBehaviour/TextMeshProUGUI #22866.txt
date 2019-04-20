@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5957733202614914287
+		SInt64 m_PathID = -5974590318895193280
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -22,7 +22,8 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = ""
+	string m_text = "Ingredient 1
+Ingredient 2"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
 		int m_FileID = 1
@@ -42,9 +43,9 @@ MonoBehaviour Base
 	ColorRGBA m_fontColor32
 		unsigned int rgba = 4294967295
 	ColorRGBA m_fontColor
-		float r = 0.1960784
-		float g = 0.1960784
-		float b = 0.1960784
+		float r = 1
+		float g = 1
+		float b = 1
 		float a = 1
 	UInt8 m_enableVertexGradient = 0
 	VertexGradient m_fontColorGradient
@@ -80,14 +81,14 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 0
-	float m_fontSizeBase = 14
+	float m_fontSize = 38
+	float m_fontSizeBase = 38
 	int m_fontWeight = 400
-	UInt8 m_enableAutoSizing = 1
-	float m_fontSizeMin = 0
-	float m_fontSizeMax = 0
-	int m_fontStyle = 0
-	int m_textAlignment = 257
+	UInt8 m_enableAutoSizing = 0
+	float m_fontSizeMin = 18
+	float m_fontSizeMax = 72
+	int m_fontStyle = 17
+	int m_textAlignment = 514
 	UInt8 m_isAlignmentEnumConverted = 1
 	float m_characterSpacing = 0
 	float m_wordSpacing = 0
@@ -97,13 +98,13 @@ MonoBehaviour Base
 	float m_charWidthMaxAdj = 0
 	UInt8 m_enableWordWrapping = 1
 	float m_wordWrappingRatios = 0.4
-	int m_overflowMode = 3
-	int m_firstOverflowCharacterIndex = -1
+	int m_overflowMode = 0
+	int m_firstOverflowCharacterIndex = 0
 	PPtr<$TMP_Text> m_linkedTextComponent
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	UInt8 m_isLinkedTextComponent = 0
-	UInt8 m_enableKerning = 0
+	UInt8 m_enableKerning = 1
 	UInt8 m_enableExtraPadding = 0
 	UInt8 checkPaddingRequired = 0
 	UInt8 m_isRichText = 1
@@ -120,21 +121,21 @@ MonoBehaviour Base
 	UInt8 m_useMaxVisibleDescender = 1
 	int m_pageToDisplay = 1
 	Vector4f m_margin
-		float x = 0
+		float x = 0.3658666
 		float y = 0
-		float z = 0
+		float z = 0.2913043
 		float w = 0
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = 0
-		int characterCount = 0
+			SInt64 m_PathID = 5756319345192976289
+		int characterCount = 25
 		int spriteCount = 0
-		int spaceCount = 0
-		int wordCount = 0
+		int spaceCount = 3
+		int wordCount = 4
 		int linkCount = 0
-		int lineCount = 0
-		int pageCount = 0
+		int lineCount = 2
+		int pageCount = 1
 		int materialCount = 1
 	UInt8 m_havePropertiesChanged = 1
 	UInt8 m_isUsingLegacyAnimationComponent = 0

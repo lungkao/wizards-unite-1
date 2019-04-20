@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -1568457426539168713
+		SInt64 m_PathID = -3018183071807561811
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -10,7 +10,7 @@ MonoBehaviour Base
 	int updateType = 0
 	UInt8 isSpeedBased = 0
 	UInt8 hasOnStart = 0
-	UInt8 hasOnPlay = 1
+	UInt8 hasOnPlay = 0
 	UInt8 hasOnUpdate = 0
 	UInt8 hasOnStepComplete = 0
 	UInt8 hasOnComplete = 0
@@ -26,24 +26,7 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 1
-					[0]
-					PersistentCall data
-						PPtr<$Object> m_Target
-							int m_FileID = 0
-							SInt64 m_PathID = -2152830310501201658
-						string m_MethodName = "DOPlayById"
-						int m_Mode = 5
-						ArgumentCache m_Arguments
-							PPtr<$Object> m_ObjectArgument
-								int m_FileID = 0
-								SInt64 m_PathID = 0
-							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
-							int m_IntArgument = 0
-							float m_FloatArgument = 0
-							string m_StringArgument = "icon_star_07_item_exit_01"
-							UInt8 m_BoolArgument = 0
-						int m_CallState = 2
+				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onUpdate
 		PersistentCallGroup m_PersistentCalls
@@ -75,9 +58,9 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 0.8
-	float duration = 0.1
-	int easeType = 3
+	float delay = 0.1
+	float duration = 0.75
+	int easeType = 24
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
@@ -98,19 +81,19 @@ MonoBehaviour Base
 		int m_PostInfinity = 2
 		int m_RotationOrder = 4
 	int loopType = 0
-	int loops = 0
-	string id = "icon_star_07_item_enter"
-	UInt8 isRelative = 0
+	int loops = 1
+	string id = "ItemEntryLabel"
+	UInt8 isRelative = 1
 	UInt8 isFrom = 1
 	UInt8 isIndependentUpdate = 0
-	UInt8 autoKill = 0
+	UInt8 autoKill = 1
 	UInt8 isActive = 1
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = -1853762760323087231
-	int animationType = 7
-	int targetType = 3
+		SInt64 m_PathID = -1421700551121939918
+	int animationType = 5
+	int targetType = 11
 	int forcedTargetType = 0
 	UInt8 autoPlay = 0
 	UInt8 useTargetAsV3 = 0
@@ -136,7 +119,7 @@ MonoBehaviour Base
 	PPtr<$Transform> endValueTransform
 		int m_FileID = 0
 		SInt64 m_PathID = 0
-	UInt8 optionalBool0 = 0
+	UInt8 optionalBool0 = 1
 	float optionalFloat0 = 0
 	int optionalInt0 = 0
 	int optionalRotationMode = 0

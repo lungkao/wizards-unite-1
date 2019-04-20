@@ -1,0 +1,43 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -7031553636286259386
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8159172546783711220
+	string m_Name = ""
+	UInt8 RequiresScrim = 1
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.2745098
+		float g = 0.2745098
+		float b = 0.2745098
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 7
+	int _uiHideLevel = 0
+	PPtr<$Image> _iconIngredients
+		int m_FileID = 0
+		SInt64 m_PathID = -7109479325392051717
+	PPtr<$Image> _iconPotions
+		int m_FileID = 0
+		SInt64 m_PathID = -2337462797444287914
+	PPtr<$Image> _iconEnergy
+		int m_FileID = 0
+		SInt64 m_PathID = -4656514940094077829
+	PPtr<$NestedButton> _onPurchaseButton
+		int m_FileID = 0
+		SInt64 m_PathID = 3972234610797270799
+	PPtr<$TextMeshProUGUI> _currentCapacity
+		int m_FileID = 0
+		SInt64 m_PathID = -6136833764140281448
+	PPtr<$TextMeshProUGUI> _capacityIncreaseDesc
+		int m_FileID = 0
+		SInt64 m_PathID = 1566665865273518123
+	PPtr<$TextMeshProUGUI> _capacityIncreaseAmount
+		int m_FileID = 0
+		SInt64 m_PathID = -2485968982392827029
+	PPtr<$TextMeshProUGUI> _headerText
+		int m_FileID = 0
+		SInt64 m_PathID = 225700604832725869

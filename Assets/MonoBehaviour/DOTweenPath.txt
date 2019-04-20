@@ -1,0 +1,762 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2435404282084186410
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2491973635633327234
+	string m_Name = ""
+	int updateType = 0
+	UInt8 isSpeedBased = 0
+	UInt8 hasOnStart = 0
+	UInt8 hasOnPlay = 0
+	UInt8 hasOnUpdate = 0
+	UInt8 hasOnStepComplete = 0
+	UInt8 hasOnComplete = 1
+	UInt8 hasOnTweenCreated = 0
+	UInt8 hasOnRewind = 0
+	UnityEvent onStart
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onPlay
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onUpdate
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onStepComplete
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onComplete
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = -4957024101662862551
+						string m_MethodName = "ShowSparkleEffect"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onTweenCreated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	UnityEvent onRewind
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+	float delay = 2
+	float duration = 0.75
+	int easeType = 4
+	AnimationCurve easeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	int loops = 1
+	string id = "FollowSpline"
+	int loopType = 0
+	int orientType = 0
+	PPtr<$Transform> lookAtTransform
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	Vector3f lookAtPosition
+		float x = 0
+		float y = 0
+		float z = 0
+	float lookAhead = 0.01
+	UInt8 autoPlay = 1
+	UInt8 autoKill = 1
+	UInt8 relative = 0
+	UInt8 isLocal = 0
+	UInt8 isClosedPath = 0
+	int pathResolution = 10
+	int pathMode = 3
+	int lockRotation = 0
+	UInt8 assignForwardAndUp = 0
+	Vector3f forwardDirection
+		float x = 0
+		float y = 0
+		float z = 1
+	Vector3f upDirection
+		float x = 0
+		float y = 1
+		float z = 0
+	UInt8 tweenRigidbody = 0
+	vector wps
+		Array Array
+		int size = 10
+			[0]
+			Vector3f data
+				float x = 163.31
+				float y = 296.9361
+				float z = 100.8984
+			[1]
+			Vector3f data
+				float x = 163.1733
+				float y = 297.5893
+				float z = 100.8984
+			[2]
+			Vector3f data
+				float x = 162.6098
+				float y = 297.8081
+				float z = 100.8984
+			[3]
+			Vector3f data
+				float x = 162.1822
+				float y = 297.4027
+				float z = 100.8984
+			[4]
+			Vector3f data
+				float x = 162.3286
+				float y = 296.8639
+				float z = 100.8984
+			[5]
+			Vector3f data
+				float x = 162.9422
+				float y = 296.8424
+				float z = 100.8984
+			[6]
+			Vector3f data
+				float x = 163.664
+				float y = 297.2612
+				float z = 100.8984
+			[7]
+			Vector3f data
+				float x = 164.1518
+				float y = 297.8514
+				float z = 100.8984
+			[8]
+			Vector3f data
+				float x = 164.4432
+				float y = 298.675
+				float z = 100.8984
+			[9]
+			Vector3f data
+				float x = 164.5107
+				float y = 299.619
+				float z = 100.8984
+	vector fullWps
+		Array Array
+		int size = 0
+	Path path
+		vector wpLengths
+			Array Array
+			int size = 11
+				[0]
+				float data = 0
+				[1]
+				float data = 0.8576574
+				[2]
+				float data = 0.6892825
+				[3]
+				float data = 0.6262966
+				[4]
+				float data = 0.6098814
+				[5]
+				float data = 0.5830233
+				[6]
+				float data = 0.6313546
+				[7]
+				float data = 0.8391048
+				[8]
+				float data = 0.7703326
+				[9]
+				float data = 0.8767497
+				[10]
+				float data = 0.947296
+		int type = 1
+		int subdivisionsXSegment = 10
+		int subdivisions = 110
+		vector wps
+			Array Array
+			int size = 11
+				[0]
+				Vector3f data
+					float x = 162.7791
+					float y = 296.2692
+					float z = 100.8986
+				[1]
+				Vector3f data
+					float x = 163.31
+					float y = 296.9361
+					float z = 100.8984
+				[2]
+				Vector3f data
+					float x = 163.1733
+					float y = 297.5893
+					float z = 100.8984
+				[3]
+				Vector3f data
+					float x = 162.6098
+					float y = 297.8081
+					float z = 100.8984
+				[4]
+				Vector3f data
+					float x = 162.1822
+					float y = 297.4027
+					float z = 100.8984
+				[5]
+				Vector3f data
+					float x = 162.3286
+					float y = 296.8639
+					float z = 100.8984
+				[6]
+				Vector3f data
+					float x = 162.9422
+					float y = 296.8424
+					float z = 100.8984
+				[7]
+				Vector3f data
+					float x = 163.664
+					float y = 297.2612
+					float z = 100.8984
+				[8]
+				Vector3f data
+					float x = 164.1518
+					float y = 297.8514
+					float z = 100.8984
+				[9]
+				Vector3f data
+					float x = 164.4432
+					float y = 298.675
+					float z = 100.8984
+				[10]
+				Vector3f data
+					float x = 164.5107
+					float y = 299.619
+					float z = 100.8984
+		ControlPoint controlPoints
+			Array Array
+			int size = 2
+				[0]
+				ControlPoint data
+					Vector3f a
+						float x = 163.31
+						float y = 296.9361
+						float z = 100.8984
+					Vector3f b
+						float x = 0
+						float y = 0
+						float z = 0
+				[1]
+				ControlPoint data
+					Vector3f a
+						float x = 164.5782
+						float y = 300.5629
+						float z = 100.8984
+					Vector3f b
+						float x = 0
+						float y = 0
+						float z = 0
+		float length = 7.43141
+		UInt8 isFinalized = 1
+		vector timesTable
+			Array Array
+			int size = 110
+				[0]
+				float data = 0.009090909
+				[1]
+				float data = 0.01818182
+				[2]
+				float data = 0.02727273
+				[3]
+				float data = 0.03636364
+				[4]
+				float data = 0.04545454
+				[5]
+				float data = 0.05454545
+				[6]
+				float data = 0.06363636
+				[7]
+				float data = 0.07272727
+				[8]
+				float data = 0.08181818
+				[9]
+				float data = 0.09090909
+				[10]
+				float data = 0.09999999
+				[11]
+				float data = 0.1090909
+				[12]
+				float data = 0.1181818
+				[13]
+				float data = 0.1272727
+				[14]
+				float data = 0.1363636
+				[15]
+				float data = 0.1454545
+				[16]
+				float data = 0.1545455
+				[17]
+				float data = 0.1636364
+				[18]
+				float data = 0.1727273
+				[19]
+				float data = 0.1818182
+				[20]
+				float data = 0.1909091
+				[21]
+				float data = 0.2
+				[22]
+				float data = 0.2090909
+				[23]
+				float data = 0.2181818
+				[24]
+				float data = 0.2272727
+				[25]
+				float data = 0.2363636
+				[26]
+				float data = 0.2454545
+				[27]
+				float data = 0.2545455
+				[28]
+				float data = 0.2636364
+				[29]
+				float data = 0.2727273
+				[30]
+				float data = 0.2818182
+				[31]
+				float data = 0.2909091
+				[32]
+				float data = 0.3
+				[33]
+				float data = 0.3090909
+				[34]
+				float data = 0.3181818
+				[35]
+				float data = 0.3272727
+				[36]
+				float data = 0.3363636
+				[37]
+				float data = 0.3454545
+				[38]
+				float data = 0.3545454
+				[39]
+				float data = 0.3636363
+				[40]
+				float data = 0.3727273
+				[41]
+				float data = 0.3818182
+				[42]
+				float data = 0.3909091
+				[43]
+				float data = 0.4
+				[44]
+				float data = 0.4090909
+				[45]
+				float data = 0.4181818
+				[46]
+				float data = 0.4272727
+				[47]
+				float data = 0.4363636
+				[48]
+				float data = 0.4454545
+				[49]
+				float data = 0.4545454
+				[50]
+				float data = 0.4636363
+				[51]
+				float data = 0.4727273
+				[52]
+				float data = 0.4818182
+				[53]
+				float data = 0.4909091
+				[54]
+				float data = 0.5
+				[55]
+				float data = 0.5090909
+				[56]
+				float data = 0.5181818
+				[57]
+				float data = 0.5272727
+				[58]
+				float data = 0.5363636
+				[59]
+				float data = 0.5454545
+				[60]
+				float data = 0.5545455
+				[61]
+				float data = 0.5636364
+				[62]
+				float data = 0.5727273
+				[63]
+				float data = 0.5818182
+				[64]
+				float data = 0.5909091
+				[65]
+				float data = 0.6
+				[66]
+				float data = 0.6090909
+				[67]
+				float data = 0.6181818
+				[68]
+				float data = 0.6272727
+				[69]
+				float data = 0.6363636
+				[70]
+				float data = 0.6454545
+				[71]
+				float data = 0.6545454
+				[72]
+				float data = 0.6636363
+				[73]
+				float data = 0.6727272
+				[74]
+				float data = 0.6818182
+				[75]
+				float data = 0.6909091
+				[76]
+				float data = 0.7
+				[77]
+				float data = 0.7090909
+				[78]
+				float data = 0.7181818
+				[79]
+				float data = 0.7272727
+				[80]
+				float data = 0.7363636
+				[81]
+				float data = 0.7454545
+				[82]
+				float data = 0.7545455
+				[83]
+				float data = 0.7636364
+				[84]
+				float data = 0.7727273
+				[85]
+				float data = 0.7818182
+				[86]
+				float data = 0.7909091
+				[87]
+				float data = 0.8
+				[88]
+				float data = 0.8090909
+				[89]
+				float data = 0.8181818
+				[90]
+				float data = 0.8272727
+				[91]
+				float data = 0.8363636
+				[92]
+				float data = 0.8454545
+				[93]
+				float data = 0.8545454
+				[94]
+				float data = 0.8636363
+				[95]
+				float data = 0.8727273
+				[96]
+				float data = 0.8818182
+				[97]
+				float data = 0.8909091
+				[98]
+				float data = 0.9
+				[99]
+				float data = 0.9090909
+				[100]
+				float data = 0.9181818
+				[101]
+				float data = 0.9272727
+				[102]
+				float data = 0.9363636
+				[103]
+				float data = 0.9454545
+				[104]
+				float data = 0.9545454
+				[105]
+				float data = 0.9636363
+				[106]
+				float data = 0.9727272
+				[107]
+				float data = 0.9818181
+				[108]
+				float data = 0.990909
+				[109]
+				float data = 0.9999999
+		vector lengthsTable
+			Array Array
+			int size = 110
+				[0]
+				float data = 0.01516107
+				[1]
+				float data = 0.05741391
+				[2]
+				float data = 0.1218286
+				[3]
+				float data = 0.2035414
+				[4]
+				float data = 0.2976407
+				[5]
+				float data = 0.3993089
+				[6]
+				float data = 0.503748
+				[7]
+				float data = 0.6061944
+				[8]
+				float data = 0.7020944
+				[9]
+				float data = 0.7871512
+				[10]
+				float data = 0.8576903
+				[11]
+				float data = 0.9209023
+				[12]
+				float data = 0.9852816
+				[13]
+				float data = 1.050687
+				[14]
+				float data = 1.116825
+				[15]
+				float data = 1.183158
+				[16]
+				float data = 1.249038
+				[17]
+				float data = 1.313807
+				[18]
+				float data = 1.376757
+				[19]
+				float data = 1.437065
+				[20]
+				float data = 1.494087
+				[21]
+				float data = 1.547072
+				[22]
+				float data = 1.599611
+				[23]
+				float data = 1.655465
+				[24]
+				float data = 1.714051
+				[25]
+				float data = 1.774598
+				[26]
+				float data = 1.836169
+				[27]
+				float data = 1.897812
+				[28]
+				float data = 1.958504
+				[29]
+				float data = 2.017265
+				[30]
+				float data = 2.073169
+				[31]
+				float data = 2.125427
+				[32]
+				float data = 2.173423
+				[33]
+				float data = 2.221337
+				[34]
+				float data = 2.273409
+				[35]
+				float data = 2.329148
+				[36]
+				float data = 2.387669
+				[37]
+				float data = 2.447984
+				[38]
+				float data = 2.508942
+				[39]
+				float data = 2.569397
+				[40]
+				float data = 2.628127
+				[41]
+				float data = 2.684035
+				[42]
+				float data = 2.73605
+				[43]
+				float data = 2.783354
+				[44]
+				float data = 2.830361
+				[45]
+				float data = 2.881474
+				[46]
+				float data = 2.93595
+				[47]
+				float data = 2.99279
+				[48]
+				float data = 3.050833
+				[49]
+				float data = 3.108981
+				[50]
+				float data = 3.16614
+				[51]
+				float data = 3.221212
+				[52]
+				float data = 3.273311
+				[53]
+				float data = 3.321791
+				[54]
+				float data = 3.366433
+				[55]
+				float data = 3.410734
+				[56]
+				float data = 3.458243
+				[57]
+				float data = 3.509186
+				[58]
+				float data = 3.563447
+				[59]
+				float data = 3.620715
+				[60]
+				float data = 3.680554
+				[61]
+				float data = 3.742414
+				[62]
+				float data = 3.805704
+				[63]
+				float data = 3.869814
+				[64]
+				float data = 3.934071
+				[65]
+				float data = 3.997845
+				[66]
+				float data = 4.063676
+				[67]
+				float data = 4.134097
+				[68]
+				float data = 4.208348
+				[69]
+				float data = 4.285609
+				[70]
+				float data = 4.36506
+				[71]
+				float data = 4.445769
+				[72]
+				float data = 4.526887
+				[73]
+				float data = 4.607482
+				[74]
+				float data = 4.686644
+				[75]
+				float data = 4.763433
+				[76]
+				float data = 4.836971
+				[77]
+				float data = 4.908008
+				[78]
+				float data = 4.978153
+				[79]
+				float data = 5.047588
+				[80]
+				float data = 5.116584
+				[81]
+				float data = 5.185363
+				[82]
+				float data = 5.254163
+				[83]
+				float data = 5.323257
+				[84]
+				float data = 5.392854
+				[85]
+				float data = 5.463224
+				[86]
+				float data = 5.53462
+				[87]
+				float data = 5.607293
+				[88]
+				float data = 5.68155
+				[89]
+				float data = 5.757484
+				[90]
+				float data = 5.8349
+				[91]
+				float data = 5.91362
+				[92]
+				float data = 5.993437
+				[93]
+				float data = 6.074156
+				[94]
+				float data = 6.155581
+				[95]
+				float data = 6.237514
+				[96]
+				float data = 6.319699
+				[97]
+				float data = 6.401937
+				[98]
+				float data = 6.484049
+				[99]
+				float data = 6.566701
+				[100]
+				float data = 6.650481
+				[101]
+				float data = 6.735367
+				[102]
+				float data = 6.821243
+				[103]
+				float data = 6.907925
+				[104]
+				float data = 6.995158
+				[105]
+				float data = 7.082762
+				[106]
+				float data = 7.170422
+				[107]
+				float data = 7.25791
+				[108]
+				float data = 7.344975
+				[109]
+				float data = 7.43141
+	int inspectorMode = 0
+	int pathType = 1
+	int handlesType = 0
+	UInt8 livePreview = 1
+	int handlesDrawMode = 0
+	float perspectiveHandleSize = 0.5
+	UInt8 showIndexes = 1
+	UInt8 showWpLength = 0
+	ColorRGBA pathColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 0.5
+	Vector3f lastSrcPosition
+		float x = 162.7791
+		float y = 296.2692
+		float z = 100.8986
+	UInt8 wpsDropdown = 0
+	float dropToFloorOffset = 0

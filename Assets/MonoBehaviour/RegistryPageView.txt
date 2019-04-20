@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 7797153392628533987
+		SInt64 m_PathID = 5059173481842465982
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -25,33 +25,29 @@ MonoBehaviour Base
 		SInt64 m_PathID = 0
 	PPtr<$TextMeshProUGUI> _headerLabel
 		int m_FileID = 0
-		SInt64 m_PathID = -2927143875403137781
+		SInt64 m_PathID = -4314287041144065245
 	PPtr<$Image> _imageBg
 		int m_FileID = 0
-		SInt64 m_PathID = 4011186080596595489
+		SInt64 m_PathID = 3030080151680042135
 	vector _nestedRegistryStickers
 		Array Array
-		int size = 5
+		int size = 4
 			[0]
 			PPtr<$NestedRegistrySticker> data
 				int m_FileID = 0
-				SInt64 m_PathID = -7191978475066985228
+				SInt64 m_PathID = -6589987312277815465
 			[1]
 			PPtr<$NestedRegistrySticker> data
 				int m_FileID = 0
-				SInt64 m_PathID = -3231189318669227846
+				SInt64 m_PathID = -6835310773018551181
 			[2]
 			PPtr<$NestedRegistrySticker> data
 				int m_FileID = 0
-				SInt64 m_PathID = -7310436759348951349
+				SInt64 m_PathID = -2874103717551155339
 			[3]
 			PPtr<$NestedRegistrySticker> data
 				int m_FileID = 0
-				SInt64 m_PathID = 9046726113158709627
-			[4]
-			PPtr<$NestedRegistrySticker> data
-				int m_FileID = 0
-				SInt64 m_PathID = 7668122061205848955
+				SInt64 m_PathID = 4343926773405282481
 	PPtr<$NestedPrefab> _framePrefab
 		int m_FileID = 0
-		SInt64 m_PathID = -8444809860979335770
+		SInt64 m_PathID = -3483915932726658603

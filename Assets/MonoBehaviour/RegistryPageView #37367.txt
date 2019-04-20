@@ -1,0 +1,53 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3007726044689092926
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2866006224145729593
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$RegistryVisualConfig> RegistryVisualConfig
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$RKImuAwareMaterialController> ImuMaterialController
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TextMeshProUGUI> _headerLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 3373662654294863985
+	PPtr<$Image> _imageBg
+		int m_FileID = 0
+		SInt64 m_PathID = -360210382906078846
+	vector _nestedRegistryStickers
+		Array Array
+		int size = 4
+			[0]
+			PPtr<$NestedRegistrySticker> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2120531113304118563
+			[1]
+			PPtr<$NestedRegistrySticker> data
+				int m_FileID = 0
+				SInt64 m_PathID = -9009917577384749656
+			[2]
+			PPtr<$NestedRegistrySticker> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7087742899608709715
+			[3]
+			PPtr<$NestedRegistrySticker> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7637399756788198473
+	PPtr<$NestedPrefab> _framePrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 983114623952689120

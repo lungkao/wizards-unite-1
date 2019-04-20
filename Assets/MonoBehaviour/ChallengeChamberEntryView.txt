@@ -1,0 +1,55 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2153817612553861716
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4657396099496130851
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _playerNameText
+		int m_FileID = 0
+		SInt64 m_PathID = -4663331845462485900
+	PPtr<$TextMeshProUGUI> _playerProfessionText
+		int m_FileID = 0
+		SInt64 m_PathID = -7181226257087791300
+	PPtr<$Image> _runestoneIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -47312739320108631
+	PPtr<$Image> _bossRunestoneIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -9164505593087012816
+	PPtr<$AdvancedUIButton> _runestoneButton
+		int m_FileID = 0
+		SInt64 m_PathID = 7684136084832170925
+	PPtr<$AdvancedUIButton> _bossRunestoneButton
+		int m_FileID = 0
+		SInt64 m_PathID = 5711523511832077399
+	PPtr<$GameObject> _runestonePlus
+		int m_FileID = 0
+		SInt64 m_PathID = 8735814185267201981
+	PPtr<$GameObject> _bossRunestonePlus
+		int m_FileID = 0
+		SInt64 m_PathID = -263525594942673669
+	PPtr<$ChallengePlayerMarker> _playerMarker
+		int m_FileID = 0
+		SInt64 m_PathID = 7895789346626540040
+	PPtr<$Image> _playerProfessionIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 123589700000345764
+	PPtr<$GameObject> _emptyState
+		int m_FileID = 0
+		SInt64 m_PathID = 4783530695709266795
+	PPtr<$GameObject> _filledState
+		int m_FileID = 0
+		SInt64 m_PathID = 3460878962441370949

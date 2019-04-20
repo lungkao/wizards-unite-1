@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -3459170617477736021
+		SInt64 m_PathID = 2721655099399733952
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -49,7 +49,7 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = 5273524358380367456
+							SInt64 m_PathID = 4767709687440402471
 						string m_MethodName = "DOPlayById"
 						int m_Mode = 5
 						ArgumentCache m_Arguments
@@ -59,7 +59,7 @@ MonoBehaviour Base
 							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
 							int m_IntArgument = 0
 							float m_FloatArgument = 0
-							string m_StringArgument = "UI_Encounter_Spellgame_Bad_End"
+							string m_StringArgument = "UI_Spellcast_Encounter_Spellgame_Brilliant_End"
 							UInt8 m_BoolArgument = 0
 						int m_CallState = 2
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
@@ -99,7 +99,7 @@ MonoBehaviour Base
 		int m_RotationOrder = 4
 	int loopType = 0
 	int loops = 1
-	string id = "UI_Encounter_Spellgame_Bad_Start"
+	string id = "UI_Spellcast_Encounter_Spellgame_Brilliant_Start"
 	UInt8 isRelative = 0
 	UInt8 isFrom = 1
 	UInt8 isIndependentUpdate = 0
@@ -108,7 +108,7 @@ MonoBehaviour Base
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = -980897382445767092
+		SInt64 m_PathID = 3997862284410357614
 	int animationType = 5
 	int targetType = 11
 	int forcedTargetType = 0

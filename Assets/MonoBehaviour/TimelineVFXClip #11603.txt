@@ -12,18 +12,18 @@ MonoBehaviour Base
 			string UiOwner = ""
 			int VfxAction = 0
 			PPtr<$VFXBase> Prefab
-				int m_FileID = 5
-				SInt64 m_PathID = -4853398383935443804
+				int m_FileID = 4
+				SInt64 m_PathID = 5291564285356551513
 			UInt8 HasColorTint = 0
 			ColorRGBA ColorTint
 				float r = 1
 				float g = 1
 				float b = 1
 				float a = 1
-			int StartAttachment = 0
-			int EndAttachment = 0
-			string StartTransform = "SpellOrigin"
-			string EndTransform = "SpellOrigin"
+			int StartAttachment = 2
+			int EndAttachment = 2
+			string StartTransform = "Default Default"
+			string EndTransform = "Default Default"
 			float PlaybackSpeed = 1
 			float AlphaFadeTime = 0.5
 			int TravelStyle = 0
@@ -33,8 +33,8 @@ MonoBehaviour Base
 			string FollowVFXIdentifier = ""
 			int VfxMessage = 5
 			UInt8 useClipDuration = 1
-			float Life = 4
-			string ParentTimelineName = "vfx_spell_metolojinx_recanto_projectile_lvl_01_tl"
-			string Identifier = "mrecanto_wand_cast"
+			float Life = 3.675
+			string ParentTimelineName = "vfx_spell_aguamenti_projectile_lvl_01_tl"
+			string Identifier = "aquamenti_hit"
 			string StartTargetPrefabName = ""
 			string EndTargetPrefabName = ""

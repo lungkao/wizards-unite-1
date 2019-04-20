@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 1392289822788784850
+		SInt64 m_PathID = 8145878453081010012
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -31,7 +31,7 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = -5572127894682083451
+							SInt64 m_PathID = 8844915056485838504
 						string m_MethodName = "DOPlayById"
 						int m_Mode = 5
 						ArgumentCache m_Arguments
@@ -108,7 +108,7 @@ MonoBehaviour Base
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = -8647800996609706550
+		SInt64 m_PathID = -5240689204995008658
 	int animationType = 7
 	int targetType = 3
 	int forcedTargetType = 0

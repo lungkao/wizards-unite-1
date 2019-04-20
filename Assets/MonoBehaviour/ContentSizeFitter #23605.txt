@@ -1,11 +1,11 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 5021690790956758324
-	UInt8 m_Enabled = 1
+		SInt64 m_PathID = -5211372640038220394
+	UInt8 m_Enabled = 0
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = -1514738865814811391
 	string m_Name = ""
-	int m_HorizontalFit = 2
+	int m_HorizontalFit = 0
 	int m_VerticalFit = 2

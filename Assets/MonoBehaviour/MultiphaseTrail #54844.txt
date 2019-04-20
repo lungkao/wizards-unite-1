@@ -1,0 +1,102 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4082682625245882223
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5447722797170228957
+	string m_Name = ""
+	int _innerPointCount = 60
+	int FixedPointCount = 2
+	float MotionDampeningPercent = 0.5
+	float majorMotionAmplitude = 0.1
+	AnimationCurve majorAmplitudeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	Vector3f majorMotionSpeed
+		float x = 5
+		float y = 5
+		float z = 5
+	int majorFrequency = 1
+	AnimationCurve majorFrequencyNormalizeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	int minorFrequency = 1
+	float minorMotionAmplitude = 0.1
+	AnimationCurve minorAmplitudeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	AnimationCurve minorFrequencyNormalizeCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4
+	Vector2f minorMotionSpeed
+		float x = 1
+		float y = 1
+	vector Points
+		Array Array
+		int size = 0

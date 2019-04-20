@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -5249933404184879434
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -6194136895650581265
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 3
+	int _uiHideLevel = 0
+	PPtr<$RunestoneEntryView> _runestoneEntry
+		int m_FileID = 0
+		SInt64 m_PathID = -2046360335627081645
+	PPtr<$TextMeshProUGUI> _titleText
+		int m_FileID = 0
+		SInt64 m_PathID = -8271848824550110410
+	PPtr<$TextMeshProUGUI> _bodyText
+		int m_FileID = 0
+		SInt64 m_PathID = 2166003899281215500
+	PPtr<$GameObject> _content
+		int m_FileID = 0
+		SInt64 m_PathID = 3758315192124594095
+	PPtr<$RunestoneFamilyView> _runestoneFamilyFilterButton
+		int m_FileID = 0
+		SInt64 m_PathID = -1743543634709053439
+	PPtr<$GameObject> _runestoneFamilyFilterBar
+		int m_FileID = 0
+		SInt64 m_PathID = 5055652899445661630
+	PPtr<$ScrollRectWithParentYield> _scrollRect
+		int m_FileID = 0
+		SInt64 m_PathID = 7624089786951232857

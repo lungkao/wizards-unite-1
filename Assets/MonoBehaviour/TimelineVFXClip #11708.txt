@@ -12,29 +12,29 @@ MonoBehaviour Base
 			string UiOwner = ""
 			int VfxAction = 0
 			PPtr<$VFXBase> Prefab
-				int m_FileID = 11
-				SInt64 m_PathID = -7822096798817076576
+				int m_FileID = 10
+				SInt64 m_PathID = -4356776620382507673
 			UInt8 HasColorTint = 0
 			ColorRGBA ColorTint
 				float r = 1
 				float g = 1
 				float b = 1
 				float a = 1
-			int StartAttachment = 0
+			int StartAttachment = 2
 			int EndAttachment = 2
-			string StartTransform = "SpellOrigin"
+			string StartTransform = "Default Default"
 			string EndTransform = "Default Default"
 			float PlaybackSpeed = 1
 			float AlphaFadeTime = 0.5
 			int TravelStyle = 0
 			PPtr<$VFXSpline> SplinePrefab
-				int m_FileID = 3
-				SInt64 m_PathID = -971660641987494926
+				int m_FileID = 0
+				SInt64 m_PathID = 0
 			string FollowVFXIdentifier = ""
 			int VfxMessage = 5
 			UInt8 useClipDuration = 1
-			float Life = 3.872488
-			string ParentTimelineName = "vfx_spell_alohomora_projectile_v2_lvl_01_tl"
-			string Identifier = "alohomora_beam"
+			float Life = 3.675
+			string ParentTimelineName = "vfx_spell_ridikulus_projectile_lvl_01_tl"
+			string Identifier = "diffindo_hit"
 			string StartTargetPrefabName = ""
 			string EndTargetPrefabName = ""

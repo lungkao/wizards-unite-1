@@ -1,0 +1,37 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -1852926745118682466
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7588266338992543041
+	string m_Name = ""
+	TimelineDictionary _timelines
+		StringTimelineAssetPair _timelineMap
+			Array Array
+			int size = 4
+				[0]
+				StringTimelineAssetPair data
+					string _key = "reward_01"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = 6773010585746751225
+				[1]
+				StringTimelineAssetPair data
+					string _key = "reward_02"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = 4424544026401785761
+				[2]
+				StringTimelineAssetPair data
+					string _key = "reward_idle"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = 6977290376401142185
+				[3]
+				StringTimelineAssetPair data
+					string _key = "reward_hide"
+					PPtr<$TimelineAssetExtension> _value
+						int m_FileID = 0
+						SInt64 m_PathID = 0

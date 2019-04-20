@@ -1,0 +1,54 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8213397227359743463
+	string m_Name = "vfx_spell_ebublio_projectile_lvl_01_tl"
+	int m_NextId = 0
+	vector m_Tracks
+		Array Array
+		int size = 8
+			[0]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7128512767664893967
+			[1]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8726194834273525973
+			[2]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -2418255467236473636
+			[3]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -7319888193440892982
+			[4]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8605946284218177802
+			[5]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1235623954961074246
+			[6]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -3630061062142802571
+			[7]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6610381284595196076
+	double m_FixedDuration = 0
+	EditorSettings m_EditorSettings
+		float m_Framerate = 60
+	int m_DurationMode = 0
+	UInt8 IsForceSequence = 1
+	PPtr<$TimelineAssetExtension> NextTimeline
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int WrapMode = 2

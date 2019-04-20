@@ -1,0 +1,16 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5482053934037920180
+	string m_Name = ""
+	HapticKeyObject HapticKeyRef
+		Array Array
+		int size = 1
+			[0]
+			HapticKeyObject data
+				double time = 0.05
+				string key = "proto_haptic_ultra_light"

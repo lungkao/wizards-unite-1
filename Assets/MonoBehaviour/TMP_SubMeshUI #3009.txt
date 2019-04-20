@@ -1,0 +1,45 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4286111922720187945
+	UInt8 m_Enabled = 0
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4301715310763314416
+	string m_Name = ""
+	PPtr<$Material> m_Material
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	ColorRGBA m_Color
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	UInt8 m_RaycastTarget = 1
+	CullStateChangedEvent m_OnCullStateChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$TMP_FontAsset> m_fontAsset
+		int m_FileID = 11
+		SInt64 m_PathID = -2960885899245865624
+	PPtr<$TMP_SpriteAsset> m_spriteAsset
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> m_material
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Material> m_sharedMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_isDefaultMaterial = 0
+	float m_padding = 0
+	PPtr<$CanvasRenderer> m_canvasRenderer
+		int m_FileID = 0
+		SInt64 m_PathID = -5425844505366120011
+	PPtr<$TextMeshProUGUI> m_TextComponent
+		int m_FileID = 0
+		SInt64 m_PathID = -1567614728964693084
+	int m_materialReferenceIndex = 1

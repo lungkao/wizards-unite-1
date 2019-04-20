@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2757180714199615189
+	string m_Name = "SocialNetworkConfig"
+	SocialNetworkConfig m_BundleIds
+		Array Array
+		int size = 4
+			[0]
+			SocialNetworkConfig data
+				int key = 0
+				string valueAndroid = "com.instagram.android"
+				string valueIos = "instagram://app"
+				string exclusiveIos = "com.instagram.exclusivegram"
+				string iosappstorelink = "https://itunes.apple.com/ca/app/instagram/id389801252?mt=8"
+			[1]
+			SocialNetworkConfig data
+				int key = 1
+				string valueAndroid = "com.facebook.katana"
+				string valueIos = "fb://"
+				string exclusiveIos = ""
+				string iosappstorelink = "https://itunes.apple.com/ca/app/facebook/id284882215?mt=8"
+			[2]
+			SocialNetworkConfig data
+				int key = 2
+				string valueAndroid = "com.snapchat.android"
+				string valueIos = "snapchat://app"
+				string exclusiveIos = ""
+				string iosappstorelink = "https://itunes.apple.com/us/app/snapchat/id447188370?mt=8"
+			[3]
+			SocialNetworkConfig data
+				int key = 3
+				string valueAndroid = ""
+				string valueIos = ""
+				string exclusiveIos = ""
+				string iosappstorelink = ""

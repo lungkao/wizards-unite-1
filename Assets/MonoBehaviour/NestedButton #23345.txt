@@ -1,0 +1,63 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3733756716160168891
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5020536745277524165
+	string m_Name = ""
+	UInt8 _instantiateOnStart = 1
+	UInt8 _updateInstanceLayer = 1
+	TriggerEvent _onPrefabInstantiated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = -7831296286075669781
+						string m_MethodName = "OnNestedPrefabLoaded"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$GameObject> _prefab
+		int m_FileID = 2
+		SInt64 m_PathID = 1964064269351489656
+	ButtonClickedEvent _onButtonClick
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = -7831296286075669781
+						string m_MethodName = "OnSuperAwesomeLoginClickProxy"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	string _buttonIdentifier = ""
+	string _onClickSoundEventOverride = ""
+	string _localizationKey = ""

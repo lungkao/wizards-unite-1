@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1425337041954908299
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4767356806060895758
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _nameText
+		int m_FileID = 0
+		SInt64 m_PathID = 1058800913551731130
+	PPtr<$TextMeshProUGUI> _detailsText
+		int m_FileID = 0
+		SInt64 m_PathID = 902162600162689115
+	PPtr<$TextMeshProUGUI> _requirementsText
+		int m_FileID = 0
+		SInt64 m_PathID = -7048017874539480406
+	PPtr<$TextMeshProUGUI> _lockedReasonLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -6290473663854141867
+	PPtr<$GameObject> _lockedStateUI
+		int m_FileID = 0
+		SInt64 m_PathID = 2157750551506901352
+	PPtr<$GameObject> _unlockedStateUI
+		int m_FileID = 0
+		SInt64 m_PathID = 2770739113432637142
+	PPtr<$Image> _runestoneSlotIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -7767274704525824925

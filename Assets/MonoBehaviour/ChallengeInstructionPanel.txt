@@ -1,0 +1,22 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4455754518427073995
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7285920033408707248
+	string m_Name = ""
+	string _showAnimationName = "ShowDialog"
+	string _hideAnimationName = "HideDialog"
+	PPtr<$TextMeshProUGUI> _instructionText
+		int m_FileID = 0
+		SInt64 m_PathID = 7984463282096819176
+	PPtr<$GameObject> _imageToMove
+		int m_FileID = 0
+		SInt64 m_PathID = 1899486171231929059
+	PPtr<$VFXBase> _flashEffect
+		int m_FileID = 0
+		SInt64 m_PathID = -8522953294324206422
+	float _flashEffectVerticalOffset = -1
+	string _swirlSoundEffect = "event:/UI/FortressUI/FortressSkullSound"

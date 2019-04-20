@@ -1,0 +1,38 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4365598104646220073
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1559403226870552869
+	string m_Name = ""
+	PPtr<$RectTransform> m_Content
+		int m_FileID = 0
+		SInt64 m_PathID = 7724088171234197685
+	UInt8 m_Horizontal = 0
+	UInt8 m_Vertical = 1
+	int m_MovementType = 1
+	float m_Elasticity = 0.1
+	UInt8 m_Inertia = 1
+	float m_DecelerationRate = 0.135
+	float m_ScrollSensitivity = 1
+	PPtr<$RectTransform> m_Viewport
+		int m_FileID = 0
+		SInt64 m_PathID = -2998233247637187085
+	PPtr<$Scrollbar> m_HorizontalScrollbar
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Scrollbar> m_VerticalScrollbar
+		int m_FileID = 0
+		SInt64 m_PathID = -6017539388421041983
+	int m_HorizontalScrollbarVisibility = 2
+	int m_VerticalScrollbarVisibility = 1
+	float m_HorizontalScrollbarSpacing = -3
+	float m_VerticalScrollbarSpacing = -3
+	ScrollRectEvent m_OnValueChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.ScrollRect+ScrollRectEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"

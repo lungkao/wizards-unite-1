@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 9146629138509251882
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2387553663416297305
+	string m_Name = ""
+	PPtr<$Transform> _foodParent
+		int m_FileID = 0
+		SInt64 m_PathID = 4617199785086671833
+	PPtr<$GameObject> _lid
+		int m_FileID = 0
+		SInt64 m_PathID = 3052922315577419486

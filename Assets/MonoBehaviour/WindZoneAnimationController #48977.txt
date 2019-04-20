@@ -1,0 +1,12 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8718335158294968292
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 306629285235169401
+	string m_Name = ""
+	float animationTimeSecs = 0.8
+	float windStart = 0
+	float windStop = -100

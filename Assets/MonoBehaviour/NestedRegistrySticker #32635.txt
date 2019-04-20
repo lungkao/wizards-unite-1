@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 2344286194843626027
+		SInt64 m_PathID = 3650307927698047742
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -20,7 +20,7 @@ MonoBehaviour Base
 		SInt64 m_PathID = 6392046805930118025
 	PPtr<$Image> _image
 		int m_FileID = 0
-		SInt64 m_PathID = -1563136643261764480
+		SInt64 m_PathID = 1038401747928144255
 	PPtr<$Transform> _labelParentTransform
 		int m_FileID = 0
-		SInt64 m_PathID = -3643475516440267083
+		SInt64 m_PathID = -6460584886436801258

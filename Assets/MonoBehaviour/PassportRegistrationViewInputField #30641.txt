@@ -1,0 +1,21 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6800791598099179078
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4917121395678449102
+	string m_Name = ""
+	PPtr<$GameObject> _redArrow
+		int m_FileID = 0
+		SInt64 m_PathID = -1384567669860534874
+	PPtr<$GameObject> _blackArrow
+		int m_FileID = 0
+		SInt64 m_PathID = -6720858330855862395
+	PPtr<$TextMeshProUGUI> _errorLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -4633797192937953387
+	PPtr<$TMP_InputField> _inputLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 2992553266058104642

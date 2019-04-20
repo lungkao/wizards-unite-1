@@ -1,0 +1,32 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -3734406976891663989
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8951930167038455710
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0
+		float g = 0
+		float b = 0
+		float a = 0
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> _nameHeader
+		int m_FileID = 0
+		SInt64 m_PathID = -1064322987465848638
+	PPtr<$TextMeshProUGUI> _scoreDisplay
+		int m_FileID = 0
+		SInt64 m_PathID = -5243763268481137918
+	PPtr<$TextMeshProUGUI> _thresholdDisplay
+		int m_FileID = 0
+		SInt64 m_PathID = -1826193020545985555
+	PPtr<$ProgressBarWidgetView> _verticalProgressBar
+		int m_FileID = 0
+		SInt64 m_PathID = -1521850201578091080
+	SInt64 _bestScore = 0

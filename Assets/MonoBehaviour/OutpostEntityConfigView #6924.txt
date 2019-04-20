@@ -1,0 +1,79 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -4426650594911533226
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1688035968025230776
+	string m_Name = ""
+	PPtr<$Transform> geometry
+		int m_FileID = 0
+		SInt64 m_PathID = 280945726828188144
+	AccessibilityTuple _accessibilityVisuals
+		Array Array
+		int size = 5
+			[0]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = 5978224418956999859
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = -4645196177966096111
+			[1]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = 5978224418956999859
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = 1273067563038939738
+			[2]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = 5978224418956999859
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = 4745829142805954324
+			[3]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2904617177962189823
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = -1949820944124839170
+			[4]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2904617177962189823
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = -2436054755998907544
+	PPtr<$Transform> collectedSmokeLocation
+		int m_FileID = 0
+		SInt64 m_PathID = -362420966972796030
+	PPtr<$Transform> darkDetectorLocation
+		int m_FileID = 0
+		SInt64 m_PathID = 9066977276334377122
+	PPtr<$Transform> _shadowGeometry
+		int m_FileID = 0
+		SInt64 m_PathID = -6831643093138560224

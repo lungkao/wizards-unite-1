@@ -1,0 +1,46 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8213397227359743463
+	string m_Name = "vfx_spell_incendio_projectile_cast_tl"
+	int m_NextId = 0
+	vector m_Tracks
+		Array Array
+		int size = 6
+			[0]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1832954669009857187
+			[1]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6875853057257139802
+			[2]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = 7928374356865507418
+			[3]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -8795417666202265334
+			[4]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1722057961138418579
+			[5]
+			PPtr<$ScriptableObject> data
+				int m_FileID = 0
+				SInt64 m_PathID = -1751531615622982053
+	double m_FixedDuration = 0
+	EditorSettings m_EditorSettings
+		float m_Framerate = 60
+	int m_DurationMode = 0
+	UInt8 IsForceSequence = 1
+	PPtr<$TimelineAssetExtension> NextTimeline
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int WrapMode = 2
