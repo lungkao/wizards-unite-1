@@ -27,39 +27,39 @@ namespace WUProtos.Data {
             "CiBXVVByb3Rvcy9EYXRhL0NoYW1iZXJTdGF0ZS5wcm90bxINV1VQcm90b3Mu",
             "RGF0YRoqV1VQcm90b3MvRW51bXMvQ2hhbGxlbmdlRmluaXNoU3RhdHVzLnBy",
             "b3RvGidXVVByb3Rvcy9EYXRhL0xvb3QvTG9vdENvbGxlY3Rpb24ucHJvdG8a",
-            "IVdVUHJvdG9zL0RhdGEvTWFwQ29vcmRpbmF0ZS5wcm90bxojV1VQcm90b3Mv",
-            "RGF0YS9DaGFtYmVyTW9iU3RhdGUucHJvdG8aJldVUHJvdG9zL0RhdGEvQ2hh",
-            "bWJlclBsYXllclN0YXRlLnByb3RvItUJCgxDaGFtYmVyU3RhdGUSHwoXY2hh",
-            "bWJlcl90ZW1wbGF0ZV9nbXRfaWQYASABKAkSMQoGcGxheWVyGAIgAygLMiEu",
-            "V1VQcm90b3MuRGF0YS5DaGFtYmVyUGxheWVyU3RhdGUSSwoQd2FpdGluZ190",
-            "b19zdGFydBgEIAEoCzIvLldVUHJvdG9zLkRhdGEuQ2hhbWJlclN0YXRlLldh",
-            "aXRpbmdUb1N0YXJ0U3RhdGVIABJCCgtpbl9wcm9ncmVzcxgFIAEoCzIrLldV",
-            "UHJvdG9zLkRhdGEuQ2hhbWJlclN0YXRlLkluUHJvZ3Jlc3NTdGF0ZUgAEj0K",
-            "CGZpbmlzaGVkGAYgASgLMikuV1VQcm90b3MuRGF0YS5DaGFtYmVyU3RhdGUu",
-            "RmluaXNoZWRTdGF0ZUgAEhEKCXRpbWVzdGFtcBgHIAEoAxqCAQoNRmluaXNo",
-            "ZWRTdGF0ZRI8Cg1maW5pc2hfc3RhdHVzGAEgASgOMiUuV1VQcm90b3MuRW51",
-            "bXMuQ2hhbGxlbmdlRmluaXNoU3RhdHVzEjMKB3Jld2FyZHMYAiABKAsyIi5X",
-            "VVByb3Rvcy5EYXRhLkxvb3QuTG9vdENvbGxlY3Rpb24awgMKD0luUHJvZ3Jl",
-            "c3NTdGF0ZRITCgtlbmRfdGltZV9tcxgBIAEoAxIsCgRtb2JzGAIgAygLMh4u",
-            "V1VQcm90b3MuRGF0YS5DaGFtYmVyTW9iU3RhdGUSRAoQdXNlZF9tYXBfYWJp",
-            "bGl0eRgDIAMoCzIqLldVUHJvdG9zLkRhdGEuQ2hhbWJlclN0YXRlLlVzZWRN",
-            "YXBBYmlsaXR5EhcKD3RvdGFsX21vYl9jb3VudBgEIAEoBRqMAgoOVXNlZE1h",
-            "cEFiaWxpdHkSGgoSbWFwX2FiaWxpdHlfZ210X2lkGAEgASgJEhEKCWNhc3Rl",
-            "cl9pZBgCIAEoCRIOCgZyYWRpdXMYAyABKAISGQoRY2FzdGluZ190aW1lc3Rh",
-            "bXAYBCABKAMSGAoQZW5kaW5nX3RpbWVzdGFtcBgFIAEoAxI0Cg5tYXBfY29v",
-            "cmRpbmF0ZRgGIAEoCzIcLldVUHJvdG9zLkRhdGEuTWFwQ29vcmRpbmF0ZRIZ",
-            "ChFtYXBfYWJpbGl0eV9sZXZlbBgHIAEoBRIVCg10YXJnZXRfbW9iX2lkGAgg",
-            "ASgMEh4KFnRhcmdldF9wbGF5ZXJfbmlja25hbWUYCSABKAkajAIKDlVzZWRN",
-            "YXBBYmlsaXR5EhoKEm1hcF9hYmlsaXR5X2dtdF9pZBgBIAEoCRIRCgljYXN0",
-            "ZXJfaWQYAiABKAkSDgoGcmFkaXVzGAMgASgCEhkKEWNhc3RpbmdfdGltZXN0",
-            "YW1wGAQgASgDEhgKEGVuZGluZ190aW1lc3RhbXAYBSABKAMSNAoObWFwX2Nv",
-            "b3JkaW5hdGUYBiABKAsyHC5XVVByb3Rvcy5EYXRhLk1hcENvb3JkaW5hdGUS",
-            "GQoRbWFwX2FiaWxpdHlfbGV2ZWwYByABKAUSFQoNdGFyZ2V0X21vYl9pZBgI",
-            "IAEoDBIeChZ0YXJnZXRfcGxheWVyX25pY2tuYW1lGAkgASgJGiwKE1dhaXRp",
-            "bmdUb1N0YXJ0U3RhdGUSFQoNc3RhcnRfdGltZV9tcxgBIAEoA0IHCgVTdGF0",
-            "ZWIGcHJvdG8z"));
+            "IFdVUHJvdG9zL01hcC9NYXBDb29yZGluYXRlLnByb3RvGiNXVVByb3Rvcy9E",
+            "YXRhL0NoYW1iZXJNb2JTdGF0ZS5wcm90bxomV1VQcm90b3MvRGF0YS9DaGFt",
+            "YmVyUGxheWVyU3RhdGUucHJvdG8i0wkKDENoYW1iZXJTdGF0ZRIfChdjaGFt",
+            "YmVyX3RlbXBsYXRlX2dtdF9pZBgBIAEoCRIxCgZwbGF5ZXIYAiADKAsyIS5X",
+            "VVByb3Rvcy5EYXRhLkNoYW1iZXJQbGF5ZXJTdGF0ZRJLChB3YWl0aW5nX3Rv",
+            "X3N0YXJ0GAQgASgLMi8uV1VQcm90b3MuRGF0YS5DaGFtYmVyU3RhdGUuV2Fp",
+            "dGluZ1RvU3RhcnRTdGF0ZUgAEkIKC2luX3Byb2dyZXNzGAUgASgLMisuV1VQ",
+            "cm90b3MuRGF0YS5DaGFtYmVyU3RhdGUuSW5Qcm9ncmVzc1N0YXRlSAASPQoI",
+            "ZmluaXNoZWQYBiABKAsyKS5XVVByb3Rvcy5EYXRhLkNoYW1iZXJTdGF0ZS5G",
+            "aW5pc2hlZFN0YXRlSAASEQoJdGltZXN0YW1wGAcgASgDGoIBCg1GaW5pc2hl",
+            "ZFN0YXRlEjwKDWZpbmlzaF9zdGF0dXMYASABKA4yJS5XVVByb3Rvcy5FbnVt",
+            "cy5DaGFsbGVuZ2VGaW5pc2hTdGF0dXMSMwoHcmV3YXJkcxgCIAEoCzIiLldV",
+            "UHJvdG9zLkRhdGEuTG9vdC5Mb290Q29sbGVjdGlvbhrBAwoPSW5Qcm9ncmVz",
+            "c1N0YXRlEhMKC2VuZF90aW1lX21zGAEgASgDEiwKBG1vYnMYAiADKAsyHi5X",
+            "VVByb3Rvcy5EYXRhLkNoYW1iZXJNb2JTdGF0ZRJEChB1c2VkX21hcF9hYmls",
+            "aXR5GAMgAygLMiouV1VQcm90b3MuRGF0YS5DaGFtYmVyU3RhdGUuVXNlZE1h",
+            "cEFiaWxpdHkSFwoPdG90YWxfbW9iX2NvdW50GAQgASgFGosCCg5Vc2VkTWFw",
+            "QWJpbGl0eRIaChJtYXBfYWJpbGl0eV9nbXRfaWQYASABKAkSEQoJY2FzdGVy",
+            "X2lkGAIgASgJEg4KBnJhZGl1cxgDIAEoAhIZChFjYXN0aW5nX3RpbWVzdGFt",
+            "cBgEIAEoAxIYChBlbmRpbmdfdGltZXN0YW1wGAUgASgDEjMKDm1hcF9jb29y",
+            "ZGluYXRlGAYgASgLMhsuV1VQcm90b3MuTWFwLk1hcENvb3JkaW5hdGUSGQoR",
+            "bWFwX2FiaWxpdHlfbGV2ZWwYByABKAUSFQoNdGFyZ2V0X21vYl9pZBgIIAEo",
+            "DBIeChZ0YXJnZXRfcGxheWVyX25pY2tuYW1lGAkgASgJGosCCg5Vc2VkTWFw",
+            "QWJpbGl0eRIaChJtYXBfYWJpbGl0eV9nbXRfaWQYASABKAkSEQoJY2FzdGVy",
+            "X2lkGAIgASgJEg4KBnJhZGl1cxgDIAEoAhIZChFjYXN0aW5nX3RpbWVzdGFt",
+            "cBgEIAEoAxIYChBlbmRpbmdfdGltZXN0YW1wGAUgASgDEjMKDm1hcF9jb29y",
+            "ZGluYXRlGAYgASgLMhsuV1VQcm90b3MuTWFwLk1hcENvb3JkaW5hdGUSGQoR",
+            "bWFwX2FiaWxpdHlfbGV2ZWwYByABKAUSFQoNdGFyZ2V0X21vYl9pZBgIIAEo",
+            "DBIeChZ0YXJnZXRfcGxheWVyX25pY2tuYW1lGAkgASgJGiwKE1dhaXRpbmdU",
+            "b1N0YXJ0U3RhdGUSFQoNc3RhcnRfdGltZV9tcxgBIAEoA0IHCgVTdGF0ZWIG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Enums.ChallengeFinishStatusReflection.Descriptor, global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, global::WUProtos.Data.MapCoordinateReflection.Descriptor, global::WUProtos.Data.ChamberMobStateReflection.Descriptor, global::WUProtos.Data.ChamberPlayerStateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Enums.ChallengeFinishStatusReflection.Descriptor, global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, global::WUProtos.Map.MapCoordinateReflection.Descriptor, global::WUProtos.Data.ChamberMobStateReflection.Descriptor, global::WUProtos.Data.ChamberPlayerStateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ChamberState), global::WUProtos.Data.ChamberState.Parser, new[]{ "ChamberTemplateGmtId", "Player", "WaitingToStart", "InProgress", "Finished", "Timestamp" }, new[]{ "State" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ChamberState.Types.FinishedState), global::WUProtos.Data.ChamberState.Types.FinishedState.Parser, new[]{ "FinishStatus", "Rewards" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ChamberState.Types.InProgressState), global::WUProtos.Data.ChamberState.Types.InProgressState.Parser, new[]{ "EndTimeMs", "Mobs", "UsedMapAbility", "TotalMobCount" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ChamberState.Types.InProgressState.Types.UsedMapAbility), global::WUProtos.Data.ChamberState.Types.InProgressState.Types.UsedMapAbility.Parser, new[]{ "MapAbilityGmtId", "CasterId", "Radius", "CastingTimestamp", "EndingTimestamp", "MapCoordinate", "MapAbilityLevel", "TargetMobId", "TargetPlayerNickname" }, null, null, null)}),
@@ -853,9 +853,9 @@ namespace WUProtos.Data {
 
             /// <summary>Field number for the "map_coordinate" field.</summary>
             public const int MapCoordinateFieldNumber = 6;
-            private global::WUProtos.Data.MapCoordinate mapCoordinate_;
+            private global::WUProtos.Map.MapCoordinate mapCoordinate_;
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-            public global::WUProtos.Data.MapCoordinate MapCoordinate {
+            public global::WUProtos.Map.MapCoordinate MapCoordinate {
               get { return mapCoordinate_; }
               set {
                 mapCoordinate_ = value;
@@ -1044,7 +1044,7 @@ namespace WUProtos.Data {
               }
               if (other.mapCoordinate_ != null) {
                 if (mapCoordinate_ == null) {
-                  MapCoordinate = new global::WUProtos.Data.MapCoordinate();
+                  MapCoordinate = new global::WUProtos.Map.MapCoordinate();
                 }
                 MapCoordinate.MergeFrom(other.MapCoordinate);
               }
@@ -1090,7 +1090,7 @@ namespace WUProtos.Data {
                   }
                   case 50: {
                     if (mapCoordinate_ == null) {
-                      MapCoordinate = new global::WUProtos.Data.MapCoordinate();
+                      MapCoordinate = new global::WUProtos.Map.MapCoordinate();
                     }
                     input.ReadMessage(MapCoordinate);
                     break;
@@ -1217,9 +1217,9 @@ namespace WUProtos.Data {
 
         /// <summary>Field number for the "map_coordinate" field.</summary>
         public const int MapCoordinateFieldNumber = 6;
-        private global::WUProtos.Data.MapCoordinate mapCoordinate_;
+        private global::WUProtos.Map.MapCoordinate mapCoordinate_;
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public global::WUProtos.Data.MapCoordinate MapCoordinate {
+        public global::WUProtos.Map.MapCoordinate MapCoordinate {
           get { return mapCoordinate_; }
           set {
             mapCoordinate_ = value;
@@ -1408,7 +1408,7 @@ namespace WUProtos.Data {
           }
           if (other.mapCoordinate_ != null) {
             if (mapCoordinate_ == null) {
-              MapCoordinate = new global::WUProtos.Data.MapCoordinate();
+              MapCoordinate = new global::WUProtos.Map.MapCoordinate();
             }
             MapCoordinate.MergeFrom(other.MapCoordinate);
           }
@@ -1454,7 +1454,7 @@ namespace WUProtos.Data {
               }
               case 50: {
                 if (mapCoordinate_ == null) {
-                  MapCoordinate = new global::WUProtos.Data.MapCoordinate();
+                  MapCoordinate = new global::WUProtos.Map.MapCoordinate();
                 }
                 input.ReadMessage(MapCoordinate);
                 break;

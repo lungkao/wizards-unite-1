@@ -25,21 +25,19 @@ namespace WUProtos.Data.Collection {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ci1XVVByb3Rvcy9EYXRhL0NvbGxlY3Rpb24vQ29sbGVjdGlvbkl0ZW0ucHJv",
-            "dG8SGFdVUHJvdG9zLkRhdGEuQ29sbGVjdGlvbhojV1VQcm90b3MvRGF0YS9N",
-            "eXN0ZXJ5SXRlbUluZm8ucHJvdG8aJ1dVUHJvdG9zL0RhdGEvTG9vdC9Mb290",
-            "Q29sbGVjdGlvbi5wcm90bxogV1VQcm90b3MvRGF0YS9SZXF1aXJlbWVudHMu",
-            "cHJvdG8iwwIKDkNvbGxlY3Rpb25JdGVtEjQKDG15c3RlcnlfZGF0YRgBIAMo",
-            "CzIeLldVUHJvdG9zLkRhdGEuTXlzdGVyeUl0ZW1JbmZvEgoKAmlkGAIgASgJ",
-            "EhEKCWZhbWlseV9pZBgDIAEoCRITCgtzaGFyZF9jb3VudBgEIAEoBRIOCgZy",
-            "YXJpdHkYBSABKAUSPAoQb25lX3RpbWVfcmV3YXJkcxgGIAEoCzIiLldVUHJv",
-            "dG9zLkRhdGEuTG9vdC5Mb290Q29sbGVjdGlvbhIPCgdwYWdlX2lkGAcgASgJ",
-            "EjgKE3VubG9ja19yZXF1aXJlbWVudHMYCCABKAsyGy5XVVByb3Rvcy5EYXRh",
-            "LlJlcXVpcmVtZW50cxIUCgxzaGFyZF9jb3VudHMYCSADKAUSGAoQc3RpY2tl",
-            "cl9kaXNhYmxlZBgKIAEoCGIGcHJvdG8z"));
+            "dG8SGFdVUHJvdG9zLkRhdGEuQ29sbGVjdGlvbhonV1VQcm90b3MvRGF0YS9M",
+            "b290L0xvb3RDb2xsZWN0aW9uLnByb3RvGiBXVVByb3Rvcy9EYXRhL1JlcXVp",
+            "cmVtZW50cy5wcm90byKNAgoOQ29sbGVjdGlvbkl0ZW0SCgoCaWQYASABKAkS",
+            "EQoJZmFtaWx5X2lkGAIgASgJEhMKC3NoYXJkX2NvdW50GAMgASgFEg4KBnJh",
+            "cml0eRgEIAEoBRI8ChBvbmVfdGltZV9yZXdhcmRzGAUgASgLMiIuV1VQcm90",
+            "b3MuRGF0YS5Mb290Lkxvb3RDb2xsZWN0aW9uEg8KB3BhZ2VfaWQYBiABKAkS",
+            "OAoTdW5sb2NrX3JlcXVpcmVtZW50cxgHIAEoCzIbLldVUHJvdG9zLkRhdGEu",
+            "UmVxdWlyZW1lbnRzEhQKDHNoYXJkX2NvdW50cxgIIAMoBRIYChBzdGlja2Vy",
+            "X2Rpc2FibGVkGAogASgIYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.MysteryItemInfoReflection.Descriptor, global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, global::WUProtos.Data.RequirementsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, global::WUProtos.Data.RequirementsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Collection.CollectionItem), global::WUProtos.Data.Collection.CollectionItem.Parser, new[]{ "MysteryData", "Id", "FamilyId", "ShardCount", "Rarity", "OneTimeRewards", "PageId", "UnlockRequirements", "ShardCounts", "StickerDisabled" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Collection.CollectionItem), global::WUProtos.Data.Collection.CollectionItem.Parser, new[]{ "Id", "FamilyId", "ShardCount", "Rarity", "OneTimeRewards", "PageId", "UnlockRequirements", "ShardCounts", "StickerDisabled" }, null, null, null)
           }));
     }
     #endregion
@@ -71,7 +69,6 @@ namespace WUProtos.Data.Collection {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public CollectionItem(CollectionItem other) : this() {
-      mysteryData_ = other.mysteryData_.Clone();
       id_ = other.id_;
       familyId_ = other.familyId_;
       shardCount_ = other.shardCount_;
@@ -89,18 +86,8 @@ namespace WUProtos.Data.Collection {
       return new CollectionItem(this);
     }
 
-    /// <summary>Field number for the "mystery_data" field.</summary>
-    public const int MysteryDataFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.MysteryItemInfo> _repeated_mysteryData_codec
-        = pb::FieldCodec.ForMessage(10, global::WUProtos.Data.MysteryItemInfo.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.MysteryItemInfo> mysteryData_ = new pbc::RepeatedField<global::WUProtos.Data.MysteryItemInfo>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.MysteryItemInfo> MysteryData {
-      get { return mysteryData_; }
-    }
-
     /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 2;
+    public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -111,7 +98,7 @@ namespace WUProtos.Data.Collection {
     }
 
     /// <summary>Field number for the "family_id" field.</summary>
-    public const int FamilyIdFieldNumber = 3;
+    public const int FamilyIdFieldNumber = 2;
     private string familyId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string FamilyId {
@@ -122,7 +109,7 @@ namespace WUProtos.Data.Collection {
     }
 
     /// <summary>Field number for the "shard_count" field.</summary>
-    public const int ShardCountFieldNumber = 4;
+    public const int ShardCountFieldNumber = 3;
     private int shardCount_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int ShardCount {
@@ -133,7 +120,7 @@ namespace WUProtos.Data.Collection {
     }
 
     /// <summary>Field number for the "rarity" field.</summary>
-    public const int RarityFieldNumber = 5;
+    public const int RarityFieldNumber = 4;
     private int rarity_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int Rarity {
@@ -144,7 +131,7 @@ namespace WUProtos.Data.Collection {
     }
 
     /// <summary>Field number for the "one_time_rewards" field.</summary>
-    public const int OneTimeRewardsFieldNumber = 6;
+    public const int OneTimeRewardsFieldNumber = 5;
     private global::WUProtos.Data.Loot.LootCollection oneTimeRewards_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.Loot.LootCollection OneTimeRewards {
@@ -155,7 +142,7 @@ namespace WUProtos.Data.Collection {
     }
 
     /// <summary>Field number for the "page_id" field.</summary>
-    public const int PageIdFieldNumber = 7;
+    public const int PageIdFieldNumber = 6;
     private string pageId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string PageId {
@@ -166,7 +153,7 @@ namespace WUProtos.Data.Collection {
     }
 
     /// <summary>Field number for the "unlock_requirements" field.</summary>
-    public const int UnlockRequirementsFieldNumber = 8;
+    public const int UnlockRequirementsFieldNumber = 7;
     private global::WUProtos.Data.Requirements unlockRequirements_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.Requirements UnlockRequirements {
@@ -177,9 +164,9 @@ namespace WUProtos.Data.Collection {
     }
 
     /// <summary>Field number for the "shard_counts" field.</summary>
-    public const int ShardCountsFieldNumber = 9;
+    public const int ShardCountsFieldNumber = 8;
     private static readonly pb::FieldCodec<int> _repeated_shardCounts_codec
-        = pb::FieldCodec.ForInt32(74);
+        = pb::FieldCodec.ForInt32(66);
     private readonly pbc::RepeatedField<int> shardCounts_ = new pbc::RepeatedField<int>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<int> ShardCounts {
@@ -210,7 +197,6 @@ namespace WUProtos.Data.Collection {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!mysteryData_.Equals(other.mysteryData_)) return false;
       if (Id != other.Id) return false;
       if (FamilyId != other.FamilyId) return false;
       if (ShardCount != other.ShardCount) return false;
@@ -226,7 +212,6 @@ namespace WUProtos.Data.Collection {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= mysteryData_.GetHashCode();
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (FamilyId.Length != 0) hash ^= FamilyId.GetHashCode();
       if (ShardCount != 0) hash ^= ShardCount.GetHashCode();
@@ -249,33 +234,32 @@ namespace WUProtos.Data.Collection {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      mysteryData_.WriteTo(output, _repeated_mysteryData_codec);
       if (Id.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteString(Id);
       }
       if (FamilyId.Length != 0) {
-        output.WriteRawTag(26);
+        output.WriteRawTag(18);
         output.WriteString(FamilyId);
       }
       if (ShardCount != 0) {
-        output.WriteRawTag(32);
+        output.WriteRawTag(24);
         output.WriteInt32(ShardCount);
       }
       if (Rarity != 0) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(32);
         output.WriteInt32(Rarity);
       }
       if (oneTimeRewards_ != null) {
-        output.WriteRawTag(50);
+        output.WriteRawTag(42);
         output.WriteMessage(OneTimeRewards);
       }
       if (PageId.Length != 0) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(50);
         output.WriteString(PageId);
       }
       if (unlockRequirements_ != null) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(58);
         output.WriteMessage(UnlockRequirements);
       }
       shardCounts_.WriteTo(output, _repeated_shardCounts_codec);
@@ -291,7 +275,6 @@ namespace WUProtos.Data.Collection {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      size += mysteryData_.CalculateSize(_repeated_mysteryData_codec);
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
@@ -328,7 +311,6 @@ namespace WUProtos.Data.Collection {
       if (other == null) {
         return;
       }
-      mysteryData_.Add(other.mysteryData_);
       if (other.Id.Length != 0) {
         Id = other.Id;
       }
@@ -372,45 +354,41 @@ namespace WUProtos.Data.Collection {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            mysteryData_.AddEntriesFrom(input, _repeated_mysteryData_codec);
-            break;
-          }
-          case 18: {
             Id = input.ReadString();
             break;
           }
-          case 26: {
+          case 18: {
             FamilyId = input.ReadString();
             break;
           }
-          case 32: {
+          case 24: {
             ShardCount = input.ReadInt32();
             break;
           }
-          case 40: {
+          case 32: {
             Rarity = input.ReadInt32();
             break;
           }
-          case 50: {
+          case 42: {
             if (oneTimeRewards_ == null) {
               OneTimeRewards = new global::WUProtos.Data.Loot.LootCollection();
             }
             input.ReadMessage(OneTimeRewards);
             break;
           }
-          case 58: {
+          case 50: {
             PageId = input.ReadString();
             break;
           }
-          case 66: {
+          case 58: {
             if (unlockRequirements_ == null) {
               UnlockRequirements = new global::WUProtos.Data.Requirements();
             }
             input.ReadMessage(UnlockRequirements);
             break;
           }
-          case 74:
-          case 72: {
+          case 66:
+          case 64: {
             shardCounts_.AddEntriesFrom(input, _repeated_shardCounts_codec);
             break;
           }

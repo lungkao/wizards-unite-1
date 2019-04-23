@@ -26,14 +26,19 @@ namespace WUProtos.Data.Profession {
           string.Concat(
             "Ci1XVVByb3Rvcy9EYXRhL1Byb2Zlc3Npb24vUHJvZmVzc2lvblJhbmsucHJv",
             "dG8SGFdVUHJvdG9zLkRhdGEuUHJvZmVzc2lvbhogV1VQcm90b3MvRGF0YS9S",
-            "ZXF1aXJlbWVudHMucHJvdG8iggEKDlByb2Zlc3Npb25SYW5rEh0KFXBvdGVu",
-            "dGlhbF9yYW5rX3BvaW50cxgBIAEoDRIxCgxyZXF1aXJlbWVudHMYAiADKAsy",
-            "Gy5XVVByb3Rvcy5EYXRhLlJlcXVpcmVtZW50cxISCgpzaG93X2luX3VpGAQg",
-            "ASgIEgoKAmlkGAUgASgJYgZwcm90bzM="));
+            "ZXF1aXJlbWVudHMucHJvdG8aLVdVUHJvdG9zL0RhdGEvUHJvZmVzc2lvbi9Q",
+            "cm9mZXNzaW9uTm9kZS5wcm90byLHAgoOUHJvZmVzc2lvblJhbmsSHQoVcG90",
+            "ZW50aWFsX3JhbmtfcG9pbnRzGAEgASgNEjEKDHJlcXVpcmVtZW50cxgCIAMo",
+            "CzIbLldVUHJvdG9zLkRhdGEuUmVxdWlyZW1lbnRzEl4KFHByb2Zlc3Npb25f",
+            "bm9kZXNfbWFwGAMgAygLMkAuV1VQcm90b3MuRGF0YS5Qcm9mZXNzaW9uLlBy",
+            "b2Zlc3Npb25SYW5rLlByb2Zlc3Npb25Ob2Rlc01hcEVudHJ5EhIKCnNob3df",
+            "aW5fdWkYBCABKAgSCgoCaWQYBSABKAkaYwoXUHJvZmVzc2lvbk5vZGVzTWFw",
+            "RW50cnkSCwoDa2V5GAEgASgJEjcKBXZhbHVlGAIgASgLMiguV1VQcm90b3Mu",
+            "RGF0YS5Qcm9mZXNzaW9uLlByb2Zlc3Npb25Ob2RlOgI4AWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.RequirementsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.RequirementsReflection.Descriptor, global::WUProtos.Data.Profession.ProfessionNodeReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Profession.ProfessionRank), global::WUProtos.Data.Profession.ProfessionRank.Parser, new[]{ "PotentialRankPoints", "Requirements", "ShowInUi", "Id" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Profession.ProfessionRank), global::WUProtos.Data.Profession.ProfessionRank.Parser, new[]{ "PotentialRankPoints", "Requirements", "ProfessionNodesMap", "ShowInUi", "Id" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -67,6 +72,7 @@ namespace WUProtos.Data.Profession {
     public ProfessionRank(ProfessionRank other) : this() {
       potentialRankPoints_ = other.potentialRankPoints_;
       requirements_ = other.requirements_.Clone();
+      professionNodesMap_ = other.professionNodesMap_.Clone();
       showInUi_ = other.showInUi_;
       id_ = other.id_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -96,6 +102,16 @@ namespace WUProtos.Data.Profession {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::WUProtos.Data.Requirements> Requirements {
       get { return requirements_; }
+    }
+
+    /// <summary>Field number for the "profession_nodes_map" field.</summary>
+    public const int ProfessionNodesMapFieldNumber = 3;
+    private static readonly pbc::MapField<string, global::WUProtos.Data.Profession.ProfessionNode>.Codec _map_professionNodesMap_codec
+        = new pbc::MapField<string, global::WUProtos.Data.Profession.ProfessionNode>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForMessage(18, global::WUProtos.Data.Profession.ProfessionNode.Parser), 26);
+    private readonly pbc::MapField<string, global::WUProtos.Data.Profession.ProfessionNode> professionNodesMap_ = new pbc::MapField<string, global::WUProtos.Data.Profession.ProfessionNode>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, global::WUProtos.Data.Profession.ProfessionNode> ProfessionNodesMap {
+      get { return professionNodesMap_; }
     }
 
     /// <summary>Field number for the "show_in_ui" field.</summary>
@@ -135,6 +151,7 @@ namespace WUProtos.Data.Profession {
       }
       if (PotentialRankPoints != other.PotentialRankPoints) return false;
       if(!requirements_.Equals(other.requirements_)) return false;
+      if (!ProfessionNodesMap.Equals(other.ProfessionNodesMap)) return false;
       if (ShowInUi != other.ShowInUi) return false;
       if (Id != other.Id) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -145,6 +162,7 @@ namespace WUProtos.Data.Profession {
       int hash = 1;
       if (PotentialRankPoints != 0) hash ^= PotentialRankPoints.GetHashCode();
       hash ^= requirements_.GetHashCode();
+      hash ^= ProfessionNodesMap.GetHashCode();
       if (ShowInUi != false) hash ^= ShowInUi.GetHashCode();
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (_unknownFields != null) {
@@ -165,6 +183,7 @@ namespace WUProtos.Data.Profession {
         output.WriteUInt32(PotentialRankPoints);
       }
       requirements_.WriteTo(output, _repeated_requirements_codec);
+      professionNodesMap_.WriteTo(output, _map_professionNodesMap_codec);
       if (ShowInUi != false) {
         output.WriteRawTag(32);
         output.WriteBool(ShowInUi);
@@ -185,6 +204,7 @@ namespace WUProtos.Data.Profession {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(PotentialRankPoints);
       }
       size += requirements_.CalculateSize(_repeated_requirements_codec);
+      size += professionNodesMap_.CalculateSize(_map_professionNodesMap_codec);
       if (ShowInUi != false) {
         size += 1 + 1;
       }
@@ -206,6 +226,7 @@ namespace WUProtos.Data.Profession {
         PotentialRankPoints = other.PotentialRankPoints;
       }
       requirements_.Add(other.requirements_);
+      professionNodesMap_.Add(other.professionNodesMap_);
       if (other.ShowInUi != false) {
         ShowInUi = other.ShowInUi;
       }
@@ -229,6 +250,10 @@ namespace WUProtos.Data.Profession {
           }
           case 18: {
             requirements_.AddEntriesFrom(input, _repeated_requirements_codec);
+            break;
+          }
+          case 26: {
+            professionNodesMap_.AddEntriesFrom(input, _map_professionNodesMap_codec);
             break;
           }
           case 32: {

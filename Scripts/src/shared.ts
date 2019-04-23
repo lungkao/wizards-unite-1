@@ -4,10 +4,13 @@ const Shared = {
 
     ImagePaths: {
         PNGsForMinification: [
-            '../Assets/Sprite/spellpath_*_light.png',
-            '../Assets/Sprite/ui_gesture_rune_*.png',
-            '../Assets/Sprite/ui_item_potion_*.png',
-            '../Assets/Sprite/ui_item_ingredients_*.png'
+            '../Assets/Sprite/*.png',
+            // '../Assets/Sprite/spellpath_*_light.png',
+            // '../Assets/Sprite/ui_gesture_rune_*.png',
+            // '../Assets/Sprite/ui_item_potion_*.png',
+            // '../Assets/Sprite/ui_*registry_family*_returned.png',
+            // '../Assets/Sprite/ui_item_ingredients_*.png',
+            // '../Assets/Sprite/ui_runestone_*.png'
         ],
 
         JPGsForMinification: [

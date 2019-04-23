@@ -27,16 +27,16 @@ namespace WUProtos.Data.Buff {
             "CilXVVByb3Rvcy9EYXRhL0J1ZmYvQWN0aXZlQnVmZlNvdXJjZS5wcm90bxIS",
             "V1VQcm90b3MuRGF0YS5CdWZmGi1XVVByb3Rvcy9EYXRhL1ZhdWx0SXRlbUFj",
             "dGl2ZUJ1ZmZTb3VyY2UucHJvdG8aOVdVUHJvdG9zL0RhdGEvUHJvZmVzc2lv",
-            "bi9Qcm9mZXNzaW9uQWN0aXZlQnVmZlNvdXJjZS5wcm90bxouV1VQcm90b3Mv",
-            "RGF0YS9NYXBBYmlsaXR5QWN0aXZlQnVmZlNvdXJjZS5wcm90byLoAQoQQWN0",
-            "aXZlQnVmZlNvdXJjZRI+Cgp2YXVsdF9pdGVtGAEgASgLMiguV1VQcm90b3Mu",
-            "RGF0YS5WYXVsdEl0ZW1BY3RpdmVCdWZmU291cmNlSAASSgoKcHJvZmVzc2lv",
-            "bhgCIAEoCzI0LldVUHJvdG9zLkRhdGEuUHJvZmVzc2lvbi5Qcm9mZXNzaW9u",
-            "QWN0aXZlQnVmZlNvdXJjZUgAEkAKC21hcF9hYmlsaXR5GAMgASgLMikuV1VQ",
-            "cm90b3MuRGF0YS5NYXBBYmlsaXR5QWN0aXZlQnVmZlNvdXJjZUgAQgYKBFR5",
-            "cGViBnByb3RvMw=="));
+            "bi9Qcm9mZXNzaW9uQWN0aXZlQnVmZlNvdXJjZS5wcm90bxotV1VQcm90b3Mv",
+            "TWFwL01hcEFiaWxpdHlBY3RpdmVCdWZmU291cmNlLnByb3RvIucBChBBY3Rp",
+            "dmVCdWZmU291cmNlEj4KCnZhdWx0X2l0ZW0YASABKAsyKC5XVVByb3Rvcy5E",
+            "YXRhLlZhdWx0SXRlbUFjdGl2ZUJ1ZmZTb3VyY2VIABJKCgpwcm9mZXNzaW9u",
+            "GAIgASgLMjQuV1VQcm90b3MuRGF0YS5Qcm9mZXNzaW9uLlByb2Zlc3Npb25B",
+            "Y3RpdmVCdWZmU291cmNlSAASPwoLbWFwX2FiaWxpdHkYAyABKAsyKC5XVVBy",
+            "b3Rvcy5NYXAuTWFwQWJpbGl0eUFjdGl2ZUJ1ZmZTb3VyY2VIAEIGCgRUeXBl",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.VaultItemActiveBuffSourceReflection.Descriptor, global::WUProtos.Data.Profession.ProfessionActiveBuffSourceReflection.Descriptor, global::WUProtos.Data.MapAbilityActiveBuffSourceReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.VaultItemActiveBuffSourceReflection.Descriptor, global::WUProtos.Data.Profession.ProfessionActiveBuffSourceReflection.Descriptor, global::WUProtos.Map.MapAbilityActiveBuffSourceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Buff.ActiveBuffSource), global::WUProtos.Data.Buff.ActiveBuffSource.Parser, new[]{ "VaultItem", "Profession", "MapAbility" }, new[]{ "Type" }, null, null)
           }));
@@ -115,8 +115,8 @@ namespace WUProtos.Data.Buff {
     /// <summary>Field number for the "map_ability" field.</summary>
     public const int MapAbilityFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.MapAbilityActiveBuffSource MapAbility {
-      get { return typeCase_ == TypeOneofCase.MapAbility ? (global::WUProtos.Data.MapAbilityActiveBuffSource) type_ : null; }
+    public global::WUProtos.Map.MapAbilityActiveBuffSource MapAbility {
+      get { return typeCase_ == TypeOneofCase.MapAbility ? (global::WUProtos.Map.MapAbilityActiveBuffSource) type_ : null; }
       set {
         type_ = value;
         typeCase_ = value == null ? TypeOneofCase.None : TypeOneofCase.MapAbility;
@@ -238,7 +238,7 @@ namespace WUProtos.Data.Buff {
           break;
         case TypeOneofCase.MapAbility:
           if (MapAbility == null) {
-            MapAbility = new global::WUProtos.Data.MapAbilityActiveBuffSource();
+            MapAbility = new global::WUProtos.Map.MapAbilityActiveBuffSource();
           }
           MapAbility.MergeFrom(other.MapAbility);
           break;
@@ -274,7 +274,7 @@ namespace WUProtos.Data.Buff {
             break;
           }
           case 26: {
-            global::WUProtos.Data.MapAbilityActiveBuffSource subBuilder = new global::WUProtos.Data.MapAbilityActiveBuffSource();
+            global::WUProtos.Map.MapAbilityActiveBuffSource subBuilder = new global::WUProtos.Map.MapAbilityActiveBuffSource();
             if (typeCase_ == TypeOneofCase.MapAbility) {
               subBuilder.MergeFrom(MapAbility);
             }

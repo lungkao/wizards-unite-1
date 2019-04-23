@@ -25,17 +25,19 @@ namespace WUProtos.Data.Client {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CitXVVByb3Rvcy9EYXRhL0NsaWVudC9DbGllbnRNYXBBYmlsaXR5LnByb3Rv",
-            "EhRXVVByb3Rvcy5EYXRhLkNsaWVudBorV1VQcm90b3MvRGF0YS9BZGRpdGlv",
-            "bmFsU2VsZWN0aW9uUnVsZS5wcm90byLWAQoQQ2xpZW50TWFwQWJpbGl0eRIK",
+            "EhRXVVByb3Rvcy5EYXRhLkNsaWVudCLkAgoQQ2xpZW50TWFwQWJpbGl0eRIK",
             "CgJpZBgBIAEoCRIMCgRuYW1lGAIgASgJEgwKBGljb24YAyABKAkSEwoLZGVz",
             "Y3JpcHRpb24YBCABKAkSFQoNZWZmZWN0X3Nwcml0ZRgFIAEoCRITCgtzdGF0",
             "dXNfaWNvbhgGIAEoCRIMCgRzbG90GAcgASgFEhUKDWVmZmVjdF9wcmVmYWIY",
-            "CCABKAkSNAoEcnVsZRgJIAEoDjImLldVUHJvdG9zLkRhdGEuQWRkaXRpb25h",
-            "bFNlbGVjdGlvblJ1bGViBnByb3RvMw=="));
+            "CCABKAkSTAoEcnVsZRgJIAEoDjI+LldVUHJvdG9zLkRhdGEuQ2xpZW50LkNs",
+            "aWVudE1hcEFiaWxpdHkuQWRkaXRpb25hbFNlbGVjdGlvblJ1bGUidAoXQWRk",
+            "aXRpb25hbFNlbGVjdGlvblJ1bGUSHQoZbm9uZV9hZGRpdGlvbmFsX3NlbGVj",
+            "dGlvbhAAEhQKEG5vX2lmX21heF9oZWFsdGgQARITCg9ub19pZl9tYXhfZm9j",
+            "dXMQAhIPCgtub19pZl9hbGl2ZRADYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.AdditionalSelectionRuleReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientMapAbility), global::WUProtos.Data.Client.ClientMapAbility.Parser, new[]{ "Id", "Name", "Icon", "Description", "EffectSprite", "StatusIcon", "Slot", "EffectPrefab", "Rule" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientMapAbility), global::WUProtos.Data.Client.ClientMapAbility.Parser, new[]{ "Id", "Name", "Icon", "Description", "EffectSprite", "StatusIcon", "Slot", "EffectPrefab", "Rule" }, null, new[]{ typeof(global::WUProtos.Data.Client.ClientMapAbility.Types.AdditionalSelectionRule) }, null)
           }));
     }
     #endregion
@@ -174,9 +176,9 @@ namespace WUProtos.Data.Client {
 
     /// <summary>Field number for the "rule" field.</summary>
     public const int RuleFieldNumber = 9;
-    private global::WUProtos.Data.AdditionalSelectionRule rule_ = 0;
+    private global::WUProtos.Data.Client.ClientMapAbility.Types.AdditionalSelectionRule rule_ = 0;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.AdditionalSelectionRule Rule {
+    public global::WUProtos.Data.Client.ClientMapAbility.Types.AdditionalSelectionRule Rule {
       get { return rule_; }
       set {
         rule_ = value;
@@ -386,12 +388,26 @@ namespace WUProtos.Data.Client {
             break;
           }
           case 72: {
-            Rule = (global::WUProtos.Data.AdditionalSelectionRule) input.ReadEnum();
+            Rule = (global::WUProtos.Data.Client.ClientMapAbility.Types.AdditionalSelectionRule) input.ReadEnum();
             break;
           }
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the ClientMapAbility message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public enum AdditionalSelectionRule {
+        [pbr::OriginalName("none_additional_selection")] NoneAdditionalSelection = 0,
+        [pbr::OriginalName("no_if_max_health")] NoIfMaxHealth = 1,
+        [pbr::OriginalName("no_if_max_focus")] NoIfMaxFocus = 2,
+        [pbr::OriginalName("no_if_alive")] NoIfAlive = 3,
+      }
+
+    }
+    #endregion
 
   }
 

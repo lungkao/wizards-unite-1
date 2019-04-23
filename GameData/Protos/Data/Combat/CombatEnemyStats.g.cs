@@ -25,12 +25,19 @@ namespace WUProtos.Data.Combat {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CitXVVByb3Rvcy9EYXRhL0NvbWJhdC9Db21iYXRFbmVteVN0YXRzLnByb3Rv",
-            "EhRXVVByb3Rvcy5EYXRhLkNvbWJhdCISChBDb21iYXRFbmVteVN0YXRzYgZw",
+            "EhRXVVByb3Rvcy5EYXRhLkNvbWJhdBonV1VQcm90b3MvRGF0YS9Db21iYXQv",
+            "Q29tYmF0R3Jvd3RoLnByb3RvIqMCChBDb21iYXRFbmVteVN0YXRzEj4KBHN0",
+            "YXQYAiADKAsyMC5XVVByb3Rvcy5EYXRhLkNvbWJhdC5Db21iYXRFbmVteVN0",
+            "YXRzLlN0YXRFbnRyeRJLCgtzdGF0X2dyb3d0aBgDIAMoCzI2LldVUHJvdG9z",
+            "LkRhdGEuQ29tYmF0LkNvbWJhdEVuZW15U3RhdHMuU3RhdEdyb3d0aEVudHJ5",
+            "GisKCVN0YXRFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAM6AjgB",
+            "GlUKD1N0YXRHcm93dGhFbnRyeRILCgNrZXkYASABKAkSMQoFdmFsdWUYAiAB",
+            "KAsyIi5XVVByb3Rvcy5EYXRhLkNvbWJhdC5Db21iYXRHcm93dGg6AjgBYgZw",
             "cm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Combat.CombatGrowthReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Combat.CombatEnemyStats), global::WUProtos.Data.Combat.CombatEnemyStats.Parser, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Combat.CombatEnemyStats), global::WUProtos.Data.Combat.CombatEnemyStats.Parser, new[]{ "Stat", "StatGrowth" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, null, })
           }));
     }
     #endregion
@@ -62,12 +69,34 @@ namespace WUProtos.Data.Combat {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public CombatEnemyStats(CombatEnemyStats other) : this() {
+      stat_ = other.stat_.Clone();
+      statGrowth_ = other.statGrowth_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public CombatEnemyStats Clone() {
       return new CombatEnemyStats(this);
+    }
+
+    /// <summary>Field number for the "stat" field.</summary>
+    public const int StatFieldNumber = 2;
+    private static readonly pbc::MapField<string, long>.Codec _map_stat_codec
+        = new pbc::MapField<string, long>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForInt64(16), 18);
+    private readonly pbc::MapField<string, long> stat_ = new pbc::MapField<string, long>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, long> Stat {
+      get { return stat_; }
+    }
+
+    /// <summary>Field number for the "stat_growth" field.</summary>
+    public const int StatGrowthFieldNumber = 3;
+    private static readonly pbc::MapField<string, global::WUProtos.Data.Combat.CombatGrowth>.Codec _map_statGrowth_codec
+        = new pbc::MapField<string, global::WUProtos.Data.Combat.CombatGrowth>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForMessage(18, global::WUProtos.Data.Combat.CombatGrowth.Parser), 26);
+    private readonly pbc::MapField<string, global::WUProtos.Data.Combat.CombatGrowth> statGrowth_ = new pbc::MapField<string, global::WUProtos.Data.Combat.CombatGrowth>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, global::WUProtos.Data.Combat.CombatGrowth> StatGrowth {
+      get { return statGrowth_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -83,12 +112,16 @@ namespace WUProtos.Data.Combat {
       if (ReferenceEquals(other, this)) {
         return true;
       }
+      if (!Stat.Equals(other.Stat)) return false;
+      if (!StatGrowth.Equals(other.StatGrowth)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
+      hash ^= Stat.GetHashCode();
+      hash ^= StatGrowth.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -102,6 +135,8 @@ namespace WUProtos.Data.Combat {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
+      stat_.WriteTo(output, _map_stat_codec);
+      statGrowth_.WriteTo(output, _map_statGrowth_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -110,6 +145,8 @@ namespace WUProtos.Data.Combat {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
+      size += stat_.CalculateSize(_map_stat_codec);
+      size += statGrowth_.CalculateSize(_map_statGrowth_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -121,6 +158,8 @@ namespace WUProtos.Data.Combat {
       if (other == null) {
         return;
       }
+      stat_.Add(other.stat_);
+      statGrowth_.Add(other.statGrowth_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -132,6 +171,14 @@ namespace WUProtos.Data.Combat {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
+          case 18: {
+            stat_.AddEntriesFrom(input, _map_stat_codec);
+            break;
+          }
+          case 26: {
+            statGrowth_.AddEntriesFrom(input, _map_statGrowth_codec);
+            break;
+          }
         }
       }
     }

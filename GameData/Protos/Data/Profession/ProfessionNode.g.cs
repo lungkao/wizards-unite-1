@@ -27,16 +27,15 @@ namespace WUProtos.Data.Profession {
             "Ci1XVVByb3Rvcy9EYXRhL1Byb2Zlc3Npb24vUHJvZmVzc2lvbk5vZGUucHJv",
             "dG8SGFdVUHJvdG9zLkRhdGEuUHJvZmVzc2lvbhogV1VQcm90b3MvRGF0YS9S",
             "ZXF1aXJlbWVudHMucHJvdG8aMldVUHJvdG9zL0RhdGEvUHJvZmVzc2lvbi9Q",
-            "cm9mZXNzaW9uTm9kZUxldmVsLnByb3RvIsgBCg5Qcm9mZXNzaW9uTm9kZRId",
-            "ChVwb3RlbnRpYWxfcmFua19wb2ludHMYASABKA0SCgoCaWQYAiABKAkSKgoF",
-            "ZWRnZXMYAyADKAsyGy5XVVByb3Rvcy5EYXRhLlJlcXVpcmVtZW50cxI9CgZs",
-            "ZXZlbHMYBCADKAsyLS5XVVByb3Rvcy5EYXRhLlByb2Zlc3Npb24uUHJvZmVz",
-            "c2lvbk5vZGVMZXZlbBIPCgdyb3dfcG9zGAUgASgNEg8KB2NvbF9wb3MYBiAB",
-            "KA1iBnByb3RvMw=="));
+            "cm9mZXNzaW9uTm9kZUxldmVsLnByb3RvIqkBCg5Qcm9mZXNzaW9uTm9kZRIK",
+            "CgJpZBgBIAEoCRIqCgVlZGdlcxgCIAMoCzIbLldVUHJvdG9zLkRhdGEuUmVx",
+            "dWlyZW1lbnRzEj0KBmxldmVscxgDIAMoCzItLldVUHJvdG9zLkRhdGEuUHJv",
+            "ZmVzc2lvbi5Qcm9mZXNzaW9uTm9kZUxldmVsEg8KB3Jvd19wb3MYBCABKA0S",
+            "DwoHY29sX3BvcxgFIAEoDWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::WUProtos.Data.RequirementsReflection.Descriptor, global::WUProtos.Data.Profession.ProfessionNodeLevelReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Profession.ProfessionNode), global::WUProtos.Data.Profession.ProfessionNode.Parser, new[]{ "PotentialRankPoints", "Id", "Edges", "Levels", "RowPos", "ColPos" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Profession.ProfessionNode), global::WUProtos.Data.Profession.ProfessionNode.Parser, new[]{ "Id", "Edges", "Levels", "RowPos", "ColPos" }, null, null, null)
           }));
     }
     #endregion
@@ -68,7 +67,6 @@ namespace WUProtos.Data.Profession {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProfessionNode(ProfessionNode other) : this() {
-      potentialRankPoints_ = other.potentialRankPoints_;
       id_ = other.id_;
       edges_ = other.edges_.Clone();
       levels_ = other.levels_.Clone();
@@ -82,19 +80,8 @@ namespace WUProtos.Data.Profession {
       return new ProfessionNode(this);
     }
 
-    /// <summary>Field number for the "potential_rank_points" field.</summary>
-    public const int PotentialRankPointsFieldNumber = 1;
-    private uint potentialRankPoints_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public uint PotentialRankPoints {
-      get { return potentialRankPoints_; }
-      set {
-        potentialRankPoints_ = value;
-      }
-    }
-
     /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 2;
+    public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -105,9 +92,9 @@ namespace WUProtos.Data.Profession {
     }
 
     /// <summary>Field number for the "edges" field.</summary>
-    public const int EdgesFieldNumber = 3;
+    public const int EdgesFieldNumber = 2;
     private static readonly pb::FieldCodec<global::WUProtos.Data.Requirements> _repeated_edges_codec
-        = pb::FieldCodec.ForMessage(26, global::WUProtos.Data.Requirements.Parser);
+        = pb::FieldCodec.ForMessage(18, global::WUProtos.Data.Requirements.Parser);
     private readonly pbc::RepeatedField<global::WUProtos.Data.Requirements> edges_ = new pbc::RepeatedField<global::WUProtos.Data.Requirements>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::WUProtos.Data.Requirements> Edges {
@@ -115,9 +102,9 @@ namespace WUProtos.Data.Profession {
     }
 
     /// <summary>Field number for the "levels" field.</summary>
-    public const int LevelsFieldNumber = 4;
+    public const int LevelsFieldNumber = 3;
     private static readonly pb::FieldCodec<global::WUProtos.Data.Profession.ProfessionNodeLevel> _repeated_levels_codec
-        = pb::FieldCodec.ForMessage(34, global::WUProtos.Data.Profession.ProfessionNodeLevel.Parser);
+        = pb::FieldCodec.ForMessage(26, global::WUProtos.Data.Profession.ProfessionNodeLevel.Parser);
     private readonly pbc::RepeatedField<global::WUProtos.Data.Profession.ProfessionNodeLevel> levels_ = new pbc::RepeatedField<global::WUProtos.Data.Profession.ProfessionNodeLevel>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<global::WUProtos.Data.Profession.ProfessionNodeLevel> Levels {
@@ -125,7 +112,7 @@ namespace WUProtos.Data.Profession {
     }
 
     /// <summary>Field number for the "row_pos" field.</summary>
-    public const int RowPosFieldNumber = 5;
+    public const int RowPosFieldNumber = 4;
     private uint rowPos_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint RowPos {
@@ -136,7 +123,7 @@ namespace WUProtos.Data.Profession {
     }
 
     /// <summary>Field number for the "col_pos" field.</summary>
-    public const int ColPosFieldNumber = 6;
+    public const int ColPosFieldNumber = 5;
     private uint colPos_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public uint ColPos {
@@ -159,7 +146,6 @@ namespace WUProtos.Data.Profession {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (PotentialRankPoints != other.PotentialRankPoints) return false;
       if (Id != other.Id) return false;
       if(!edges_.Equals(other.edges_)) return false;
       if(!levels_.Equals(other.levels_)) return false;
@@ -171,7 +157,6 @@ namespace WUProtos.Data.Profession {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (PotentialRankPoints != 0) hash ^= PotentialRankPoints.GetHashCode();
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       hash ^= edges_.GetHashCode();
       hash ^= levels_.GetHashCode();
@@ -190,22 +175,18 @@ namespace WUProtos.Data.Profession {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (PotentialRankPoints != 0) {
-        output.WriteRawTag(8);
-        output.WriteUInt32(PotentialRankPoints);
-      }
       if (Id.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteString(Id);
       }
       edges_.WriteTo(output, _repeated_edges_codec);
       levels_.WriteTo(output, _repeated_levels_codec);
       if (RowPos != 0) {
-        output.WriteRawTag(40);
+        output.WriteRawTag(32);
         output.WriteUInt32(RowPos);
       }
       if (ColPos != 0) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(40);
         output.WriteUInt32(ColPos);
       }
       if (_unknownFields != null) {
@@ -216,9 +197,6 @@ namespace WUProtos.Data.Profession {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (PotentialRankPoints != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeUInt32Size(PotentialRankPoints);
-      }
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
@@ -240,9 +218,6 @@ namespace WUProtos.Data.Profession {
     public void MergeFrom(ProfessionNode other) {
       if (other == null) {
         return;
-      }
-      if (other.PotentialRankPoints != 0) {
-        PotentialRankPoints = other.PotentialRankPoints;
       }
       if (other.Id.Length != 0) {
         Id = other.Id;
@@ -266,27 +241,23 @@ namespace WUProtos.Data.Profession {
           default:
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
-          case 8: {
-            PotentialRankPoints = input.ReadUInt32();
-            break;
-          }
-          case 18: {
+          case 10: {
             Id = input.ReadString();
             break;
           }
-          case 26: {
+          case 18: {
             edges_.AddEntriesFrom(input, _repeated_edges_codec);
             break;
           }
-          case 34: {
+          case 26: {
             levels_.AddEntriesFrom(input, _repeated_levels_codec);
             break;
           }
-          case 40: {
+          case 32: {
             RowPos = input.ReadUInt32();
             break;
           }
-          case 48: {
+          case 40: {
             ColPos = input.ReadUInt32();
             break;
           }

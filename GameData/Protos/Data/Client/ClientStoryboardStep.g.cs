@@ -25,26 +25,28 @@ namespace WUProtos.Data.Client {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ci9XVVByb3Rvcy9EYXRhL0NsaWVudC9DbGllbnRTdG9yeWJvYXJkU3RlcC5w",
-            "cm90bxIUV1VQcm90b3MuRGF0YS5DbGllbnQaL1dVUHJvdG9zL0RhdGEvU3Rv",
-            "cnlib2FyZEdlbmVyaWNEaWFsb2dTdGVwLnByb3RvGidXVVByb3Rvcy9EYXRh",
-            "L1N0b3J5Ym9hcmRQYXVzZVN0ZXAucHJvdG8aL1dVUHJvdG9zL0RhdGEvU3Rv",
-            "cnlib2FyZEFkdmljZU92ZXJsYXlTdGVwLnByb3RvGjRXVVByb3Rvcy9EYXRh",
-            "L1N0b3J5Ym9hcmRBZHZpY2VJbnRlcmplY3Rpb25TdGVwLnByb3RvGjpXVVBy",
-            "b3Rvcy9EYXRhL1N0b3J5Ym9hcmRDb252ZXJzYXRpb25JbnRlcmplY3Rpb25T",
-            "dGVwLnByb3RvIukDChRDbGllbnRTdG9yeWJvYXJkU3RlcBIUCgxjdXN0b21f",
-            "c3RhdGUYASABKAkSRAoOZ2VuZXJpY19kaWFsb2cYAiABKAsyKi5XVVByb3Rv",
-            "cy5EYXRhLlN0b3J5Ym9hcmRHZW5lcmljRGlhbG9nU3RlcEgAEjMKBXBhdXNl",
-            "GAMgASgLMiIuV1VQcm90b3MuRGF0YS5TdG9yeWJvYXJkUGF1c2VTdGVwSAAS",
-            "RAoOYWR2aWNlX292ZXJsYXkYBCABKAsyKi5XVVByb3Rvcy5EYXRhLlN0b3J5",
-            "Ym9hcmRBZHZpY2VPdmVybGF5U3RlcEgAEk4KE2FkdmljZV9pbnRlcmplY3Rp",
-            "b24YBSABKAsyLy5XVVByb3Rvcy5EYXRhLlN0b3J5Ym9hcmRBZHZpY2VJbnRl",
-            "cmplY3Rpb25TdGVwSAASWgoZY29udmVyc2F0aW9uX2ludGVyamVjdGlvbhgG",
-            "IAEoCzI1LldVUHJvdG9zLkRhdGEuU3Rvcnlib2FyZENvbnZlcnNhdGlvbklu",
-            "dGVyamVjdGlvblN0ZXBIABIcChRjYWxsX3RvX2FjdGlvbl9hc3NldBgHIAEo",
-            "CRIoCiBjYWxsX3RvX2FjdGlvbl9idXR0b25faWRlbnRpZmllchgIIAEoCUIG",
-            "CgREYXRhYgZwcm90bzM="));
+            "cm90bxIUV1VQcm90b3MuRGF0YS5DbGllbnQaOldVUHJvdG9zL0RhdGEvU3Rv",
+            "cnlib2FyZC9TdG9yeWJvYXJkR2VuZXJpY0RpYWxvZ1N0ZXAucHJvdG8aMldV",
+            "UHJvdG9zL0RhdGEvU3Rvcnlib2FyZC9TdG9yeWJvYXJkUGF1c2VTdGVwLnBy",
+            "b3RvGjpXVVByb3Rvcy9EYXRhL1N0b3J5Ym9hcmQvU3Rvcnlib2FyZEFkdmlj",
+            "ZU92ZXJsYXlTdGVwLnByb3RvGj9XVVByb3Rvcy9EYXRhL1N0b3J5Ym9hcmQv",
+            "U3Rvcnlib2FyZEFkdmljZUludGVyamVjdGlvblN0ZXAucHJvdG8aRVdVUHJv",
+            "dG9zL0RhdGEvU3Rvcnlib2FyZC9TdG9yeWJvYXJkQ29udmVyc2F0aW9uSW50",
+            "ZXJqZWN0aW9uU3RlcC5wcm90byKgBAoUQ2xpZW50U3Rvcnlib2FyZFN0ZXAS",
+            "FAoMY3VzdG9tX3N0YXRlGAEgASgJEk8KDmdlbmVyaWNfZGlhbG9nGAIgASgL",
+            "MjUuV1VQcm90b3MuRGF0YS5TdG9yeWJvYXJkLlN0b3J5Ym9hcmRHZW5lcmlj",
+            "RGlhbG9nU3RlcEgAEj4KBXBhdXNlGAMgASgLMi0uV1VQcm90b3MuRGF0YS5T",
+            "dG9yeWJvYXJkLlN0b3J5Ym9hcmRQYXVzZVN0ZXBIABJPCg5hZHZpY2Vfb3Zl",
+            "cmxheRgEIAEoCzI1LldVUHJvdG9zLkRhdGEuU3Rvcnlib2FyZC5TdG9yeWJv",
+            "YXJkQWR2aWNlT3ZlcmxheVN0ZXBIABJZChNhZHZpY2VfaW50ZXJqZWN0aW9u",
+            "GAUgASgLMjouV1VQcm90b3MuRGF0YS5TdG9yeWJvYXJkLlN0b3J5Ym9hcmRB",
+            "ZHZpY2VJbnRlcmplY3Rpb25TdGVwSAASZQoZY29udmVyc2F0aW9uX2ludGVy",
+            "amVjdGlvbhgGIAEoCzJALldVUHJvdG9zLkRhdGEuU3Rvcnlib2FyZC5TdG9y",
+            "eWJvYXJkQ29udmVyc2F0aW9uSW50ZXJqZWN0aW9uU3RlcEgAEhwKFGNhbGxf",
+            "dG9fYWN0aW9uX2Fzc2V0GAcgASgJEigKIGNhbGxfdG9fYWN0aW9uX2J1dHRv",
+            "bl9pZGVudGlmaWVyGAggASgJQgYKBERhdGFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.StoryboardGenericDialogStepReflection.Descriptor, global::WUProtos.Data.StoryboardPauseStepReflection.Descriptor, global::WUProtos.Data.StoryboardAdviceOverlayStepReflection.Descriptor, global::WUProtos.Data.StoryboardAdviceInterjectionStepReflection.Descriptor, global::WUProtos.Data.StoryboardConversationInterjectionStepReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Storyboard.StoryboardGenericDialogStepReflection.Descriptor, global::WUProtos.Data.Storyboard.StoryboardPauseStepReflection.Descriptor, global::WUProtos.Data.Storyboard.StoryboardAdviceOverlayStepReflection.Descriptor, global::WUProtos.Data.Storyboard.StoryboardAdviceInterjectionStepReflection.Descriptor, global::WUProtos.Data.Storyboard.StoryboardConversationInterjectionStepReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientStoryboardStep), global::WUProtos.Data.Client.ClientStoryboardStep.Parser, new[]{ "CustomState", "GenericDialog", "Pause", "AdviceOverlay", "AdviceInterjection", "ConversationInterjection", "CallToActionAsset", "CallToActionButtonIdentifier" }, new[]{ "Data" }, null, null)
           }));
@@ -121,8 +123,8 @@ namespace WUProtos.Data.Client {
     /// <summary>Field number for the "generic_dialog" field.</summary>
     public const int GenericDialogFieldNumber = 2;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.StoryboardGenericDialogStep GenericDialog {
-      get { return dataCase_ == DataOneofCase.GenericDialog ? (global::WUProtos.Data.StoryboardGenericDialogStep) data_ : null; }
+    public global::WUProtos.Data.Storyboard.StoryboardGenericDialogStep GenericDialog {
+      get { return dataCase_ == DataOneofCase.GenericDialog ? (global::WUProtos.Data.Storyboard.StoryboardGenericDialogStep) data_ : null; }
       set {
         data_ = value;
         dataCase_ = value == null ? DataOneofCase.None : DataOneofCase.GenericDialog;
@@ -132,8 +134,8 @@ namespace WUProtos.Data.Client {
     /// <summary>Field number for the "pause" field.</summary>
     public const int PauseFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.StoryboardPauseStep Pause {
-      get { return dataCase_ == DataOneofCase.Pause ? (global::WUProtos.Data.StoryboardPauseStep) data_ : null; }
+    public global::WUProtos.Data.Storyboard.StoryboardPauseStep Pause {
+      get { return dataCase_ == DataOneofCase.Pause ? (global::WUProtos.Data.Storyboard.StoryboardPauseStep) data_ : null; }
       set {
         data_ = value;
         dataCase_ = value == null ? DataOneofCase.None : DataOneofCase.Pause;
@@ -143,8 +145,8 @@ namespace WUProtos.Data.Client {
     /// <summary>Field number for the "advice_overlay" field.</summary>
     public const int AdviceOverlayFieldNumber = 4;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.StoryboardAdviceOverlayStep AdviceOverlay {
-      get { return dataCase_ == DataOneofCase.AdviceOverlay ? (global::WUProtos.Data.StoryboardAdviceOverlayStep) data_ : null; }
+    public global::WUProtos.Data.Storyboard.StoryboardAdviceOverlayStep AdviceOverlay {
+      get { return dataCase_ == DataOneofCase.AdviceOverlay ? (global::WUProtos.Data.Storyboard.StoryboardAdviceOverlayStep) data_ : null; }
       set {
         data_ = value;
         dataCase_ = value == null ? DataOneofCase.None : DataOneofCase.AdviceOverlay;
@@ -154,8 +156,8 @@ namespace WUProtos.Data.Client {
     /// <summary>Field number for the "advice_interjection" field.</summary>
     public const int AdviceInterjectionFieldNumber = 5;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.StoryboardAdviceInterjectionStep AdviceInterjection {
-      get { return dataCase_ == DataOneofCase.AdviceInterjection ? (global::WUProtos.Data.StoryboardAdviceInterjectionStep) data_ : null; }
+    public global::WUProtos.Data.Storyboard.StoryboardAdviceInterjectionStep AdviceInterjection {
+      get { return dataCase_ == DataOneofCase.AdviceInterjection ? (global::WUProtos.Data.Storyboard.StoryboardAdviceInterjectionStep) data_ : null; }
       set {
         data_ = value;
         dataCase_ = value == null ? DataOneofCase.None : DataOneofCase.AdviceInterjection;
@@ -165,8 +167,8 @@ namespace WUProtos.Data.Client {
     /// <summary>Field number for the "conversation_interjection" field.</summary>
     public const int ConversationInterjectionFieldNumber = 6;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.StoryboardConversationInterjectionStep ConversationInterjection {
-      get { return dataCase_ == DataOneofCase.ConversationInterjection ? (global::WUProtos.Data.StoryboardConversationInterjectionStep) data_ : null; }
+    public global::WUProtos.Data.Storyboard.StoryboardConversationInterjectionStep ConversationInterjection {
+      get { return dataCase_ == DataOneofCase.ConversationInterjection ? (global::WUProtos.Data.Storyboard.StoryboardConversationInterjectionStep) data_ : null; }
       set {
         data_ = value;
         dataCase_ = value == null ? DataOneofCase.None : DataOneofCase.ConversationInterjection;
@@ -354,31 +356,31 @@ namespace WUProtos.Data.Client {
       switch (other.DataCase) {
         case DataOneofCase.GenericDialog:
           if (GenericDialog == null) {
-            GenericDialog = new global::WUProtos.Data.StoryboardGenericDialogStep();
+            GenericDialog = new global::WUProtos.Data.Storyboard.StoryboardGenericDialogStep();
           }
           GenericDialog.MergeFrom(other.GenericDialog);
           break;
         case DataOneofCase.Pause:
           if (Pause == null) {
-            Pause = new global::WUProtos.Data.StoryboardPauseStep();
+            Pause = new global::WUProtos.Data.Storyboard.StoryboardPauseStep();
           }
           Pause.MergeFrom(other.Pause);
           break;
         case DataOneofCase.AdviceOverlay:
           if (AdviceOverlay == null) {
-            AdviceOverlay = new global::WUProtos.Data.StoryboardAdviceOverlayStep();
+            AdviceOverlay = new global::WUProtos.Data.Storyboard.StoryboardAdviceOverlayStep();
           }
           AdviceOverlay.MergeFrom(other.AdviceOverlay);
           break;
         case DataOneofCase.AdviceInterjection:
           if (AdviceInterjection == null) {
-            AdviceInterjection = new global::WUProtos.Data.StoryboardAdviceInterjectionStep();
+            AdviceInterjection = new global::WUProtos.Data.Storyboard.StoryboardAdviceInterjectionStep();
           }
           AdviceInterjection.MergeFrom(other.AdviceInterjection);
           break;
         case DataOneofCase.ConversationInterjection:
           if (ConversationInterjection == null) {
-            ConversationInterjection = new global::WUProtos.Data.StoryboardConversationInterjectionStep();
+            ConversationInterjection = new global::WUProtos.Data.Storyboard.StoryboardConversationInterjectionStep();
           }
           ConversationInterjection.MergeFrom(other.ConversationInterjection);
           break;
@@ -400,7 +402,7 @@ namespace WUProtos.Data.Client {
             break;
           }
           case 18: {
-            global::WUProtos.Data.StoryboardGenericDialogStep subBuilder = new global::WUProtos.Data.StoryboardGenericDialogStep();
+            global::WUProtos.Data.Storyboard.StoryboardGenericDialogStep subBuilder = new global::WUProtos.Data.Storyboard.StoryboardGenericDialogStep();
             if (dataCase_ == DataOneofCase.GenericDialog) {
               subBuilder.MergeFrom(GenericDialog);
             }
@@ -409,7 +411,7 @@ namespace WUProtos.Data.Client {
             break;
           }
           case 26: {
-            global::WUProtos.Data.StoryboardPauseStep subBuilder = new global::WUProtos.Data.StoryboardPauseStep();
+            global::WUProtos.Data.Storyboard.StoryboardPauseStep subBuilder = new global::WUProtos.Data.Storyboard.StoryboardPauseStep();
             if (dataCase_ == DataOneofCase.Pause) {
               subBuilder.MergeFrom(Pause);
             }
@@ -418,7 +420,7 @@ namespace WUProtos.Data.Client {
             break;
           }
           case 34: {
-            global::WUProtos.Data.StoryboardAdviceOverlayStep subBuilder = new global::WUProtos.Data.StoryboardAdviceOverlayStep();
+            global::WUProtos.Data.Storyboard.StoryboardAdviceOverlayStep subBuilder = new global::WUProtos.Data.Storyboard.StoryboardAdviceOverlayStep();
             if (dataCase_ == DataOneofCase.AdviceOverlay) {
               subBuilder.MergeFrom(AdviceOverlay);
             }
@@ -427,7 +429,7 @@ namespace WUProtos.Data.Client {
             break;
           }
           case 42: {
-            global::WUProtos.Data.StoryboardAdviceInterjectionStep subBuilder = new global::WUProtos.Data.StoryboardAdviceInterjectionStep();
+            global::WUProtos.Data.Storyboard.StoryboardAdviceInterjectionStep subBuilder = new global::WUProtos.Data.Storyboard.StoryboardAdviceInterjectionStep();
             if (dataCase_ == DataOneofCase.AdviceInterjection) {
               subBuilder.MergeFrom(AdviceInterjection);
             }
@@ -436,7 +438,7 @@ namespace WUProtos.Data.Client {
             break;
           }
           case 50: {
-            global::WUProtos.Data.StoryboardConversationInterjectionStep subBuilder = new global::WUProtos.Data.StoryboardConversationInterjectionStep();
+            global::WUProtos.Data.Storyboard.StoryboardConversationInterjectionStep subBuilder = new global::WUProtos.Data.Storyboard.StoryboardConversationInterjectionStep();
             if (dataCase_ == DataOneofCase.ConversationInterjection) {
               subBuilder.MergeFrom(ConversationInterjection);
             }

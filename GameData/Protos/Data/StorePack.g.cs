@@ -25,23 +25,18 @@ namespace WUProtos.Data {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch1XVVByb3Rvcy9EYXRhL1N0b3JlUGFjay5wcm90bxINV1VQcm90b3MuRGF0",
-            "YRojV1VQcm90b3MvRGF0YS9TdG9yZVBhY2tDb25maWcucHJvdG8aIFdVUHJv",
-            "dG9zL0RhdGEvSWFwU3RvcmVJdGVtLnByb3RvGidXVVByb3Rvcy9EYXRhL0xv",
-            "b3QvTG9vdENvbGxlY3Rpb24ucHJvdG8aG1dVUHJvdG9zL0RhdGEvU2t1RGF0",
-            "YS5wcm90bxogV1VQcm90b3MvRGF0YS9SZXF1aXJlbWVudHMucHJvdG8i6AIK",
-            "CVN0b3JlUGFjaxI5ChFzdG9yZV9wYWNrX2NvbmZpZxgBIAMoCzIeLldVUHJv",
-            "dG9zLkRhdGEuU3RvcmVQYWNrQ29uZmlnEgoKAmlkGAIgASgJEi8KCnN0b3Jl",
-            "X2l0ZW0YAyABKAsyGy5XVVByb3Rvcy5EYXRhLklhcFN0b3JlSXRlbRI0Cghj",
-            "b250ZW50cxgEIAEoCzIiLldVUHJvdG9zLkRhdGEuTG9vdC5Mb290Q29sbGVj",
-            "dGlvbhIwCgRjb3N0GAUgASgLMiIuV1VQcm90b3MuRGF0YS5Mb290Lkxvb3RD",
-            "b2xsZWN0aW9uEg4KBmlhcF9pZBgGIAEoCRIoCghza3VfZGF0YRgHIAEoCzIW",
-            "LldVUHJvdG9zLkRhdGEuU2t1RGF0YRIxCgxyZXF1aXJlbWVudHMYCCABKAsy",
-            "Gy5XVVByb3Rvcy5EYXRhLlJlcXVpcmVtZW50cxoOCgxUaW1lUmVxVHVwbGVi",
-            "BnByb3RvMw=="));
+            "YRonV1VQcm90b3MvRGF0YS9Mb290L0xvb3RDb2xsZWN0aW9uLnByb3RvGhtX",
+            "VVByb3Rvcy9EYXRhL1NrdURhdGEucHJvdG8aIFdVUHJvdG9zL0RhdGEvUmVx",
+            "dWlyZW1lbnRzLnByb3RvIuwBCglTdG9yZVBhY2sSCgoCaWQYASABKAkSNAoI",
+            "Y29udGVudHMYAiABKAsyIi5XVVByb3Rvcy5EYXRhLkxvb3QuTG9vdENvbGxl",
+            "Y3Rpb24SMAoEY29zdBgDIAEoCzIiLldVUHJvdG9zLkRhdGEuTG9vdC5Mb290",
+            "Q29sbGVjdGlvbhIOCgZpYXBfaWQYBCABKAkSKAoIc2t1X2RhdGEYBSABKAsy",
+            "Fi5XVVByb3Rvcy5EYXRhLlNrdURhdGESMQoMcmVxdWlyZW1lbnRzGAYgASgL",
+            "MhsuV1VQcm90b3MuRGF0YS5SZXF1aXJlbWVudHNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.StorePackConfigReflection.Descriptor, global::WUProtos.Data.IapStoreItemReflection.Descriptor, global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, global::WUProtos.Data.SkuDataReflection.Descriptor, global::WUProtos.Data.RequirementsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, global::WUProtos.Data.SkuDataReflection.Descriptor, global::WUProtos.Data.RequirementsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.StorePack), global::WUProtos.Data.StorePack.Parser, new[]{ "StorePackConfig", "Id", "StoreItem", "Contents", "Cost", "IapId", "SkuData", "Requirements" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.StorePack.Types.TimeReqTuple), global::WUProtos.Data.StorePack.Types.TimeReqTuple.Parser, null, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.StorePack), global::WUProtos.Data.StorePack.Parser, new[]{ "Id", "Contents", "Cost", "IapId", "SkuData", "Requirements" }, null, null, null)
           }));
     }
     #endregion
@@ -73,9 +68,7 @@ namespace WUProtos.Data {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StorePack(StorePack other) : this() {
-      storePackConfig_ = other.storePackConfig_.Clone();
       id_ = other.id_;
-      storeItem_ = other.storeItem_ != null ? other.storeItem_.Clone() : null;
       contents_ = other.contents_ != null ? other.contents_.Clone() : null;
       cost_ = other.cost_ != null ? other.cost_.Clone() : null;
       iapId_ = other.iapId_;
@@ -89,18 +82,8 @@ namespace WUProtos.Data {
       return new StorePack(this);
     }
 
-    /// <summary>Field number for the "store_pack_config" field.</summary>
-    public const int StorePackConfigFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.StorePackConfig> _repeated_storePackConfig_codec
-        = pb::FieldCodec.ForMessage(10, global::WUProtos.Data.StorePackConfig.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.StorePackConfig> storePackConfig_ = new pbc::RepeatedField<global::WUProtos.Data.StorePackConfig>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.StorePackConfig> StorePackConfig {
-      get { return storePackConfig_; }
-    }
-
     /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 2;
+    public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -110,19 +93,8 @@ namespace WUProtos.Data {
       }
     }
 
-    /// <summary>Field number for the "store_item" field.</summary>
-    public const int StoreItemFieldNumber = 3;
-    private global::WUProtos.Data.IapStoreItem storeItem_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.IapStoreItem StoreItem {
-      get { return storeItem_; }
-      set {
-        storeItem_ = value;
-      }
-    }
-
     /// <summary>Field number for the "contents" field.</summary>
-    public const int ContentsFieldNumber = 4;
+    public const int ContentsFieldNumber = 2;
     private global::WUProtos.Data.Loot.LootCollection contents_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.Loot.LootCollection Contents {
@@ -133,7 +105,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "cost" field.</summary>
-    public const int CostFieldNumber = 5;
+    public const int CostFieldNumber = 3;
     private global::WUProtos.Data.Loot.LootCollection cost_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.Loot.LootCollection Cost {
@@ -144,7 +116,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "iap_id" field.</summary>
-    public const int IapIdFieldNumber = 6;
+    public const int IapIdFieldNumber = 4;
     private string iapId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string IapId {
@@ -155,7 +127,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "sku_data" field.</summary>
-    public const int SkuDataFieldNumber = 7;
+    public const int SkuDataFieldNumber = 5;
     private global::WUProtos.Data.SkuData skuData_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.SkuData SkuData {
@@ -166,7 +138,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "requirements" field.</summary>
-    public const int RequirementsFieldNumber = 8;
+    public const int RequirementsFieldNumber = 6;
     private global::WUProtos.Data.Requirements requirements_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.Requirements Requirements {
@@ -189,9 +161,7 @@ namespace WUProtos.Data {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!storePackConfig_.Equals(other.storePackConfig_)) return false;
       if (Id != other.Id) return false;
-      if (!object.Equals(StoreItem, other.StoreItem)) return false;
       if (!object.Equals(Contents, other.Contents)) return false;
       if (!object.Equals(Cost, other.Cost)) return false;
       if (IapId != other.IapId) return false;
@@ -203,9 +173,7 @@ namespace WUProtos.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= storePackConfig_.GetHashCode();
       if (Id.Length != 0) hash ^= Id.GetHashCode();
-      if (storeItem_ != null) hash ^= StoreItem.GetHashCode();
       if (contents_ != null) hash ^= Contents.GetHashCode();
       if (cost_ != null) hash ^= Cost.GetHashCode();
       if (IapId.Length != 0) hash ^= IapId.GetHashCode();
@@ -224,33 +192,28 @@ namespace WUProtos.Data {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      storePackConfig_.WriteTo(output, _repeated_storePackConfig_codec);
       if (Id.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      if (storeItem_ != null) {
-        output.WriteRawTag(26);
-        output.WriteMessage(StoreItem);
-      }
       if (contents_ != null) {
-        output.WriteRawTag(34);
+        output.WriteRawTag(18);
         output.WriteMessage(Contents);
       }
       if (cost_ != null) {
-        output.WriteRawTag(42);
+        output.WriteRawTag(26);
         output.WriteMessage(Cost);
       }
       if (IapId.Length != 0) {
-        output.WriteRawTag(50);
+        output.WriteRawTag(34);
         output.WriteString(IapId);
       }
       if (skuData_ != null) {
-        output.WriteRawTag(58);
+        output.WriteRawTag(42);
         output.WriteMessage(SkuData);
       }
       if (requirements_ != null) {
-        output.WriteRawTag(66);
+        output.WriteRawTag(50);
         output.WriteMessage(Requirements);
       }
       if (_unknownFields != null) {
@@ -261,12 +224,8 @@ namespace WUProtos.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      size += storePackConfig_.CalculateSize(_repeated_storePackConfig_codec);
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
-      }
-      if (storeItem_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StoreItem);
       }
       if (contents_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Contents);
@@ -294,15 +253,8 @@ namespace WUProtos.Data {
       if (other == null) {
         return;
       }
-      storePackConfig_.Add(other.storePackConfig_);
       if (other.Id.Length != 0) {
         Id = other.Id;
-      }
-      if (other.storeItem_ != null) {
-        if (storeItem_ == null) {
-          StoreItem = new global::WUProtos.Data.IapStoreItem();
-        }
-        StoreItem.MergeFrom(other.StoreItem);
       }
       if (other.contents_ != null) {
         if (contents_ == null) {
@@ -343,46 +295,35 @@ namespace WUProtos.Data {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            storePackConfig_.AddEntriesFrom(input, _repeated_storePackConfig_codec);
-            break;
-          }
-          case 18: {
             Id = input.ReadString();
             break;
           }
-          case 26: {
-            if (storeItem_ == null) {
-              StoreItem = new global::WUProtos.Data.IapStoreItem();
-            }
-            input.ReadMessage(StoreItem);
-            break;
-          }
-          case 34: {
+          case 18: {
             if (contents_ == null) {
               Contents = new global::WUProtos.Data.Loot.LootCollection();
             }
             input.ReadMessage(Contents);
             break;
           }
-          case 42: {
+          case 26: {
             if (cost_ == null) {
               Cost = new global::WUProtos.Data.Loot.LootCollection();
             }
             input.ReadMessage(Cost);
             break;
           }
-          case 50: {
+          case 34: {
             IapId = input.ReadString();
             break;
           }
-          case 58: {
+          case 42: {
             if (skuData_ == null) {
               SkuData = new global::WUProtos.Data.SkuData();
             }
             input.ReadMessage(SkuData);
             break;
           }
-          case 66: {
+          case 50: {
             if (requirements_ == null) {
               Requirements = new global::WUProtos.Data.Requirements();
             }
@@ -392,114 +333,6 @@ namespace WUProtos.Data {
         }
       }
     }
-
-    #region Nested types
-    /// <summary>Container for nested types declared in the StorePack message type.</summary>
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static partial class Types {
-      public sealed partial class TimeReqTuple : pb::IMessage<TimeReqTuple> {
-        private static readonly pb::MessageParser<TimeReqTuple> _parser = new pb::MessageParser<TimeReqTuple>(() => new TimeReqTuple());
-        private pb::UnknownFieldSet _unknownFields;
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pb::MessageParser<TimeReqTuple> Parser { get { return _parser; } }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public static pbr::MessageDescriptor Descriptor {
-          get { return global::WUProtos.Data.StorePack.Descriptor.NestedTypes[0]; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        pbr::MessageDescriptor pb::IMessage.Descriptor {
-          get { return Descriptor; }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public TimeReqTuple() {
-          OnConstruction();
-        }
-
-        partial void OnConstruction();
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public TimeReqTuple(TimeReqTuple other) : this() {
-          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public TimeReqTuple Clone() {
-          return new TimeReqTuple(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override bool Equals(object other) {
-          return Equals(other as TimeReqTuple);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public bool Equals(TimeReqTuple other) {
-          if (ReferenceEquals(other, null)) {
-            return false;
-          }
-          if (ReferenceEquals(other, this)) {
-            return true;
-          }
-          return Equals(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override int GetHashCode() {
-          int hash = 1;
-          if (_unknownFields != null) {
-            hash ^= _unknownFields.GetHashCode();
-          }
-          return hash;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public override string ToString() {
-          return pb::JsonFormatter.ToDiagnosticString(this);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void WriteTo(pb::CodedOutputStream output) {
-          if (_unknownFields != null) {
-            _unknownFields.WriteTo(output);
-          }
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public int CalculateSize() {
-          int size = 0;
-          if (_unknownFields != null) {
-            size += _unknownFields.CalculateSize();
-          }
-          return size;
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(TimeReqTuple other) {
-          if (other == null) {
-            return;
-          }
-          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-        }
-
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public void MergeFrom(pb::CodedInputStream input) {
-          uint tag;
-          while ((tag = input.ReadTag()) != 0) {
-            switch(tag) {
-              default:
-                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-                break;
-            }
-          }
-        }
-
-      }
-
-    }
-    #endregion
 
   }
 

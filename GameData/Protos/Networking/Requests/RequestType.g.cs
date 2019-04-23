@@ -239,7 +239,7 @@ namespace WUProtos.Networking.Requests {
     /// </summary>
     [pbr::OriginalName("CONTRIBUTE_FLOO_POWDER_TO_FORTRESS")] ContributeFlooPowderToFortress = 42,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("OPEN_CONTAINER")] OpenContainer = 43,
     /// <summary>
@@ -295,7 +295,7 @@ namespace WUProtos.Networking.Requests {
     /// </summary>
     [pbr::OriginalName("GET_CURRENCY_BALANCE")] GetCurrencyBalance = 56,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("BUY_POTION_INGREDIENTS")] BuyPotionIngredients = 57,
     /// <summary>
@@ -311,7 +311,7 @@ namespace WUProtos.Networking.Requests {
     /// </summary>
     [pbr::OriginalName("STORYBOARD_DO_STEP")] StoryboardDoStep = 60,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("STORYBOARD_CANCEL")] StoryboardCancel = 61,
     /// <summary>
@@ -335,7 +335,7 @@ namespace WUProtos.Networking.Requests {
     /// </summary>
     [pbr::OriginalName("GIVEAWAY_INGREDIENT_GREENHOUSE")] GiveawayIngredientGreenhouse = 66,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("PROFANITY_FILTER")] ProfanityFilter = 67,
     /// <summary>
@@ -363,7 +363,7 @@ namespace WUProtos.Networking.Requests {
     /// </summary>
     [pbr::OriginalName("ACKNOWLEDGE_PUNISHMENT")] AcknowledgePunishment = 73,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("OPT_INTO_MARKETING_EMAILS")] OptIntoMarketingEmails = 74,
     /// <summary>

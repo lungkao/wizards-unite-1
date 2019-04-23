@@ -78,7 +78,7 @@ namespace WUProtos.Data.Potion {
     public const int TimeToBrewFieldNumber = 2;
     private long timeToBrew_;
     /// <summary>
-    /// WUProtos.Data.Loot.LootCollection rewards = 1;
+    ///WUProtos.Data.Loot.LootCollection rewards = 1;
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long TimeToBrew {

@@ -25,23 +25,28 @@ namespace WUProtos.Data {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiZXVVByb3Rvcy9EYXRhL1NoYXJlZFF1YWxpdHlMZXZlbC5wcm90bxINV1VQ",
-            "cm90b3MuRGF0YSKaBAoSU2hhcmVkUXVhbGl0eUxldmVsEgwKBG5hbWUYASAB",
-            "KAkSFwoPdGV4dHVyZV9xdWFsaXR5GAIgASgFEhIKCnNoYWRlcl9sb2QYAyAB",
-            "KAUSGgoSZGVmYXVsdF90YXJnZXRfZnBzGAQgASgFEhQKDGFudGlhbGlhc2lu",
-            "ZxgFIAEoBRIdChVhbmlzb3Ryb3BpY19maWx0ZXJpbmcYByABKAUSJwofYmls",
-            "bGJvYXJkc19mYWNlX2NhbWVyYV9wb3NpdGlvbhgJIAEoCBIYChByZWFsdGlt",
-            "ZV9zaGFkb3dzGAogASgFEhsKE2FyX2F6aW11dGhfYmx1cnJpbmcYCyABKAgS",
-            "IQoZYXJfZW5jb3VudGVyX3BhcnRpY2xlX2NhcBgOIAEoBRIlCh1sb2NrZWRf",
-            "ZW5jb3VudGVyX3BhcnRpY2xlX2NhcBgPIAEoBRIZChFtZW51X3BhcnRpY2xl",
-            "X2NhcBgQIAEoBRIgChhhcl9hemltdXRoX2NvbG9yX2dyYWRpbmcYESABKAgS",
-            "FwoPc2hhZG93X21hcF9zaXplGBIgASgFEicKH2VuY291bnRlcl9jYW1lcmFf",
-            "dGFyZ2V0X3NjYWxpbmcYEyABKAUSJQodYWR2YW5jZWRfYXJfY2FtZXJhX3Jl",
-            "c29sdXRpb24YFCABKAUSDwoHdmZ4X2xvZBgVIAEoBRIXCg9mb3JjZV9zaW1w",
-            "bGVfYXIYFiABKAhiBnByb3RvMw=="));
+            "cm90b3MuRGF0YRopV1VQcm90b3MvRGF0YS9RdWFsaXR5TGV2ZWxPdmVycmlk",
+            "ZXMucHJvdG8i0AUKElNoYXJlZFF1YWxpdHlMZXZlbBIMCgRuYW1lGAEgASgJ",
+            "EhcKD3RleHR1cmVfcXVhbGl0eRgCIAEoBRISCgpzaGFkZXJfbG9kGAMgASgF",
+            "EhoKEmRlZmF1bHRfdGFyZ2V0X2ZwcxgEIAEoBRIUCgxhbnRpYWxpYXNpbmcY",
+            "BSABKAUSHQoVYW5pc290cm9waWNfZmlsdGVyaW5nGAcgASgFEicKH2JpbGxi",
+            "b2FyZHNfZmFjZV9jYW1lcmFfcG9zaXRpb24YCSABKAgSGAoQcmVhbHRpbWVf",
+            "c2hhZG93cxgKIAEoBRIbChNhcl9hemltdXRoX2JsdXJyaW5nGAsgASgIElQK",
+            "EmdhbWVtb2RlX292ZXJyaWRlcxgNIAMoCzI4LldVUHJvdG9zLkRhdGEuU2hh",
+            "cmVkUXVhbGl0eUxldmVsLkdhbWVtb2RlT3ZlcnJpZGVzRW50cnkSIQoZYXJf",
+            "ZW5jb3VudGVyX3BhcnRpY2xlX2NhcBgOIAEoBRIlCh1sb2NrZWRfZW5jb3Vu",
+            "dGVyX3BhcnRpY2xlX2NhcBgPIAEoBRIZChFtZW51X3BhcnRpY2xlX2NhcBgQ",
+            "IAEoBRIgChhhcl9hemltdXRoX2NvbG9yX2dyYWRpbmcYESABKAgSFwoPc2hh",
+            "ZG93X21hcF9zaXplGBIgASgFEicKH2VuY291bnRlcl9jYW1lcmFfdGFyZ2V0",
+            "X3NjYWxpbmcYEyABKAUSJQodYWR2YW5jZWRfYXJfY2FtZXJhX3Jlc29sdXRp",
+            "b24YFCABKAUSDwoHdmZ4X2xvZBgVIAEoBRIXCg9mb3JjZV9zaW1wbGVfYXIY",
+            "FiABKAgaXgoWR2FtZW1vZGVPdmVycmlkZXNFbnRyeRILCgNrZXkYASABKAkS",
+            "MwoFdmFsdWUYAiABKAsyJC5XVVByb3Rvcy5EYXRhLlF1YWxpdHlMZXZlbE92",
+            "ZXJyaWRlczoCOAFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.QualityLevelOverridesReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.SharedQualityLevel), global::WUProtos.Data.SharedQualityLevel.Parser, new[]{ "Name", "TextureQuality", "ShaderLod", "DefaultTargetFps", "Antialiasing", "AnisotropicFiltering", "BillboardsFaceCameraPosition", "RealtimeShadows", "ArAzimuthBlurring", "ArEncounterParticleCap", "LockedEncounterParticleCap", "MenuParticleCap", "ArAzimuthColorGrading", "ShadowMapSize", "EncounterCameraTargetScaling", "AdvancedArCameraResolution", "VfxLod", "ForceSimpleAr" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.SharedQualityLevel), global::WUProtos.Data.SharedQualityLevel.Parser, new[]{ "Name", "TextureQuality", "ShaderLod", "DefaultTargetFps", "Antialiasing", "AnisotropicFiltering", "BillboardsFaceCameraPosition", "RealtimeShadows", "ArAzimuthBlurring", "GamemodeOverrides", "ArEncounterParticleCap", "LockedEncounterParticleCap", "MenuParticleCap", "ArAzimuthColorGrading", "ShadowMapSize", "EncounterCameraTargetScaling", "AdvancedArCameraResolution", "VfxLod", "ForceSimpleAr" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -82,6 +87,7 @@ namespace WUProtos.Data {
       billboardsFaceCameraPosition_ = other.billboardsFaceCameraPosition_;
       realtimeShadows_ = other.realtimeShadows_;
       arAzimuthBlurring_ = other.arAzimuthBlurring_;
+      gamemodeOverrides_ = other.gamemodeOverrides_.Clone();
       arEncounterParticleCap_ = other.arEncounterParticleCap_;
       lockedEncounterParticleCap_ = other.lockedEncounterParticleCap_;
       menuParticleCap_ = other.menuParticleCap_;
@@ -196,6 +202,16 @@ namespace WUProtos.Data {
       set {
         arAzimuthBlurring_ = value;
       }
+    }
+
+    /// <summary>Field number for the "gamemode_overrides" field.</summary>
+    public const int GamemodeOverridesFieldNumber = 13;
+    private static readonly pbc::MapField<string, global::WUProtos.Data.QualityLevelOverrides>.Codec _map_gamemodeOverrides_codec
+        = new pbc::MapField<string, global::WUProtos.Data.QualityLevelOverrides>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForMessage(18, global::WUProtos.Data.QualityLevelOverrides.Parser), 106);
+    private readonly pbc::MapField<string, global::WUProtos.Data.QualityLevelOverrides> gamemodeOverrides_ = new pbc::MapField<string, global::WUProtos.Data.QualityLevelOverrides>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, global::WUProtos.Data.QualityLevelOverrides> GamemodeOverrides {
+      get { return gamemodeOverrides_; }
     }
 
     /// <summary>Field number for the "ar_encounter_particle_cap" field.</summary>
@@ -319,6 +335,7 @@ namespace WUProtos.Data {
       if (BillboardsFaceCameraPosition != other.BillboardsFaceCameraPosition) return false;
       if (RealtimeShadows != other.RealtimeShadows) return false;
       if (ArAzimuthBlurring != other.ArAzimuthBlurring) return false;
+      if (!GamemodeOverrides.Equals(other.GamemodeOverrides)) return false;
       if (ArEncounterParticleCap != other.ArEncounterParticleCap) return false;
       if (LockedEncounterParticleCap != other.LockedEncounterParticleCap) return false;
       if (MenuParticleCap != other.MenuParticleCap) return false;
@@ -343,6 +360,7 @@ namespace WUProtos.Data {
       if (BillboardsFaceCameraPosition != false) hash ^= BillboardsFaceCameraPosition.GetHashCode();
       if (RealtimeShadows != 0) hash ^= RealtimeShadows.GetHashCode();
       if (ArAzimuthBlurring != false) hash ^= ArAzimuthBlurring.GetHashCode();
+      hash ^= GamemodeOverrides.GetHashCode();
       if (ArEncounterParticleCap != 0) hash ^= ArEncounterParticleCap.GetHashCode();
       if (LockedEncounterParticleCap != 0) hash ^= LockedEncounterParticleCap.GetHashCode();
       if (MenuParticleCap != 0) hash ^= MenuParticleCap.GetHashCode();
@@ -401,6 +419,7 @@ namespace WUProtos.Data {
         output.WriteRawTag(88);
         output.WriteBool(ArAzimuthBlurring);
       }
+      gamemodeOverrides_.WriteTo(output, _map_gamemodeOverrides_codec);
       if (ArEncounterParticleCap != 0) {
         output.WriteRawTag(112);
         output.WriteInt32(ArEncounterParticleCap);
@@ -472,6 +491,7 @@ namespace WUProtos.Data {
       if (ArAzimuthBlurring != false) {
         size += 1 + 1;
       }
+      size += gamemodeOverrides_.CalculateSize(_map_gamemodeOverrides_codec);
       if (ArEncounterParticleCap != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(ArEncounterParticleCap);
       }
@@ -537,6 +557,7 @@ namespace WUProtos.Data {
       if (other.ArAzimuthBlurring != false) {
         ArAzimuthBlurring = other.ArAzimuthBlurring;
       }
+      gamemodeOverrides_.Add(other.gamemodeOverrides_);
       if (other.ArEncounterParticleCap != 0) {
         ArEncounterParticleCap = other.ArEncounterParticleCap;
       }
@@ -609,6 +630,10 @@ namespace WUProtos.Data {
           }
           case 88: {
             ArAzimuthBlurring = input.ReadBool();
+            break;
+          }
+          case 106: {
+            gamemodeOverrides_.AddEntriesFrom(input, _map_gamemodeOverrides_codec);
             break;
           }
           case 112: {

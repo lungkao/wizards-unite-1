@@ -26,12 +26,15 @@ namespace WUProtos.Data {
           string.Concat(
             "CihXVVByb3Rvcy9EYXRhL0NvbmRpdGlvbmFsTW9kaWZpZXJzLnByb3RvEg1X",
             "VVByb3Rvcy5EYXRhGh5XVVByb3Rvcy9EYXRhL0NvbmRpdGlvbnMucHJvdG8i",
-            "RQoUQ29uZGl0aW9uYWxNb2RpZmllcnMSLQoKY29uZGl0aW9ucxgBIAEoCzIZ",
-            "LldVUHJvdG9zLkRhdGEuQ29uZGl0aW9uc2IGcHJvdG8z"));
+            "vgEKFENvbmRpdGlvbmFsTW9kaWZpZXJzEi0KCmNvbmRpdGlvbnMYASABKAsy",
+            "GS5XVVByb3Rvcy5EYXRhLkNvbmRpdGlvbnMSRQoJbW9kaWZpZXJzGAIgAygL",
+            "MjIuV1VQcm90b3MuRGF0YS5Db25kaXRpb25hbE1vZGlmaWVycy5Nb2RpZmll",
+            "cnNFbnRyeRowCg5Nb2RpZmllcnNFbnRyeRILCgNrZXkYASABKAkSDQoFdmFs",
+            "dWUYAiABKAM6AjgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::WUProtos.Data.ConditionsReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ConditionalModifiers), global::WUProtos.Data.ConditionalModifiers.Parser, new[]{ "Conditions" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ConditionalModifiers), global::WUProtos.Data.ConditionalModifiers.Parser, new[]{ "Conditions", "Modifiers" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -64,6 +67,7 @@ namespace WUProtos.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ConditionalModifiers(ConditionalModifiers other) : this() {
       conditions_ = other.conditions_ != null ? other.conditions_.Clone() : null;
+      modifiers_ = other.modifiers_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -83,6 +87,16 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "modifiers" field.</summary>
+    public const int ModifiersFieldNumber = 2;
+    private static readonly pbc::MapField<string, long>.Codec _map_modifiers_codec
+        = new pbc::MapField<string, long>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForInt64(16), 18);
+    private readonly pbc::MapField<string, long> modifiers_ = new pbc::MapField<string, long>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, long> Modifiers {
+      get { return modifiers_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ConditionalModifiers);
@@ -97,6 +111,7 @@ namespace WUProtos.Data {
         return true;
       }
       if (!object.Equals(Conditions, other.Conditions)) return false;
+      if (!Modifiers.Equals(other.Modifiers)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -104,6 +119,7 @@ namespace WUProtos.Data {
     public override int GetHashCode() {
       int hash = 1;
       if (conditions_ != null) hash ^= Conditions.GetHashCode();
+      hash ^= Modifiers.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -121,6 +137,7 @@ namespace WUProtos.Data {
         output.WriteRawTag(10);
         output.WriteMessage(Conditions);
       }
+      modifiers_.WriteTo(output, _map_modifiers_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -132,6 +149,7 @@ namespace WUProtos.Data {
       if (conditions_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Conditions);
       }
+      size += modifiers_.CalculateSize(_map_modifiers_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -149,6 +167,7 @@ namespace WUProtos.Data {
         }
         Conditions.MergeFrom(other.Conditions);
       }
+      modifiers_.Add(other.modifiers_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -165,6 +184,10 @@ namespace WUProtos.Data {
               Conditions = new global::WUProtos.Data.Conditions();
             }
             input.ReadMessage(Conditions);
+            break;
+          }
+          case 18: {
+            modifiers_.AddEntriesFrom(input, _map_modifiers_codec);
             break;
           }
         }

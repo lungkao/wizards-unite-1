@@ -26,15 +26,15 @@ namespace WUProtos.Networking.Responses {
           string.Concat(
             "Cj5XVVByb3Rvcy9OZXR3b3JraW5nL1Jlc3BvbnNlcy9EYmdVcGRhdGVJbnZl",
             "bnRvcnlSZXNwb25zZS5wcm90bxIdV1VQcm90b3MuTmV0d29ya2luZy5SZXNw",
-            "b25zZXMaJVdVUHJvdG9zL0RhdGEvQXRsYXNJbnZlbnRvcnlLZXkucHJvdG8i",
-            "3QEKIERiZ1VwZGF0ZVBsYXllckludmVudG9yeVJlc3BvbnNlEhIKCnN1Y2Nl",
-            "c3NmdWwYASABKAgSNAoKYWRkZWRfa2V5cxgCIAMoCzIgLldVUHJvdG9zLkRh",
-            "dGEuQXRsYXNJbnZlbnRvcnlLZXkSNwoNcmVwbGFjZWRfa2V5cxgDIAMoCzIg",
-            "LldVUHJvdG9zLkRhdGEuQXRsYXNJbnZlbnRvcnlLZXkSNgoMZGVsZXRlZF9r",
-            "ZXlzGAQgAygLMiAuV1VQcm90b3MuRGF0YS5BdGxhc0ludmVudG9yeUtleWIG",
-            "cHJvdG8z"));
+            "b25zZXMaKldVUHJvdG9zL0ludmVudG9yeS9BdGxhc0ludmVudG9yeUtleS5w",
+            "cm90byLsAQogRGJnVXBkYXRlUGxheWVySW52ZW50b3J5UmVzcG9uc2USEgoK",
+            "c3VjY2Vzc2Z1bBgBIAEoCBI5CgphZGRlZF9rZXlzGAIgAygLMiUuV1VQcm90",
+            "b3MuSW52ZW50b3J5LkF0bGFzSW52ZW50b3J5S2V5EjwKDXJlcGxhY2VkX2tl",
+            "eXMYAyADKAsyJS5XVVByb3Rvcy5JbnZlbnRvcnkuQXRsYXNJbnZlbnRvcnlL",
+            "ZXkSOwoMZGVsZXRlZF9rZXlzGAQgAygLMiUuV1VQcm90b3MuSW52ZW50b3J5",
+            "LkF0bGFzSW52ZW50b3J5S2V5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.AtlasInventoryKeyReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Inventory.AtlasInventoryKeyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Networking.Responses.DbgUpdatePlayerInventoryResponse), global::WUProtos.Networking.Responses.DbgUpdatePlayerInventoryResponse.Parser, new[]{ "Successful", "AddedKeys", "ReplacedKeys", "DeletedKeys" }, null, null, null)
           }));
@@ -93,31 +93,31 @@ namespace WUProtos.Networking.Responses {
 
     /// <summary>Field number for the "added_keys" field.</summary>
     public const int AddedKeysFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.AtlasInventoryKey> _repeated_addedKeys_codec
-        = pb::FieldCodec.ForMessage(18, global::WUProtos.Data.AtlasInventoryKey.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> addedKeys_ = new pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey>();
+    private static readonly pb::FieldCodec<global::WUProtos.Inventory.AtlasInventoryKey> _repeated_addedKeys_codec
+        = pb::FieldCodec.ForMessage(18, global::WUProtos.Inventory.AtlasInventoryKey.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> addedKeys_ = new pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> AddedKeys {
+    public pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> AddedKeys {
       get { return addedKeys_; }
     }
 
     /// <summary>Field number for the "replaced_keys" field.</summary>
     public const int ReplacedKeysFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.AtlasInventoryKey> _repeated_replacedKeys_codec
-        = pb::FieldCodec.ForMessage(26, global::WUProtos.Data.AtlasInventoryKey.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> replacedKeys_ = new pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey>();
+    private static readonly pb::FieldCodec<global::WUProtos.Inventory.AtlasInventoryKey> _repeated_replacedKeys_codec
+        = pb::FieldCodec.ForMessage(26, global::WUProtos.Inventory.AtlasInventoryKey.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> replacedKeys_ = new pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> ReplacedKeys {
+    public pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> ReplacedKeys {
       get { return replacedKeys_; }
     }
 
     /// <summary>Field number for the "deleted_keys" field.</summary>
     public const int DeletedKeysFieldNumber = 4;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.AtlasInventoryKey> _repeated_deletedKeys_codec
-        = pb::FieldCodec.ForMessage(34, global::WUProtos.Data.AtlasInventoryKey.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> deletedKeys_ = new pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey>();
+    private static readonly pb::FieldCodec<global::WUProtos.Inventory.AtlasInventoryKey> _repeated_deletedKeys_codec
+        = pb::FieldCodec.ForMessage(34, global::WUProtos.Inventory.AtlasInventoryKey.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> deletedKeys_ = new pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> DeletedKeys {
+    public pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> DeletedKeys {
       get { return deletedKeys_; }
     }
 

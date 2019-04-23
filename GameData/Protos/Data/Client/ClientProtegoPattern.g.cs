@@ -25,16 +25,18 @@ namespace WUProtos.Data.Client {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ci9XVVByb3Rvcy9EYXRhL0NsaWVudC9DbGllbnRQcm90ZWdvUGF0dGVybi5w",
-            "cm90bxIUV1VQcm90b3MuRGF0YS5DbGllbnQaG1dVUHJvdG9zL0RhdGEvVmVj",
-            "dG9yMi5wcm90byLIAQoUQ2xpZW50UHJvdGVnb1BhdHRlcm4SCgoCaWQYASAB",
-            "KAkSMwoTdWlfdGFyZ2V0X3N0YXJ0X3BvcxgCIAEoCzIWLldVUHJvdG9zLkRh",
-            "dGEuVmVjdG9yMhIeChZ1aV90YXJnZXRfc3RhcnRfcmFkaXVzGAMgASgCEjEK",
-            "EXVpX3RhcmdldF9lbmRfcG9zGAQgASgLMhYuV1VQcm90b3MuRGF0YS5WZWN0",
-            "b3IyEhwKFHVpX3RhcmdldF9lbmRfcmFkaXVzGAUgASgCYgZwcm90bzM="));
+            "cm90bxIUV1VQcm90b3MuRGF0YS5DbGllbnQioQIKFENsaWVudFByb3RlZ29Q",
+            "YXR0ZXJuEgoKAmlkGAEgASgJEk8KE3VpX3RhcmdldF9zdGFydF9wb3MYAiAB",
+            "KAsyMi5XVVByb3Rvcy5EYXRhLkNsaWVudC5DbGllbnRQcm90ZWdvUGF0dGVy",
+            "bi5WZWN0b3IyEh4KFnVpX3RhcmdldF9zdGFydF9yYWRpdXMYAyABKAISTQoR",
+            "dWlfdGFyZ2V0X2VuZF9wb3MYBCABKAsyMi5XVVByb3Rvcy5EYXRhLkNsaWVu",
+            "dC5DbGllbnRQcm90ZWdvUGF0dGVybi5WZWN0b3IyEhwKFHVpX3RhcmdldF9l",
+            "bmRfcmFkaXVzGAUgASgCGh8KB1ZlY3RvcjISCQoBeBgBIAEoAhIJCgF5GAIg",
+            "ASgCYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.Vector2Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientProtegoPattern), global::WUProtos.Data.Client.ClientProtegoPattern.Parser, new[]{ "Id", "UiTargetStartPos", "UiTargetStartRadius", "UiTargetEndPos", "UiTargetEndRadius" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientProtegoPattern), global::WUProtos.Data.Client.ClientProtegoPattern.Parser, new[]{ "Id", "UiTargetStartPos", "UiTargetStartRadius", "UiTargetEndPos", "UiTargetEndRadius" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2), global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2.Parser, new[]{ "X", "Y" }, null, null, null)})
           }));
     }
     #endregion
@@ -92,9 +94,9 @@ namespace WUProtos.Data.Client {
 
     /// <summary>Field number for the "ui_target_start_pos" field.</summary>
     public const int UiTargetStartPosFieldNumber = 2;
-    private global::WUProtos.Data.Vector2 uiTargetStartPos_;
+    private global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2 uiTargetStartPos_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.Vector2 UiTargetStartPos {
+    public global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2 UiTargetStartPos {
       get { return uiTargetStartPos_; }
       set {
         uiTargetStartPos_ = value;
@@ -114,9 +116,9 @@ namespace WUProtos.Data.Client {
 
     /// <summary>Field number for the "ui_target_end_pos" field.</summary>
     public const int UiTargetEndPosFieldNumber = 4;
-    private global::WUProtos.Data.Vector2 uiTargetEndPos_;
+    private global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2 uiTargetEndPos_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.Vector2 UiTargetEndPos {
+    public global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2 UiTargetEndPos {
       get { return uiTargetEndPos_; }
       set {
         uiTargetEndPos_ = value;
@@ -235,7 +237,7 @@ namespace WUProtos.Data.Client {
       }
       if (other.uiTargetStartPos_ != null) {
         if (uiTargetStartPos_ == null) {
-          UiTargetStartPos = new global::WUProtos.Data.Vector2();
+          UiTargetStartPos = new global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2();
         }
         UiTargetStartPos.MergeFrom(other.UiTargetStartPos);
       }
@@ -244,7 +246,7 @@ namespace WUProtos.Data.Client {
       }
       if (other.uiTargetEndPos_ != null) {
         if (uiTargetEndPos_ == null) {
-          UiTargetEndPos = new global::WUProtos.Data.Vector2();
+          UiTargetEndPos = new global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2();
         }
         UiTargetEndPos.MergeFrom(other.UiTargetEndPos);
       }
@@ -268,7 +270,7 @@ namespace WUProtos.Data.Client {
           }
           case 18: {
             if (uiTargetStartPos_ == null) {
-              UiTargetStartPos = new global::WUProtos.Data.Vector2();
+              UiTargetStartPos = new global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2();
             }
             input.ReadMessage(UiTargetStartPos);
             break;
@@ -279,7 +281,7 @@ namespace WUProtos.Data.Client {
           }
           case 34: {
             if (uiTargetEndPos_ == null) {
-              UiTargetEndPos = new global::WUProtos.Data.Vector2();
+              UiTargetEndPos = new global::WUProtos.Data.Client.ClientProtegoPattern.Types.Vector2();
             }
             input.ReadMessage(UiTargetEndPos);
             break;
@@ -291,6 +293,170 @@ namespace WUProtos.Data.Client {
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the ClientProtegoPattern message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class Vector2 : pb::IMessage<Vector2> {
+        private static readonly pb::MessageParser<Vector2> _parser = new pb::MessageParser<Vector2>(() => new Vector2());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Vector2> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::WUProtos.Data.Client.ClientProtegoPattern.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Vector2() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Vector2(Vector2 other) : this() {
+          x_ = other.x_;
+          y_ = other.y_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Vector2 Clone() {
+          return new Vector2(this);
+        }
+
+        /// <summary>Field number for the "x" field.</summary>
+        public const int XFieldNumber = 1;
+        private float x_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public float X {
+          get { return x_; }
+          set {
+            x_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "y" field.</summary>
+        public const int YFieldNumber = 2;
+        private float y_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public float Y {
+          get { return y_; }
+          set {
+            y_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Vector2);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Vector2 other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(X, other.X)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Y, other.Y)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (X != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(X);
+          if (Y != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Y);
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (X != 0F) {
+            output.WriteRawTag(13);
+            output.WriteFloat(X);
+          }
+          if (Y != 0F) {
+            output.WriteRawTag(21);
+            output.WriteFloat(Y);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (X != 0F) {
+            size += 1 + 4;
+          }
+          if (Y != 0F) {
+            size += 1 + 4;
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Vector2 other) {
+          if (other == null) {
+            return;
+          }
+          if (other.X != 0F) {
+            X = other.X;
+          }
+          if (other.Y != 0F) {
+            Y = other.Y;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 13: {
+                X = input.ReadFloat();
+                break;
+              }
+              case 21: {
+                Y = input.ReadFloat();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 

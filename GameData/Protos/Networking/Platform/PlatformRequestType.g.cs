@@ -52,7 +52,7 @@ namespace WUProtos.Networking.Platform {
     /// </summary>
     [pbr::OriginalName("UNKNOWN_PLATFORM_CLIENT_ACTION")] UnknownPlatformClientAction = 0,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("REGISTER_PUSH_NOTIFICATION")] RegisterPushNotification = 5000,
     /// <summary>
@@ -60,59 +60,59 @@ namespace WUProtos.Networking.Platform {
     /// </summary>
     [pbr::OriginalName("UNREGISTER_PUSH_NOTIFICATION")] UnregisterPushNotification = 5001,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("UPDATE_NOTIFICATION_STATUS")] UpdateNotificationStatus = 5002,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("OPT_OUT_PUSH_NOTIFICATION_CATEGORY")] OptOutPushNotificationCategory = 5003,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("DOWNLOAD_GAME_MASTER_TEMPLATES")] DownloadGameMasterTemplates = 5004,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("GET_INVENTORY")] GetInventory = 5005,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("REDEEM_PASSCODE")] RedeemPasscode = 5006,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("PING")] Ping = 5007,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("ADD_LOGIN_ACTION")] AddLoginAction = 5008,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("REMOVE_LOGIN_ACTION")] RemoveLoginAction = 5009,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("LIST_LOGIN_ACTION")] ListLoginAction = 5010,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("ADD_NEW_POI")] AddNewPoi = 5011,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("PROXY_SOCIAL_ACTION")] ProxySocialAction = 5012,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("CLIENT_TELEMETRY")] ClientTelemetry = 5013,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("GET_AVAILABLE_SUBMISSIONS")] GetAvailableSubmissions = 5014,
     /// <summary>
-    /// ???
+    /// Implemented
     /// </summary>
     [pbr::OriginalName("GET_SIGNED_URL_FOR_PHOTO_UPLOAD")] GetSignedUrlForPhotoUpload = 5015,
   }

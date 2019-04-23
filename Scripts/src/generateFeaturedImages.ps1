@@ -3,5 +3,5 @@ Foreach-Object {
     $file = $_.FullName
     $name = $_.BaseName
 
-    magick convert background.png ../output/images/$($name).png -gravity center -composite ../output/images/$($name)_featured.jpg
+    magick convert background.png ../output/images/$($name).png'[256x256]' -gravity center -composite ../output/images/$($name)_featured.jpg
 }

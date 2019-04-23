@@ -84,9 +84,6 @@ namespace WUProtos.Data.Encounter {
     /// <summary>Field number for the "id" field.</summary>
     public const int IdFieldNumber = 1;
     private string id_ = "";
-    /// <summary>
-    /// repeated string encounter_searching_idle_timelines = 2;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
       get { return id_; }
@@ -98,9 +95,6 @@ namespace WUProtos.Data.Encounter {
     /// <summary>Field number for the "collection_item_reward_gmt_id" field.</summary>
     public const int CollectionItemRewardGmtIdFieldNumber = 2;
     private string collectionItemRewardGmtId_ = "";
-    /// <summary>
-    /// repeated bytes encounter_assets = 3;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string CollectionItemRewardGmtId {
       get { return collectionItemRewardGmtId_; }

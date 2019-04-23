@@ -27,10 +27,10 @@ namespace WUProtos.Data {
             "CiBXVVByb3Rvcy9EYXRhL1F1YWxpdHlMZXZlbC5wcm90bxINV1VQcm90b3Mu",
             "RGF0YRomV1VQcm90b3MvRGF0YS9TaGFyZWRRdWFsaXR5TGV2ZWwucHJvdG8i",
             "rgIKDFF1YWxpdHlMZXZlbBIKCgJpZBgBIAEoCRI4Cg1xdWFsaXR5X2xldmVs",
-            "GAIgASgLMiEuV1VQcm90b3MuRGF0YS5TaGFyZWRRdWFsaXR5TGV2ZWwiQgoT",
-            "QW50aWFsaWFzaW5nU2V0dGluZxIHCgNvZmYQABIKCgZtc2FhMngQAhIKCgZt",
-            "c2FhNHgQBBIKCgZtc2FhOHgQCCJfChZSZWFsdGltZVNoYWRvd3NTZXR0aW5n",
-            "EggKBG9mZmYQABITCg9yZWFsdGltZV9wbGFuYXIQARImCiJyZWFsdGltZV9w",
+            "GAIgASgLMiEuV1VQcm90b3MuRGF0YS5TaGFyZWRRdWFsaXR5TGV2ZWwiQwoT",
+            "QW50aWFsaWFzaW5nU2V0dGluZxIICgRvZmZmEAASCgoGbXNhYTJ4EAISCgoG",
+            "bXNhYTR4EAQSCgoGbXNhYTh4EAgiXgoWUmVhbHRpbWVTaGFkb3dzU2V0dGlu",
+            "ZxIHCgNvZmYQABITCg9yZWFsdGltZV9wbGFuYXIQARImCiJyZWFsdGltZV9w",
             "bGFuYXJfYW5kX3NlbGZfc2hhZG93aW5nEAIiMwoVVGV4dHVyZVF1YWxpdHlT",
             "ZXR0aW5nEgwKCGZ1bGxfcmVzEAASDAoIaGFsZl9yZXMQAWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -209,14 +209,14 @@ namespace WUProtos.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static partial class Types {
       public enum AntialiasingSetting {
-        [pbr::OriginalName("off")] Off = 0,
+        [pbr::OriginalName("offf")] Offf = 0,
         [pbr::OriginalName("msaa2x")] Msaa2X = 2,
         [pbr::OriginalName("msaa4x")] Msaa4X = 4,
         [pbr::OriginalName("msaa8x")] Msaa8X = 8,
       }
 
       public enum RealtimeShadowsSetting {
-        [pbr::OriginalName("offf")] Offf = 0,
+        [pbr::OriginalName("off")] Off = 0,
         [pbr::OriginalName("realtime_planar")] RealtimePlanar = 1,
         [pbr::OriginalName("realtime_planar_and_self_shadowing")] RealtimePlanarAndSelfShadowing = 2,
       }

@@ -26,35 +26,22 @@ namespace WUProtos.Data.Encounter {
           string.Concat(
             "CixXVVByb3Rvcy9EYXRhL0VuY291bnRlci9FbmNvdW50ZXJTdGFnZS5wcm90",
             "bxIXV1VQcm90b3MuRGF0YS5FbmNvdW50ZXIaMVdVUHJvdG9zL0RhdGEvRW5j",
-            "b3VudGVyL0VuY291bnRlclN0YWdlU3dpc2gucHJvdG8aLVdVUHJvdG9zL0Rh",
-            "dGEvQ2xpZW50L0NsaWVudFNlcXVlbmNlRGF0YS5wcm90bxoyV1VQcm90b3Mv",
-            "RGF0YS9FbmNvdW50ZXIvRW5jb3VudGVyU3RhZ2VDb21iYXQucHJvdG8aLFdV",
-            "UHJvdG9zL0RhdGEvQ2xpZW50L0NsaWVudENvbWJhdFN0YXRlLnByb3RvGjNX",
-            "VVByb3Rvcy9EYXRhL0VuY291bnRlci9FbmNvdW50ZXJTdGFnZVBvcnRrZXku",
-            "cHJvdG8aM1dVUHJvdG9zL0RhdGEvRW5jb3VudGVyL0VuY291bnRlclN0YWdl",
-            "UGljdHVyZS5wcm90bxoxV1VQcm90b3MvRGF0YS9DbGllbnQvQ2xpZW50Q29t",
-            "YmF0RW5lbXlUcmFpdC5wcm90bxouV1VQcm90b3MvRGF0YS9DbGllbnQvQ2xp",
-            "ZW50RW5jb3VudGVyVHlwZS5wcm90byLUBQoORW5jb3VudGVyU3RhZ2USPQoF",
-            "c3dpc2gYASABKAsyLC5XVVByb3Rvcy5EYXRhLkVuY291bnRlci5FbmNvdW50",
-            "ZXJTdGFnZVN3aXNoSAASPwoGY29tYmF0GAIgASgLMi0uV1VQcm90b3MuRGF0",
-            "YS5FbmNvdW50ZXIuRW5jb3VudGVyU3RhZ2VDb21iYXRIABJBCgdwb3J0a2V5",
-            "GAMgASgLMi4uV1VQcm90b3MuRGF0YS5FbmNvdW50ZXIuRW5jb3VudGVyU3Rh",
-            "Z2VQb3J0a2V5SAASQQoHcGljdHVyZRgEIAEoCzIuLldVUHJvdG9zLkRhdGEu",
-            "RW5jb3VudGVyLkVuY291bnRlclN0YWdlUGljdHVyZUgAEhkKEWNvbWJhdF9z",
-            "cGVsbF9saXN0GAUgAygJEkYKFHN0YWdlX3NldHVwX3NlcXVlbmNlGAYgAygL",
-            "MiguV1VQcm90b3MuRGF0YS5DbGllbnQuQ2xpZW50U2VxdWVuY2VEYXRhEksK",
-            "GXN0YWdlX2NvbXBsZXRpb25fc2VxdWVuY2UYByADKAsyKC5XVVByb3Rvcy5E",
-            "YXRhLkNsaWVudC5DbGllbnRTZXF1ZW5jZURhdGESGwoTaWRsZV9sb29wX3Rp",
-            "bWVsaW5lcxgIIAMoCRJCChFzdGF0ZV9ncmFwaF9ub2RlcxgJIAMoCzInLldV",
-            "UHJvdG9zLkRhdGEuQ2xpZW50LkNsaWVudENvbWJhdFN0YXRlEhQKDHNwZWxs",
-            "X2dtdF9pZBgKIAEoCRJJChNjb21iYXRfZW5lbXlfdHJhaXRzGAsgAygLMiwu",
-            "V1VQcm90b3MuRGF0YS5DbGllbnQuQ2xpZW50Q29tYmF0RW5lbXlUcmFpdBJC",
-            "Cg9lbmVteV9yYW5rX3RhZ3MYDCADKAsyKS5XVVByb3Rvcy5EYXRhLkNsaWVu",
-            "dC5DbGllbnRFbmNvdW50ZXJUeXBlQgYKBFR5cGViBnByb3RvMw=="));
+            "b3VudGVyL0VuY291bnRlclN0YWdlU3dpc2gucHJvdG8aMldVUHJvdG9zL0Rh",
+            "dGEvRW5jb3VudGVyL0VuY291bnRlclN0YWdlQ29tYmF0LnByb3RvGjNXVVBy",
+            "b3Rvcy9EYXRhL0VuY291bnRlci9FbmNvdW50ZXJTdGFnZVBvcnRrZXkucHJv",
+            "dG8aM1dVUHJvdG9zL0RhdGEvRW5jb3VudGVyL0VuY291bnRlclN0YWdlUGlj",
+            "dHVyZS5wcm90byK0AgoORW5jb3VudGVyU3RhZ2USPQoFc3dpc2gYASABKAsy",
+            "LC5XVVByb3Rvcy5EYXRhLkVuY291bnRlci5FbmNvdW50ZXJTdGFnZVN3aXNo",
+            "SAASPwoGY29tYmF0GAIgASgLMi0uV1VQcm90b3MuRGF0YS5FbmNvdW50ZXIu",
+            "RW5jb3VudGVyU3RhZ2VDb21iYXRIABJBCgdwb3J0a2V5GAMgASgLMi4uV1VQ",
+            "cm90b3MuRGF0YS5FbmNvdW50ZXIuRW5jb3VudGVyU3RhZ2VQb3J0a2V5SAAS",
+            "QQoHcGljdHVyZRgEIAEoCzIuLldVUHJvdG9zLkRhdGEuRW5jb3VudGVyLkVu",
+            "Y291bnRlclN0YWdlUGljdHVyZUgAEhQKDHNwZWxsX2dtdF9pZBgFIAEoCUIG",
+            "CgRUeXBlYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.Encounter.EncounterStageSwishReflection.Descriptor, global::WUProtos.Data.Client.ClientSequenceDataReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterStageCombatReflection.Descriptor, global::WUProtos.Data.Client.ClientCombatStateReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterStagePortkeyReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterStagePictureReflection.Descriptor, global::WUProtos.Data.Client.ClientCombatEnemyTraitReflection.Descriptor, global::WUProtos.Data.Client.ClientEncounterTypeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Encounter.EncounterStageSwishReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterStageCombatReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterStagePortkeyReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterStagePictureReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Encounter.EncounterStage), global::WUProtos.Data.Encounter.EncounterStage.Parser, new[]{ "Swish", "Combat", "Portkey", "Picture", "CombatSpellList", "StageSetupSequence", "StageCompletionSequence", "IdleLoopTimelines", "StateGraphNodes", "SpellGmtId", "CombatEnemyTraits", "EnemyRankTags" }, new[]{ "Type" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Encounter.EncounterStage), global::WUProtos.Data.Encounter.EncounterStage.Parser, new[]{ "Swish", "Combat", "Portkey", "Picture", "SpellGmtId" }, new[]{ "Type" }, null, null)
           }));
     }
     #endregion
@@ -86,14 +73,7 @@ namespace WUProtos.Data.Encounter {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public EncounterStage(EncounterStage other) : this() {
-      combatSpellList_ = other.combatSpellList_.Clone();
-      stageSetupSequence_ = other.stageSetupSequence_.Clone();
-      stageCompletionSequence_ = other.stageCompletionSequence_.Clone();
-      idleLoopTimelines_ = other.idleLoopTimelines_.Clone();
-      stateGraphNodes_ = other.stateGraphNodes_.Clone();
       spellGmtId_ = other.spellGmtId_;
-      combatEnemyTraits_ = other.combatEnemyTraits_.Clone();
-      enemyRankTags_ = other.enemyRankTags_.Clone();
       switch (other.TypeCase) {
         case TypeOneofCase.Swish:
           Swish = other.Swish.Clone();
@@ -161,58 +141,8 @@ namespace WUProtos.Data.Encounter {
       }
     }
 
-    /// <summary>Field number for the "combat_spell_list" field.</summary>
-    public const int CombatSpellListFieldNumber = 5;
-    private static readonly pb::FieldCodec<string> _repeated_combatSpellList_codec
-        = pb::FieldCodec.ForString(42);
-    private readonly pbc::RepeatedField<string> combatSpellList_ = new pbc::RepeatedField<string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> CombatSpellList {
-      get { return combatSpellList_; }
-    }
-
-    /// <summary>Field number for the "stage_setup_sequence" field.</summary>
-    public const int StageSetupSequenceFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.Client.ClientSequenceData> _repeated_stageSetupSequence_codec
-        = pb::FieldCodec.ForMessage(50, global::WUProtos.Data.Client.ClientSequenceData.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.Client.ClientSequenceData> stageSetupSequence_ = new pbc::RepeatedField<global::WUProtos.Data.Client.ClientSequenceData>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.Client.ClientSequenceData> StageSetupSequence {
-      get { return stageSetupSequence_; }
-    }
-
-    /// <summary>Field number for the "stage_completion_sequence" field.</summary>
-    public const int StageCompletionSequenceFieldNumber = 7;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.Client.ClientSequenceData> _repeated_stageCompletionSequence_codec
-        = pb::FieldCodec.ForMessage(58, global::WUProtos.Data.Client.ClientSequenceData.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.Client.ClientSequenceData> stageCompletionSequence_ = new pbc::RepeatedField<global::WUProtos.Data.Client.ClientSequenceData>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.Client.ClientSequenceData> StageCompletionSequence {
-      get { return stageCompletionSequence_; }
-    }
-
-    /// <summary>Field number for the "idle_loop_timelines" field.</summary>
-    public const int IdleLoopTimelinesFieldNumber = 8;
-    private static readonly pb::FieldCodec<string> _repeated_idleLoopTimelines_codec
-        = pb::FieldCodec.ForString(66);
-    private readonly pbc::RepeatedField<string> idleLoopTimelines_ = new pbc::RepeatedField<string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> IdleLoopTimelines {
-      get { return idleLoopTimelines_; }
-    }
-
-    /// <summary>Field number for the "state_graph_nodes" field.</summary>
-    public const int StateGraphNodesFieldNumber = 9;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.Client.ClientCombatState> _repeated_stateGraphNodes_codec
-        = pb::FieldCodec.ForMessage(74, global::WUProtos.Data.Client.ClientCombatState.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.Client.ClientCombatState> stateGraphNodes_ = new pbc::RepeatedField<global::WUProtos.Data.Client.ClientCombatState>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.Client.ClientCombatState> StateGraphNodes {
-      get { return stateGraphNodes_; }
-    }
-
     /// <summary>Field number for the "spell_gmt_id" field.</summary>
-    public const int SpellGmtIdFieldNumber = 10;
+    public const int SpellGmtIdFieldNumber = 5;
     private string spellGmtId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string SpellGmtId {
@@ -220,26 +150,6 @@ namespace WUProtos.Data.Encounter {
       set {
         spellGmtId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
-    }
-
-    /// <summary>Field number for the "combat_enemy_traits" field.</summary>
-    public const int CombatEnemyTraitsFieldNumber = 11;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.Client.ClientCombatEnemyTrait> _repeated_combatEnemyTraits_codec
-        = pb::FieldCodec.ForMessage(90, global::WUProtos.Data.Client.ClientCombatEnemyTrait.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.Client.ClientCombatEnemyTrait> combatEnemyTraits_ = new pbc::RepeatedField<global::WUProtos.Data.Client.ClientCombatEnemyTrait>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.Client.ClientCombatEnemyTrait> CombatEnemyTraits {
-      get { return combatEnemyTraits_; }
-    }
-
-    /// <summary>Field number for the "enemy_rank_tags" field.</summary>
-    public const int EnemyRankTagsFieldNumber = 12;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.Client.ClientEncounterType> _repeated_enemyRankTags_codec
-        = pb::FieldCodec.ForMessage(98, global::WUProtos.Data.Client.ClientEncounterType.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.Client.ClientEncounterType> enemyRankTags_ = new pbc::RepeatedField<global::WUProtos.Data.Client.ClientEncounterType>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.Client.ClientEncounterType> EnemyRankTags {
-      get { return enemyRankTags_; }
     }
 
     private object type_;
@@ -280,14 +190,7 @@ namespace WUProtos.Data.Encounter {
       if (!object.Equals(Combat, other.Combat)) return false;
       if (!object.Equals(Portkey, other.Portkey)) return false;
       if (!object.Equals(Picture, other.Picture)) return false;
-      if(!combatSpellList_.Equals(other.combatSpellList_)) return false;
-      if(!stageSetupSequence_.Equals(other.stageSetupSequence_)) return false;
-      if(!stageCompletionSequence_.Equals(other.stageCompletionSequence_)) return false;
-      if(!idleLoopTimelines_.Equals(other.idleLoopTimelines_)) return false;
-      if(!stateGraphNodes_.Equals(other.stateGraphNodes_)) return false;
       if (SpellGmtId != other.SpellGmtId) return false;
-      if(!combatEnemyTraits_.Equals(other.combatEnemyTraits_)) return false;
-      if(!enemyRankTags_.Equals(other.enemyRankTags_)) return false;
       if (TypeCase != other.TypeCase) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -299,14 +202,7 @@ namespace WUProtos.Data.Encounter {
       if (typeCase_ == TypeOneofCase.Combat) hash ^= Combat.GetHashCode();
       if (typeCase_ == TypeOneofCase.Portkey) hash ^= Portkey.GetHashCode();
       if (typeCase_ == TypeOneofCase.Picture) hash ^= Picture.GetHashCode();
-      hash ^= combatSpellList_.GetHashCode();
-      hash ^= stageSetupSequence_.GetHashCode();
-      hash ^= stageCompletionSequence_.GetHashCode();
-      hash ^= idleLoopTimelines_.GetHashCode();
-      hash ^= stateGraphNodes_.GetHashCode();
       if (SpellGmtId.Length != 0) hash ^= SpellGmtId.GetHashCode();
-      hash ^= combatEnemyTraits_.GetHashCode();
-      hash ^= enemyRankTags_.GetHashCode();
       hash ^= (int) typeCase_;
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -337,17 +233,10 @@ namespace WUProtos.Data.Encounter {
         output.WriteRawTag(34);
         output.WriteMessage(Picture);
       }
-      combatSpellList_.WriteTo(output, _repeated_combatSpellList_codec);
-      stageSetupSequence_.WriteTo(output, _repeated_stageSetupSequence_codec);
-      stageCompletionSequence_.WriteTo(output, _repeated_stageCompletionSequence_codec);
-      idleLoopTimelines_.WriteTo(output, _repeated_idleLoopTimelines_codec);
-      stateGraphNodes_.WriteTo(output, _repeated_stateGraphNodes_codec);
       if (SpellGmtId.Length != 0) {
-        output.WriteRawTag(82);
+        output.WriteRawTag(42);
         output.WriteString(SpellGmtId);
       }
-      combatEnemyTraits_.WriteTo(output, _repeated_combatEnemyTraits_codec);
-      enemyRankTags_.WriteTo(output, _repeated_enemyRankTags_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -368,16 +257,9 @@ namespace WUProtos.Data.Encounter {
       if (typeCase_ == TypeOneofCase.Picture) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Picture);
       }
-      size += combatSpellList_.CalculateSize(_repeated_combatSpellList_codec);
-      size += stageSetupSequence_.CalculateSize(_repeated_stageSetupSequence_codec);
-      size += stageCompletionSequence_.CalculateSize(_repeated_stageCompletionSequence_codec);
-      size += idleLoopTimelines_.CalculateSize(_repeated_idleLoopTimelines_codec);
-      size += stateGraphNodes_.CalculateSize(_repeated_stateGraphNodes_codec);
       if (SpellGmtId.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(SpellGmtId);
       }
-      size += combatEnemyTraits_.CalculateSize(_repeated_combatEnemyTraits_codec);
-      size += enemyRankTags_.CalculateSize(_repeated_enemyRankTags_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -389,16 +271,9 @@ namespace WUProtos.Data.Encounter {
       if (other == null) {
         return;
       }
-      combatSpellList_.Add(other.combatSpellList_);
-      stageSetupSequence_.Add(other.stageSetupSequence_);
-      stageCompletionSequence_.Add(other.stageCompletionSequence_);
-      idleLoopTimelines_.Add(other.idleLoopTimelines_);
-      stateGraphNodes_.Add(other.stateGraphNodes_);
       if (other.SpellGmtId.Length != 0) {
         SpellGmtId = other.SpellGmtId;
       }
-      combatEnemyTraits_.Add(other.combatEnemyTraits_);
-      enemyRankTags_.Add(other.enemyRankTags_);
       switch (other.TypeCase) {
         case TypeOneofCase.Swish:
           if (Swish == null) {
@@ -474,35 +349,7 @@ namespace WUProtos.Data.Encounter {
             break;
           }
           case 42: {
-            combatSpellList_.AddEntriesFrom(input, _repeated_combatSpellList_codec);
-            break;
-          }
-          case 50: {
-            stageSetupSequence_.AddEntriesFrom(input, _repeated_stageSetupSequence_codec);
-            break;
-          }
-          case 58: {
-            stageCompletionSequence_.AddEntriesFrom(input, _repeated_stageCompletionSequence_codec);
-            break;
-          }
-          case 66: {
-            idleLoopTimelines_.AddEntriesFrom(input, _repeated_idleLoopTimelines_codec);
-            break;
-          }
-          case 74: {
-            stateGraphNodes_.AddEntriesFrom(input, _repeated_stateGraphNodes_codec);
-            break;
-          }
-          case 82: {
             SpellGmtId = input.ReadString();
-            break;
-          }
-          case 90: {
-            combatEnemyTraits_.AddEntriesFrom(input, _repeated_combatEnemyTraits_codec);
-            break;
-          }
-          case 98: {
-            enemyRankTags_.AddEntriesFrom(input, _repeated_enemyRankTags_codec);
             break;
           }
         }

@@ -25,15 +25,11 @@ namespace WUProtos.Data {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "Ch9XVVByb3Rvcy9EYXRhL1N0b3JlQ29uZmlnLnByb3RvEg1XVVByb3Rvcy5E",
-            "YXRhGiFXVVByb3Rvcy9EYXRhL1N0b3JlQ2F0ZWdvcnkucHJvdG8aH1dVUHJv",
-            "dG9zL0RhdGEvU3RvcmVSYXJpdHkucHJvdG8ihQEKC1N0b3JlQ29uZmlnEjYK",
-            "EHN0b3JlX2NhdGVnb3JpZXMYASADKAsyHC5XVVByb3Rvcy5EYXRhLlN0b3Jl",
-            "Q2F0ZWdvcnkSCgoCaWQYAiABKAkSMgoOc3RvcmVfcmFyaXRpZXMYAyADKAsy",
-            "Gi5XVVByb3Rvcy5EYXRhLlN0b3JlUmFyaXR5YgZwcm90bzM="));
+            "YXRhIhkKC1N0b3JlQ29uZmlnEgoKAmlkGAEgASgJYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.StoreCategoryReflection.Descriptor, global::WUProtos.Data.StoreRarityReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.StoreConfig), global::WUProtos.Data.StoreConfig.Parser, new[]{ "StoreCategories", "Id", "StoreRarities" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.StoreConfig), global::WUProtos.Data.StoreConfig.Parser, new[]{ "Id" }, null, null, null)
           }));
     }
     #endregion
@@ -65,9 +61,7 @@ namespace WUProtos.Data {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StoreConfig(StoreConfig other) : this() {
-      storeCategories_ = other.storeCategories_.Clone();
       id_ = other.id_;
-      storeRarities_ = other.storeRarities_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -76,18 +70,8 @@ namespace WUProtos.Data {
       return new StoreConfig(this);
     }
 
-    /// <summary>Field number for the "store_categories" field.</summary>
-    public const int StoreCategoriesFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.StoreCategory> _repeated_storeCategories_codec
-        = pb::FieldCodec.ForMessage(10, global::WUProtos.Data.StoreCategory.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.StoreCategory> storeCategories_ = new pbc::RepeatedField<global::WUProtos.Data.StoreCategory>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.StoreCategory> StoreCategories {
-      get { return storeCategories_; }
-    }
-
     /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 2;
+    public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -95,16 +79,6 @@ namespace WUProtos.Data {
       set {
         id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
-    }
-
-    /// <summary>Field number for the "store_rarities" field.</summary>
-    public const int StoreRaritiesFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.StoreRarity> _repeated_storeRarities_codec
-        = pb::FieldCodec.ForMessage(26, global::WUProtos.Data.StoreRarity.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.StoreRarity> storeRarities_ = new pbc::RepeatedField<global::WUProtos.Data.StoreRarity>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.StoreRarity> StoreRarities {
-      get { return storeRarities_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -120,18 +94,14 @@ namespace WUProtos.Data {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!storeCategories_.Equals(other.storeCategories_)) return false;
       if (Id != other.Id) return false;
-      if(!storeRarities_.Equals(other.storeRarities_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= storeCategories_.GetHashCode();
       if (Id.Length != 0) hash ^= Id.GetHashCode();
-      hash ^= storeRarities_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -145,12 +115,10 @@ namespace WUProtos.Data {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      storeCategories_.WriteTo(output, _repeated_storeCategories_codec);
       if (Id.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      storeRarities_.WriteTo(output, _repeated_storeRarities_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -159,11 +127,9 @@ namespace WUProtos.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      size += storeCategories_.CalculateSize(_repeated_storeCategories_codec);
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
-      size += storeRarities_.CalculateSize(_repeated_storeRarities_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -175,11 +141,9 @@ namespace WUProtos.Data {
       if (other == null) {
         return;
       }
-      storeCategories_.Add(other.storeCategories_);
       if (other.Id.Length != 0) {
         Id = other.Id;
       }
-      storeRarities_.Add(other.storeRarities_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -192,15 +156,7 @@ namespace WUProtos.Data {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            storeCategories_.AddEntriesFrom(input, _repeated_storeCategories_codec);
-            break;
-          }
-          case 18: {
             Id = input.ReadString();
-            break;
-          }
-          case 26: {
-            storeRarities_.AddEntriesFrom(input, _repeated_storeRarities_codec);
             break;
           }
         }

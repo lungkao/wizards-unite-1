@@ -25,15 +25,16 @@ namespace WUProtos.Data {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CidXVVByb3Rvcy9EYXRhL1BlcmZvcm1hbmNlU25hcHNob3QucHJvdG8SDVdV",
-            "UHJvdG9zLkRhdGEaH1dVUHJvdG9zL0RhdGEvRG91YmxlUmFuZ2UucHJvdG8i",
-            "qQEKE1BlcmZvcm1hbmNlU25hcHNob3QSNwoTZnJhbWVfbWV0cmljX3Jhbmdl",
-            "cxgBIAMoCzIaLldVUHJvdG9zLkRhdGEuRG91YmxlUmFuZ2USGQoRb25fZGVt",
-            "YW5kX21ldHJpY3MYAiADKAESFAoMZnJhbWVfbnVtYmVyGAMgASgDEhkKEXJl",
-            "YWxfdGltZV9zZWNvbmRzGAQgASgCEg0KBWxhYmVsGAUgASgJYgZwcm90bzM="));
+            "UHJvdG9zLkRhdGEi8wEKE1BlcmZvcm1hbmNlU25hcHNob3QSSwoTZnJhbWVf",
+            "bWV0cmljX3JhbmdlcxgBIAMoCzIuLldVUHJvdG9zLkRhdGEuUGVyZm9ybWFu",
+            "Y2VTbmFwc2hvdC5Eb3VibGVSYW5nZRIZChFvbl9kZW1hbmRfbWV0cmljcxgC",
+            "IAMoARIUCgxmcmFtZV9udW1iZXIYAyABKAMSGQoRcmVhbF90aW1lX3NlY29u",
+            "ZHMYBCABKAISDQoFbGFiZWwYBSABKAkaNAoLRG91YmxlUmFuZ2USCwoDYXZn",
+            "GAEgASgBEgsKA21pbhgCIAEoARILCgNtYXgYAyABKAFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.DoubleRangeReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.PerformanceSnapshot), global::WUProtos.Data.PerformanceSnapshot.Parser, new[]{ "FrameMetricRanges", "OnDemandMetrics", "FrameNumber", "RealTimeSeconds", "Label" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.PerformanceSnapshot), global::WUProtos.Data.PerformanceSnapshot.Parser, new[]{ "FrameMetricRanges", "OnDemandMetrics", "FrameNumber", "RealTimeSeconds", "Label" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.PerformanceSnapshot.Types.DoubleRange), global::WUProtos.Data.PerformanceSnapshot.Types.DoubleRange.Parser, new[]{ "Avg", "Min", "Max" }, null, null, null)})
           }));
     }
     #endregion
@@ -80,11 +81,11 @@ namespace WUProtos.Data {
 
     /// <summary>Field number for the "frame_metric_ranges" field.</summary>
     public const int FrameMetricRangesFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.DoubleRange> _repeated_frameMetricRanges_codec
-        = pb::FieldCodec.ForMessage(10, global::WUProtos.Data.DoubleRange.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.DoubleRange> frameMetricRanges_ = new pbc::RepeatedField<global::WUProtos.Data.DoubleRange>();
+    private static readonly pb::FieldCodec<global::WUProtos.Data.PerformanceSnapshot.Types.DoubleRange> _repeated_frameMetricRanges_codec
+        = pb::FieldCodec.ForMessage(10, global::WUProtos.Data.PerformanceSnapshot.Types.DoubleRange.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Data.PerformanceSnapshot.Types.DoubleRange> frameMetricRanges_ = new pbc::RepeatedField<global::WUProtos.Data.PerformanceSnapshot.Types.DoubleRange>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.DoubleRange> FrameMetricRanges {
+    public pbc::RepeatedField<global::WUProtos.Data.PerformanceSnapshot.Types.DoubleRange> FrameMetricRanges {
       get { return frameMetricRanges_; }
     }
 
@@ -263,6 +264,198 @@ namespace WUProtos.Data {
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the PerformanceSnapshot message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class DoubleRange : pb::IMessage<DoubleRange> {
+        private static readonly pb::MessageParser<DoubleRange> _parser = new pb::MessageParser<DoubleRange>(() => new DoubleRange());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<DoubleRange> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::WUProtos.Data.PerformanceSnapshot.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DoubleRange() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DoubleRange(DoubleRange other) : this() {
+          avg_ = other.avg_;
+          min_ = other.min_;
+          max_ = other.max_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public DoubleRange Clone() {
+          return new DoubleRange(this);
+        }
+
+        /// <summary>Field number for the "avg" field.</summary>
+        public const int AvgFieldNumber = 1;
+        private double avg_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public double Avg {
+          get { return avg_; }
+          set {
+            avg_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "min" field.</summary>
+        public const int MinFieldNumber = 2;
+        private double min_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public double Min {
+          get { return min_; }
+          set {
+            min_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "max" field.</summary>
+        public const int MaxFieldNumber = 3;
+        private double max_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public double Max {
+          get { return max_; }
+          set {
+            max_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as DoubleRange);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(DoubleRange other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Avg, other.Avg)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Min, other.Min)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Max, other.Max)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Avg != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Avg);
+          if (Min != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Min);
+          if (Max != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Max);
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Avg != 0D) {
+            output.WriteRawTag(9);
+            output.WriteDouble(Avg);
+          }
+          if (Min != 0D) {
+            output.WriteRawTag(17);
+            output.WriteDouble(Min);
+          }
+          if (Max != 0D) {
+            output.WriteRawTag(25);
+            output.WriteDouble(Max);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Avg != 0D) {
+            size += 1 + 8;
+          }
+          if (Min != 0D) {
+            size += 1 + 8;
+          }
+          if (Max != 0D) {
+            size += 1 + 8;
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(DoubleRange other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Avg != 0D) {
+            Avg = other.Avg;
+          }
+          if (other.Min != 0D) {
+            Min = other.Min;
+          }
+          if (other.Max != 0D) {
+            Max = other.Max;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 9: {
+                Avg = input.ReadDouble();
+                break;
+              }
+              case 17: {
+                Min = input.ReadDouble();
+                break;
+              }
+              case 25: {
+                Max = input.ReadDouble();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 

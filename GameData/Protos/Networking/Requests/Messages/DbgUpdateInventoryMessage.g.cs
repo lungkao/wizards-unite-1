@@ -26,14 +26,15 @@ namespace WUProtos.Networking.Requests.Messages {
           string.Concat(
             "CkVXVVByb3Rvcy9OZXR3b3JraW5nL1JlcXVlc3RzL01lc3NhZ2VzL0RiZ1Vw",
             "ZGF0ZUludmVudG9yeU1lc3NhZ2UucHJvdG8SJVdVUHJvdG9zLk5ldHdvcmtp",
-            "bmcuUmVxdWVzdHMuTWVzc2FnZXMaJldVUHJvdG9zL0RhdGEvQXRsYXNJbnZl",
-            "bnRvcnlJdGVtLnByb3RvGiVXVVByb3Rvcy9EYXRhL0F0bGFzSW52ZW50b3J5",
-            "S2V5LnByb3RvIpcBChlEYmdVcGRhdGVJbnZlbnRvcnlNZXNzYWdlEkIKF2lu",
-            "c2VydF9vcl9yZXBsYWNlX2l0ZW1zGAEgAygLMiEuV1VQcm90b3MuRGF0YS5B",
-            "dGxhc0ludmVudG9yeUl0ZW0SNgoMZGVsZXRlX2l0ZW1zGAIgAygLMiAuV1VQ",
-            "cm90b3MuRGF0YS5BdGxhc0ludmVudG9yeUtleWIGcHJvdG8z"));
+            "bmcuUmVxdWVzdHMuTWVzc2FnZXMaK1dVUHJvdG9zL0ludmVudG9yeS9BdGxh",
+            "c0ludmVudG9yeUl0ZW0ucHJvdG8aKldVUHJvdG9zL0ludmVudG9yeS9BdGxh",
+            "c0ludmVudG9yeUtleS5wcm90byKhAQoZRGJnVXBkYXRlSW52ZW50b3J5TWVz",
+            "c2FnZRJHChdpbnNlcnRfb3JfcmVwbGFjZV9pdGVtcxgBIAMoCzImLldVUHJv",
+            "dG9zLkludmVudG9yeS5BdGxhc0ludmVudG9yeUl0ZW0SOwoMZGVsZXRlX2l0",
+            "ZW1zGAIgAygLMiUuV1VQcm90b3MuSW52ZW50b3J5LkF0bGFzSW52ZW50b3J5",
+            "S2V5YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.AtlasInventoryItemReflection.Descriptor, global::WUProtos.Data.AtlasInventoryKeyReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Inventory.AtlasInventoryItemReflection.Descriptor, global::WUProtos.Inventory.AtlasInventoryKeyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Networking.Requests.Messages.DbgUpdateInventoryMessage), global::WUProtos.Networking.Requests.Messages.DbgUpdateInventoryMessage.Parser, new[]{ "InsertOrReplaceItems", "DeleteItems" }, null, null, null)
           }));
@@ -79,21 +80,21 @@ namespace WUProtos.Networking.Requests.Messages {
 
     /// <summary>Field number for the "insert_or_replace_items" field.</summary>
     public const int InsertOrReplaceItemsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.AtlasInventoryItem> _repeated_insertOrReplaceItems_codec
-        = pb::FieldCodec.ForMessage(10, global::WUProtos.Data.AtlasInventoryItem.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryItem> insertOrReplaceItems_ = new pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryItem>();
+    private static readonly pb::FieldCodec<global::WUProtos.Inventory.AtlasInventoryItem> _repeated_insertOrReplaceItems_codec
+        = pb::FieldCodec.ForMessage(10, global::WUProtos.Inventory.AtlasInventoryItem.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryItem> insertOrReplaceItems_ = new pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryItem>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryItem> InsertOrReplaceItems {
+    public pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryItem> InsertOrReplaceItems {
       get { return insertOrReplaceItems_; }
     }
 
     /// <summary>Field number for the "delete_items" field.</summary>
     public const int DeleteItemsFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.AtlasInventoryKey> _repeated_deleteItems_codec
-        = pb::FieldCodec.ForMessage(18, global::WUProtos.Data.AtlasInventoryKey.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> deleteItems_ = new pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey>();
+    private static readonly pb::FieldCodec<global::WUProtos.Inventory.AtlasInventoryKey> _repeated_deleteItems_codec
+        = pb::FieldCodec.ForMessage(18, global::WUProtos.Inventory.AtlasInventoryKey.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> deleteItems_ = new pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.AtlasInventoryKey> DeleteItems {
+    public pbc::RepeatedField<global::WUProtos.Inventory.AtlasInventoryKey> DeleteItems {
       get { return deleteItems_; }
     }
 

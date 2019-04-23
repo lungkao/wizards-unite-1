@@ -26,16 +26,16 @@ namespace WUProtos.Data {
           string.Concat(
             "CiNXVVByb3Rvcy9EYXRhL0NoYW1iZXJNb2JTdGF0ZS5wcm90bxINV1VQcm90",
             "b3MuRGF0YRonV1VQcm90b3MvRGF0YS9CdWZmL0FjdGl2ZUJ1ZmZMaXN0LnBy",
-            "b3RvGh1XVVByb3Rvcy9EYXRhL01vYlJld2FyZC5wcm90byKWAgoPQ2hhbWJl",
-            "ck1vYlN0YXRlEg4KBm1vYl9pZBgBIAEoDBIYChBlbmNvdW50ZXJfZ210X2lk",
-            "GAIgASgJEgoKAmhwGAUgASgDEg4KBm1heF9ocBgGIAEoAxINCgVsZXZlbBgH",
-            "IAEoBRIYChBlbmNvdW50ZXJfdGlja2V0GAggASgMEgkKAXgYCSABKAESCQoB",
-            "eRgKIAEoARI8ChBhY3RpdmVfYnVmZl9saXN0GAsgASgLMiIuV1VQcm90b3Mu",
-            "RGF0YS5CdWZmLkFjdGl2ZUJ1ZmZMaXN0EikKB3Jld2FyZHMYDCADKAsyGC5X",
-            "VVByb3Rvcy5EYXRhLk1vYlJld2FyZBIVCg10aW1lX3RvX3NwYXduGGUgASgD",
-            "YgZwcm90bzM="));
+            "b3RvGiFXVVByb3Rvcy9EYXRhL01vYi9Nb2JSZXdhcmQucHJvdG8imgIKD0No",
+            "YW1iZXJNb2JTdGF0ZRIOCgZtb2JfaWQYASABKAwSGAoQZW5jb3VudGVyX2dt",
+            "dF9pZBgCIAEoCRIKCgJocBgFIAEoAxIOCgZtYXhfaHAYBiABKAMSDQoFbGV2",
+            "ZWwYByABKAUSGAoQZW5jb3VudGVyX3RpY2tldBgIIAEoDBIJCgF4GAkgASgB",
+            "EgkKAXkYCiABKAESPAoQYWN0aXZlX2J1ZmZfbGlzdBgLIAEoCzIiLldVUHJv",
+            "dG9zLkRhdGEuQnVmZi5BY3RpdmVCdWZmTGlzdBItCgdyZXdhcmRzGAwgAygL",
+            "MhwuV1VQcm90b3MuRGF0YS5Nb2IuTW9iUmV3YXJkEhUKDXRpbWVfdG9fc3Bh",
+            "d24YZSABKANiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.Buff.ActiveBuffListReflection.Descriptor, global::WUProtos.Data.MobRewardReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Buff.ActiveBuffListReflection.Descriptor, global::WUProtos.Data.Mob.MobRewardReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ChamberMobState), global::WUProtos.Data.ChamberMobState.Parser, new[]{ "MobId", "EncounterGmtId", "Hp", "MaxHp", "Level", "EncounterTicket", "X", "Y", "ActiveBuffList", "Rewards", "TimeToSpawn" }, null, null, null)
           }));
@@ -189,11 +189,11 @@ namespace WUProtos.Data {
 
     /// <summary>Field number for the "rewards" field.</summary>
     public const int RewardsFieldNumber = 12;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.MobReward> _repeated_rewards_codec
-        = pb::FieldCodec.ForMessage(98, global::WUProtos.Data.MobReward.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.MobReward> rewards_ = new pbc::RepeatedField<global::WUProtos.Data.MobReward>();
+    private static readonly pb::FieldCodec<global::WUProtos.Data.Mob.MobReward> _repeated_rewards_codec
+        = pb::FieldCodec.ForMessage(98, global::WUProtos.Data.Mob.MobReward.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Data.Mob.MobReward> rewards_ = new pbc::RepeatedField<global::WUProtos.Data.Mob.MobReward>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.MobReward> Rewards {
+    public pbc::RepeatedField<global::WUProtos.Data.Mob.MobReward> Rewards {
       get { return rewards_; }
     }
 

@@ -26,14 +26,18 @@ namespace WUProtos.Data {
           string.Concat(
             "Ci5XVVByb3Rvcy9EYXRhL0RhaWx5UmV3YXJkTW9udGhseVNjaGVkdWxlLnBy",
             "b3RvEg1XVVByb3Rvcy5EYXRhGidXVVByb3Rvcy9EYXRhL0xvb3QvTG9vdENv",
-            "bGxlY3Rpb24ucHJvdG8ifAoaRGFpbHlSZXdhcmRNb250aGx5U2NoZWR1bGUS",
-            "CgoCaWQYASABKAkSFgoObnVtYmVyX29mX2RheXMYAiABKA0SOgoOZGVmYXVs",
-            "dF9yZXdhcmQYAyABKAsyIi5XVVByb3Rvcy5EYXRhLkxvb3QuTG9vdENvbGxl",
-            "Y3Rpb25iBnByb3RvMw=="));
+            "bGxlY3Rpb24ucHJvdG8aH1dVUHJvdG9zL0RhdGEvRGFpbHlSZXdhcmQucHJv",
+            "dG8ioQIKGkRhaWx5UmV3YXJkTW9udGhseVNjaGVkdWxlEgoKAmlkGAEgASgJ",
+            "EhYKDm51bWJlcl9vZl9kYXlzGAIgASgNEjoKDmRlZmF1bHRfcmV3YXJkGAMg",
+            "ASgLMiIuV1VQcm90b3MuRGF0YS5Mb290Lkxvb3RDb2xsZWN0aW9uElIKDWRh",
+            "aWx5X3Jld2FyZHMYBCADKAsyOy5XVVByb3Rvcy5EYXRhLkRhaWx5UmV3YXJk",
+            "TW9udGhseVNjaGVkdWxlLkRhaWx5UmV3YXJkc0VudHJ5Gk8KEURhaWx5UmV3",
+            "YXJkc0VudHJ5EgsKA2tleRgBIAEoBRIpCgV2YWx1ZRgCIAEoCzIaLldVUHJv",
+            "dG9zLkRhdGEuRGFpbHlSZXdhcmQ6AjgBYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Loot.LootCollectionReflection.Descriptor, global::WUProtos.Data.DailyRewardReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.DailyRewardMonthlySchedule), global::WUProtos.Data.DailyRewardMonthlySchedule.Parser, new[]{ "Id", "NumberOfDays", "DefaultReward" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.DailyRewardMonthlySchedule), global::WUProtos.Data.DailyRewardMonthlySchedule.Parser, new[]{ "Id", "NumberOfDays", "DefaultReward", "DailyRewards" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -68,6 +72,7 @@ namespace WUProtos.Data {
       id_ = other.id_;
       numberOfDays_ = other.numberOfDays_;
       defaultReward_ = other.defaultReward_ != null ? other.defaultReward_.Clone() : null;
+      dailyRewards_ = other.dailyRewards_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -109,6 +114,16 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "daily_rewards" field.</summary>
+    public const int DailyRewardsFieldNumber = 4;
+    private static readonly pbc::MapField<int, global::WUProtos.Data.DailyReward>.Codec _map_dailyRewards_codec
+        = new pbc::MapField<int, global::WUProtos.Data.DailyReward>.Codec(pb::FieldCodec.ForInt32(8), pb::FieldCodec.ForMessage(18, global::WUProtos.Data.DailyReward.Parser), 34);
+    private readonly pbc::MapField<int, global::WUProtos.Data.DailyReward> dailyRewards_ = new pbc::MapField<int, global::WUProtos.Data.DailyReward>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<int, global::WUProtos.Data.DailyReward> DailyRewards {
+      get { return dailyRewards_; }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as DailyRewardMonthlySchedule);
@@ -125,6 +140,7 @@ namespace WUProtos.Data {
       if (Id != other.Id) return false;
       if (NumberOfDays != other.NumberOfDays) return false;
       if (!object.Equals(DefaultReward, other.DefaultReward)) return false;
+      if (!DailyRewards.Equals(other.DailyRewards)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -134,6 +150,7 @@ namespace WUProtos.Data {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (NumberOfDays != 0) hash ^= NumberOfDays.GetHashCode();
       if (defaultReward_ != null) hash ^= DefaultReward.GetHashCode();
+      hash ^= DailyRewards.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -159,6 +176,7 @@ namespace WUProtos.Data {
         output.WriteRawTag(26);
         output.WriteMessage(DefaultReward);
       }
+      dailyRewards_.WriteTo(output, _map_dailyRewards_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -176,6 +194,7 @@ namespace WUProtos.Data {
       if (defaultReward_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(DefaultReward);
       }
+      size += dailyRewards_.CalculateSize(_map_dailyRewards_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -199,6 +218,7 @@ namespace WUProtos.Data {
         }
         DefaultReward.MergeFrom(other.DefaultReward);
       }
+      dailyRewards_.Add(other.dailyRewards_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -223,6 +243,10 @@ namespace WUProtos.Data {
               DefaultReward = new global::WUProtos.Data.Loot.LootCollection();
             }
             input.ReadMessage(DefaultReward);
+            break;
+          }
+          case 34: {
+            dailyRewards_.AddEntriesFrom(input, _map_dailyRewards_codec);
             break;
           }
         }

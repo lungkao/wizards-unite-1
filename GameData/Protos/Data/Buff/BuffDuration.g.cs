@@ -25,7 +25,7 @@ namespace WUProtos.Data.Buff {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiVXVVByb3Rvcy9EYXRhL0J1ZmYvQnVmZkR1cmF0aW9uLnByb3RvEhJXVVBy",
-            "b3Rvcy5EYXRhLkJ1ZmYaKVdVUHJvdG9zL0RhdGEvYnVmZi9UaW1lQnVmZkR1",
+            "b3Rvcy5EYXRhLkJ1ZmYaKVdVUHJvdG9zL0RhdGEvQnVmZi9UaW1lQnVmZkR1",
             "cmF0aW9uLnByb3RvGidXVVByb3Rvcy9EYXRhL0NoYXJnZXNCdWZmRHVyYXRp",
             "b24ucHJvdG8aNVdVUHJvdG9zL0RhdGEvUHJvZmVzc2lvbi9Qcm9mZXNzaW9u",
             "QnVmZkR1cmF0aW9uLnByb3RvGi5XVVByb3Rvcy9EYXRhL0J1ZmYvUGVybWFu",

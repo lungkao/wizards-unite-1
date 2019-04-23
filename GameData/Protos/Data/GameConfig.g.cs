@@ -27,55 +27,68 @@ namespace WUProtos.Data {
             "Ch5XVVByb3Rvcy9EYXRhL0dhbWVDb25maWcucHJvdG8SDVdVUHJvdG9zLkRh",
             "dGEaJVdVUHJvdG9zL0RhdGEvRmxvb05ldHdvcmtDb25maWcucHJvdG8aKVdV",
             "UHJvdG9zL0RhdGEvVGVtcEZsb29OZXR3b3JrQ29uZmlnLnByb3RvGh9XVVBy",
-            "b3Rvcy9EYXRhL0JvbnVzQ29uZmlnLnByb3RvIsEPCgpHYW1lQ29uZmlnEiAK",
-            "GHJld2FyZHNfdmVzc2VsX2J5X3Jhcml0eRgBIAMoCRIKCgJpZBgCIAEoCRIg",
-            "Chhzd2lzaF9zY29yaW5nX3RocmVzaG9sZHMYAyADKAISFAoMcGlja3VwX3Jh",
-            "bmdlGAQgASgCEh0KFXN3aXNoX3Njb3JpbmdfYm9udXNlcxgFIAMoAhIXCg9t",
-            "YXBfdXBkYXRlX3JhdGUYBiABKAUSJwofZmxvb19jb250cmlidXRpb25fYnV0",
-            "dG9uX3ZhbHVlcxgHIAMoAxIdChVtYXBfZXZlbnRfdXBkYXRlX3JhdGUYCCAB",
-            "KAUSIgoaZnR1ZV92aWRlb19xdWFsaXR5X2J1Y2tldHMYCSADKAkSHgoWbWFw",
-            "X3B1enpsZV91cGRhdGVfcmF0ZRgKIAEoBRIjCht0cnlfYWdhaW5fYm9udXNf",
-            "cGVyX2ZhaWx1cmUYCyABKAISFQoNYXJfbW9kZV9yYW5nZRgMIAEoAhIeChZh",
-            "cl9tb2RlX21heF9lbmNvdW50ZXJzGA0gASgFEiAKGGV2ZW50X2Nvb2xfZG93",
-            "bl9kdXJhdGlvbhgOIAEoBRIYChBjb21iYXRfc3R1bl90aW1lGA8gASgFEh0K",
-            "FXByb2Zlc3Npb25zX21pbl9sZXZlbBgQIAEoBRIaChJhY2N1cmFjeV9taW5f",
-            "Ym9udXMYESABKAISGgoSYWNjdXJhY3lfbWF4X2JvbnVzGBIgASgCEiMKG2Vu",
-            "Y291bnRlcl9taW5fYmFzZV93aW5fcmF0ZRgTIAEoAhIjChtlbmNvdW50ZXJf",
-            "bWF4X2Jhc2Vfd2luX3JhdGUYFCABKAISGAoQcGxheWVyX2xldmVsX2NhcBgV",
-            "IAEoBRIaChJsZXZlbF9ib251c193ZWlnaHQYFiABKAISHQoVZ2FtZXBsYXlf",
-            "Ym9udXNfd2VpZ2h0GBcgASgCEhoKEmdhbWVwbGF5X2JvbnVzX21pbhgYIAEo",
-            "AhIaChJnYW1lcGxheV9ib251c19tYXgYGSABKAISKAogcHJvZmVzc2lvbnNf",
-            "cnBzX25vbl9tYXRjaF9pbXBhY3QYGiABKAISJAoccHJvZmVzc2lvbnNfcnBz",
-            "X21hdGNoX2ltcGFjdBgbIAEoAhIpCiFwdWJfbWVudV9yZWZyZXNoX2ludGVy",
-            "dmFsX3NlY29uZHMYHCABKAMSPQoTZmxvb19uZXR3b3JrX2NvbmZpZxgdIAEo",
-            "CzIgLldVUHJvdG9zLkRhdGEuRmxvb05ldHdvcmtDb25maWcSRgoYdGVtcF9m",
-            "bG9vX25ldHdvcmtfY29uZmlnGB4gASgLMiQuV1VQcm90b3MuRGF0YS5UZW1w",
-            "Rmxvb05ldHdvcmtDb25maWcSIQoZbWFwX3Vuc2FmZV9tb3ZlX3NwZWVkX21w",
-            "cxgfIAEoAhIqCiJwb3J0a2V5X251bV93cmFja3NwdXJ0c190b19jb2xsZWN0",
-            "GCAgASgFEiYKHnBvcnRrZXlfbnVtX3dyYWNrc3B1cnRzX2luX2VudhghIAEo",
-            "BRIhChljYXVsZHJvbnNfbnVtX3F1ZXVlX3Nsb3RzGCIgASgFEiEKGXN3aXNo",
-            "X2dhbWVfYWNjdXJhY3lfdGllcnMYIyADKAISMAooY2F1bGRyb25zX2luc3Rh",
-            "bnRfZmluaXNoX2Nvc3RfcGVyX3NlY29uZBgkIAEoAhIsCiRjYXVsZHJvbnNf",
-            "aW5zdGFudF9maW5pc2hfY3VycmVuY3lfaWQYJSABKAkSHQoVdHV0b3JpYWxf",
-            "ZW5jb3VudGVyX2lkGCYgASgJEioKInR1dG9yaWFsX2VuY291bnRlcl9mZWF0",
-            "dXJlX2ZsYWdfaWQYJyABKAkSMAoMYm9udXNfY29uZmlnGCggASgLMhouV1VQ",
-            "cm90b3MuRGF0YS5Cb251c0NvbmZpZxIcChRtYXhfd2Fsa2JveF9jYXBhY2l0",
-            "eRgpIAEoBRImCh5jaGFsbGVuZ2VfY29sbGVjdGlvbl9mYW1pbHlfaWQYKiAB",
-            "KAkSGwoTZGFpbHlfcXVlc3RfZ210X2lkcxgrIAMoCRIfChdjYXBfcGxheWVy",
-            "X2xldmVsX2dtdF9pZBgsIAEoCRIfChdncmVlbmhvdXNlX2Nvb2xfZG93bl9t",
-            "cxgtIAEoAxIYChBpbm5fY29vbF9kb3duX21zGC4gASgDEicKH2lubl9tZW51",
-            "X3N0YWxlbmVzc190aHJlc2hvbGRfbXMYLyABKAMSJAocZGFpbHlfcmV3YXJk",
-            "X3NjaGVkdWxlX2dtdF9pZBgwIAEoCRIuCiZ3Y19lbmNvdW50ZXJfZmlyc3Rf",
-            "aW50ZXJhY3RfdGltZW91dF9tcxgxIAEoAxIoCiB3Y19lbmNvdW50ZXJfaW50",
-            "ZXJhY3RfdGltZW91dF9tcxgyIAEoAyK+AQoVQ2hhbGxlbmdlU291bmRDb250",
-            "ZXh0EhIKDlRISVJUWV9TRUNPTkRTEAASFgoSUExBWUVSX1dJTlNfQkFUVExF",
-            "EAESFwoTUExBWUVSX0xPU0VTX0JBVFRMRRACEhMKD1NUQVJUX0NIQUxMRU5H",
-            "RRADEhkKFVBMQVlFUl9XSU5TX0NIQUxMRU5HRRAEEhoKFlBMQVlFUl9MT1NF",
-            "U19DSEFMTEVOR0UQBRIUChBFTElURV9NT0JfU1BBV05TEAZiBnByb3RvMw=="));
+            "b3Rvcy9EYXRhL0JvbnVzQ29uZmlnLnByb3RvIoQUCgpHYW1lQ29uZmlnEgoK",
+            "AmlkGAEgASgJEhQKDHBpY2t1cF9yYW5nZRgCIAEoAhIXCg9tYXBfdXBkYXRl",
+            "X3JhdGUYAyABKAUSHQoVbWFwX2V2ZW50X3VwZGF0ZV9yYXRlGAQgASgFEh4K",
+            "Fm1hcF9wdXp6bGVfdXBkYXRlX3JhdGUYBSABKAUSIwobdHJ5X2FnYWluX2Jv",
+            "bnVzX3Blcl9mYWlsdXJlGAYgASgCEhUKDWFyX21vZGVfcmFuZ2UYByABKAIS",
+            "HgoWYXJfbW9kZV9tYXhfZW5jb3VudGVycxgIIAEoBRIgChhldmVudF9jb29s",
+            "X2Rvd25fZHVyYXRpb24YCSABKAUSGAoQY29tYmF0X3N0dW5fdGltZRgKIAEo",
+            "BRIdChVwcm9mZXNzaW9uc19taW5fbGV2ZWwYCyABKAUSGgoSYWNjdXJhY3lf",
+            "bWluX2JvbnVzGAwgASgCEhoKEmFjY3VyYWN5X21heF9ib251cxgNIAEoAhIj",
+            "ChtlbmNvdW50ZXJfbWluX2Jhc2Vfd2luX3JhdGUYDiABKAISIwobZW5jb3Vu",
+            "dGVyX21heF9iYXNlX3dpbl9yYXRlGA8gASgCEhgKEHBsYXllcl9sZXZlbF9j",
+            "YXAYECABKAUSGgoSbGV2ZWxfYm9udXNfd2VpZ2h0GBEgASgCEh0KFWdhbWVw",
+            "bGF5X2JvbnVzX3dlaWdodBgSIAEoAhIaChJnYW1lcGxheV9ib251c19taW4Y",
+            "EyABKAISGgoSZ2FtZXBsYXlfYm9udXNfbWF4GBQgASgCEigKIHByb2Zlc3Np",
+            "b25zX3Jwc19ub25fbWF0Y2hfaW1wYWN0GBUgASgCEiQKHHByb2Zlc3Npb25z",
+            "X3Jwc19tYXRjaF9pbXBhY3QYFiABKAISKQohcHViX21lbnVfcmVmcmVzaF9p",
+            "bnRlcnZhbF9zZWNvbmRzGBcgASgDEj0KE2Zsb29fbmV0d29ya19jb25maWcY",
+            "GCABKAsyIC5XVVByb3Rvcy5EYXRhLkZsb29OZXR3b3JrQ29uZmlnEkYKGHRl",
+            "bXBfZmxvb19uZXR3b3JrX2NvbmZpZxgZIAEoCzIkLldVUHJvdG9zLkRhdGEu",
+            "VGVtcEZsb29OZXR3b3JrQ29uZmlnEiEKGW1hcF91bnNhZmVfbW92ZV9zcGVl",
+            "ZF9tcHMYGiABKAISKgoicG9ydGtleV9udW1fd3JhY2tzcHVydHNfdG9fY29s",
+            "bGVjdBgbIAEoBRImCh5wb3J0a2V5X251bV93cmFja3NwdXJ0c19pbl9lbnYY",
+            "HCABKAUSSQoRcGxheWVyX3N0YXRzX2Jhc2UYHiADKAsyLi5XVVByb3Rvcy5E",
+            "YXRhLkdhbWVDb25maWcuUGxheWVyU3RhdHNCYXNlRW50cnkSbAojcGxheWVy",
+            "X3Byb2Zlc3Npb25fYWZmaW5pdHlfc3RyZW5ndGgYHyADKAsyPy5XVVByb3Rv",
+            "cy5EYXRhLkdhbWVDb25maWcuUGxheWVyUHJvZmVzc2lvbkFmZmluaXR5U3Ry",
+            "ZW5ndGhFbnRyeRJqCiJlbmVteV9hZmZpbml0eV9wcm9mZXNzaW9uX3N0cmVu",
+            "Z3RoGCAgAygLMj4uV1VQcm90b3MuRGF0YS5HYW1lQ29uZmlnLkVuZW15QWZm",
+            "aW5pdHlQcm9mZXNzaW9uU3RyZW5ndGhFbnRyeRIhChljYXVsZHJvbnNfbnVt",
+            "X3F1ZXVlX3Nsb3RzGCEgASgFEiEKGXN3aXNoX2dhbWVfYWNjdXJhY3lfdGll",
+            "cnMYIiADKAISMAooY2F1bGRyb25zX2luc3RhbnRfZmluaXNoX2Nvc3RfcGVy",
+            "X3NlY29uZBgjIAEoAhIsCiRjYXVsZHJvbnNfaW5zdGFudF9maW5pc2hfY3Vy",
+            "cmVuY3lfaWQYJCABKAkSQAoMcnVuZV9yYXRpbmdzGCUgAygLMiouV1VQcm90",
+            "b3MuRGF0YS5HYW1lQ29uZmlnLlJ1bmVSYXRpbmdzRW50cnkSHQoVdHV0b3Jp",
+            "YWxfZW5jb3VudGVyX2lkGCYgASgJEioKInR1dG9yaWFsX2VuY291bnRlcl9m",
+            "ZWF0dXJlX2ZsYWdfaWQYJyABKAkSMAoMYm9udXNfY29uZmlnGCggASgLMhou",
+            "V1VQcm90b3MuRGF0YS5Cb251c0NvbmZpZxIcChRtYXhfd2Fsa2JveF9jYXBh",
+            "Y2l0eRgpIAEoBRImCh5jaGFsbGVuZ2VfY29sbGVjdGlvbl9mYW1pbHlfaWQY",
+            "KiABKAkSGwoTZGFpbHlfcXVlc3RfZ210X2lkcxgrIAMoCRIfChdjYXBfcGxh",
+            "eWVyX2xldmVsX2dtdF9pZBgsIAEoCRIfChdncmVlbmhvdXNlX2Nvb2xfZG93",
+            "bl9tcxgtIAEoAxJRChVwbGF5ZXJfbGV2ZWxfb3ZlcnJpZGUYLiADKAsyMi5X",
+            "VVByb3Rvcy5EYXRhLkdhbWVDb25maWcuUGxheWVyTGV2ZWxPdmVycmlkZUVu",
+            "dHJ5EhgKEGlubl9jb29sX2Rvd25fbXMYLyABKAMSJwofaW5uX21lbnVfc3Rh",
+            "bGVuZXNzX3RocmVzaG9sZF9tcxgwIAEoAxIkChxkYWlseV9yZXdhcmRfc2No",
+            "ZWR1bGVfZ210X2lkGDEgASgJEi4KJndjX2VuY291bnRlcl9maXJzdF9pbnRl",
+            "cmFjdF90aW1lb3V0X21zGDIgASgDEigKIHdjX2VuY291bnRlcl9pbnRlcmFj",
+            "dF90aW1lb3V0X21zGDMgASgDGjYKFFBsYXllclN0YXRzQmFzZUVudHJ5EgsK",
+            "A2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoAzoCOAEaRwolUGxheWVyUHJvZmVz",
+            "c2lvbkFmZmluaXR5U3RyZW5ndGhFbnRyeRILCgNrZXkYASABKAkSDQoFdmFs",
+            "dWUYAiABKAk6AjgBGkYKJEVuZW15QWZmaW5pdHlQcm9mZXNzaW9uU3RyZW5n",
+            "dGhFbnRyeRILCgNrZXkYASABKAkSDQoFdmFsdWUYAiABKAk6AjgBGjIKEFJ1",
+            "bmVSYXRpbmdzRW50cnkSCwoDa2V5GAEgASgFEg0KBXZhbHVlGAIgASgFOgI4",
+            "ARo6ChhQbGF5ZXJMZXZlbE92ZXJyaWRlRW50cnkSCwoDa2V5GAEgASgFEg0K",
+            "BXZhbHVlGAIgASgFOgI4ASK+AQoVQ2hhbGxlbmdlU291bmRDb250ZXh0EhIK",
+            "DlRISVJUWV9TRUNPTkRTEAASFgoSUExBWUVSX1dJTlNfQkFUVExFEAESFwoT",
+            "UExBWUVSX0xPU0VTX0JBVFRMRRACEhMKD1NUQVJUX0NIQUxMRU5HRRADEhkK",
+            "FVBMQVlFUl9XSU5TX0NIQUxMRU5HRRAEEhoKFlBMQVlFUl9MT1NFU19DSEFM",
+            "TEVOR0UQBRIUChBFTElURV9NT0JfU1BBV05TEAZiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::WUProtos.Data.FlooNetworkConfigReflection.Descriptor, global::WUProtos.Data.TempFlooNetworkConfigReflection.Descriptor, global::WUProtos.Data.BonusConfigReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.GameConfig), global::WUProtos.Data.GameConfig.Parser, new[]{ "RewardsVesselByRarity", "Id", "SwishScoringThresholds", "PickupRange", "SwishScoringBonuses", "MapUpdateRate", "FlooContributionButtonValues", "MapEventUpdateRate", "FtueVideoQualityBuckets", "MapPuzzleUpdateRate", "TryAgainBonusPerFailure", "ArModeRange", "ArModeMaxEncounters", "EventCoolDownDuration", "CombatStunTime", "ProfessionsMinLevel", "AccuracyMinBonus", "AccuracyMaxBonus", "EncounterMinBaseWinRate", "EncounterMaxBaseWinRate", "PlayerLevelCap", "LevelBonusWeight", "GameplayBonusWeight", "GameplayBonusMin", "GameplayBonusMax", "ProfessionsRpsNonMatchImpact", "ProfessionsRpsMatchImpact", "PubMenuRefreshIntervalSeconds", "FlooNetworkConfig", "TempFlooNetworkConfig", "MapUnsafeMoveSpeedMps", "PortkeyNumWrackspurtsToCollect", "PortkeyNumWrackspurtsInEnv", "CauldronsNumQueueSlots", "SwishGameAccuracyTiers", "CauldronsInstantFinishCostPerSecond", "CauldronsInstantFinishCurrencyId", "TutorialEncounterId", "TutorialEncounterFeatureFlagId", "BonusConfig", "MaxWalkboxCapacity", "ChallengeCollectionFamilyId", "DailyQuestGmtIds", "CapPlayerLevelGmtId", "GreenhouseCoolDownMs", "InnCoolDownMs", "InnMenuStalenessThresholdMs", "DailyRewardScheduleGmtId", "WcEncounterFirstInteractTimeoutMs", "WcEncounterInteractTimeoutMs" }, null, new[]{ typeof(global::WUProtos.Data.GameConfig.Types.ChallengeSoundContext) }, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.GameConfig), global::WUProtos.Data.GameConfig.Parser, new[]{ "Id", "PickupRange", "MapUpdateRate", "MapEventUpdateRate", "MapPuzzleUpdateRate", "TryAgainBonusPerFailure", "ArModeRange", "ArModeMaxEncounters", "EventCoolDownDuration", "CombatStunTime", "ProfessionsMinLevel", "AccuracyMinBonus", "AccuracyMaxBonus", "EncounterMinBaseWinRate", "EncounterMaxBaseWinRate", "PlayerLevelCap", "LevelBonusWeight", "GameplayBonusWeight", "GameplayBonusMin", "GameplayBonusMax", "ProfessionsRpsNonMatchImpact", "ProfessionsRpsMatchImpact", "PubMenuRefreshIntervalSeconds", "FlooNetworkConfig", "TempFlooNetworkConfig", "MapUnsafeMoveSpeedMps", "PortkeyNumWrackspurtsToCollect", "PortkeyNumWrackspurtsInEnv", "PlayerStatsBase", "PlayerProfessionAffinityStrength", "EnemyAffinityProfessionStrength", "CauldronsNumQueueSlots", "SwishGameAccuracyTiers", "CauldronsInstantFinishCostPerSecond", "CauldronsInstantFinishCurrencyId", "RuneRatings", "TutorialEncounterId", "TutorialEncounterFeatureFlagId", "BonusConfig", "MaxWalkboxCapacity", "ChallengeCollectionFamilyId", "DailyQuestGmtIds", "CapPlayerLevelGmtId", "GreenhouseCoolDownMs", "PlayerLevelOverride", "InnCoolDownMs", "InnMenuStalenessThresholdMs", "DailyRewardScheduleGmtId", "WcEncounterFirstInteractTimeoutMs", "WcEncounterInteractTimeoutMs" }, null, new[]{ typeof(global::WUProtos.Data.GameConfig.Types.ChallengeSoundContext) }, new pbr::GeneratedClrTypeInfo[] { null, null, null, null, null, })
           }));
     }
     #endregion
@@ -107,15 +120,10 @@ namespace WUProtos.Data {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GameConfig(GameConfig other) : this() {
-      rewardsVesselByRarity_ = other.rewardsVesselByRarity_.Clone();
       id_ = other.id_;
-      swishScoringThresholds_ = other.swishScoringThresholds_.Clone();
       pickupRange_ = other.pickupRange_;
-      swishScoringBonuses_ = other.swishScoringBonuses_.Clone();
       mapUpdateRate_ = other.mapUpdateRate_;
-      flooContributionButtonValues_ = other.flooContributionButtonValues_.Clone();
       mapEventUpdateRate_ = other.mapEventUpdateRate_;
-      ftueVideoQualityBuckets_ = other.ftueVideoQualityBuckets_.Clone();
       mapPuzzleUpdateRate_ = other.mapPuzzleUpdateRate_;
       tryAgainBonusPerFailure_ = other.tryAgainBonusPerFailure_;
       arModeRange_ = other.arModeRange_;
@@ -140,10 +148,14 @@ namespace WUProtos.Data {
       mapUnsafeMoveSpeedMps_ = other.mapUnsafeMoveSpeedMps_;
       portkeyNumWrackspurtsToCollect_ = other.portkeyNumWrackspurtsToCollect_;
       portkeyNumWrackspurtsInEnv_ = other.portkeyNumWrackspurtsInEnv_;
+      playerStatsBase_ = other.playerStatsBase_.Clone();
+      playerProfessionAffinityStrength_ = other.playerProfessionAffinityStrength_.Clone();
+      enemyAffinityProfessionStrength_ = other.enemyAffinityProfessionStrength_.Clone();
       cauldronsNumQueueSlots_ = other.cauldronsNumQueueSlots_;
       swishGameAccuracyTiers_ = other.swishGameAccuracyTiers_.Clone();
       cauldronsInstantFinishCostPerSecond_ = other.cauldronsInstantFinishCostPerSecond_;
       cauldronsInstantFinishCurrencyId_ = other.cauldronsInstantFinishCurrencyId_;
+      runeRatings_ = other.runeRatings_.Clone();
       tutorialEncounterId_ = other.tutorialEncounterId_;
       tutorialEncounterFeatureFlagId_ = other.tutorialEncounterFeatureFlagId_;
       bonusConfig_ = other.bonusConfig_ != null ? other.bonusConfig_.Clone() : null;
@@ -152,6 +164,7 @@ namespace WUProtos.Data {
       dailyQuestGmtIds_ = other.dailyQuestGmtIds_.Clone();
       capPlayerLevelGmtId_ = other.capPlayerLevelGmtId_;
       greenhouseCoolDownMs_ = other.greenhouseCoolDownMs_;
+      playerLevelOverride_ = other.playerLevelOverride_.Clone();
       innCoolDownMs_ = other.innCoolDownMs_;
       innMenuStalenessThresholdMs_ = other.innMenuStalenessThresholdMs_;
       dailyRewardScheduleGmtId_ = other.dailyRewardScheduleGmtId_;
@@ -165,18 +178,8 @@ namespace WUProtos.Data {
       return new GameConfig(this);
     }
 
-    /// <summary>Field number for the "rewards_vessel_by_rarity" field.</summary>
-    public const int RewardsVesselByRarityFieldNumber = 1;
-    private static readonly pb::FieldCodec<string> _repeated_rewardsVesselByRarity_codec
-        = pb::FieldCodec.ForString(10);
-    private readonly pbc::RepeatedField<string> rewardsVesselByRarity_ = new pbc::RepeatedField<string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> RewardsVesselByRarity {
-      get { return rewardsVesselByRarity_; }
-    }
-
     /// <summary>Field number for the "id" field.</summary>
-    public const int IdFieldNumber = 2;
+    public const int IdFieldNumber = 1;
     private string id_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Id {
@@ -186,18 +189,8 @@ namespace WUProtos.Data {
       }
     }
 
-    /// <summary>Field number for the "swish_scoring_thresholds" field.</summary>
-    public const int SwishScoringThresholdsFieldNumber = 3;
-    private static readonly pb::FieldCodec<float> _repeated_swishScoringThresholds_codec
-        = pb::FieldCodec.ForFloat(26);
-    private readonly pbc::RepeatedField<float> swishScoringThresholds_ = new pbc::RepeatedField<float>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<float> SwishScoringThresholds {
-      get { return swishScoringThresholds_; }
-    }
-
     /// <summary>Field number for the "pickup_range" field.</summary>
-    public const int PickupRangeFieldNumber = 4;
+    public const int PickupRangeFieldNumber = 2;
     private float pickupRange_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float PickupRange {
@@ -207,18 +200,8 @@ namespace WUProtos.Data {
       }
     }
 
-    /// <summary>Field number for the "swish_scoring_bonuses" field.</summary>
-    public const int SwishScoringBonusesFieldNumber = 5;
-    private static readonly pb::FieldCodec<float> _repeated_swishScoringBonuses_codec
-        = pb::FieldCodec.ForFloat(42);
-    private readonly pbc::RepeatedField<float> swishScoringBonuses_ = new pbc::RepeatedField<float>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<float> SwishScoringBonuses {
-      get { return swishScoringBonuses_; }
-    }
-
     /// <summary>Field number for the "map_update_rate" field.</summary>
-    public const int MapUpdateRateFieldNumber = 6;
+    public const int MapUpdateRateFieldNumber = 3;
     private int mapUpdateRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int MapUpdateRate {
@@ -228,18 +211,8 @@ namespace WUProtos.Data {
       }
     }
 
-    /// <summary>Field number for the "floo_contribution_button_values" field.</summary>
-    public const int FlooContributionButtonValuesFieldNumber = 7;
-    private static readonly pb::FieldCodec<long> _repeated_flooContributionButtonValues_codec
-        = pb::FieldCodec.ForInt64(58);
-    private readonly pbc::RepeatedField<long> flooContributionButtonValues_ = new pbc::RepeatedField<long>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<long> FlooContributionButtonValues {
-      get { return flooContributionButtonValues_; }
-    }
-
     /// <summary>Field number for the "map_event_update_rate" field.</summary>
-    public const int MapEventUpdateRateFieldNumber = 8;
+    public const int MapEventUpdateRateFieldNumber = 4;
     private int mapEventUpdateRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int MapEventUpdateRate {
@@ -249,18 +222,8 @@ namespace WUProtos.Data {
       }
     }
 
-    /// <summary>Field number for the "ftue_video_quality_buckets" field.</summary>
-    public const int FtueVideoQualityBucketsFieldNumber = 9;
-    private static readonly pb::FieldCodec<string> _repeated_ftueVideoQualityBuckets_codec
-        = pb::FieldCodec.ForString(74);
-    private readonly pbc::RepeatedField<string> ftueVideoQualityBuckets_ = new pbc::RepeatedField<string>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<string> FtueVideoQualityBuckets {
-      get { return ftueVideoQualityBuckets_; }
-    }
-
     /// <summary>Field number for the "map_puzzle_update_rate" field.</summary>
-    public const int MapPuzzleUpdateRateFieldNumber = 10;
+    public const int MapPuzzleUpdateRateFieldNumber = 5;
     private int mapPuzzleUpdateRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int MapPuzzleUpdateRate {
@@ -271,7 +234,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "try_again_bonus_per_failure" field.</summary>
-    public const int TryAgainBonusPerFailureFieldNumber = 11;
+    public const int TryAgainBonusPerFailureFieldNumber = 6;
     private float tryAgainBonusPerFailure_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float TryAgainBonusPerFailure {
@@ -282,7 +245,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "ar_mode_range" field.</summary>
-    public const int ArModeRangeFieldNumber = 12;
+    public const int ArModeRangeFieldNumber = 7;
     private float arModeRange_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float ArModeRange {
@@ -293,7 +256,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "ar_mode_max_encounters" field.</summary>
-    public const int ArModeMaxEncountersFieldNumber = 13;
+    public const int ArModeMaxEncountersFieldNumber = 8;
     private int arModeMaxEncounters_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int ArModeMaxEncounters {
@@ -304,7 +267,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "event_cool_down_duration" field.</summary>
-    public const int EventCoolDownDurationFieldNumber = 14;
+    public const int EventCoolDownDurationFieldNumber = 9;
     private int eventCoolDownDuration_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int EventCoolDownDuration {
@@ -315,7 +278,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "combat_stun_time" field.</summary>
-    public const int CombatStunTimeFieldNumber = 15;
+    public const int CombatStunTimeFieldNumber = 10;
     private int combatStunTime_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CombatStunTime {
@@ -326,7 +289,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "professions_min_level" field.</summary>
-    public const int ProfessionsMinLevelFieldNumber = 16;
+    public const int ProfessionsMinLevelFieldNumber = 11;
     private int professionsMinLevel_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int ProfessionsMinLevel {
@@ -337,7 +300,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "accuracy_min_bonus" field.</summary>
-    public const int AccuracyMinBonusFieldNumber = 17;
+    public const int AccuracyMinBonusFieldNumber = 12;
     private float accuracyMinBonus_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float AccuracyMinBonus {
@@ -348,7 +311,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "accuracy_max_bonus" field.</summary>
-    public const int AccuracyMaxBonusFieldNumber = 18;
+    public const int AccuracyMaxBonusFieldNumber = 13;
     private float accuracyMaxBonus_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float AccuracyMaxBonus {
@@ -359,7 +322,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "encounter_min_base_win_rate" field.</summary>
-    public const int EncounterMinBaseWinRateFieldNumber = 19;
+    public const int EncounterMinBaseWinRateFieldNumber = 14;
     private float encounterMinBaseWinRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float EncounterMinBaseWinRate {
@@ -370,7 +333,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "encounter_max_base_win_rate" field.</summary>
-    public const int EncounterMaxBaseWinRateFieldNumber = 20;
+    public const int EncounterMaxBaseWinRateFieldNumber = 15;
     private float encounterMaxBaseWinRate_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float EncounterMaxBaseWinRate {
@@ -381,7 +344,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "player_level_cap" field.</summary>
-    public const int PlayerLevelCapFieldNumber = 21;
+    public const int PlayerLevelCapFieldNumber = 16;
     private int playerLevelCap_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int PlayerLevelCap {
@@ -392,7 +355,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "level_bonus_weight" field.</summary>
-    public const int LevelBonusWeightFieldNumber = 22;
+    public const int LevelBonusWeightFieldNumber = 17;
     private float levelBonusWeight_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float LevelBonusWeight {
@@ -403,7 +366,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "gameplay_bonus_weight" field.</summary>
-    public const int GameplayBonusWeightFieldNumber = 23;
+    public const int GameplayBonusWeightFieldNumber = 18;
     private float gameplayBonusWeight_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float GameplayBonusWeight {
@@ -414,7 +377,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "gameplay_bonus_min" field.</summary>
-    public const int GameplayBonusMinFieldNumber = 24;
+    public const int GameplayBonusMinFieldNumber = 19;
     private float gameplayBonusMin_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float GameplayBonusMin {
@@ -425,7 +388,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "gameplay_bonus_max" field.</summary>
-    public const int GameplayBonusMaxFieldNumber = 25;
+    public const int GameplayBonusMaxFieldNumber = 20;
     private float gameplayBonusMax_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float GameplayBonusMax {
@@ -436,7 +399,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "professions_rps_non_match_impact" field.</summary>
-    public const int ProfessionsRpsNonMatchImpactFieldNumber = 26;
+    public const int ProfessionsRpsNonMatchImpactFieldNumber = 21;
     private float professionsRpsNonMatchImpact_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float ProfessionsRpsNonMatchImpact {
@@ -447,7 +410,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "professions_rps_match_impact" field.</summary>
-    public const int ProfessionsRpsMatchImpactFieldNumber = 27;
+    public const int ProfessionsRpsMatchImpactFieldNumber = 22;
     private float professionsRpsMatchImpact_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float ProfessionsRpsMatchImpact {
@@ -458,7 +421,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "pub_menu_refresh_interval_seconds" field.</summary>
-    public const int PubMenuRefreshIntervalSecondsFieldNumber = 28;
+    public const int PubMenuRefreshIntervalSecondsFieldNumber = 23;
     private long pubMenuRefreshIntervalSeconds_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long PubMenuRefreshIntervalSeconds {
@@ -469,7 +432,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "floo_network_config" field.</summary>
-    public const int FlooNetworkConfigFieldNumber = 29;
+    public const int FlooNetworkConfigFieldNumber = 24;
     private global::WUProtos.Data.FlooNetworkConfig flooNetworkConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.FlooNetworkConfig FlooNetworkConfig {
@@ -480,7 +443,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "temp_floo_network_config" field.</summary>
-    public const int TempFlooNetworkConfigFieldNumber = 30;
+    public const int TempFlooNetworkConfigFieldNumber = 25;
     private global::WUProtos.Data.TempFlooNetworkConfig tempFlooNetworkConfig_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.TempFlooNetworkConfig TempFlooNetworkConfig {
@@ -491,7 +454,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "map_unsafe_move_speed_mps" field.</summary>
-    public const int MapUnsafeMoveSpeedMpsFieldNumber = 31;
+    public const int MapUnsafeMoveSpeedMpsFieldNumber = 26;
     private float mapUnsafeMoveSpeedMps_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float MapUnsafeMoveSpeedMps {
@@ -502,7 +465,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "portkey_num_wrackspurts_to_collect" field.</summary>
-    public const int PortkeyNumWrackspurtsToCollectFieldNumber = 32;
+    public const int PortkeyNumWrackspurtsToCollectFieldNumber = 27;
     private int portkeyNumWrackspurtsToCollect_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int PortkeyNumWrackspurtsToCollect {
@@ -513,7 +476,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "portkey_num_wrackspurts_in_env" field.</summary>
-    public const int PortkeyNumWrackspurtsInEnvFieldNumber = 33;
+    public const int PortkeyNumWrackspurtsInEnvFieldNumber = 28;
     private int portkeyNumWrackspurtsInEnv_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int PortkeyNumWrackspurtsInEnv {
@@ -523,8 +486,38 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "player_stats_base" field.</summary>
+    public const int PlayerStatsBaseFieldNumber = 30;
+    private static readonly pbc::MapField<string, long>.Codec _map_playerStatsBase_codec
+        = new pbc::MapField<string, long>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForInt64(16), 242);
+    private readonly pbc::MapField<string, long> playerStatsBase_ = new pbc::MapField<string, long>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, long> PlayerStatsBase {
+      get { return playerStatsBase_; }
+    }
+
+    /// <summary>Field number for the "player_profession_affinity_strength" field.</summary>
+    public const int PlayerProfessionAffinityStrengthFieldNumber = 31;
+    private static readonly pbc::MapField<string, string>.Codec _map_playerProfessionAffinityStrength_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 250);
+    private readonly pbc::MapField<string, string> playerProfessionAffinityStrength_ = new pbc::MapField<string, string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> PlayerProfessionAffinityStrength {
+      get { return playerProfessionAffinityStrength_; }
+    }
+
+    /// <summary>Field number for the "enemy_affinity_profession_strength" field.</summary>
+    public const int EnemyAffinityProfessionStrengthFieldNumber = 32;
+    private static readonly pbc::MapField<string, string>.Codec _map_enemyAffinityProfessionStrength_codec
+        = new pbc::MapField<string, string>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForString(18), 258);
+    private readonly pbc::MapField<string, string> enemyAffinityProfessionStrength_ = new pbc::MapField<string, string>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, string> EnemyAffinityProfessionStrength {
+      get { return enemyAffinityProfessionStrength_; }
+    }
+
     /// <summary>Field number for the "cauldrons_num_queue_slots" field.</summary>
-    public const int CauldronsNumQueueSlotsFieldNumber = 34;
+    public const int CauldronsNumQueueSlotsFieldNumber = 33;
     private int cauldronsNumQueueSlots_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CauldronsNumQueueSlots {
@@ -535,9 +528,9 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "swish_game_accuracy_tiers" field.</summary>
-    public const int SwishGameAccuracyTiersFieldNumber = 35;
+    public const int SwishGameAccuracyTiersFieldNumber = 34;
     private static readonly pb::FieldCodec<float> _repeated_swishGameAccuracyTiers_codec
-        = pb::FieldCodec.ForFloat(282);
+        = pb::FieldCodec.ForFloat(274);
     private readonly pbc::RepeatedField<float> swishGameAccuracyTiers_ = new pbc::RepeatedField<float>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<float> SwishGameAccuracyTiers {
@@ -545,7 +538,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "cauldrons_instant_finish_cost_per_second" field.</summary>
-    public const int CauldronsInstantFinishCostPerSecondFieldNumber = 36;
+    public const int CauldronsInstantFinishCostPerSecondFieldNumber = 35;
     private float cauldronsInstantFinishCostPerSecond_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public float CauldronsInstantFinishCostPerSecond {
@@ -556,7 +549,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "cauldrons_instant_finish_currency_id" field.</summary>
-    public const int CauldronsInstantFinishCurrencyIdFieldNumber = 37;
+    public const int CauldronsInstantFinishCurrencyIdFieldNumber = 36;
     private string cauldronsInstantFinishCurrencyId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string CauldronsInstantFinishCurrencyId {
@@ -564,6 +557,16 @@ namespace WUProtos.Data {
       set {
         cauldronsInstantFinishCurrencyId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
       }
+    }
+
+    /// <summary>Field number for the "rune_ratings" field.</summary>
+    public const int RuneRatingsFieldNumber = 37;
+    private static readonly pbc::MapField<int, int>.Codec _map_runeRatings_codec
+        = new pbc::MapField<int, int>.Codec(pb::FieldCodec.ForInt32(8), pb::FieldCodec.ForInt32(16), 298);
+    private readonly pbc::MapField<int, int> runeRatings_ = new pbc::MapField<int, int>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<int, int> RuneRatings {
+      get { return runeRatings_; }
     }
 
     /// <summary>Field number for the "tutorial_encounter_id" field.</summary>
@@ -653,8 +656,18 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "player_level_override" field.</summary>
+    public const int PlayerLevelOverrideFieldNumber = 46;
+    private static readonly pbc::MapField<int, int>.Codec _map_playerLevelOverride_codec
+        = new pbc::MapField<int, int>.Codec(pb::FieldCodec.ForInt32(8), pb::FieldCodec.ForInt32(16), 370);
+    private readonly pbc::MapField<int, int> playerLevelOverride_ = new pbc::MapField<int, int>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<int, int> PlayerLevelOverride {
+      get { return playerLevelOverride_; }
+    }
+
     /// <summary>Field number for the "inn_cool_down_ms" field.</summary>
-    public const int InnCoolDownMsFieldNumber = 46;
+    public const int InnCoolDownMsFieldNumber = 47;
     private long innCoolDownMs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long InnCoolDownMs {
@@ -665,7 +678,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "inn_menu_staleness_threshold_ms" field.</summary>
-    public const int InnMenuStalenessThresholdMsFieldNumber = 47;
+    public const int InnMenuStalenessThresholdMsFieldNumber = 48;
     private long innMenuStalenessThresholdMs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long InnMenuStalenessThresholdMs {
@@ -676,7 +689,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "daily_reward_schedule_gmt_id" field.</summary>
-    public const int DailyRewardScheduleGmtIdFieldNumber = 48;
+    public const int DailyRewardScheduleGmtIdFieldNumber = 49;
     private string dailyRewardScheduleGmtId_ = "";
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DailyRewardScheduleGmtId {
@@ -687,7 +700,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "wc_encounter_first_interact_timeout_ms" field.</summary>
-    public const int WcEncounterFirstInteractTimeoutMsFieldNumber = 49;
+    public const int WcEncounterFirstInteractTimeoutMsFieldNumber = 50;
     private long wcEncounterFirstInteractTimeoutMs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long WcEncounterFirstInteractTimeoutMs {
@@ -698,7 +711,7 @@ namespace WUProtos.Data {
     }
 
     /// <summary>Field number for the "wc_encounter_interact_timeout_ms" field.</summary>
-    public const int WcEncounterInteractTimeoutMsFieldNumber = 50;
+    public const int WcEncounterInteractTimeoutMsFieldNumber = 51;
     private long wcEncounterInteractTimeoutMs_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public long WcEncounterInteractTimeoutMs {
@@ -721,15 +734,10 @@ namespace WUProtos.Data {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if(!rewardsVesselByRarity_.Equals(other.rewardsVesselByRarity_)) return false;
       if (Id != other.Id) return false;
-      if(!swishScoringThresholds_.Equals(other.swishScoringThresholds_)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(PickupRange, other.PickupRange)) return false;
-      if(!swishScoringBonuses_.Equals(other.swishScoringBonuses_)) return false;
       if (MapUpdateRate != other.MapUpdateRate) return false;
-      if(!flooContributionButtonValues_.Equals(other.flooContributionButtonValues_)) return false;
       if (MapEventUpdateRate != other.MapEventUpdateRate) return false;
-      if(!ftueVideoQualityBuckets_.Equals(other.ftueVideoQualityBuckets_)) return false;
       if (MapPuzzleUpdateRate != other.MapPuzzleUpdateRate) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(TryAgainBonusPerFailure, other.TryAgainBonusPerFailure)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(ArModeRange, other.ArModeRange)) return false;
@@ -754,10 +762,14 @@ namespace WUProtos.Data {
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(MapUnsafeMoveSpeedMps, other.MapUnsafeMoveSpeedMps)) return false;
       if (PortkeyNumWrackspurtsToCollect != other.PortkeyNumWrackspurtsToCollect) return false;
       if (PortkeyNumWrackspurtsInEnv != other.PortkeyNumWrackspurtsInEnv) return false;
+      if (!PlayerStatsBase.Equals(other.PlayerStatsBase)) return false;
+      if (!PlayerProfessionAffinityStrength.Equals(other.PlayerProfessionAffinityStrength)) return false;
+      if (!EnemyAffinityProfessionStrength.Equals(other.EnemyAffinityProfessionStrength)) return false;
       if (CauldronsNumQueueSlots != other.CauldronsNumQueueSlots) return false;
       if(!swishGameAccuracyTiers_.Equals(other.swishGameAccuracyTiers_)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(CauldronsInstantFinishCostPerSecond, other.CauldronsInstantFinishCostPerSecond)) return false;
       if (CauldronsInstantFinishCurrencyId != other.CauldronsInstantFinishCurrencyId) return false;
+      if (!RuneRatings.Equals(other.RuneRatings)) return false;
       if (TutorialEncounterId != other.TutorialEncounterId) return false;
       if (TutorialEncounterFeatureFlagId != other.TutorialEncounterFeatureFlagId) return false;
       if (!object.Equals(BonusConfig, other.BonusConfig)) return false;
@@ -766,6 +778,7 @@ namespace WUProtos.Data {
       if(!dailyQuestGmtIds_.Equals(other.dailyQuestGmtIds_)) return false;
       if (CapPlayerLevelGmtId != other.CapPlayerLevelGmtId) return false;
       if (GreenhouseCoolDownMs != other.GreenhouseCoolDownMs) return false;
+      if (!PlayerLevelOverride.Equals(other.PlayerLevelOverride)) return false;
       if (InnCoolDownMs != other.InnCoolDownMs) return false;
       if (InnMenuStalenessThresholdMs != other.InnMenuStalenessThresholdMs) return false;
       if (DailyRewardScheduleGmtId != other.DailyRewardScheduleGmtId) return false;
@@ -777,15 +790,10 @@ namespace WUProtos.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      hash ^= rewardsVesselByRarity_.GetHashCode();
       if (Id.Length != 0) hash ^= Id.GetHashCode();
-      hash ^= swishScoringThresholds_.GetHashCode();
       if (PickupRange != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(PickupRange);
-      hash ^= swishScoringBonuses_.GetHashCode();
       if (MapUpdateRate != 0) hash ^= MapUpdateRate.GetHashCode();
-      hash ^= flooContributionButtonValues_.GetHashCode();
       if (MapEventUpdateRate != 0) hash ^= MapEventUpdateRate.GetHashCode();
-      hash ^= ftueVideoQualityBuckets_.GetHashCode();
       if (MapPuzzleUpdateRate != 0) hash ^= MapPuzzleUpdateRate.GetHashCode();
       if (TryAgainBonusPerFailure != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(TryAgainBonusPerFailure);
       if (ArModeRange != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(ArModeRange);
@@ -810,10 +818,14 @@ namespace WUProtos.Data {
       if (MapUnsafeMoveSpeedMps != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(MapUnsafeMoveSpeedMps);
       if (PortkeyNumWrackspurtsToCollect != 0) hash ^= PortkeyNumWrackspurtsToCollect.GetHashCode();
       if (PortkeyNumWrackspurtsInEnv != 0) hash ^= PortkeyNumWrackspurtsInEnv.GetHashCode();
+      hash ^= PlayerStatsBase.GetHashCode();
+      hash ^= PlayerProfessionAffinityStrength.GetHashCode();
+      hash ^= EnemyAffinityProfessionStrength.GetHashCode();
       if (CauldronsNumQueueSlots != 0) hash ^= CauldronsNumQueueSlots.GetHashCode();
       hash ^= swishGameAccuracyTiers_.GetHashCode();
       if (CauldronsInstantFinishCostPerSecond != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(CauldronsInstantFinishCostPerSecond);
       if (CauldronsInstantFinishCurrencyId.Length != 0) hash ^= CauldronsInstantFinishCurrencyId.GetHashCode();
+      hash ^= RuneRatings.GetHashCode();
       if (TutorialEncounterId.Length != 0) hash ^= TutorialEncounterId.GetHashCode();
       if (TutorialEncounterFeatureFlagId.Length != 0) hash ^= TutorialEncounterFeatureFlagId.GetHashCode();
       if (bonusConfig_ != null) hash ^= BonusConfig.GetHashCode();
@@ -822,6 +834,7 @@ namespace WUProtos.Data {
       hash ^= dailyQuestGmtIds_.GetHashCode();
       if (CapPlayerLevelGmtId.Length != 0) hash ^= CapPlayerLevelGmtId.GetHashCode();
       if (GreenhouseCoolDownMs != 0L) hash ^= GreenhouseCoolDownMs.GetHashCode();
+      hash ^= PlayerLevelOverride.GetHashCode();
       if (InnCoolDownMs != 0L) hash ^= InnCoolDownMs.GetHashCode();
       if (InnMenuStalenessThresholdMs != 0L) hash ^= InnMenuStalenessThresholdMs.GetHashCode();
       if (DailyRewardScheduleGmtId.Length != 0) hash ^= DailyRewardScheduleGmtId.GetHashCode();
@@ -840,136 +853,135 @@ namespace WUProtos.Data {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      rewardsVesselByRarity_.WriteTo(output, _repeated_rewardsVesselByRarity_codec);
       if (Id.Length != 0) {
-        output.WriteRawTag(18);
+        output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      swishScoringThresholds_.WriteTo(output, _repeated_swishScoringThresholds_codec);
       if (PickupRange != 0F) {
-        output.WriteRawTag(37);
+        output.WriteRawTag(21);
         output.WriteFloat(PickupRange);
       }
-      swishScoringBonuses_.WriteTo(output, _repeated_swishScoringBonuses_codec);
       if (MapUpdateRate != 0) {
-        output.WriteRawTag(48);
+        output.WriteRawTag(24);
         output.WriteInt32(MapUpdateRate);
       }
-      flooContributionButtonValues_.WriteTo(output, _repeated_flooContributionButtonValues_codec);
       if (MapEventUpdateRate != 0) {
-        output.WriteRawTag(64);
+        output.WriteRawTag(32);
         output.WriteInt32(MapEventUpdateRate);
       }
-      ftueVideoQualityBuckets_.WriteTo(output, _repeated_ftueVideoQualityBuckets_codec);
       if (MapPuzzleUpdateRate != 0) {
-        output.WriteRawTag(80);
+        output.WriteRawTag(40);
         output.WriteInt32(MapPuzzleUpdateRate);
       }
       if (TryAgainBonusPerFailure != 0F) {
-        output.WriteRawTag(93);
+        output.WriteRawTag(53);
         output.WriteFloat(TryAgainBonusPerFailure);
       }
       if (ArModeRange != 0F) {
-        output.WriteRawTag(101);
+        output.WriteRawTag(61);
         output.WriteFloat(ArModeRange);
       }
       if (ArModeMaxEncounters != 0) {
-        output.WriteRawTag(104);
+        output.WriteRawTag(64);
         output.WriteInt32(ArModeMaxEncounters);
       }
       if (EventCoolDownDuration != 0) {
-        output.WriteRawTag(112);
+        output.WriteRawTag(72);
         output.WriteInt32(EventCoolDownDuration);
       }
       if (CombatStunTime != 0) {
-        output.WriteRawTag(120);
+        output.WriteRawTag(80);
         output.WriteInt32(CombatStunTime);
       }
       if (ProfessionsMinLevel != 0) {
-        output.WriteRawTag(128, 1);
+        output.WriteRawTag(88);
         output.WriteInt32(ProfessionsMinLevel);
       }
       if (AccuracyMinBonus != 0F) {
-        output.WriteRawTag(141, 1);
+        output.WriteRawTag(101);
         output.WriteFloat(AccuracyMinBonus);
       }
       if (AccuracyMaxBonus != 0F) {
-        output.WriteRawTag(149, 1);
+        output.WriteRawTag(109);
         output.WriteFloat(AccuracyMaxBonus);
       }
       if (EncounterMinBaseWinRate != 0F) {
-        output.WriteRawTag(157, 1);
+        output.WriteRawTag(117);
         output.WriteFloat(EncounterMinBaseWinRate);
       }
       if (EncounterMaxBaseWinRate != 0F) {
-        output.WriteRawTag(165, 1);
+        output.WriteRawTag(125);
         output.WriteFloat(EncounterMaxBaseWinRate);
       }
       if (PlayerLevelCap != 0) {
-        output.WriteRawTag(168, 1);
+        output.WriteRawTag(128, 1);
         output.WriteInt32(PlayerLevelCap);
       }
       if (LevelBonusWeight != 0F) {
-        output.WriteRawTag(181, 1);
+        output.WriteRawTag(141, 1);
         output.WriteFloat(LevelBonusWeight);
       }
       if (GameplayBonusWeight != 0F) {
-        output.WriteRawTag(189, 1);
+        output.WriteRawTag(149, 1);
         output.WriteFloat(GameplayBonusWeight);
       }
       if (GameplayBonusMin != 0F) {
-        output.WriteRawTag(197, 1);
+        output.WriteRawTag(157, 1);
         output.WriteFloat(GameplayBonusMin);
       }
       if (GameplayBonusMax != 0F) {
-        output.WriteRawTag(205, 1);
+        output.WriteRawTag(165, 1);
         output.WriteFloat(GameplayBonusMax);
       }
       if (ProfessionsRpsNonMatchImpact != 0F) {
-        output.WriteRawTag(213, 1);
+        output.WriteRawTag(173, 1);
         output.WriteFloat(ProfessionsRpsNonMatchImpact);
       }
       if (ProfessionsRpsMatchImpact != 0F) {
-        output.WriteRawTag(221, 1);
+        output.WriteRawTag(181, 1);
         output.WriteFloat(ProfessionsRpsMatchImpact);
       }
       if (PubMenuRefreshIntervalSeconds != 0L) {
-        output.WriteRawTag(224, 1);
+        output.WriteRawTag(184, 1);
         output.WriteInt64(PubMenuRefreshIntervalSeconds);
       }
       if (flooNetworkConfig_ != null) {
-        output.WriteRawTag(234, 1);
+        output.WriteRawTag(194, 1);
         output.WriteMessage(FlooNetworkConfig);
       }
       if (tempFlooNetworkConfig_ != null) {
-        output.WriteRawTag(242, 1);
+        output.WriteRawTag(202, 1);
         output.WriteMessage(TempFlooNetworkConfig);
       }
       if (MapUnsafeMoveSpeedMps != 0F) {
-        output.WriteRawTag(253, 1);
+        output.WriteRawTag(213, 1);
         output.WriteFloat(MapUnsafeMoveSpeedMps);
       }
       if (PortkeyNumWrackspurtsToCollect != 0) {
-        output.WriteRawTag(128, 2);
+        output.WriteRawTag(216, 1);
         output.WriteInt32(PortkeyNumWrackspurtsToCollect);
       }
       if (PortkeyNumWrackspurtsInEnv != 0) {
-        output.WriteRawTag(136, 2);
+        output.WriteRawTag(224, 1);
         output.WriteInt32(PortkeyNumWrackspurtsInEnv);
       }
+      playerStatsBase_.WriteTo(output, _map_playerStatsBase_codec);
+      playerProfessionAffinityStrength_.WriteTo(output, _map_playerProfessionAffinityStrength_codec);
+      enemyAffinityProfessionStrength_.WriteTo(output, _map_enemyAffinityProfessionStrength_codec);
       if (CauldronsNumQueueSlots != 0) {
-        output.WriteRawTag(144, 2);
+        output.WriteRawTag(136, 2);
         output.WriteInt32(CauldronsNumQueueSlots);
       }
       swishGameAccuracyTiers_.WriteTo(output, _repeated_swishGameAccuracyTiers_codec);
       if (CauldronsInstantFinishCostPerSecond != 0F) {
-        output.WriteRawTag(165, 2);
+        output.WriteRawTag(157, 2);
         output.WriteFloat(CauldronsInstantFinishCostPerSecond);
       }
       if (CauldronsInstantFinishCurrencyId.Length != 0) {
-        output.WriteRawTag(170, 2);
+        output.WriteRawTag(162, 2);
         output.WriteString(CauldronsInstantFinishCurrencyId);
       }
+      runeRatings_.WriteTo(output, _map_runeRatings_codec);
       if (TutorialEncounterId.Length != 0) {
         output.WriteRawTag(178, 2);
         output.WriteString(TutorialEncounterId);
@@ -999,24 +1011,25 @@ namespace WUProtos.Data {
         output.WriteRawTag(232, 2);
         output.WriteInt64(GreenhouseCoolDownMs);
       }
+      playerLevelOverride_.WriteTo(output, _map_playerLevelOverride_codec);
       if (InnCoolDownMs != 0L) {
-        output.WriteRawTag(240, 2);
+        output.WriteRawTag(248, 2);
         output.WriteInt64(InnCoolDownMs);
       }
       if (InnMenuStalenessThresholdMs != 0L) {
-        output.WriteRawTag(248, 2);
+        output.WriteRawTag(128, 3);
         output.WriteInt64(InnMenuStalenessThresholdMs);
       }
       if (DailyRewardScheduleGmtId.Length != 0) {
-        output.WriteRawTag(130, 3);
+        output.WriteRawTag(138, 3);
         output.WriteString(DailyRewardScheduleGmtId);
       }
       if (WcEncounterFirstInteractTimeoutMs != 0L) {
-        output.WriteRawTag(136, 3);
+        output.WriteRawTag(144, 3);
         output.WriteInt64(WcEncounterFirstInteractTimeoutMs);
       }
       if (WcEncounterInteractTimeoutMs != 0L) {
-        output.WriteRawTag(144, 3);
+        output.WriteRawTag(152, 3);
         output.WriteInt64(WcEncounterInteractTimeoutMs);
       }
       if (_unknownFields != null) {
@@ -1027,23 +1040,18 @@ namespace WUProtos.Data {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      size += rewardsVesselByRarity_.CalculateSize(_repeated_rewardsVesselByRarity_codec);
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
-      size += swishScoringThresholds_.CalculateSize(_repeated_swishScoringThresholds_codec);
       if (PickupRange != 0F) {
         size += 1 + 4;
       }
-      size += swishScoringBonuses_.CalculateSize(_repeated_swishScoringBonuses_codec);
       if (MapUpdateRate != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(MapUpdateRate);
       }
-      size += flooContributionButtonValues_.CalculateSize(_repeated_flooContributionButtonValues_codec);
       if (MapEventUpdateRate != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(MapEventUpdateRate);
       }
-      size += ftueVideoQualityBuckets_.CalculateSize(_repeated_ftueVideoQualityBuckets_codec);
       if (MapPuzzleUpdateRate != 0) {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(MapPuzzleUpdateRate);
       }
@@ -1063,19 +1071,19 @@ namespace WUProtos.Data {
         size += 1 + pb::CodedOutputStream.ComputeInt32Size(CombatStunTime);
       }
       if (ProfessionsMinLevel != 0) {
-        size += 2 + pb::CodedOutputStream.ComputeInt32Size(ProfessionsMinLevel);
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ProfessionsMinLevel);
       }
       if (AccuracyMinBonus != 0F) {
-        size += 2 + 4;
+        size += 1 + 4;
       }
       if (AccuracyMaxBonus != 0F) {
-        size += 2 + 4;
+        size += 1 + 4;
       }
       if (EncounterMinBaseWinRate != 0F) {
-        size += 2 + 4;
+        size += 1 + 4;
       }
       if (EncounterMaxBaseWinRate != 0F) {
-        size += 2 + 4;
+        size += 1 + 4;
       }
       if (PlayerLevelCap != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(PlayerLevelCap);
@@ -1116,6 +1124,9 @@ namespace WUProtos.Data {
       if (PortkeyNumWrackspurtsInEnv != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(PortkeyNumWrackspurtsInEnv);
       }
+      size += playerStatsBase_.CalculateSize(_map_playerStatsBase_codec);
+      size += playerProfessionAffinityStrength_.CalculateSize(_map_playerProfessionAffinityStrength_codec);
+      size += enemyAffinityProfessionStrength_.CalculateSize(_map_enemyAffinityProfessionStrength_codec);
       if (CauldronsNumQueueSlots != 0) {
         size += 2 + pb::CodedOutputStream.ComputeInt32Size(CauldronsNumQueueSlots);
       }
@@ -1126,6 +1137,7 @@ namespace WUProtos.Data {
       if (CauldronsInstantFinishCurrencyId.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(CauldronsInstantFinishCurrencyId);
       }
+      size += runeRatings_.CalculateSize(_map_runeRatings_codec);
       if (TutorialEncounterId.Length != 0) {
         size += 2 + pb::CodedOutputStream.ComputeStringSize(TutorialEncounterId);
       }
@@ -1148,6 +1160,7 @@ namespace WUProtos.Data {
       if (GreenhouseCoolDownMs != 0L) {
         size += 2 + pb::CodedOutputStream.ComputeInt64Size(GreenhouseCoolDownMs);
       }
+      size += playerLevelOverride_.CalculateSize(_map_playerLevelOverride_codec);
       if (InnCoolDownMs != 0L) {
         size += 2 + pb::CodedOutputStream.ComputeInt64Size(InnCoolDownMs);
       }
@@ -1174,23 +1187,18 @@ namespace WUProtos.Data {
       if (other == null) {
         return;
       }
-      rewardsVesselByRarity_.Add(other.rewardsVesselByRarity_);
       if (other.Id.Length != 0) {
         Id = other.Id;
       }
-      swishScoringThresholds_.Add(other.swishScoringThresholds_);
       if (other.PickupRange != 0F) {
         PickupRange = other.PickupRange;
       }
-      swishScoringBonuses_.Add(other.swishScoringBonuses_);
       if (other.MapUpdateRate != 0) {
         MapUpdateRate = other.MapUpdateRate;
       }
-      flooContributionButtonValues_.Add(other.flooContributionButtonValues_);
       if (other.MapEventUpdateRate != 0) {
         MapEventUpdateRate = other.MapEventUpdateRate;
       }
-      ftueVideoQualityBuckets_.Add(other.ftueVideoQualityBuckets_);
       if (other.MapPuzzleUpdateRate != 0) {
         MapPuzzleUpdateRate = other.MapPuzzleUpdateRate;
       }
@@ -1269,6 +1277,9 @@ namespace WUProtos.Data {
       if (other.PortkeyNumWrackspurtsInEnv != 0) {
         PortkeyNumWrackspurtsInEnv = other.PortkeyNumWrackspurtsInEnv;
       }
+      playerStatsBase_.Add(other.playerStatsBase_);
+      playerProfessionAffinityStrength_.Add(other.playerProfessionAffinityStrength_);
+      enemyAffinityProfessionStrength_.Add(other.enemyAffinityProfessionStrength_);
       if (other.CauldronsNumQueueSlots != 0) {
         CauldronsNumQueueSlots = other.CauldronsNumQueueSlots;
       }
@@ -1279,6 +1290,7 @@ namespace WUProtos.Data {
       if (other.CauldronsInstantFinishCurrencyId.Length != 0) {
         CauldronsInstantFinishCurrencyId = other.CauldronsInstantFinishCurrencyId;
       }
+      runeRatings_.Add(other.runeRatings_);
       if (other.TutorialEncounterId.Length != 0) {
         TutorialEncounterId = other.TutorialEncounterId;
       }
@@ -1304,6 +1316,7 @@ namespace WUProtos.Data {
       if (other.GreenhouseCoolDownMs != 0L) {
         GreenhouseCoolDownMs = other.GreenhouseCoolDownMs;
       }
+      playerLevelOverride_.Add(other.playerLevelOverride_);
       if (other.InnCoolDownMs != 0L) {
         InnCoolDownMs = other.InnCoolDownMs;
       }
@@ -1331,161 +1344,154 @@ namespace WUProtos.Data {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            rewardsVesselByRarity_.AddEntriesFrom(input, _repeated_rewardsVesselByRarity_codec);
-            break;
-          }
-          case 18: {
             Id = input.ReadString();
             break;
           }
-          case 26:
-          case 29: {
-            swishScoringThresholds_.AddEntriesFrom(input, _repeated_swishScoringThresholds_codec);
-            break;
-          }
-          case 37: {
+          case 21: {
             PickupRange = input.ReadFloat();
             break;
           }
-          case 42:
-          case 45: {
-            swishScoringBonuses_.AddEntriesFrom(input, _repeated_swishScoringBonuses_codec);
-            break;
-          }
-          case 48: {
+          case 24: {
             MapUpdateRate = input.ReadInt32();
             break;
           }
-          case 58:
-          case 56: {
-            flooContributionButtonValues_.AddEntriesFrom(input, _repeated_flooContributionButtonValues_codec);
-            break;
-          }
-          case 64: {
+          case 32: {
             MapEventUpdateRate = input.ReadInt32();
             break;
           }
-          case 74: {
-            ftueVideoQualityBuckets_.AddEntriesFrom(input, _repeated_ftueVideoQualityBuckets_codec);
-            break;
-          }
-          case 80: {
+          case 40: {
             MapPuzzleUpdateRate = input.ReadInt32();
             break;
           }
-          case 93: {
+          case 53: {
             TryAgainBonusPerFailure = input.ReadFloat();
             break;
           }
-          case 101: {
+          case 61: {
             ArModeRange = input.ReadFloat();
             break;
           }
-          case 104: {
+          case 64: {
             ArModeMaxEncounters = input.ReadInt32();
             break;
           }
-          case 112: {
+          case 72: {
             EventCoolDownDuration = input.ReadInt32();
             break;
           }
-          case 120: {
+          case 80: {
             CombatStunTime = input.ReadInt32();
             break;
           }
-          case 128: {
+          case 88: {
             ProfessionsMinLevel = input.ReadInt32();
             break;
           }
-          case 141: {
+          case 101: {
             AccuracyMinBonus = input.ReadFloat();
             break;
           }
-          case 149: {
+          case 109: {
             AccuracyMaxBonus = input.ReadFloat();
             break;
           }
-          case 157: {
+          case 117: {
             EncounterMinBaseWinRate = input.ReadFloat();
             break;
           }
-          case 165: {
+          case 125: {
             EncounterMaxBaseWinRate = input.ReadFloat();
             break;
           }
-          case 168: {
+          case 128: {
             PlayerLevelCap = input.ReadInt32();
             break;
           }
-          case 181: {
+          case 141: {
             LevelBonusWeight = input.ReadFloat();
             break;
           }
-          case 189: {
+          case 149: {
             GameplayBonusWeight = input.ReadFloat();
             break;
           }
-          case 197: {
+          case 157: {
             GameplayBonusMin = input.ReadFloat();
             break;
           }
-          case 205: {
+          case 165: {
             GameplayBonusMax = input.ReadFloat();
             break;
           }
-          case 213: {
+          case 173: {
             ProfessionsRpsNonMatchImpact = input.ReadFloat();
             break;
           }
-          case 221: {
+          case 181: {
             ProfessionsRpsMatchImpact = input.ReadFloat();
             break;
           }
-          case 224: {
+          case 184: {
             PubMenuRefreshIntervalSeconds = input.ReadInt64();
             break;
           }
-          case 234: {
+          case 194: {
             if (flooNetworkConfig_ == null) {
               FlooNetworkConfig = new global::WUProtos.Data.FlooNetworkConfig();
             }
             input.ReadMessage(FlooNetworkConfig);
             break;
           }
-          case 242: {
+          case 202: {
             if (tempFlooNetworkConfig_ == null) {
               TempFlooNetworkConfig = new global::WUProtos.Data.TempFlooNetworkConfig();
             }
             input.ReadMessage(TempFlooNetworkConfig);
             break;
           }
-          case 253: {
+          case 213: {
             MapUnsafeMoveSpeedMps = input.ReadFloat();
             break;
           }
-          case 256: {
+          case 216: {
             PortkeyNumWrackspurtsToCollect = input.ReadInt32();
             break;
           }
-          case 264: {
+          case 224: {
             PortkeyNumWrackspurtsInEnv = input.ReadInt32();
             break;
           }
-          case 272: {
+          case 242: {
+            playerStatsBase_.AddEntriesFrom(input, _map_playerStatsBase_codec);
+            break;
+          }
+          case 250: {
+            playerProfessionAffinityStrength_.AddEntriesFrom(input, _map_playerProfessionAffinityStrength_codec);
+            break;
+          }
+          case 258: {
+            enemyAffinityProfessionStrength_.AddEntriesFrom(input, _map_enemyAffinityProfessionStrength_codec);
+            break;
+          }
+          case 264: {
             CauldronsNumQueueSlots = input.ReadInt32();
             break;
           }
-          case 282:
-          case 285: {
+          case 274:
+          case 277: {
             swishGameAccuracyTiers_.AddEntriesFrom(input, _repeated_swishGameAccuracyTiers_codec);
             break;
           }
-          case 293: {
+          case 285: {
             CauldronsInstantFinishCostPerSecond = input.ReadFloat();
             break;
           }
-          case 298: {
+          case 290: {
             CauldronsInstantFinishCurrencyId = input.ReadString();
+            break;
+          }
+          case 298: {
+            runeRatings_.AddEntriesFrom(input, _map_runeRatings_codec);
             break;
           }
           case 306: {
@@ -1523,23 +1529,27 @@ namespace WUProtos.Data {
             GreenhouseCoolDownMs = input.ReadInt64();
             break;
           }
-          case 368: {
-            InnCoolDownMs = input.ReadInt64();
+          case 370: {
+            playerLevelOverride_.AddEntriesFrom(input, _map_playerLevelOverride_codec);
             break;
           }
           case 376: {
+            InnCoolDownMs = input.ReadInt64();
+            break;
+          }
+          case 384: {
             InnMenuStalenessThresholdMs = input.ReadInt64();
             break;
           }
-          case 386: {
+          case 394: {
             DailyRewardScheduleGmtId = input.ReadString();
             break;
           }
-          case 392: {
+          case 400: {
             WcEncounterFirstInteractTimeoutMs = input.ReadInt64();
             break;
           }
-          case 400: {
+          case 408: {
             WcEncounterInteractTimeoutMs = input.ReadInt64();
             break;
           }

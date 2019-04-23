@@ -26,14 +26,13 @@ namespace WUProtos.Networking.Requests.Messages {
           string.Concat(
             "CkJXVVByb3Rvcy9OZXR3b3JraW5nL1JlcXVlc3RzL01lc3NhZ2VzL01hcEFi",
             "aWxpdHlTdGFydE1lc3NhZ2UucHJvdG8SJVdVUHJvdG9zLk5ldHdvcmtpbmcu",
-            "UmVxdWVzdHMuTWVzc2FnZXMaIVdVUHJvdG9zL0RhdGEvTWFwQ29vcmRpbmF0",
-            "ZS5wcm90byKjAQoWTWFwQWJpbGl0eVN0YXJ0TWVzc2FnZRIaChJtYXBfYWJp",
-            "bGl0eV9nbXRfaWQYASABKAkSGQoPcGxheWVyX25pY2tuYW1lGAIgASgJSAAS",
-            "NgoObWFwX2Nvb3JkaW5hdGUYAyABKAsyHC5XVVByb3Rvcy5EYXRhLk1hcENv",
-            "b3JkaW5hdGVIABIQCgZtb2JfaWQYBCABKAxIAEIICgZUYXJnZXRiBnByb3Rv",
-            "Mw=="));
+            "UmVxdWVzdHMuTWVzc2FnZXMaIFdVUHJvdG9zL01hcC9NYXBDb29yZGluYXRl",
+            "LnByb3RvIqIBChZNYXBBYmlsaXR5U3RhcnRNZXNzYWdlEhoKEm1hcF9hYmls",
+            "aXR5X2dtdF9pZBgBIAEoCRIZCg9wbGF5ZXJfbmlja25hbWUYAiABKAlIABI1",
+            "Cg5tYXBfY29vcmRpbmF0ZRgDIAEoCzIbLldVUHJvdG9zLk1hcC5NYXBDb29y",
+            "ZGluYXRlSAASEAoGbW9iX2lkGAQgASgMSABCCAoGVGFyZ2V0YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.MapCoordinateReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Map.MapCoordinateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Networking.Requests.Messages.MapAbilityStartMessage), global::WUProtos.Networking.Requests.Messages.MapAbilityStartMessage.Parser, new[]{ "MapAbilityGmtId", "PlayerNickname", "MapCoordinate", "MobId" }, new[]{ "Target" }, null, null)
           }));
@@ -113,8 +112,8 @@ namespace WUProtos.Networking.Requests.Messages {
     /// <summary>Field number for the "map_coordinate" field.</summary>
     public const int MapCoordinateFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.MapCoordinate MapCoordinate {
-      get { return targetCase_ == TargetOneofCase.MapCoordinate ? (global::WUProtos.Data.MapCoordinate) target_ : null; }
+    public global::WUProtos.Map.MapCoordinate MapCoordinate {
+      get { return targetCase_ == TargetOneofCase.MapCoordinate ? (global::WUProtos.Map.MapCoordinate) target_ : null; }
       set {
         target_ = value;
         targetCase_ = value == null ? TargetOneofCase.None : TargetOneofCase.MapCoordinate;
@@ -250,7 +249,7 @@ namespace WUProtos.Networking.Requests.Messages {
           break;
         case TargetOneofCase.MapCoordinate:
           if (MapCoordinate == null) {
-            MapCoordinate = new global::WUProtos.Data.MapCoordinate();
+            MapCoordinate = new global::WUProtos.Map.MapCoordinate();
           }
           MapCoordinate.MergeFrom(other.MapCoordinate);
           break;
@@ -279,7 +278,7 @@ namespace WUProtos.Networking.Requests.Messages {
             break;
           }
           case 26: {
-            global::WUProtos.Data.MapCoordinate subBuilder = new global::WUProtos.Data.MapCoordinate();
+            global::WUProtos.Map.MapCoordinate subBuilder = new global::WUProtos.Map.MapCoordinate();
             if (targetCase_ == TargetOneofCase.MapCoordinate) {
               subBuilder.MergeFrom(MapCoordinate);
             }

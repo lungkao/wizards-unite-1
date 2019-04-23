@@ -49,77 +49,84 @@ namespace WUProtos.Data {
             "VVByb3Rvcy9EYXRhL0JvbnVzQ2F0ZWdvcnkucHJvdG8aIVdVUHJvdG9zL0Rh",
             "dGEvVmF1bHRDYXRlZ29yeS5wcm90bxohV1VQcm90b3MvRGF0YS9Qcm9maWxl",
             "Q29uZmlnLnByb3RvGjhXVVByb3Rvcy9EYXRhL0NvbGxlY3Rpb24vQ29sbGVj",
-            "dGlvbkZhbWlseVJhbmtUYWJsZS5wcm90bxohV1VQcm90b3MvRGF0YS9NYXBJ",
-            "bmdyZWRpZW50LnByb3RvGh5XVVByb3Rvcy9EYXRhL01hcEFiaWxpdHkucHJv",
-            "dG8aGldVUHJvdG9zL0RhdGEvUmVjaXBlLnByb3RvGixXVVByb3Rvcy9EYXRh",
-            "L0NoYWxsZW5nZS9DaGFsbGVuZ2VCb251cy5wcm90bxoeV1VQcm90b3MvRGF0",
-            "YS9TdG9yeWJvYXJkLnByb3RvGh5XVVByb3Rvcy9EYXRhL01hc3Rlck5vdGUu",
-            "cHJvdG8aHFdVUHJvdG9zL0RhdGEvQ2F1bGRyb24ucHJvdG8aG1dVUHJvdG9z",
-            "L0RhdGEvUnBnc3RhdC5wcm90bxohV1VQcm90b3MvRGF0YS9ScGdzdGF0c0Js",
-            "b2NrLnByb3RvGiVXVVByb3Rvcy9EYXRhL1NlbGZpZUF2YXRhckFzc2V0LnBy",
-            "b3RvGiNXVVByb3Rvcy9EYXRhL091dHBvc3RUZW1wbGF0ZS5wcm90bxouV1VQ",
-            "cm90b3MvRGF0YS9EYWlseVJld2FyZE1vbnRobHlTY2hlZHVsZS5wcm90bxoZ",
-            "V1VQcm90b3MvRGF0YS9RdWVzdC5wcm90bxocV1VQcm90b3MvRGF0YS9EZWVw",
-            "TGluay5wcm90bxofV1VQcm90b3MvRGF0YS9FdmVudC9FdmVudC5wcm90bxom",
-            "V1VQcm90b3MvRGF0YS9HcmVlbmhvdXNlVGVtcGxhdGUucHJvdG8aG1dVUHJv",
-            "dG9zL0RhdGEvVmVyc2lvbi5wcm90byKzEgoKR21UZW1wbGF0ZRJHChFjb2xs",
-            "ZWN0aW9uX2ZhbWlseRgBIAEoCzIqLldVUHJvdG9zLkRhdGEuQ29sbGVjdGlv",
-            "bi5Db2xsZWN0aW9uRmFtaWx5SAASNwoJZW5jb3VudGVyGAMgASgLMiIuV1VQ",
-            "cm90b3MuRGF0YS5FbmNvdW50ZXIuRW5jb3VudGVySAASSAoSZW5jb3VudGVy",
-            "X29ic3RhY2xlGAQgASgLMiouV1VQcm90b3MuRGF0YS5FbmNvdW50ZXIuRW5j",
-            "b3VudGVyT2JzdGFjbGVIABIlCgVzcGVsbBgFIAEoCzIULldVUHJvdG9zLkRh",
-            "dGEuU3BlbGxIABIuCgp2YXVsdF9pdGVtGAYgASgLMhguV1VQcm90b3MuRGF0",
-            "YS5WYXVsdEl0ZW1IABI5CgxwbGF5ZXJfbGV2ZWwYCCABKAsyIS5XVVByb3Rv",
-            "cy5EYXRhLlBsYXllci5QbGF5ZXJMZXZlbEgAEjoKEHdhbGtib3hfdGVtcGxh",
-            "dGUYCiABKAsyHi5XVVByb3Rvcy5EYXRhLldhbGtib3hUZW1wbGF0ZUgAEjIK",
-            "DGZlYXR1cmVfZmxhZxgLIAEoCzIaLldVUHJvdG9zLkRhdGEuRmVhdHVyZUZs",
-            "YWdIABIpCgdwb3J0a2V5GAwgASgLMhYuV1VQcm90b3MuRGF0YS5Qb3J0a2V5",
-            "SAASKAoEYnVmZhgNIAEoCzIYLldVUHJvdG9zLkRhdGEuQnVmZi5CdWZmSAAS",
-            "PAoRZm9ydHJlc3NfdGVtcGxhdGUYDiABKAsyHy5XVVByb3Rvcy5EYXRhLkZv",
-            "cnRyZXNzVGVtcGxhdGVIABI6ChBjaGFtYmVyX3RlbXBsYXRlGA8gASgLMh4u",
-            "V1VQcm90b3MuRGF0YS5DaGFtYmVyVGVtcGxhdGVIABI0Cg1xdWFsaXR5X2xl",
-            "dmVsGBAgASgLMhsuV1VQcm90b3MuRGF0YS5RdWFsaXR5TGV2ZWxIABI4Cg9w",
-            "cm90ZWdvX3BhdHRlcm4YESABKAsyHS5XVVByb3Rvcy5EYXRhLlByb3RlZ29Q",
-            "YXR0ZXJuSAASQwoPY29sbGVjdGlvbl9wYWdlGBIgASgLMiguV1VQcm90b3Mu",
-            "RGF0YS5Db2xsZWN0aW9uLkNvbGxlY3Rpb25QYWdlSAASMgoMdGVhbV9jb250",
-            "cm9sGBMgASgLMhouV1VQcm90b3MuRGF0YS5UZWFtQ29udHJvbEgAEjwKEXN0",
-            "b3JlX3N1YmNhdGVnb3J5GBUgASgLMh8uV1VQcm90b3MuRGF0YS5TdG9yZVN1",
-            "YmNhdGVnb3J5SAASJwoGaGFwdGljGBYgASgLMhUuV1VQcm90b3MuRGF0YS5I",
-            "YXB0aWNIABJACg5lbmNvdW50ZXJfdHlwZRgXIAEoCzImLldVUHJvdG9zLkRh",
-            "dGEuRW5jb3VudGVyLkVuY291bnRlclR5cGVIABJNChVjaGFsbGVuZ2Vfc3Bh",
-            "d25fbG9naWMYGCABKAsyLC5XVVByb3Rvcy5EYXRhLkNoYWxsZW5nZS5DaGFs",
-            "bGVuZ2VTcGF3bkxvZ2ljSAASOgoKcHJvZmVzc2lvbhgZIAEoCzIkLldVUHJv",
-            "dG9zLkRhdGEuUHJvZmVzc2lvbi5Qcm9mZXNzaW9uSAASNgoOYm9udXNfY2F0",
-            "ZWdvcnkYGiABKAsyHC5XVVByb3Rvcy5EYXRhLkJvbnVzQ2F0ZWdvcnlIABI2",
-            "Cg52YXVsdF9jYXRlZ29yeRgbIAEoCzIcLldVUHJvdG9zLkRhdGEuVmF1bHRD",
-            "YXRlZ29yeUgAEjYKDnByb2ZpbGVfY29uZmlnGBwgASgLMhwuV1VQcm90b3Mu",
-            "RGF0YS5Qcm9maWxlQ29uZmlnSAASWwocY29sbGVjdGlvbl9mYW1pbHlfcmFu",
-            "a190YWJsZRgdIAEoCzIzLldVUHJvdG9zLkRhdGEuQ29sbGVjdGlvbi5Db2xs",
-            "ZWN0aW9uRmFtaWx5UmFua1RhYmxlSAASNgoObWFwX2luZ3JlZGllbnQYHiAB",
-            "KAsyHC5XVVByb3Rvcy5EYXRhLk1hcEluZ3JlZGllbnRIABIwCgttYXBfYWJp",
-            "bGl0eRgfIAEoCzIZLldVUHJvdG9zLkRhdGEuTWFwQWJpbGl0eUgAEicKBnJl",
-            "Y2lwZRggIAEoCzIVLldVUHJvdG9zLkRhdGEuUmVjaXBlSAASQgoPY2hhbGxl",
-            "bmdlX2JvbnVzGCEgASgLMicuV1VQcm90b3MuRGF0YS5DaGFsbGVuZ2UuQ2hh",
-            "bGxlbmdlQm9udXNIABIwCgttYXN0ZXJfbm90ZRgjIAEoCzIZLldVUHJvdG9z",
-            "LkRhdGEuTWFzdGVyTm90ZUgAEisKCGNhdWxkcm9uGCQgASgLMhcuV1VQcm90",
-            "b3MuRGF0YS5DYXVsZHJvbkgAEikKB3JwZ3N0YXQYJSABKAsyFi5XVVByb3Rv",
-            "cy5EYXRhLlJwZ3N0YXRIABI2Cg5ycGdzdGF0c19ibG9jaxgmIAEoCzIcLldV",
-            "UHJvdG9zLkRhdGEuUnBnc3RhdHNCbG9ja0gAEj8KE3NlbGZpZV9hdmF0YXJf",
-            "YXNzZXQYJyABKAsyIC5XVVByb3Rvcy5EYXRhLlNlbGZpZUF2YXRhckFzc2V0",
-            "SAASOgoQb3V0cG9zdF90ZW1wbGF0ZRgoIAEoCzIeLldVUHJvdG9zLkRhdGEu",
-            "T3V0cG9zdFRlbXBsYXRlSAASUgodZGFpbHlfcmV3YXJkX21vbnRobHlfc2No",
-            "ZWR1bGUYKSABKAsyKS5XVVByb3Rvcy5EYXRhLkRhaWx5UmV3YXJkTW9udGhs",
-            "eVNjaGVkdWxlSAASJQoFcXVlc3QYKiABKAsyFC5XVVByb3Rvcy5EYXRhLlF1",
-            "ZXN0SAASLAoJZGVlcF9saW5rGCsgASgLMhcuV1VQcm90b3MuRGF0YS5EZWVw",
-            "TGlua0gAEisKBWV2ZW50GCwgASgLMhouV1VQcm90b3MuRGF0YS5FdmVudC5F",
-            "dmVudEgAEkAKE2dyZWVuaG91c2VfdGVtcGxhdGUYLSABKAsyIS5XVVByb3Rv",
-            "cy5EYXRhLkdyZWVuaG91c2VUZW1wbGF0ZUgAEikKB3ZlcnNpb24YLiABKAsy",
-            "Fi5XVVByb3Rvcy5EYXRhLlZlcnNpb25IAEINCgtNZXNzYWdlVHlwZWIGcHJv",
-            "dG8z"));
+            "dGlvbkZhbWlseVJhbmtUYWJsZS5wcm90bxogV1VQcm90b3MvTWFwL01hcElu",
+            "Z3JlZGllbnQucHJvdG8aHVdVUHJvdG9zL01hcC9NYXBBYmlsaXR5LnByb3Rv",
+            "GhpXVVByb3Rvcy9EYXRhL1JlY2lwZS5wcm90bxosV1VQcm90b3MvRGF0YS9D",
+            "aGFsbGVuZ2UvQ2hhbGxlbmdlQm9udXMucHJvdG8aKVdVUHJvdG9zL0RhdGEv",
+            "U3Rvcnlib2FyZC9TdG9yeWJvYXJkLnByb3RvGh5XVVByb3Rvcy9EYXRhL01h",
+            "c3Rlck5vdGUucHJvdG8aHFdVUHJvdG9zL0RhdGEvQ2F1bGRyb24ucHJvdG8a",
+            "G1dVUHJvdG9zL0RhdGEvUnBnc3RhdC5wcm90bxohV1VQcm90b3MvRGF0YS9S",
+            "cGdzdGF0c0Jsb2NrLnByb3RvGiVXVVByb3Rvcy9EYXRhL1NlbGZpZUF2YXRh",
+            "ckFzc2V0LnByb3RvGiNXVVByb3Rvcy9EYXRhL091dHBvc3RUZW1wbGF0ZS5w",
+            "cm90bxouV1VQcm90b3MvRGF0YS9EYWlseVJld2FyZE1vbnRobHlTY2hlZHVs",
+            "ZS5wcm90bxoZV1VQcm90b3MvRGF0YS9RdWVzdC5wcm90bxocV1VQcm90b3Mv",
+            "RGF0YS9EZWVwTGluay5wcm90bxofV1VQcm90b3MvRGF0YS9FdmVudC9FdmVu",
+            "dC5wcm90bxomV1VQcm90b3MvRGF0YS9HcmVlbmhvdXNlVGVtcGxhdGUucHJv",
+            "dG8ilRUKCkdtVGVtcGxhdGUSRwoRY29sbGVjdGlvbl9mYW1pbHkYASABKAsy",
+            "Ki5XVVByb3Rvcy5EYXRhLkNvbGxlY3Rpb24uQ29sbGVjdGlvbkZhbWlseUgA",
+            "EkMKD2NvbGxlY3Rpb25faXRlbRgCIAEoCzIoLldVUHJvdG9zLkRhdGEuQ29s",
+            "bGVjdGlvbi5Db2xsZWN0aW9uSXRlbUgAEjcKCWVuY291bnRlchgDIAEoCzIi",
+            "LldVUHJvdG9zLkRhdGEuRW5jb3VudGVyLkVuY291bnRlckgAEkgKEmVuY291",
+            "bnRlcl9vYnN0YWNsZRgEIAEoCzIqLldVUHJvdG9zLkRhdGEuRW5jb3VudGVy",
+            "LkVuY291bnRlck9ic3RhY2xlSAASJQoFc3BlbGwYBSABKAsyFC5XVVByb3Rv",
+            "cy5EYXRhLlNwZWxsSAASLgoKdmF1bHRfaXRlbRgGIAEoCzIYLldVUHJvdG9z",
+            "LkRhdGEuVmF1bHRJdGVtSAASMAoLZ2FtZV9jb25maWcYByABKAsyGS5XVVBy",
+            "b3Rvcy5EYXRhLkdhbWVDb25maWdIABI5CgxwbGF5ZXJfbGV2ZWwYCCABKAsy",
+            "IS5XVVByb3Rvcy5EYXRhLlBsYXllci5QbGF5ZXJMZXZlbEgAEi4KCnN0b3Jl",
+            "X3BhY2sYCSABKAsyGC5XVVByb3Rvcy5EYXRhLlN0b3JlUGFja0gAEjoKEHdh",
+            "bGtib3hfdGVtcGxhdGUYCiABKAsyHi5XVVByb3Rvcy5EYXRhLldhbGtib3hU",
+            "ZW1wbGF0ZUgAEjIKDGZlYXR1cmVfZmxhZxgLIAEoCzIaLldVUHJvdG9zLkRh",
+            "dGEuRmVhdHVyZUZsYWdIABIpCgdwb3J0a2V5GAwgASgLMhYuV1VQcm90b3Mu",
+            "RGF0YS5Qb3J0a2V5SAASKAoEYnVmZhgNIAEoCzIYLldVUHJvdG9zLkRhdGEu",
+            "QnVmZi5CdWZmSAASPAoRZm9ydHJlc3NfdGVtcGxhdGUYDiABKAsyHy5XVVBy",
+            "b3Rvcy5EYXRhLkZvcnRyZXNzVGVtcGxhdGVIABI6ChBjaGFtYmVyX3RlbXBs",
+            "YXRlGA8gASgLMh4uV1VQcm90b3MuRGF0YS5DaGFtYmVyVGVtcGxhdGVIABI0",
+            "Cg1xdWFsaXR5X2xldmVsGBAgASgLMhsuV1VQcm90b3MuRGF0YS5RdWFsaXR5",
+            "TGV2ZWxIABI4Cg9wcm90ZWdvX3BhdHRlcm4YESABKAsyHS5XVVByb3Rvcy5E",
+            "YXRhLlByb3RlZ29QYXR0ZXJuSAASQwoPY29sbGVjdGlvbl9wYWdlGBIgASgL",
+            "MiguV1VQcm90b3MuRGF0YS5Db2xsZWN0aW9uLkNvbGxlY3Rpb25QYWdlSAAS",
+            "MgoMdGVhbV9jb250cm9sGBMgASgLMhouV1VQcm90b3MuRGF0YS5UZWFtQ29u",
+            "dHJvbEgAEjIKDHN0b3JlX2NvbmZpZxgUIAEoCzIaLldVUHJvdG9zLkRhdGEu",
+            "U3RvcmVDb25maWdIABI8ChFzdG9yZV9zdWJjYXRlZ29yeRgVIAEoCzIfLldV",
+            "UHJvdG9zLkRhdGEuU3RvcmVTdWJjYXRlZ29yeUgAEicKBmhhcHRpYxgWIAEo",
+            "CzIVLldVUHJvdG9zLkRhdGEuSGFwdGljSAASQAoOZW5jb3VudGVyX3R5cGUY",
+            "FyABKAsyJi5XVVByb3Rvcy5EYXRhLkVuY291bnRlci5FbmNvdW50ZXJUeXBl",
+            "SAASTQoVY2hhbGxlbmdlX3NwYXduX2xvZ2ljGBggASgLMiwuV1VQcm90b3Mu",
+            "RGF0YS5DaGFsbGVuZ2UuQ2hhbGxlbmdlU3Bhd25Mb2dpY0gAEjoKCnByb2Zl",
+            "c3Npb24YGSABKAsyJC5XVVByb3Rvcy5EYXRhLlByb2Zlc3Npb24uUHJvZmVz",
+            "c2lvbkgAEjYKDmJvbnVzX2NhdGVnb3J5GBogASgLMhwuV1VQcm90b3MuRGF0",
+            "YS5Cb251c0NhdGVnb3J5SAASNgoOdmF1bHRfY2F0ZWdvcnkYGyABKAsyHC5X",
+            "VVByb3Rvcy5EYXRhLlZhdWx0Q2F0ZWdvcnlIABI2Cg5wcm9maWxlX2NvbmZp",
+            "ZxgcIAEoCzIcLldVUHJvdG9zLkRhdGEuUHJvZmlsZUNvbmZpZ0gAElsKHGNv",
+            "bGxlY3Rpb25fZmFtaWx5X3JhbmtfdGFibGUYHSABKAsyMy5XVVByb3Rvcy5E",
+            "YXRhLkNvbGxlY3Rpb24uQ29sbGVjdGlvbkZhbWlseVJhbmtUYWJsZUgAEjUK",
+            "Dm1hcF9pbmdyZWRpZW50GB4gASgLMhsuV1VQcm90b3MuTWFwLk1hcEluZ3Jl",
+            "ZGllbnRIABIvCgttYXBfYWJpbGl0eRgfIAEoCzIYLldVUHJvdG9zLk1hcC5N",
+            "YXBBYmlsaXR5SAASJwoGcmVjaXBlGCAgASgLMhUuV1VQcm90b3MuRGF0YS5S",
+            "ZWNpcGVIABJCCg9jaGFsbGVuZ2VfYm9udXMYISABKAsyJy5XVVByb3Rvcy5E",
+            "YXRhLkNoYWxsZW5nZS5DaGFsbGVuZ2VCb251c0gAEjoKCnN0b3J5Ym9hcmQY",
+            "IiABKAsyJC5XVVByb3Rvcy5EYXRhLlN0b3J5Ym9hcmQuU3Rvcnlib2FyZEgA",
+            "EjAKC21hc3Rlcl9ub3RlGCMgASgLMhkuV1VQcm90b3MuRGF0YS5NYXN0ZXJO",
+            "b3RlSAASKwoIY2F1bGRyb24YJCABKAsyFy5XVVByb3Rvcy5EYXRhLkNhdWxk",
+            "cm9uSAASKQoHcnBnc3RhdBglIAEoCzIWLldVUHJvdG9zLkRhdGEuUnBnc3Rh",
+            "dEgAEjYKDnJwZ3N0YXRzX2Jsb2NrGCYgASgLMhwuV1VQcm90b3MuRGF0YS5S",
+            "cGdzdGF0c0Jsb2NrSAASPwoTc2VsZmllX2F2YXRhcl9hc3NldBgnIAEoCzIg",
+            "LldVUHJvdG9zLkRhdGEuU2VsZmllQXZhdGFyQXNzZXRIABI6ChBvdXRwb3N0",
+            "X3RlbXBsYXRlGCggASgLMh4uV1VQcm90b3MuRGF0YS5PdXRwb3N0VGVtcGxh",
+            "dGVIABJSCh1kYWlseV9yZXdhcmRfbW9udGhseV9zY2hlZHVsZRgpIAEoCzIp",
+            "LldVUHJvdG9zLkRhdGEuRGFpbHlSZXdhcmRNb250aGx5U2NoZWR1bGVIABIl",
+            "CgVxdWVzdBgqIAEoCzIULldVUHJvdG9zLkRhdGEuUXVlc3RIABIsCglkZWVw",
+            "X2xpbmsYKyABKAsyFy5XVVByb3Rvcy5EYXRhLkRlZXBMaW5rSAASKwoFZXZl",
+            "bnQYLCABKAsyGi5XVVByb3Rvcy5EYXRhLkV2ZW50LkV2ZW50SAASQAoTZ3Jl",
+            "ZW5ob3VzZV90ZW1wbGF0ZRgtIAEoCzIhLldVUHJvdG9zLkRhdGEuR3JlZW5o",
+            "b3VzZVRlbXBsYXRlSAASNAoHdmVyc2lvbhguIAEoCzIhLldVUHJvdG9zLkRh",
+            "dGEuR21UZW1wbGF0ZS5WZXJzaW9uSAAaQAoHVmVyc2lvbhIKCgJpZBgBIAEo",
+            "CRIUCgxkYXRhX3ZlcnNpb24YAiABKAkSEwoLZGF0YV9icmFuY2gYAyABKAlC",
+            "DQoLTWVzc2FnZVR5cGViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.Collection.CollectionFamilyReflection.Descriptor, global::WUProtos.Data.Collection.CollectionItemReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterObstacleReflection.Descriptor, global::WUProtos.Data.SpellReflection.Descriptor, global::WUProtos.Data.VaultItemReflection.Descriptor, global::WUProtos.Data.GameConfigReflection.Descriptor, global::WUProtos.Data.Player.PlayerLevelReflection.Descriptor, global::WUProtos.Data.StorePackReflection.Descriptor, global::WUProtos.Data.WalkboxTemplateReflection.Descriptor, global::WUProtos.Data.FeatureFlagReflection.Descriptor, global::WUProtos.Data.PortkeyReflection.Descriptor, global::WUProtos.Data.Buff.BuffReflection.Descriptor, global::WUProtos.Data.FortressTemplateReflection.Descriptor, global::WUProtos.Data.ChamberTemplateReflection.Descriptor, global::WUProtos.Data.QualityLevelReflection.Descriptor, global::WUProtos.Data.ProtegoPatternReflection.Descriptor, global::WUProtos.Data.Collection.CollectionPageReflection.Descriptor, global::WUProtos.Data.TeamControlReflection.Descriptor, global::WUProtos.Data.StoreConfigReflection.Descriptor, global::WUProtos.Data.StoreSubcategoryReflection.Descriptor, global::WUProtos.Data.HapticReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterTypeReflection.Descriptor, global::WUProtos.Data.Challenge.ChallengeSpawnLogicReflection.Descriptor, global::WUProtos.Data.Profession.ProfessionReflection.Descriptor, global::WUProtos.Data.BonusCategoryReflection.Descriptor, global::WUProtos.Data.VaultCategoryReflection.Descriptor, global::WUProtos.Data.ProfileConfigReflection.Descriptor, global::WUProtos.Data.Collection.CollectionFamilyRankTableReflection.Descriptor, global::WUProtos.Data.MapIngredientReflection.Descriptor, global::WUProtos.Data.MapAbilityReflection.Descriptor, global::WUProtos.Data.RecipeReflection.Descriptor, global::WUProtos.Data.Challenge.ChallengeBonusReflection.Descriptor, global::WUProtos.Data.StoryboardReflection.Descriptor, global::WUProtos.Data.MasterNoteReflection.Descriptor, global::WUProtos.Data.CauldronReflection.Descriptor, global::WUProtos.Data.RpgstatReflection.Descriptor, global::WUProtos.Data.RpgstatsBlockReflection.Descriptor, global::WUProtos.Data.SelfieAvatarAssetReflection.Descriptor, global::WUProtos.Data.OutpostTemplateReflection.Descriptor, global::WUProtos.Data.DailyRewardMonthlyScheduleReflection.Descriptor, global::WUProtos.Data.QuestReflection.Descriptor, global::WUProtos.Data.DeepLinkReflection.Descriptor, global::WUProtos.Data.Event.EventReflection.Descriptor, global::WUProtos.Data.GreenhouseTemplateReflection.Descriptor, global::WUProtos.Data.VersionReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.Collection.CollectionFamilyReflection.Descriptor, global::WUProtos.Data.Collection.CollectionItemReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterObstacleReflection.Descriptor, global::WUProtos.Data.SpellReflection.Descriptor, global::WUProtos.Data.VaultItemReflection.Descriptor, global::WUProtos.Data.GameConfigReflection.Descriptor, global::WUProtos.Data.Player.PlayerLevelReflection.Descriptor, global::WUProtos.Data.StorePackReflection.Descriptor, global::WUProtos.Data.WalkboxTemplateReflection.Descriptor, global::WUProtos.Data.FeatureFlagReflection.Descriptor, global::WUProtos.Data.PortkeyReflection.Descriptor, global::WUProtos.Data.Buff.BuffReflection.Descriptor, global::WUProtos.Data.FortressTemplateReflection.Descriptor, global::WUProtos.Data.ChamberTemplateReflection.Descriptor, global::WUProtos.Data.QualityLevelReflection.Descriptor, global::WUProtos.Data.ProtegoPatternReflection.Descriptor, global::WUProtos.Data.Collection.CollectionPageReflection.Descriptor, global::WUProtos.Data.TeamControlReflection.Descriptor, global::WUProtos.Data.StoreConfigReflection.Descriptor, global::WUProtos.Data.StoreSubcategoryReflection.Descriptor, global::WUProtos.Data.HapticReflection.Descriptor, global::WUProtos.Data.Encounter.EncounterTypeReflection.Descriptor, global::WUProtos.Data.Challenge.ChallengeSpawnLogicReflection.Descriptor, global::WUProtos.Data.Profession.ProfessionReflection.Descriptor, global::WUProtos.Data.BonusCategoryReflection.Descriptor, global::WUProtos.Data.VaultCategoryReflection.Descriptor, global::WUProtos.Data.ProfileConfigReflection.Descriptor, global::WUProtos.Data.Collection.CollectionFamilyRankTableReflection.Descriptor, global::WUProtos.Map.MapIngredientReflection.Descriptor, global::WUProtos.Map.MapAbilityReflection.Descriptor, global::WUProtos.Data.RecipeReflection.Descriptor, global::WUProtos.Data.Challenge.ChallengeBonusReflection.Descriptor, global::WUProtos.Data.Storyboard.StoryboardReflection.Descriptor, global::WUProtos.Data.MasterNoteReflection.Descriptor, global::WUProtos.Data.CauldronReflection.Descriptor, global::WUProtos.Data.RpgstatReflection.Descriptor, global::WUProtos.Data.RpgstatsBlockReflection.Descriptor, global::WUProtos.Data.SelfieAvatarAssetReflection.Descriptor, global::WUProtos.Data.OutpostTemplateReflection.Descriptor, global::WUProtos.Data.DailyRewardMonthlyScheduleReflection.Descriptor, global::WUProtos.Data.QuestReflection.Descriptor, global::WUProtos.Data.DeepLinkReflection.Descriptor, global::WUProtos.Data.Event.EventReflection.Descriptor, global::WUProtos.Data.GreenhouseTemplateReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.GmTemplate), global::WUProtos.Data.GmTemplate.Parser, new[]{ "CollectionFamily", "Encounter", "EncounterObstacle", "Spell", "VaultItem", "PlayerLevel", "WalkboxTemplate", "FeatureFlag", "Portkey", "Buff", "FortressTemplate", "ChamberTemplate", "QualityLevel", "ProtegoPattern", "CollectionPage", "TeamControl", "StoreSubcategory", "Haptic", "EncounterType", "ChallengeSpawnLogic", "Profession", "BonusCategory", "VaultCategory", "ProfileConfig", "CollectionFamilyRankTable", "MapIngredient", "MapAbility", "Recipe", "ChallengeBonus", "MasterNote", "Cauldron", "Rpgstat", "RpgstatsBlock", "SelfieAvatarAsset", "OutpostTemplate", "DailyRewardMonthlySchedule", "Quest", "DeepLink", "Event", "GreenhouseTemplate", "Version" }, new[]{ "MessageType" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.GmTemplate), global::WUProtos.Data.GmTemplate.Parser, new[]{ "CollectionFamily", "CollectionItem", "Encounter", "EncounterObstacle", "Spell", "VaultItem", "GameConfig", "PlayerLevel", "StorePack", "WalkboxTemplate", "FeatureFlag", "Portkey", "Buff", "FortressTemplate", "ChamberTemplate", "QualityLevel", "ProtegoPattern", "CollectionPage", "TeamControl", "StoreConfig", "StoreSubcategory", "Haptic", "EncounterType", "ChallengeSpawnLogic", "Profession", "BonusCategory", "VaultCategory", "ProfileConfig", "CollectionFamilyRankTable", "MapIngredient", "MapAbility", "Recipe", "ChallengeBonus", "Storyboard", "MasterNote", "Cauldron", "Rpgstat", "RpgstatsBlock", "SelfieAvatarAsset", "OutpostTemplate", "DailyRewardMonthlySchedule", "Quest", "DeepLink", "Event", "GreenhouseTemplate", "Version" }, new[]{ "MessageType" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.GmTemplate.Types.Version), global::WUProtos.Data.GmTemplate.Types.Version.Parser, new[]{ "Id", "DataVersion", "DataBranch" }, null, null, null)})
           }));
     }
     #endregion
@@ -155,6 +162,9 @@ namespace WUProtos.Data {
         case MessageTypeOneofCase.CollectionFamily:
           CollectionFamily = other.CollectionFamily.Clone();
           break;
+        case MessageTypeOneofCase.CollectionItem:
+          CollectionItem = other.CollectionItem.Clone();
+          break;
         case MessageTypeOneofCase.Encounter:
           Encounter = other.Encounter.Clone();
           break;
@@ -167,8 +177,14 @@ namespace WUProtos.Data {
         case MessageTypeOneofCase.VaultItem:
           VaultItem = other.VaultItem.Clone();
           break;
+        case MessageTypeOneofCase.GameConfig:
+          GameConfig = other.GameConfig.Clone();
+          break;
         case MessageTypeOneofCase.PlayerLevel:
           PlayerLevel = other.PlayerLevel.Clone();
+          break;
+        case MessageTypeOneofCase.StorePack:
+          StorePack = other.StorePack.Clone();
           break;
         case MessageTypeOneofCase.WalkboxTemplate:
           WalkboxTemplate = other.WalkboxTemplate.Clone();
@@ -199,6 +215,9 @@ namespace WUProtos.Data {
           break;
         case MessageTypeOneofCase.TeamControl:
           TeamControl = other.TeamControl.Clone();
+          break;
+        case MessageTypeOneofCase.StoreConfig:
+          StoreConfig = other.StoreConfig.Clone();
           break;
         case MessageTypeOneofCase.StoreSubcategory:
           StoreSubcategory = other.StoreSubcategory.Clone();
@@ -238,6 +257,9 @@ namespace WUProtos.Data {
           break;
         case MessageTypeOneofCase.ChallengeBonus:
           ChallengeBonus = other.ChallengeBonus.Clone();
+          break;
+        case MessageTypeOneofCase.Storyboard:
+          Storyboard = other.Storyboard.Clone();
           break;
         case MessageTypeOneofCase.MasterNote:
           MasterNote = other.MasterNote.Clone();
@@ -296,6 +318,17 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "collection_item" field.</summary>
+    public const int CollectionItemFieldNumber = 2;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::WUProtos.Data.Collection.CollectionItem CollectionItem {
+      get { return messageTypeCase_ == MessageTypeOneofCase.CollectionItem ? (global::WUProtos.Data.Collection.CollectionItem) messageType_ : null; }
+      set {
+        messageType_ = value;
+        messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.CollectionItem;
+      }
+    }
+
     /// <summary>Field number for the "encounter" field.</summary>
     public const int EncounterFieldNumber = 3;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -340,11 +373,19 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "game_config" field.</summary>
+    public const int GameConfigFieldNumber = 7;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::WUProtos.Data.GameConfig GameConfig {
+      get { return messageTypeCase_ == MessageTypeOneofCase.GameConfig ? (global::WUProtos.Data.GameConfig) messageType_ : null; }
+      set {
+        messageType_ = value;
+        messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.GameConfig;
+      }
+    }
+
     /// <summary>Field number for the "player_level" field.</summary>
     public const int PlayerLevelFieldNumber = 8;
-    /// <summary>
-    /// WUProtos.Data.GameConfig game_config = 7;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.Player.PlayerLevel PlayerLevel {
       get { return messageTypeCase_ == MessageTypeOneofCase.PlayerLevel ? (global::WUProtos.Data.Player.PlayerLevel) messageType_ : null; }
@@ -354,11 +395,19 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "store_pack" field.</summary>
+    public const int StorePackFieldNumber = 9;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::WUProtos.Data.StorePack StorePack {
+      get { return messageTypeCase_ == MessageTypeOneofCase.StorePack ? (global::WUProtos.Data.StorePack) messageType_ : null; }
+      set {
+        messageType_ = value;
+        messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.StorePack;
+      }
+    }
+
     /// <summary>Field number for the "walkbox_template" field.</summary>
     public const int WalkboxTemplateFieldNumber = 10;
-    /// <summary>
-    /// WUProtos.Data.StorePack store_pack = 9;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.WalkboxTemplate WalkboxTemplate {
       get { return messageTypeCase_ == MessageTypeOneofCase.WalkboxTemplate ? (global::WUProtos.Data.WalkboxTemplate) messageType_ : null; }
@@ -467,11 +516,19 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "store_config" field.</summary>
+    public const int StoreConfigFieldNumber = 20;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::WUProtos.Data.StoreConfig StoreConfig {
+      get { return messageTypeCase_ == MessageTypeOneofCase.StoreConfig ? (global::WUProtos.Data.StoreConfig) messageType_ : null; }
+      set {
+        messageType_ = value;
+        messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.StoreConfig;
+      }
+    }
+
     /// <summary>Field number for the "store_subcategory" field.</summary>
     public const int StoreSubcategoryFieldNumber = 21;
-    /// <summary>
-    /// WUProtos.Data.StoreConfig store_config = 20;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.StoreSubcategory StoreSubcategory {
       get { return messageTypeCase_ == MessageTypeOneofCase.StoreSubcategory ? (global::WUProtos.Data.StoreSubcategory) messageType_ : null; }
@@ -572,8 +629,8 @@ namespace WUProtos.Data {
     /// <summary>Field number for the "map_ingredient" field.</summary>
     public const int MapIngredientFieldNumber = 30;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.MapIngredient MapIngredient {
-      get { return messageTypeCase_ == MessageTypeOneofCase.MapIngredient ? (global::WUProtos.Data.MapIngredient) messageType_ : null; }
+    public global::WUProtos.Map.MapIngredient MapIngredient {
+      get { return messageTypeCase_ == MessageTypeOneofCase.MapIngredient ? (global::WUProtos.Map.MapIngredient) messageType_ : null; }
       set {
         messageType_ = value;
         messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.MapIngredient;
@@ -583,8 +640,8 @@ namespace WUProtos.Data {
     /// <summary>Field number for the "map_ability" field.</summary>
     public const int MapAbilityFieldNumber = 31;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.MapAbility MapAbility {
-      get { return messageTypeCase_ == MessageTypeOneofCase.MapAbility ? (global::WUProtos.Data.MapAbility) messageType_ : null; }
+    public global::WUProtos.Map.MapAbility MapAbility {
+      get { return messageTypeCase_ == MessageTypeOneofCase.MapAbility ? (global::WUProtos.Map.MapAbility) messageType_ : null; }
       set {
         messageType_ = value;
         messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.MapAbility;
@@ -613,11 +670,19 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "storyboard" field.</summary>
+    public const int StoryboardFieldNumber = 34;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::WUProtos.Data.Storyboard.Storyboard Storyboard {
+      get { return messageTypeCase_ == MessageTypeOneofCase.Storyboard ? (global::WUProtos.Data.Storyboard.Storyboard) messageType_ : null; }
+      set {
+        messageType_ = value;
+        messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.Storyboard;
+      }
+    }
+
     /// <summary>Field number for the "master_note" field.</summary>
     public const int MasterNoteFieldNumber = 35;
-    /// <summary>
-    /// WUProtos.Data.Storyboard storyboard = 34;
-    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.MasterNote MasterNote {
       get { return messageTypeCase_ == MessageTypeOneofCase.MasterNote ? (global::WUProtos.Data.MasterNote) messageType_ : null; }
@@ -740,8 +805,8 @@ namespace WUProtos.Data {
     /// <summary>Field number for the "version" field.</summary>
     public const int VersionFieldNumber = 46;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.Version Version {
-      get { return messageTypeCase_ == MessageTypeOneofCase.Version ? (global::WUProtos.Data.Version) messageType_ : null; }
+    public global::WUProtos.Data.GmTemplate.Types.Version Version {
+      get { return messageTypeCase_ == MessageTypeOneofCase.Version ? (global::WUProtos.Data.GmTemplate.Types.Version) messageType_ : null; }
       set {
         messageType_ = value;
         messageTypeCase_ = value == null ? MessageTypeOneofCase.None : MessageTypeOneofCase.Version;
@@ -753,11 +818,14 @@ namespace WUProtos.Data {
     public enum MessageTypeOneofCase {
       None = 0,
       CollectionFamily = 1,
+      CollectionItem = 2,
       Encounter = 3,
       EncounterObstacle = 4,
       Spell = 5,
       VaultItem = 6,
+      GameConfig = 7,
       PlayerLevel = 8,
+      StorePack = 9,
       WalkboxTemplate = 10,
       FeatureFlag = 11,
       Portkey = 12,
@@ -768,6 +836,7 @@ namespace WUProtos.Data {
       ProtegoPattern = 17,
       CollectionPage = 18,
       TeamControl = 19,
+      StoreConfig = 20,
       StoreSubcategory = 21,
       Haptic = 22,
       EncounterType = 23,
@@ -781,6 +850,7 @@ namespace WUProtos.Data {
       MapAbility = 31,
       Recipe = 32,
       ChallengeBonus = 33,
+      Storyboard = 34,
       MasterNote = 35,
       Cauldron = 36,
       Rpgstat = 37,
@@ -820,11 +890,14 @@ namespace WUProtos.Data {
         return true;
       }
       if (!object.Equals(CollectionFamily, other.CollectionFamily)) return false;
+      if (!object.Equals(CollectionItem, other.CollectionItem)) return false;
       if (!object.Equals(Encounter, other.Encounter)) return false;
       if (!object.Equals(EncounterObstacle, other.EncounterObstacle)) return false;
       if (!object.Equals(Spell, other.Spell)) return false;
       if (!object.Equals(VaultItem, other.VaultItem)) return false;
+      if (!object.Equals(GameConfig, other.GameConfig)) return false;
       if (!object.Equals(PlayerLevel, other.PlayerLevel)) return false;
+      if (!object.Equals(StorePack, other.StorePack)) return false;
       if (!object.Equals(WalkboxTemplate, other.WalkboxTemplate)) return false;
       if (!object.Equals(FeatureFlag, other.FeatureFlag)) return false;
       if (!object.Equals(Portkey, other.Portkey)) return false;
@@ -835,6 +908,7 @@ namespace WUProtos.Data {
       if (!object.Equals(ProtegoPattern, other.ProtegoPattern)) return false;
       if (!object.Equals(CollectionPage, other.CollectionPage)) return false;
       if (!object.Equals(TeamControl, other.TeamControl)) return false;
+      if (!object.Equals(StoreConfig, other.StoreConfig)) return false;
       if (!object.Equals(StoreSubcategory, other.StoreSubcategory)) return false;
       if (!object.Equals(Haptic, other.Haptic)) return false;
       if (!object.Equals(EncounterType, other.EncounterType)) return false;
@@ -848,6 +922,7 @@ namespace WUProtos.Data {
       if (!object.Equals(MapAbility, other.MapAbility)) return false;
       if (!object.Equals(Recipe, other.Recipe)) return false;
       if (!object.Equals(ChallengeBonus, other.ChallengeBonus)) return false;
+      if (!object.Equals(Storyboard, other.Storyboard)) return false;
       if (!object.Equals(MasterNote, other.MasterNote)) return false;
       if (!object.Equals(Cauldron, other.Cauldron)) return false;
       if (!object.Equals(Rpgstat, other.Rpgstat)) return false;
@@ -868,11 +943,14 @@ namespace WUProtos.Data {
     public override int GetHashCode() {
       int hash = 1;
       if (messageTypeCase_ == MessageTypeOneofCase.CollectionFamily) hash ^= CollectionFamily.GetHashCode();
+      if (messageTypeCase_ == MessageTypeOneofCase.CollectionItem) hash ^= CollectionItem.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.Encounter) hash ^= Encounter.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.EncounterObstacle) hash ^= EncounterObstacle.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.Spell) hash ^= Spell.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.VaultItem) hash ^= VaultItem.GetHashCode();
+      if (messageTypeCase_ == MessageTypeOneofCase.GameConfig) hash ^= GameConfig.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.PlayerLevel) hash ^= PlayerLevel.GetHashCode();
+      if (messageTypeCase_ == MessageTypeOneofCase.StorePack) hash ^= StorePack.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.WalkboxTemplate) hash ^= WalkboxTemplate.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.FeatureFlag) hash ^= FeatureFlag.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.Portkey) hash ^= Portkey.GetHashCode();
@@ -883,6 +961,7 @@ namespace WUProtos.Data {
       if (messageTypeCase_ == MessageTypeOneofCase.ProtegoPattern) hash ^= ProtegoPattern.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.CollectionPage) hash ^= CollectionPage.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.TeamControl) hash ^= TeamControl.GetHashCode();
+      if (messageTypeCase_ == MessageTypeOneofCase.StoreConfig) hash ^= StoreConfig.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.StoreSubcategory) hash ^= StoreSubcategory.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.Haptic) hash ^= Haptic.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.EncounterType) hash ^= EncounterType.GetHashCode();
@@ -896,6 +975,7 @@ namespace WUProtos.Data {
       if (messageTypeCase_ == MessageTypeOneofCase.MapAbility) hash ^= MapAbility.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.Recipe) hash ^= Recipe.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.ChallengeBonus) hash ^= ChallengeBonus.GetHashCode();
+      if (messageTypeCase_ == MessageTypeOneofCase.Storyboard) hash ^= Storyboard.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.MasterNote) hash ^= MasterNote.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.Cauldron) hash ^= Cauldron.GetHashCode();
       if (messageTypeCase_ == MessageTypeOneofCase.Rpgstat) hash ^= Rpgstat.GetHashCode();
@@ -926,6 +1006,10 @@ namespace WUProtos.Data {
         output.WriteRawTag(10);
         output.WriteMessage(CollectionFamily);
       }
+      if (messageTypeCase_ == MessageTypeOneofCase.CollectionItem) {
+        output.WriteRawTag(18);
+        output.WriteMessage(CollectionItem);
+      }
       if (messageTypeCase_ == MessageTypeOneofCase.Encounter) {
         output.WriteRawTag(26);
         output.WriteMessage(Encounter);
@@ -942,9 +1026,17 @@ namespace WUProtos.Data {
         output.WriteRawTag(50);
         output.WriteMessage(VaultItem);
       }
+      if (messageTypeCase_ == MessageTypeOneofCase.GameConfig) {
+        output.WriteRawTag(58);
+        output.WriteMessage(GameConfig);
+      }
       if (messageTypeCase_ == MessageTypeOneofCase.PlayerLevel) {
         output.WriteRawTag(66);
         output.WriteMessage(PlayerLevel);
+      }
+      if (messageTypeCase_ == MessageTypeOneofCase.StorePack) {
+        output.WriteRawTag(74);
+        output.WriteMessage(StorePack);
       }
       if (messageTypeCase_ == MessageTypeOneofCase.WalkboxTemplate) {
         output.WriteRawTag(82);
@@ -985,6 +1077,10 @@ namespace WUProtos.Data {
       if (messageTypeCase_ == MessageTypeOneofCase.TeamControl) {
         output.WriteRawTag(154, 1);
         output.WriteMessage(TeamControl);
+      }
+      if (messageTypeCase_ == MessageTypeOneofCase.StoreConfig) {
+        output.WriteRawTag(162, 1);
+        output.WriteMessage(StoreConfig);
       }
       if (messageTypeCase_ == MessageTypeOneofCase.StoreSubcategory) {
         output.WriteRawTag(170, 1);
@@ -1037,6 +1133,10 @@ namespace WUProtos.Data {
       if (messageTypeCase_ == MessageTypeOneofCase.ChallengeBonus) {
         output.WriteRawTag(138, 2);
         output.WriteMessage(ChallengeBonus);
+      }
+      if (messageTypeCase_ == MessageTypeOneofCase.Storyboard) {
+        output.WriteRawTag(146, 2);
+        output.WriteMessage(Storyboard);
       }
       if (messageTypeCase_ == MessageTypeOneofCase.MasterNote) {
         output.WriteRawTag(154, 2);
@@ -1097,6 +1197,9 @@ namespace WUProtos.Data {
       if (messageTypeCase_ == MessageTypeOneofCase.CollectionFamily) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CollectionFamily);
       }
+      if (messageTypeCase_ == MessageTypeOneofCase.CollectionItem) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CollectionItem);
+      }
       if (messageTypeCase_ == MessageTypeOneofCase.Encounter) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Encounter);
       }
@@ -1109,8 +1212,14 @@ namespace WUProtos.Data {
       if (messageTypeCase_ == MessageTypeOneofCase.VaultItem) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(VaultItem);
       }
+      if (messageTypeCase_ == MessageTypeOneofCase.GameConfig) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(GameConfig);
+      }
       if (messageTypeCase_ == MessageTypeOneofCase.PlayerLevel) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlayerLevel);
+      }
+      if (messageTypeCase_ == MessageTypeOneofCase.StorePack) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StorePack);
       }
       if (messageTypeCase_ == MessageTypeOneofCase.WalkboxTemplate) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(WalkboxTemplate);
@@ -1141,6 +1250,9 @@ namespace WUProtos.Data {
       }
       if (messageTypeCase_ == MessageTypeOneofCase.TeamControl) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(TeamControl);
+      }
+      if (messageTypeCase_ == MessageTypeOneofCase.StoreConfig) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(StoreConfig);
       }
       if (messageTypeCase_ == MessageTypeOneofCase.StoreSubcategory) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(StoreSubcategory);
@@ -1180,6 +1292,9 @@ namespace WUProtos.Data {
       }
       if (messageTypeCase_ == MessageTypeOneofCase.ChallengeBonus) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(ChallengeBonus);
+      }
+      if (messageTypeCase_ == MessageTypeOneofCase.Storyboard) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(Storyboard);
       }
       if (messageTypeCase_ == MessageTypeOneofCase.MasterNote) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(MasterNote);
@@ -1235,6 +1350,12 @@ namespace WUProtos.Data {
           }
           CollectionFamily.MergeFrom(other.CollectionFamily);
           break;
+        case MessageTypeOneofCase.CollectionItem:
+          if (CollectionItem == null) {
+            CollectionItem = new global::WUProtos.Data.Collection.CollectionItem();
+          }
+          CollectionItem.MergeFrom(other.CollectionItem);
+          break;
         case MessageTypeOneofCase.Encounter:
           if (Encounter == null) {
             Encounter = new global::WUProtos.Data.Encounter.Encounter();
@@ -1259,11 +1380,23 @@ namespace WUProtos.Data {
           }
           VaultItem.MergeFrom(other.VaultItem);
           break;
+        case MessageTypeOneofCase.GameConfig:
+          if (GameConfig == null) {
+            GameConfig = new global::WUProtos.Data.GameConfig();
+          }
+          GameConfig.MergeFrom(other.GameConfig);
+          break;
         case MessageTypeOneofCase.PlayerLevel:
           if (PlayerLevel == null) {
             PlayerLevel = new global::WUProtos.Data.Player.PlayerLevel();
           }
           PlayerLevel.MergeFrom(other.PlayerLevel);
+          break;
+        case MessageTypeOneofCase.StorePack:
+          if (StorePack == null) {
+            StorePack = new global::WUProtos.Data.StorePack();
+          }
+          StorePack.MergeFrom(other.StorePack);
           break;
         case MessageTypeOneofCase.WalkboxTemplate:
           if (WalkboxTemplate == null) {
@@ -1325,6 +1458,12 @@ namespace WUProtos.Data {
           }
           TeamControl.MergeFrom(other.TeamControl);
           break;
+        case MessageTypeOneofCase.StoreConfig:
+          if (StoreConfig == null) {
+            StoreConfig = new global::WUProtos.Data.StoreConfig();
+          }
+          StoreConfig.MergeFrom(other.StoreConfig);
+          break;
         case MessageTypeOneofCase.StoreSubcategory:
           if (StoreSubcategory == null) {
             StoreSubcategory = new global::WUProtos.Data.StoreSubcategory();
@@ -1381,13 +1520,13 @@ namespace WUProtos.Data {
           break;
         case MessageTypeOneofCase.MapIngredient:
           if (MapIngredient == null) {
-            MapIngredient = new global::WUProtos.Data.MapIngredient();
+            MapIngredient = new global::WUProtos.Map.MapIngredient();
           }
           MapIngredient.MergeFrom(other.MapIngredient);
           break;
         case MessageTypeOneofCase.MapAbility:
           if (MapAbility == null) {
-            MapAbility = new global::WUProtos.Data.MapAbility();
+            MapAbility = new global::WUProtos.Map.MapAbility();
           }
           MapAbility.MergeFrom(other.MapAbility);
           break;
@@ -1402,6 +1541,12 @@ namespace WUProtos.Data {
             ChallengeBonus = new global::WUProtos.Data.Challenge.ChallengeBonus();
           }
           ChallengeBonus.MergeFrom(other.ChallengeBonus);
+          break;
+        case MessageTypeOneofCase.Storyboard:
+          if (Storyboard == null) {
+            Storyboard = new global::WUProtos.Data.Storyboard.Storyboard();
+          }
+          Storyboard.MergeFrom(other.Storyboard);
           break;
         case MessageTypeOneofCase.MasterNote:
           if (MasterNote == null) {
@@ -1471,7 +1616,7 @@ namespace WUProtos.Data {
           break;
         case MessageTypeOneofCase.Version:
           if (Version == null) {
-            Version = new global::WUProtos.Data.Version();
+            Version = new global::WUProtos.Data.GmTemplate.Types.Version();
           }
           Version.MergeFrom(other.Version);
           break;
@@ -1495,6 +1640,15 @@ namespace WUProtos.Data {
             }
             input.ReadMessage(subBuilder);
             CollectionFamily = subBuilder;
+            break;
+          }
+          case 18: {
+            global::WUProtos.Data.Collection.CollectionItem subBuilder = new global::WUProtos.Data.Collection.CollectionItem();
+            if (messageTypeCase_ == MessageTypeOneofCase.CollectionItem) {
+              subBuilder.MergeFrom(CollectionItem);
+            }
+            input.ReadMessage(subBuilder);
+            CollectionItem = subBuilder;
             break;
           }
           case 26: {
@@ -1533,6 +1687,15 @@ namespace WUProtos.Data {
             VaultItem = subBuilder;
             break;
           }
+          case 58: {
+            global::WUProtos.Data.GameConfig subBuilder = new global::WUProtos.Data.GameConfig();
+            if (messageTypeCase_ == MessageTypeOneofCase.GameConfig) {
+              subBuilder.MergeFrom(GameConfig);
+            }
+            input.ReadMessage(subBuilder);
+            GameConfig = subBuilder;
+            break;
+          }
           case 66: {
             global::WUProtos.Data.Player.PlayerLevel subBuilder = new global::WUProtos.Data.Player.PlayerLevel();
             if (messageTypeCase_ == MessageTypeOneofCase.PlayerLevel) {
@@ -1540,6 +1703,15 @@ namespace WUProtos.Data {
             }
             input.ReadMessage(subBuilder);
             PlayerLevel = subBuilder;
+            break;
+          }
+          case 74: {
+            global::WUProtos.Data.StorePack subBuilder = new global::WUProtos.Data.StorePack();
+            if (messageTypeCase_ == MessageTypeOneofCase.StorePack) {
+              subBuilder.MergeFrom(StorePack);
+            }
+            input.ReadMessage(subBuilder);
+            StorePack = subBuilder;
             break;
           }
           case 82: {
@@ -1632,6 +1804,15 @@ namespace WUProtos.Data {
             TeamControl = subBuilder;
             break;
           }
+          case 162: {
+            global::WUProtos.Data.StoreConfig subBuilder = new global::WUProtos.Data.StoreConfig();
+            if (messageTypeCase_ == MessageTypeOneofCase.StoreConfig) {
+              subBuilder.MergeFrom(StoreConfig);
+            }
+            input.ReadMessage(subBuilder);
+            StoreConfig = subBuilder;
+            break;
+          }
           case 170: {
             global::WUProtos.Data.StoreSubcategory subBuilder = new global::WUProtos.Data.StoreSubcategory();
             if (messageTypeCase_ == MessageTypeOneofCase.StoreSubcategory) {
@@ -1714,7 +1895,7 @@ namespace WUProtos.Data {
             break;
           }
           case 242: {
-            global::WUProtos.Data.MapIngredient subBuilder = new global::WUProtos.Data.MapIngredient();
+            global::WUProtos.Map.MapIngredient subBuilder = new global::WUProtos.Map.MapIngredient();
             if (messageTypeCase_ == MessageTypeOneofCase.MapIngredient) {
               subBuilder.MergeFrom(MapIngredient);
             }
@@ -1723,7 +1904,7 @@ namespace WUProtos.Data {
             break;
           }
           case 250: {
-            global::WUProtos.Data.MapAbility subBuilder = new global::WUProtos.Data.MapAbility();
+            global::WUProtos.Map.MapAbility subBuilder = new global::WUProtos.Map.MapAbility();
             if (messageTypeCase_ == MessageTypeOneofCase.MapAbility) {
               subBuilder.MergeFrom(MapAbility);
             }
@@ -1747,6 +1928,15 @@ namespace WUProtos.Data {
             }
             input.ReadMessage(subBuilder);
             ChallengeBonus = subBuilder;
+            break;
+          }
+          case 274: {
+            global::WUProtos.Data.Storyboard.Storyboard subBuilder = new global::WUProtos.Data.Storyboard.Storyboard();
+            if (messageTypeCase_ == MessageTypeOneofCase.Storyboard) {
+              subBuilder.MergeFrom(Storyboard);
+            }
+            input.ReadMessage(subBuilder);
+            Storyboard = subBuilder;
             break;
           }
           case 282: {
@@ -1849,7 +2039,7 @@ namespace WUProtos.Data {
             break;
           }
           case 370: {
-            global::WUProtos.Data.Version subBuilder = new global::WUProtos.Data.Version();
+            global::WUProtos.Data.GmTemplate.Types.Version subBuilder = new global::WUProtos.Data.GmTemplate.Types.Version();
             if (messageTypeCase_ == MessageTypeOneofCase.Version) {
               subBuilder.MergeFrom(Version);
             }
@@ -1860,6 +2050,198 @@ namespace WUProtos.Data {
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the GmTemplate message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class Version : pb::IMessage<Version> {
+        private static readonly pb::MessageParser<Version> _parser = new pb::MessageParser<Version>(() => new Version());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Version> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::WUProtos.Data.GmTemplate.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Version() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Version(Version other) : this() {
+          id_ = other.id_;
+          dataVersion_ = other.dataVersion_;
+          dataBranch_ = other.dataBranch_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Version Clone() {
+          return new Version(this);
+        }
+
+        /// <summary>Field number for the "id" field.</summary>
+        public const int IdFieldNumber = 1;
+        private string id_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Id {
+          get { return id_; }
+          set {
+            id_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "data_version" field.</summary>
+        public const int DataVersionFieldNumber = 2;
+        private string dataVersion_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string DataVersion {
+          get { return dataVersion_; }
+          set {
+            dataVersion_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "data_branch" field.</summary>
+        public const int DataBranchFieldNumber = 3;
+        private string dataBranch_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string DataBranch {
+          get { return dataBranch_; }
+          set {
+            dataBranch_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Version);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Version other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Id != other.Id) return false;
+          if (DataVersion != other.DataVersion) return false;
+          if (DataBranch != other.DataBranch) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Id.Length != 0) hash ^= Id.GetHashCode();
+          if (DataVersion.Length != 0) hash ^= DataVersion.GetHashCode();
+          if (DataBranch.Length != 0) hash ^= DataBranch.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Id.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Id);
+          }
+          if (DataVersion.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(DataVersion);
+          }
+          if (DataBranch.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(DataBranch);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Id.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
+          }
+          if (DataVersion.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(DataVersion);
+          }
+          if (DataBranch.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(DataBranch);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Version other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Id.Length != 0) {
+            Id = other.Id;
+          }
+          if (other.DataVersion.Length != 0) {
+            DataVersion = other.DataVersion;
+          }
+          if (other.DataBranch.Length != 0) {
+            DataBranch = other.DataBranch;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Id = input.ReadString();
+                break;
+              }
+              case 18: {
+                DataVersion = input.ReadString();
+                break;
+              }
+              case 26: {
+                DataBranch = input.ReadString();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 

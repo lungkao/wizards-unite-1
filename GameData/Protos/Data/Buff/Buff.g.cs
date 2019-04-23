@@ -28,17 +28,20 @@ namespace WUProtos.Data.Buff {
             "YS5CdWZmGiVXVVByb3Rvcy9EYXRhL0J1ZmYvQnVmZkR1cmF0aW9uLnByb3Rv",
             "Gi1XVVByb3Rvcy9EYXRhL0J1ZmYvQnVmZkV4Y2x1c2l2aXR5R3JvdXAucHJv",
             "dG8aKFdVUHJvdG9zL0RhdGEvQ29uZGl0aW9uYWxNb2RpZmllcnMucHJvdG8i",
-            "sQIKBEJ1ZmYSCgoCaWQYASABKAkSMgoIZHVyYXRpb24YAyABKAsyIC5XVVBy",
+            "nwMKBEJ1ZmYSCgoCaWQYASABKAkSMgoIZHVyYXRpb24YAyABKAsyIC5XVVBy",
             "b3Rvcy5EYXRhLkJ1ZmYuQnVmZkR1cmF0aW9uEkMKEWV4Y2x1c2l2aXR5X2dy",
             "b3VwGAQgASgLMiguV1VQcm90b3MuRGF0YS5CdWZmLkJ1ZmZFeGNsdXNpdml0",
             "eUdyb3VwEjQKCWJ1ZmZfdHlwZRgFIAEoDjIhLldVUHJvdG9zLkRhdGEuQnVm",
-            "Zi5CdWZmLkJ1ZmZUeXBlEkIKFWNvbmRpdGlvbmFsX21vZGlmaWVycxgHIAMo",
-            "CzIjLldVUHJvdG9zLkRhdGEuQ29uZGl0aW9uYWxNb2RpZmllcnMiKgoIQnVm",
-            "ZlR5cGUSCAoETk9ORRAAEggKBEJVRkYQARIKCgZERUJVRkYQAmIGcHJvdG8z"));
+            "Zi5CdWZmLkJ1ZmZUeXBlEjoKCW1vZGlmaWVycxgGIAMoCzInLldVUHJvdG9z",
+            "LkRhdGEuQnVmZi5CdWZmLk1vZGlmaWVyc0VudHJ5EkIKFWNvbmRpdGlvbmFs",
+            "X21vZGlmaWVycxgHIAMoCzIjLldVUHJvdG9zLkRhdGEuQ29uZGl0aW9uYWxN",
+            "b2RpZmllcnMaMAoOTW9kaWZpZXJzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZh",
+            "bHVlGAIgASgDOgI4ASIqCghCdWZmVHlwZRIICgROT05FEAASCAoEQlVGRhAB",
+            "EgoKBkRFQlVGRhACYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::WUProtos.Data.Buff.BuffDurationReflection.Descriptor, global::WUProtos.Data.Buff.BuffExclusivityGroupReflection.Descriptor, global::WUProtos.Data.ConditionalModifiersReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Buff.Buff), global::WUProtos.Data.Buff.Buff.Parser, new[]{ "Id", "Duration", "ExclusivityGroup", "BuffType", "ConditionalModifiers" }, null, new[]{ typeof(global::WUProtos.Data.Buff.Buff.Types.BuffType) }, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Buff.Buff), global::WUProtos.Data.Buff.Buff.Parser, new[]{ "Id", "Duration", "ExclusivityGroup", "BuffType", "Modifiers", "ConditionalModifiers" }, null, new[]{ typeof(global::WUProtos.Data.Buff.Buff.Types.BuffType) }, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -74,6 +77,7 @@ namespace WUProtos.Data.Buff {
       duration_ = other.duration_ != null ? other.duration_.Clone() : null;
       exclusivityGroup_ = other.exclusivityGroup_ != null ? other.exclusivityGroup_.Clone() : null;
       buffType_ = other.buffType_;
+      modifiers_ = other.modifiers_.Clone();
       conditionalModifiers_ = other.conditionalModifiers_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -127,6 +131,16 @@ namespace WUProtos.Data.Buff {
       }
     }
 
+    /// <summary>Field number for the "modifiers" field.</summary>
+    public const int ModifiersFieldNumber = 6;
+    private static readonly pbc::MapField<string, long>.Codec _map_modifiers_codec
+        = new pbc::MapField<string, long>.Codec(pb::FieldCodec.ForString(10), pb::FieldCodec.ForInt64(16), 50);
+    private readonly pbc::MapField<string, long> modifiers_ = new pbc::MapField<string, long>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<string, long> Modifiers {
+      get { return modifiers_; }
+    }
+
     /// <summary>Field number for the "conditional_modifiers" field.</summary>
     public const int ConditionalModifiersFieldNumber = 7;
     private static readonly pb::FieldCodec<global::WUProtos.Data.ConditionalModifiers> _repeated_conditionalModifiers_codec
@@ -154,6 +168,7 @@ namespace WUProtos.Data.Buff {
       if (!object.Equals(Duration, other.Duration)) return false;
       if (!object.Equals(ExclusivityGroup, other.ExclusivityGroup)) return false;
       if (BuffType != other.BuffType) return false;
+      if (!Modifiers.Equals(other.Modifiers)) return false;
       if(!conditionalModifiers_.Equals(other.conditionalModifiers_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -165,6 +180,7 @@ namespace WUProtos.Data.Buff {
       if (duration_ != null) hash ^= Duration.GetHashCode();
       if (exclusivityGroup_ != null) hash ^= ExclusivityGroup.GetHashCode();
       if (BuffType != 0) hash ^= BuffType.GetHashCode();
+      hash ^= Modifiers.GetHashCode();
       hash ^= conditionalModifiers_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -195,6 +211,7 @@ namespace WUProtos.Data.Buff {
         output.WriteRawTag(40);
         output.WriteEnum((int) BuffType);
       }
+      modifiers_.WriteTo(output, _map_modifiers_codec);
       conditionalModifiers_.WriteTo(output, _repeated_conditionalModifiers_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -216,6 +233,7 @@ namespace WUProtos.Data.Buff {
       if (BuffType != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) BuffType);
       }
+      size += modifiers_.CalculateSize(_map_modifiers_codec);
       size += conditionalModifiers_.CalculateSize(_repeated_conditionalModifiers_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -246,6 +264,7 @@ namespace WUProtos.Data.Buff {
       if (other.BuffType != 0) {
         BuffType = other.BuffType;
       }
+      modifiers_.Add(other.modifiers_);
       conditionalModifiers_.Add(other.conditionalModifiers_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -278,6 +297,10 @@ namespace WUProtos.Data.Buff {
           }
           case 40: {
             BuffType = (global::WUProtos.Data.Buff.Buff.Types.BuffType) input.ReadEnum();
+            break;
+          }
+          case 50: {
+            modifiers_.AddEntriesFrom(input, _map_modifiers_codec);
             break;
           }
           case 58: {

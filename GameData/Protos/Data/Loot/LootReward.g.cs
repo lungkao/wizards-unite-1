@@ -39,7 +39,7 @@ namespace WUProtos.Data.Loot {
             "dFJld2FyZC5wcm90bxoiV1VQcm90b3MvRGF0YS9DYXVsZHJvblJld2FyZC5w",
             "cm90bxoiV1VQcm90b3MvRGF0YS9DdXJyZW5jeVJld2FyZC5wcm90bxofV1VQ",
             "cm90b3MvRGF0YS9RdWVzdFJld2FyZC5wcm90bxohV1VQcm90b3MvRGF0YS9C",
-            "b251c01ldGFkYXRhLnByb3RvIowICgpMb290UmV3YXJkEjkKC2l0ZW1fcmV3",
+            "b251c01ldGFkYXRhLnByb3RvIvwHCgpMb290UmV3YXJkEjkKC2l0ZW1fcmV3",
             "YXJkGAEgASgLMiIuV1VQcm90b3MuRGF0YS5WYXVsdEl0ZW1Mb290UmV3YXJk",
             "SAASWAoYY29sbGVjdGlvbl9mYW1pbHlfcmV3YXJkGAIgASgLMjQuV1VQcm90",
             "b3MuRGF0YS5Db2xsZWN0aW9uLkNvbGxlY3Rpb25GYW1pbHlMb290UmV3YXJk",
@@ -60,13 +60,13 @@ namespace WUProtos.Data.Loot {
             "YXVsZHJvbl9yZXdhcmQYDCABKAsyHS5XVVByb3Rvcy5EYXRhLkNhdWxkcm9u",
             "UmV3YXJkSAASOAoPY3VycmVuY3lfcmV3YXJkGA0gASgLMh0uV1VQcm90b3Mu",
             "RGF0YS5DdXJyZW5jeVJld2FyZEgAEjIKDHF1ZXN0X3Jld2FyZBgOIAEoCzIa",
-            "LldVUHJvdG9zLkRhdGEuUXVlc3RSZXdhcmRIABIOCgZhbW91bnQYDyABKAMS",
-            "NAoOYm9udXNfbWV0YWRhdGEYZSABKAsyHC5XVVByb3Rvcy5EYXRhLkJvbnVz",
-            "TWV0YWRhdGFCDAoKUmV3YXJkRGF0YWIGcHJvdG8z"));
+            "LldVUHJvdG9zLkRhdGEuUXVlc3RSZXdhcmRIABI0Cg5ib251c19tZXRhZGF0",
+            "YRhlIAEoCzIcLldVUHJvdG9zLkRhdGEuQm9udXNNZXRhZGF0YUIMCgpSZXdh",
+            "cmREYXRhYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::WUProtos.Data.VaultItemLootRewardReflection.Descriptor, global::WUProtos.Data.Collection.CollectionFamilyLootRewardReflection.Descriptor, global::WUProtos.Data.Collection.CollectionItemRewardReflection.Descriptor, global::WUProtos.Data.WalkboxRewardReflection.Descriptor, global::WUProtos.Data.PortkeyRewardReflection.Descriptor, global::WUProtos.Data.Loot.LootTableRewardReflection.Descriptor, global::WUProtos.Data.VaultCapacityLootRewardReflection.Descriptor, global::WUProtos.Data.GenericRunestoneRewardReflection.Descriptor, global::WUProtos.Data.Potion.PotionRewardReflection.Descriptor, global::WUProtos.Data.PortkeyCollectibleRewardReflection.Descriptor, global::WUProtos.Data.GenericCollectionFamilyLootRewardReflection.Descriptor, global::WUProtos.Data.CauldronRewardReflection.Descriptor, global::WUProtos.Data.CurrencyRewardReflection.Descriptor, global::WUProtos.Data.QuestRewardReflection.Descriptor, global::WUProtos.Data.BonusMetadataReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Loot.LootReward), global::WUProtos.Data.Loot.LootReward.Parser, new[]{ "ItemReward", "CollectionFamilyReward", "CollectionReward", "WalkboxReward", "PortkeyReward", "LootTableReward", "VaultCapacityReward", "GenericRunestone", "PotionReward", "PortkeyCollectible", "GenericCollectionFamilyReward", "CauldronReward", "CurrencyReward", "QuestReward", "Amount", "BonusMetadata" }, new[]{ "RewardData" }, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Loot.LootReward), global::WUProtos.Data.Loot.LootReward.Parser, new[]{ "ItemReward", "CollectionFamilyReward", "CollectionReward", "WalkboxReward", "PortkeyReward", "LootTableReward", "VaultCapacityReward", "GenericRunestone", "PotionReward", "PortkeyCollectible", "GenericCollectionFamilyReward", "CauldronReward", "CurrencyReward", "QuestReward", "BonusMetadata" }, new[]{ "RewardData" }, null, null)
           }));
     }
     #endregion
@@ -98,7 +98,6 @@ namespace WUProtos.Data.Loot {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public LootReward(LootReward other) : this() {
-      amount_ = other.amount_;
       bonusMetadata_ = other.bonusMetadata_ != null ? other.bonusMetadata_.Clone() : null;
       switch (other.RewardDataCase) {
         case RewardDataOneofCase.ItemReward:
@@ -307,20 +306,12 @@ namespace WUProtos.Data.Loot {
       }
     }
 
-    /// <summary>Field number for the "amount" field.</summary>
-    public const int AmountFieldNumber = 15;
-    private long amount_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public long Amount {
-      get { return amount_; }
-      set {
-        amount_ = value;
-      }
-    }
-
     /// <summary>Field number for the "bonus_metadata" field.</summary>
     public const int BonusMetadataFieldNumber = 101;
     private global::WUProtos.Data.BonusMetadata bonusMetadata_;
+    /// <summary>
+    ///int64 amount = 15; // not sure this is needed according dynspy viewer
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::WUProtos.Data.BonusMetadata BonusMetadata {
       get { return bonusMetadata_; }
@@ -387,7 +378,6 @@ namespace WUProtos.Data.Loot {
       if (!object.Equals(CauldronReward, other.CauldronReward)) return false;
       if (!object.Equals(CurrencyReward, other.CurrencyReward)) return false;
       if (!object.Equals(QuestReward, other.QuestReward)) return false;
-      if (Amount != other.Amount) return false;
       if (!object.Equals(BonusMetadata, other.BonusMetadata)) return false;
       if (RewardDataCase != other.RewardDataCase) return false;
       return Equals(_unknownFields, other._unknownFields);
@@ -410,7 +400,6 @@ namespace WUProtos.Data.Loot {
       if (rewardDataCase_ == RewardDataOneofCase.CauldronReward) hash ^= CauldronReward.GetHashCode();
       if (rewardDataCase_ == RewardDataOneofCase.CurrencyReward) hash ^= CurrencyReward.GetHashCode();
       if (rewardDataCase_ == RewardDataOneofCase.QuestReward) hash ^= QuestReward.GetHashCode();
-      if (Amount != 0L) hash ^= Amount.GetHashCode();
       if (bonusMetadata_ != null) hash ^= BonusMetadata.GetHashCode();
       hash ^= (int) rewardDataCase_;
       if (_unknownFields != null) {
@@ -482,10 +471,6 @@ namespace WUProtos.Data.Loot {
         output.WriteRawTag(114);
         output.WriteMessage(QuestReward);
       }
-      if (Amount != 0L) {
-        output.WriteRawTag(120);
-        output.WriteInt64(Amount);
-      }
       if (bonusMetadata_ != null) {
         output.WriteRawTag(170, 6);
         output.WriteMessage(BonusMetadata);
@@ -540,9 +525,6 @@ namespace WUProtos.Data.Loot {
       if (rewardDataCase_ == RewardDataOneofCase.QuestReward) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(QuestReward);
       }
-      if (Amount != 0L) {
-        size += 1 + pb::CodedOutputStream.ComputeInt64Size(Amount);
-      }
       if (bonusMetadata_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(BonusMetadata);
       }
@@ -556,9 +538,6 @@ namespace WUProtos.Data.Loot {
     public void MergeFrom(LootReward other) {
       if (other == null) {
         return;
-      }
-      if (other.Amount != 0L) {
-        Amount = other.Amount;
       }
       if (other.bonusMetadata_ != null) {
         if (bonusMetadata_ == null) {
@@ -788,10 +767,6 @@ namespace WUProtos.Data.Loot {
             }
             input.ReadMessage(subBuilder);
             QuestReward = subBuilder;
-            break;
-          }
-          case 120: {
-            Amount = input.ReadInt64();
             break;
           }
           case 810: {

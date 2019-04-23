@@ -25,16 +25,17 @@ namespace WUProtos.Data.Client {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CjZXVVByb3Rvcy9EYXRhL0NsaWVudC9DbGllbnRFbmNvdW50ZXJTdGFnZVBp",
-            "Y3R1cmUucHJvdG8SFFdVUHJvdG9zLkRhdGEuQ2xpZW50GhtXVVByb3Rvcy9E",
-            "YXRhL1ZlY3RvcjMucHJvdG8imgEKG0NsaWVudEVuY291bnRlclN0YWdlUGlj",
-            "dHVyZRIKCgJpZBgBIAEoCRITCgtzcGF3bl9zY2FsZRgCIAEoAhIRCgltaW5f",
-            "c2NhbGUYAyABKAISEQoJbWF4X3NjYWxlGAQgASgCEjQKFHNpbXBsZV9hcl9w",
-            "b3Nfb2Zmc2V0GAUgASgLMhYuV1VQcm90b3MuRGF0YS5WZWN0b3IzYgZwcm90",
-            "bzM="));
+            "Y3R1cmUucHJvdG8SFFdVUHJvdG9zLkRhdGEuQ2xpZW50IukBChtDbGllbnRF",
+            "bmNvdW50ZXJTdGFnZVBpY3R1cmUSCgoCaWQYASABKAkSEwoLc3Bhd25fc2Nh",
+            "bGUYAiABKAISEQoJbWluX3NjYWxlGAMgASgCEhEKCW1heF9zY2FsZRgEIAEo",
+            "AhJXChRzaW1wbGVfYXJfcG9zX29mZnNldBgFIAEoCzI5LldVUHJvdG9zLkRh",
+            "dGEuQ2xpZW50LkNsaWVudEVuY291bnRlclN0YWdlUGljdHVyZS5WZWN0b3Iz",
+            "GioKB1ZlY3RvcjMSCQoBeBgBIAEoAhIJCgF5GAIgASgCEgkKAXoYAyABKAJi",
+            "BnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.Vector3Reflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientEncounterStagePicture), global::WUProtos.Data.Client.ClientEncounterStagePicture.Parser, new[]{ "Id", "SpawnScale", "MinScale", "MaxScale", "SimpleArPosOffset" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientEncounterStagePicture), global::WUProtos.Data.Client.ClientEncounterStagePicture.Parser, new[]{ "Id", "SpawnScale", "MinScale", "MaxScale", "SimpleArPosOffset" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientEncounterStagePicture.Types.Vector3), global::WUProtos.Data.Client.ClientEncounterStagePicture.Types.Vector3.Parser, new[]{ "X", "Y", "Z" }, null, null, null)})
           }));
     }
     #endregion
@@ -125,9 +126,9 @@ namespace WUProtos.Data.Client {
 
     /// <summary>Field number for the "simple_ar_pos_offset" field.</summary>
     public const int SimpleArPosOffsetFieldNumber = 5;
-    private global::WUProtos.Data.Vector3 simpleArPosOffset_;
+    private global::WUProtos.Data.Client.ClientEncounterStagePicture.Types.Vector3 simpleArPosOffset_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::WUProtos.Data.Vector3 SimpleArPosOffset {
+    public global::WUProtos.Data.Client.ClientEncounterStagePicture.Types.Vector3 SimpleArPosOffset {
       get { return simpleArPosOffset_; }
       set {
         simpleArPosOffset_ = value;
@@ -244,7 +245,7 @@ namespace WUProtos.Data.Client {
       }
       if (other.simpleArPosOffset_ != null) {
         if (simpleArPosOffset_ == null) {
-          SimpleArPosOffset = new global::WUProtos.Data.Vector3();
+          SimpleArPosOffset = new global::WUProtos.Data.Client.ClientEncounterStagePicture.Types.Vector3();
         }
         SimpleArPosOffset.MergeFrom(other.SimpleArPosOffset);
       }
@@ -277,7 +278,7 @@ namespace WUProtos.Data.Client {
           }
           case 42: {
             if (simpleArPosOffset_ == null) {
-              SimpleArPosOffset = new global::WUProtos.Data.Vector3();
+              SimpleArPosOffset = new global::WUProtos.Data.Client.ClientEncounterStagePicture.Types.Vector3();
             }
             input.ReadMessage(SimpleArPosOffset);
             break;
@@ -285,6 +286,198 @@ namespace WUProtos.Data.Client {
         }
       }
     }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the ClientEncounterStagePicture message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public sealed partial class Vector3 : pb::IMessage<Vector3> {
+        private static readonly pb::MessageParser<Vector3> _parser = new pb::MessageParser<Vector3>(() => new Vector3());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<Vector3> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::WUProtos.Data.Client.ClientEncounterStagePicture.Descriptor.NestedTypes[0]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Vector3() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Vector3(Vector3 other) : this() {
+          x_ = other.x_;
+          y_ = other.y_;
+          z_ = other.z_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public Vector3 Clone() {
+          return new Vector3(this);
+        }
+
+        /// <summary>Field number for the "x" field.</summary>
+        public const int XFieldNumber = 1;
+        private float x_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public float X {
+          get { return x_; }
+          set {
+            x_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "y" field.</summary>
+        public const int YFieldNumber = 2;
+        private float y_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public float Y {
+          get { return y_; }
+          set {
+            y_ = value;
+          }
+        }
+
+        /// <summary>Field number for the "z" field.</summary>
+        public const int ZFieldNumber = 3;
+        private float z_;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public float Z {
+          get { return z_; }
+          set {
+            z_ = value;
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as Vector3);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(Vector3 other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(X, other.X)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Y, other.Y)) return false;
+          if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Z, other.Z)) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (X != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(X);
+          if (Y != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Y);
+          if (Z != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Z);
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (X != 0F) {
+            output.WriteRawTag(13);
+            output.WriteFloat(X);
+          }
+          if (Y != 0F) {
+            output.WriteRawTag(21);
+            output.WriteFloat(Y);
+          }
+          if (Z != 0F) {
+            output.WriteRawTag(29);
+            output.WriteFloat(Z);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (X != 0F) {
+            size += 1 + 4;
+          }
+          if (Y != 0F) {
+            size += 1 + 4;
+          }
+          if (Z != 0F) {
+            size += 1 + 4;
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(Vector3 other) {
+          if (other == null) {
+            return;
+          }
+          if (other.X != 0F) {
+            X = other.X;
+          }
+          if (other.Y != 0F) {
+            Y = other.Y;
+          }
+          if (other.Z != 0F) {
+            Z = other.Z;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 13: {
+                X = input.ReadFloat();
+                break;
+              }
+              case 21: {
+                Y = input.ReadFloat();
+                break;
+              }
+              case 29: {
+                Z = input.ReadFloat();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+    }
+    #endregion
 
   }
 

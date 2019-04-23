@@ -25,22 +25,25 @@ namespace WUProtos.Data.Client {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiZXVVByb3Rvcy9EYXRhL0NsaWVudC9DbGllbnRJbmJveC5wcm90bxIUV1VQ",
-            "cm90b3MuRGF0YS5DbGllbnQaJFdVUHJvdG9zL0RhdGEvVGVtcGxhdGVWYXJp",
-            "YWJsZS5wcm90byK/AwoLQ2xpZW50SW5ib3gSRQoNbm90aWZpY2F0aW9ucxgB",
-            "IAMoCzIuLldVUHJvdG9zLkRhdGEuQ2xpZW50LkNsaWVudEluYm94Lk5vdGlm",
-            "aWNhdGlvbhI6ChFidWlsdGluX3ZhcmlhYmxlcxgCIAMoCzIfLldVUHJvdG9z",
-            "LkRhdGEuVGVtcGxhdGVWYXJpYWJsZRruAQoMTm90aWZpY2F0aW9uEhcKD25v",
-            "dGlmaWNhdGlvbl9pZBgBIAEoCRIRCgl0aXRsZV9rZXkYAiABKAkSEAoIY2F0",
-            "ZWdvcnkYAyABKAkSGwoTY3JlYXRlX3RpbWVzdGFtcF9tcxgEIAEoAxIyCgl2",
-            "YXJpYWJsZXMYBSADKAsyHy5XVVByb3Rvcy5EYXRhLlRlbXBsYXRlVmFyaWFi",
+            "cm90b3MuRGF0YS5DbGllbnQizwQKC0NsaWVudEluYm94EkUKDW5vdGlmaWNh",
+            "dGlvbnMYASADKAsyLi5XVVByb3Rvcy5EYXRhLkNsaWVudC5DbGllbnRJbmJv",
+            "eC5Ob3RpZmljYXRpb24STQoRYnVpbHRpbl92YXJpYWJsZXMYAiADKAsyMi5X",
+            "VVByb3Rvcy5EYXRhLkNsaWVudC5DbGllbnRJbmJveC5UZW1wbGF0ZVZhcmlh",
+            "YmxlGoECCgxOb3RpZmljYXRpb24SFwoPbm90aWZpY2F0aW9uX2lkGAEgASgJ",
+            "EhEKCXRpdGxlX2tleRgCIAEoCRIQCghjYXRlZ29yeRgDIAEoCRIbChNjcmVh",
+            "dGVfdGltZXN0YW1wX21zGAQgASgDEkUKCXZhcmlhYmxlcxgFIAMoCzIyLldV",
+            "UHJvdG9zLkRhdGEuQ2xpZW50LkNsaWVudEluYm94LlRlbXBsYXRlVmFyaWFi",
             "bGUSNwoGbGFiZWxzGAYgAygOMicuV1VQcm90b3MuRGF0YS5DbGllbnQuQ2xp",
-            "ZW50SW5ib3guTGFiZWwSFgoOZXhwaXJlX3RpbWVfbXMYByABKAMiPAoFTGFi",
-            "ZWwSDwoLVU5TRVRfTEFCRUwQABIKCgZVTlJFQUQQARIHCgNORVcQAhINCglJ",
-            "TU1FRElBVEUQA2IGcHJvdG8z"));
+            "ZW50SW5ib3guTGFiZWwSFgoOZXhwaXJlX3RpbWVfbXMYByABKAMaaAoQVGVt",
+            "cGxhdGVWYXJpYWJsZRIMCgRuYW1lGAEgASgJEg8KB2xpdGVyYWwYAiABKAkS",
+            "CwoDa2V5GAMgASgJEhQKDGxvb2t1cF90YWJsZRgEIAEoCRISCgpieXRlX3Zh",
+            "bHVlGAUgASgMIjwKBUxhYmVsEg8KC1VOU0VUX0xBQkVMEAASCgoGVU5SRUFE",
+            "EAESBwoDTkVXEAISDQoJSU1NRURJQVRFEANiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.TemplateVariableReflection.Descriptor, },
+          new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientInbox), global::WUProtos.Data.Client.ClientInbox.Parser, new[]{ "Notifications", "BuiltinVariables" }, null, new[]{ typeof(global::WUProtos.Data.Client.ClientInbox.Types.Label) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientInbox.Types.Notification), global::WUProtos.Data.Client.ClientInbox.Types.Notification.Parser, new[]{ "NotificationId", "TitleKey", "Category", "CreateTimestampMs", "Variables", "Labels", "ExpireTimeMs" }, null, null, null)})
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientInbox), global::WUProtos.Data.Client.ClientInbox.Parser, new[]{ "Notifications", "BuiltinVariables" }, null, new[]{ typeof(global::WUProtos.Data.Client.ClientInbox.Types.Label) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientInbox.Types.Notification), global::WUProtos.Data.Client.ClientInbox.Types.Notification.Parser, new[]{ "NotificationId", "TitleKey", "Category", "CreateTimestampMs", "Variables", "Labels", "ExpireTimeMs" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable), global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable.Parser, new[]{ "Name", "Literal", "Key", "LookupTable", "ByteValue" }, null, null, null)})
           }));
     }
     #endregion
@@ -94,11 +97,11 @@ namespace WUProtos.Data.Client {
 
     /// <summary>Field number for the "builtin_variables" field.</summary>
     public const int BuiltinVariablesFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::WUProtos.Data.TemplateVariable> _repeated_builtinVariables_codec
-        = pb::FieldCodec.ForMessage(18, global::WUProtos.Data.TemplateVariable.Parser);
-    private readonly pbc::RepeatedField<global::WUProtos.Data.TemplateVariable> builtinVariables_ = new pbc::RepeatedField<global::WUProtos.Data.TemplateVariable>();
+    private static readonly pb::FieldCodec<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable> _repeated_builtinVariables_codec
+        = pb::FieldCodec.ForMessage(18, global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable.Parser);
+    private readonly pbc::RepeatedField<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable> builtinVariables_ = new pbc::RepeatedField<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::WUProtos.Data.TemplateVariable> BuiltinVariables {
+    public pbc::RepeatedField<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable> BuiltinVariables {
       get { return builtinVariables_; }
     }
 
@@ -283,11 +286,11 @@ namespace WUProtos.Data.Client {
 
         /// <summary>Field number for the "variables" field.</summary>
         public const int VariablesFieldNumber = 5;
-        private static readonly pb::FieldCodec<global::WUProtos.Data.TemplateVariable> _repeated_variables_codec
-            = pb::FieldCodec.ForMessage(42, global::WUProtos.Data.TemplateVariable.Parser);
-        private readonly pbc::RepeatedField<global::WUProtos.Data.TemplateVariable> variables_ = new pbc::RepeatedField<global::WUProtos.Data.TemplateVariable>();
+        private static readonly pb::FieldCodec<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable> _repeated_variables_codec
+            = pb::FieldCodec.ForMessage(42, global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable.Parser);
+        private readonly pbc::RepeatedField<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable> variables_ = new pbc::RepeatedField<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable>();
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-        public pbc::RepeatedField<global::WUProtos.Data.TemplateVariable> Variables {
+        public pbc::RepeatedField<global::WUProtos.Data.Client.ClientInbox.Types.TemplateVariable> Variables {
           get { return variables_; }
         }
 
@@ -471,6 +474,247 @@ namespace WUProtos.Data.Client {
               }
               case 56: {
                 ExpireTimeMs = input.ReadInt64();
+                break;
+              }
+            }
+          }
+        }
+
+      }
+
+      public sealed partial class TemplateVariable : pb::IMessage<TemplateVariable> {
+        private static readonly pb::MessageParser<TemplateVariable> _parser = new pb::MessageParser<TemplateVariable>(() => new TemplateVariable());
+        private pb::UnknownFieldSet _unknownFields;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pb::MessageParser<TemplateVariable> Parser { get { return _parser; } }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public static pbr::MessageDescriptor Descriptor {
+          get { return global::WUProtos.Data.Client.ClientInbox.Descriptor.NestedTypes[1]; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        pbr::MessageDescriptor pb::IMessage.Descriptor {
+          get { return Descriptor; }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public TemplateVariable() {
+          OnConstruction();
+        }
+
+        partial void OnConstruction();
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public TemplateVariable(TemplateVariable other) : this() {
+          name_ = other.name_;
+          literal_ = other.literal_;
+          key_ = other.key_;
+          lookupTable_ = other.lookupTable_;
+          byteValue_ = other.byteValue_;
+          _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public TemplateVariable Clone() {
+          return new TemplateVariable(this);
+        }
+
+        /// <summary>Field number for the "name" field.</summary>
+        public const int NameFieldNumber = 1;
+        private string name_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Name {
+          get { return name_; }
+          set {
+            name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "literal" field.</summary>
+        public const int LiteralFieldNumber = 2;
+        private string literal_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Literal {
+          get { return literal_; }
+          set {
+            literal_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "key" field.</summary>
+        public const int KeyFieldNumber = 3;
+        private string key_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string Key {
+          get { return key_; }
+          set {
+            key_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "lookup_table" field.</summary>
+        public const int LookupTableFieldNumber = 4;
+        private string lookupTable_ = "";
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public string LookupTable {
+          get { return lookupTable_; }
+          set {
+            lookupTable_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        /// <summary>Field number for the "byte_value" field.</summary>
+        public const int ByteValueFieldNumber = 5;
+        private pb::ByteString byteValue_ = pb::ByteString.Empty;
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public pb::ByteString ByteValue {
+          get { return byteValue_; }
+          set {
+            byteValue_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override bool Equals(object other) {
+          return Equals(other as TemplateVariable);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public bool Equals(TemplateVariable other) {
+          if (ReferenceEquals(other, null)) {
+            return false;
+          }
+          if (ReferenceEquals(other, this)) {
+            return true;
+          }
+          if (Name != other.Name) return false;
+          if (Literal != other.Literal) return false;
+          if (Key != other.Key) return false;
+          if (LookupTable != other.LookupTable) return false;
+          if (ByteValue != other.ByteValue) return false;
+          return Equals(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override int GetHashCode() {
+          int hash = 1;
+          if (Name.Length != 0) hash ^= Name.GetHashCode();
+          if (Literal.Length != 0) hash ^= Literal.GetHashCode();
+          if (Key.Length != 0) hash ^= Key.GetHashCode();
+          if (LookupTable.Length != 0) hash ^= LookupTable.GetHashCode();
+          if (ByteValue.Length != 0) hash ^= ByteValue.GetHashCode();
+          if (_unknownFields != null) {
+            hash ^= _unknownFields.GetHashCode();
+          }
+          return hash;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public override string ToString() {
+          return pb::JsonFormatter.ToDiagnosticString(this);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void WriteTo(pb::CodedOutputStream output) {
+          if (Name.Length != 0) {
+            output.WriteRawTag(10);
+            output.WriteString(Name);
+          }
+          if (Literal.Length != 0) {
+            output.WriteRawTag(18);
+            output.WriteString(Literal);
+          }
+          if (Key.Length != 0) {
+            output.WriteRawTag(26);
+            output.WriteString(Key);
+          }
+          if (LookupTable.Length != 0) {
+            output.WriteRawTag(34);
+            output.WriteString(LookupTable);
+          }
+          if (ByteValue.Length != 0) {
+            output.WriteRawTag(42);
+            output.WriteBytes(ByteValue);
+          }
+          if (_unknownFields != null) {
+            _unknownFields.WriteTo(output);
+          }
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public int CalculateSize() {
+          int size = 0;
+          if (Name.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+          }
+          if (Literal.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Literal);
+          }
+          if (Key.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(Key);
+          }
+          if (LookupTable.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeStringSize(LookupTable);
+          }
+          if (ByteValue.Length != 0) {
+            size += 1 + pb::CodedOutputStream.ComputeBytesSize(ByteValue);
+          }
+          if (_unknownFields != null) {
+            size += _unknownFields.CalculateSize();
+          }
+          return size;
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(TemplateVariable other) {
+          if (other == null) {
+            return;
+          }
+          if (other.Name.Length != 0) {
+            Name = other.Name;
+          }
+          if (other.Literal.Length != 0) {
+            Literal = other.Literal;
+          }
+          if (other.Key.Length != 0) {
+            Key = other.Key;
+          }
+          if (other.LookupTable.Length != 0) {
+            LookupTable = other.LookupTable;
+          }
+          if (other.ByteValue.Length != 0) {
+            ByteValue = other.ByteValue;
+          }
+          _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+        }
+
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+        public void MergeFrom(pb::CodedInputStream input) {
+          uint tag;
+          while ((tag = input.ReadTag()) != 0) {
+            switch(tag) {
+              default:
+                _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+                break;
+              case 10: {
+                Name = input.ReadString();
+                break;
+              }
+              case 18: {
+                Literal = input.ReadString();
+                break;
+              }
+              case 26: {
+                Key = input.ReadString();
+                break;
+              }
+              case 34: {
+                LookupTable = input.ReadString();
+                break;
+              }
+              case 42: {
+                ByteValue = input.ReadBytes();
                 break;
               }
             }

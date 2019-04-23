@@ -25,18 +25,24 @@ namespace WUProtos.Data {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiNXVVByb3Rvcy9EYXRhL0NoYW1iZXJUZW1wbGF0ZS5wcm90bxINV1VQcm90",
-            "b3MuRGF0YRogV1VQcm90b3MvRGF0YS9SZXF1aXJlbWVudHMucHJvdG8irwIK",
-            "D0NoYW1iZXJUZW1wbGF0ZRIKCgJpZBgBIAEoCRI4ChN1bmxvY2tfcmVxdWly",
-            "ZW1lbnRzGAIgASgLMhsuV1VQcm90b3MuRGF0YS5SZXF1aXJlbWVudHMSPAoX",
-            "dmlzaWJpbGl0eV9yZXF1aXJlbWVudHMYAyABKAsyGy5XVVByb3Rvcy5EYXRh",
-            "LlJlcXVpcmVtZW50cxIbChNtaW5fcnVuZXN0b25lX2xldmVsGAQgASgNEhsK",
-            "E21heF9ydW5lc3RvbmVfbGV2ZWwYBSABKA0SEgoKcGxheWVyX2NhcBgGIAEo",
-            "DRITCgtkdXJhdGlvbl9tcxgHIAEoAxIYChBrbm9ja291dF90aW1lX21zGAog",
-            "ASgDEhsKE2Jhc2VfY2hhbWJlcl9yYXRpbmcYDCABKA1iBnByb3RvMw=="));
+            "b3MuRGF0YRogV1VQcm90b3MvRGF0YS9SZXF1aXJlbWVudHMucHJvdG8aMVdV",
+            "UHJvdG9zL0RhdGEvUGxheWVyL1BsYXllckNvdW50TXVsdGlwbGllcnMucHJv",
+            "dG8i+gMKD0NoYW1iZXJUZW1wbGF0ZRIKCgJpZBgBIAEoCRI4ChN1bmxvY2tf",
+            "cmVxdWlyZW1lbnRzGAIgASgLMhsuV1VQcm90b3MuRGF0YS5SZXF1aXJlbWVu",
+            "dHMSPAoXdmlzaWJpbGl0eV9yZXF1aXJlbWVudHMYAyABKAsyGy5XVVByb3Rv",
+            "cy5EYXRhLlJlcXVpcmVtZW50cxIbChNtaW5fcnVuZXN0b25lX2xldmVsGAQg",
+            "ASgNEhsKE21heF9ydW5lc3RvbmVfbGV2ZWwYBSABKA0SEgoKcGxheWVyX2Nh",
+            "cBgGIAEoDRITCgtkdXJhdGlvbl9tcxgHIAEoAxIYChBrbm9ja291dF90aW1l",
+            "X21zGAogASgDElwKGHBsYXllcl9jb3VudF9tdWx0aXBsaWVycxgLIAMoCzI6",
+            "LldVUHJvdG9zLkRhdGEuQ2hhbWJlclRlbXBsYXRlLlBsYXllckNvdW50TXVs",
+            "dGlwbGllcnNFbnRyeRIbChNiYXNlX2NoYW1iZXJfcmF0aW5nGAwgASgNGmsK",
+            "G1BsYXllckNvdW50TXVsdGlwbGllcnNFbnRyeRILCgNrZXkYASABKAUSOwoF",
+            "dmFsdWUYAiABKAsyLC5XVVByb3Rvcy5EYXRhLlBsYXllci5QbGF5ZXJDb3Vu",
+            "dE11bHRpcGxpZXJzOgI4AWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::WUProtos.Data.RequirementsReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::WUProtos.Data.RequirementsReflection.Descriptor, global::WUProtos.Data.Player.PlayerCountMultipliersReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ChamberTemplate), global::WUProtos.Data.ChamberTemplate.Parser, new[]{ "Id", "UnlockRequirements", "VisibilityRequirements", "MinRunestoneLevel", "MaxRunestoneLevel", "PlayerCap", "DurationMs", "KnockoutTimeMs", "BaseChamberRating" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::WUProtos.Data.ChamberTemplate), global::WUProtos.Data.ChamberTemplate.Parser, new[]{ "Id", "UnlockRequirements", "VisibilityRequirements", "MinRunestoneLevel", "MaxRunestoneLevel", "PlayerCap", "DurationMs", "KnockoutTimeMs", "PlayerCountMultipliers", "BaseChamberRating" }, null, null, new pbr::GeneratedClrTypeInfo[] { null, })
           }));
     }
     #endregion
@@ -76,6 +82,7 @@ namespace WUProtos.Data {
       playerCap_ = other.playerCap_;
       durationMs_ = other.durationMs_;
       knockoutTimeMs_ = other.knockoutTimeMs_;
+      playerCountMultipliers_ = other.playerCountMultipliers_.Clone();
       baseChamberRating_ = other.baseChamberRating_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -173,6 +180,16 @@ namespace WUProtos.Data {
       }
     }
 
+    /// <summary>Field number for the "player_count_multipliers" field.</summary>
+    public const int PlayerCountMultipliersFieldNumber = 11;
+    private static readonly pbc::MapField<int, global::WUProtos.Data.Player.PlayerCountMultipliers>.Codec _map_playerCountMultipliers_codec
+        = new pbc::MapField<int, global::WUProtos.Data.Player.PlayerCountMultipliers>.Codec(pb::FieldCodec.ForInt32(8), pb::FieldCodec.ForMessage(18, global::WUProtos.Data.Player.PlayerCountMultipliers.Parser), 90);
+    private readonly pbc::MapField<int, global::WUProtos.Data.Player.PlayerCountMultipliers> playerCountMultipliers_ = new pbc::MapField<int, global::WUProtos.Data.Player.PlayerCountMultipliers>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::MapField<int, global::WUProtos.Data.Player.PlayerCountMultipliers> PlayerCountMultipliers {
+      get { return playerCountMultipliers_; }
+    }
+
     /// <summary>Field number for the "base_chamber_rating" field.</summary>
     public const int BaseChamberRatingFieldNumber = 12;
     private uint baseChamberRating_;
@@ -205,6 +222,7 @@ namespace WUProtos.Data {
       if (PlayerCap != other.PlayerCap) return false;
       if (DurationMs != other.DurationMs) return false;
       if (KnockoutTimeMs != other.KnockoutTimeMs) return false;
+      if (!PlayerCountMultipliers.Equals(other.PlayerCountMultipliers)) return false;
       if (BaseChamberRating != other.BaseChamberRating) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
@@ -220,6 +238,7 @@ namespace WUProtos.Data {
       if (PlayerCap != 0) hash ^= PlayerCap.GetHashCode();
       if (DurationMs != 0L) hash ^= DurationMs.GetHashCode();
       if (KnockoutTimeMs != 0L) hash ^= KnockoutTimeMs.GetHashCode();
+      hash ^= PlayerCountMultipliers.GetHashCode();
       if (BaseChamberRating != 0) hash ^= BaseChamberRating.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -266,6 +285,7 @@ namespace WUProtos.Data {
         output.WriteRawTag(80);
         output.WriteInt64(KnockoutTimeMs);
       }
+      playerCountMultipliers_.WriteTo(output, _map_playerCountMultipliers_codec);
       if (BaseChamberRating != 0) {
         output.WriteRawTag(96);
         output.WriteUInt32(BaseChamberRating);
@@ -302,6 +322,7 @@ namespace WUProtos.Data {
       if (KnockoutTimeMs != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(KnockoutTimeMs);
       }
+      size += playerCountMultipliers_.CalculateSize(_map_playerCountMultipliers_codec);
       if (BaseChamberRating != 0) {
         size += 1 + pb::CodedOutputStream.ComputeUInt32Size(BaseChamberRating);
       }
@@ -346,6 +367,7 @@ namespace WUProtos.Data {
       if (other.KnockoutTimeMs != 0L) {
         KnockoutTimeMs = other.KnockoutTimeMs;
       }
+      playerCountMultipliers_.Add(other.playerCountMultipliers_);
       if (other.BaseChamberRating != 0) {
         BaseChamberRating = other.BaseChamberRating;
       }
@@ -396,6 +418,10 @@ namespace WUProtos.Data {
           }
           case 80: {
             KnockoutTimeMs = input.ReadInt64();
+            break;
+          }
+          case 90: {
+            playerCountMultipliers_.AddEntriesFrom(input, _map_playerCountMultipliers_codec);
             break;
           }
           case 96: {
