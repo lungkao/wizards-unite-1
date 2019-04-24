@@ -2,6 +2,7 @@ Scripts/output
 GameData/[Bb]in
 GameData/[Oo]bj
 GameData/[Oo]ut
+GameData/[Oo]utput
 # Logs
 logs
 *.log

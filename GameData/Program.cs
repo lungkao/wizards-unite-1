@@ -34,7 +34,7 @@ namespace GameData
                     }
                 }
 
-                
+                File.WriteAllText("./output/levels.html", PlayerLevelTableGenerator.GeneratePlayerLevelTable(player_levels));
             }
         }
     }
