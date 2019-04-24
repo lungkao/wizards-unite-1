@@ -8,6 +8,7 @@ using WUProtos.Networking.Platform.Responses;
 using static WUProtos.Data.GmTemplate.Types;
 using static WUProtos.Data.Client.ClientGmTemplate;
 using WUProtos.Data;
+using WUProtos.Data.Encounter;
 
 namespace GameData
 {
@@ -15,14 +16,25 @@ namespace GameData
     {
         static void Main(string[] args)
         {
-            var levels = new List<PlayerLevel>();
+            var encounters = new List<Encounter>();
+            var player_levels = new List<PlayerLevel>();
 
             using (var input = File.OpenRead("2019-04-20.bytes"))
             {
                 var response = GameDataWrapper.Parser.ParseFrom(input);
 
-                
+                foreach (var message in response.Messages)
+                {
+                    if(message.Encounter != null) {
+                        encounters.Add(message.Encounter);
+                    }
 
+                    if(message.PlayerLevel != null) {
+                        player_levels.Add(message.PlayerLevel);
+                    }
+                }
+
+                
             }
         }
     }
