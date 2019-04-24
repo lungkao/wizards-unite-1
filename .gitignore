@@ -1,4 +1,7 @@
 Scripts/output
+Gamedata/[Bb]in/
+Gamedata/[Oo]bj/
+Gamedata/[Oo]ut/
 # Logs
 logs
 *.log
