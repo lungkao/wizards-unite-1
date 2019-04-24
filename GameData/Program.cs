@@ -16,12 +16,12 @@ namespace GameData
     {
         static void Main(string[] args)
         {
-            var encounters = new List<Encounter>();
-            var player_levels = new List<PlayerLevel>();
 
             using (var input = File.OpenRead("./Data/GameDataWrapper.bytes"))
             {
                 var response = GameDataWrapper.Parser.ParseFrom(input);
+                var encounters = new List<Encounter>();
+                var player_levels = new List<PlayerLevel>();
 
                 foreach (var message in response.Messages)
                 {
@@ -34,6 +34,8 @@ namespace GameData
                     }
                 }
 
+                File.WriteAllText("./output/gamedata.json", GameDataJsonWriter.ToJson(response));
+                File.WriteAllText("./output/encounters.html", EncounterContentGenerator.GenerateEncounters(encounters));
                 File.WriteAllText("./output/levels.html", PlayerLevelTableGenerator.GeneratePlayerLevelTable(player_levels));
             }
         }
