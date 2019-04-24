@@ -19,7 +19,7 @@ namespace GameData
             var encounters = new List<Encounter>();
             var player_levels = new List<PlayerLevel>();
 
-            using (var input = File.OpenRead("2019-04-20.bytes"))
+            using (var input = File.OpenRead("./Data/GameDataWrapper.bytes"))
             {
                 var response = GameDataWrapper.Parser.ParseFrom(input);
 
