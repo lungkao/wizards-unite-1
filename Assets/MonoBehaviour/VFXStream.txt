@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5764060823033739297
+		SInt64 m_PathID = 9038672434068309200
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -12,7 +12,7 @@ MonoBehaviour Base
 	UInt8 _disableLightsWhenDead = 1
 	UInt8 isLooping = 0
 	float Life = 5
-	int type = 7
+	int type = 2
 	vector breakIntoVFXPrefabs
 		Array Array
 		int size = 0

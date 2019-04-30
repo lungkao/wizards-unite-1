@@ -1,11 +1,11 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5726703309424692865
+		SInt64 m_PathID = -6317867464322337349
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
-		SInt64 m_PathID = -1771393139910684316
+		SInt64 m_PathID = -5488624499490236343
 	string m_Name = ""
 	Navigation m_Navigation
 		int m_Mode = 3
@@ -24,25 +24,25 @@ MonoBehaviour Base
 	int m_Transition = 1
 	ColorBlock m_Colors
 		ColorRGBA m_NormalColor
-			float r = 1
-			float g = 1
-			float b = 1
+			float r = 0.2422145
+			float g = 0.350173
+			float b = 0.4705882
 			float a = 1
 		ColorRGBA m_HighlightedColor
-			float r = 0.9607843
-			float g = 0.9607843
-			float b = 0.9607843
+			float r = 0.485997
+			float g = 0.605472
+			float b = 0.7426471
 			float a = 1
 		ColorRGBA m_PressedColor
-			float r = 0.7843137
-			float g = 0.7843137
-			float b = 0.7843137
+			float r = 0.485997
+			float g = 0.605472
+			float b = 0.7426471
 			float a = 1
 		ColorRGBA m_DisabledColor
-			float r = 0.7843137
-			float g = 0.7843137
-			float b = 0.7843137
-			float a = 0.5019608
+			float r = 0.2422145
+			float g = 0.350173
+			float b = 0.4705882
+			float a = 1
 		float m_ColorMultiplier = 1
 		float m_FadeDuration = 0.1
 	SpriteState m_SpriteState
@@ -63,7 +63,7 @@ MonoBehaviour Base
 	UInt8 m_Interactable = 1
 	PPtr<$Graphic> m_TargetGraphic
 		int m_FileID = 0
-		SInt64 m_PathID = -3436678649063010120
+		SInt64 m_PathID = -2588191275041767273
 	ButtonClickedEvent m_OnClick
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
@@ -73,7 +73,7 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = 0
+							SInt64 m_PathID = 1897042246982702141
 						string m_MethodName = "OnClick"
 						int m_Mode = 1
 						ArgumentCache m_Arguments

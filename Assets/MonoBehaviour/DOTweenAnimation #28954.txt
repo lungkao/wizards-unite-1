@@ -1,16 +1,16 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 4885868154409469298
-	UInt8 m_Enabled = 0
+		SInt64 m_PathID = -3628573237265095029
+	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = -6380373314413769357
 	string m_Name = ""
 	int updateType = 0
 	UInt8 isSpeedBased = 0
-	UInt8 hasOnStart = 0
-	UInt8 hasOnPlay = 1
+	UInt8 hasOnStart = 1
+	UInt8 hasOnPlay = 0
 	UInt8 hasOnUpdate = 0
 	UInt8 hasOnStepComplete = 0
 	UInt8 hasOnComplete = 0
@@ -20,7 +20,24 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 0
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = -373552774850786866
+						string m_MethodName = "DOPlayForward"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onPlay
 		PersistentCallGroup m_PersistentCalls
@@ -44,7 +61,24 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 0
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = -373552774850786866
+						string m_MethodName = "DOPlayForward"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onTweenCreated
 		PersistentCallGroup m_PersistentCalls
@@ -58,13 +92,13 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 1
-	float duration = 0.25
-	int easeType = 37
+	float delay = 0.7
+	float duration = 0.1
+	int easeType = 6
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
-			int size = 3
+			int size = 2
 				[0]
 				Keyframe data
 					float time = 0
@@ -73,16 +107,10 @@ MonoBehaviour Base
 					float outSlope = 0
 				[1]
 				Keyframe data
-					float time = 0.4968852
-					float value = 1.039967
-					float inSlope = 2.14939
-					float outSlope = 2.14939
-				[2]
-				Keyframe data
 					float time = 1
 					float value = 1
-					float inSlope = -0.2403787
-					float outSlope = -0.2403787
+					float inSlope = 0
+					float outSlope = 0
 		int m_PreInfinity = 2
 		int m_PostInfinity = 2
 		int m_RotationOrder = 4
@@ -97,24 +125,24 @@ MonoBehaviour Base
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = 391498009393575124
-	int animationType = 7
-	int targetType = 2
+		SInt64 m_PathID = -3594553522322800834
+	int animationType = 5
+	int targetType = 11
 	int forcedTargetType = 0
-	UInt8 autoPlay = 1
+	UInt8 autoPlay = 0
 	UInt8 useTargetAsV3 = 0
 	float endValueFloat = 0
 	Vector3f endValueV3
 		float x = 0
-		float y = 80
+		float y = 0
 		float z = 0
 	Vector2f endValueV2
 		float x = 0
 		float y = 0
 	ColorRGBA endValueColor
-		float r = 1
-		float g = 1
-		float b = 1
+		float r = 0.485997
+		float g = 0.605472
+		float b = 0.7426471
 		float a = 1
 	string endValueString = ""
 	Rectf endValueRect
@@ -125,7 +153,7 @@ MonoBehaviour Base
 	PPtr<$Transform> endValueTransform
 		int m_FileID = 0
 		SInt64 m_PathID = 0
-	UInt8 optionalBool0 = 0
+	UInt8 optionalBool0 = 1
 	float optionalFloat0 = 0
 	int optionalInt0 = 0
 	int optionalRotationMode = 0

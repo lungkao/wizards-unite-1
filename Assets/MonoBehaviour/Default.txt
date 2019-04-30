@@ -15,7 +15,7 @@ MonoBehaviour Base
 		SInt64 m_PathID = 0
 	PPtr<$PlayableAsset> m_Parent
 		int m_FileID = 0
-		SInt64 m_PathID = 6654585399059966615
+		SInt64 m_PathID = -6741756048835112614
 	vector m_Children
 		Array Array
 		int size = 0
@@ -28,13 +28,13 @@ MonoBehaviour Base
 				double m_ClipIn = 0
 				PPtr<$Object> m_Asset
 					int m_FileID = 0
-					SInt64 m_PathID = 8081313059816343603
-				double m_Duration = 2.83333333333333
+					SInt64 m_PathID = 6334669991728991320
+				double m_Duration = 1.63333333333333
 				double m_TimeScale = 1
 				PPtr<$TrackAsset> m_ParentTrack
 					int m_FileID = 0
-					SInt64 m_PathID = -9215268309922268419
-				double m_EaseInDuration = 0
+					SInt64 m_PathID = -2049201888202810793
+				double m_EaseInDuration = 0.2
 				double m_EaseOutDuration = 0
 				double m_BlendInDuration = -1
 				double m_BlendOutDuration = -1
@@ -89,7 +89,7 @@ MonoBehaviour Base
 				int m_PreExtrapolationMode = 1
 				double m_PostExtrapolationTime = ∞
 				double m_PreExtrapolationTime = 0
-				string m_DisplayName = "target_wand_spell_casting_start"
+				string m_DisplayName = "target_wand_spell_casting_end"
 				int m_Version = 1
 	int m_OpenClipPreExtrapolation = 0
 	int m_OpenClipPostExtrapolation = 0

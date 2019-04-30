@@ -17,6 +17,9 @@ namespace GameData
         static void Main(string[] args)
         {
 
+            var strings = StringsParser.ExtractStrings("./Data/Strings_en_US_loc.txt");
+
+
             using (var input = File.OpenRead("./Data/GameDataWrapper.bytes"))
             {
                 var response = GameDataWrapper.Parser.ParseFrom(input);
@@ -33,9 +36,10 @@ namespace GameData
                         player_levels.Add(message.PlayerLevel);
                     }
                 }
-
-                File.WriteAllText("./output/gamedata.json", GameDataJsonWriter.ToJson(response));
-                File.WriteAllText("./output/encounters.html", EncounterContentGenerator.GenerateEncounters(encounters));
+    
+                File.WriteAllText("./output/strings.csv", StringsParser.GenerateStringsCsv(strings));
+                // File.WriteAllText("./output/gamedata.json", GameDataJsonWriter.ToJson(response));
+                File.WriteAllText("./output/encounters.csv", EncounterContentGenerator.GenerateEncounters(encounters, strings));
                 File.WriteAllText("./output/levels.html", PlayerLevelTableGenerator.GeneratePlayerLevelTable(player_levels));
             }
         }

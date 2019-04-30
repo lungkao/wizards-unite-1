@@ -21,7 +21,7 @@ MonoBehaviour Base
 		int m_FileID = 0
 		SInt64 m_PathID = 5474657433273341681
 	PPtr<$CategoryNavigationItemView> _categoryNavigationItemPrefab
-		int m_FileID = 18
+		int m_FileID = 16
 		SInt64 m_PathID = -891682287366439016
 	PPtr<$VaultCategoryView> _categoryViewPrefab
 		int m_FileID = 0

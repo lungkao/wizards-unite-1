@@ -1,0 +1,137 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6944347464302323448
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 903661183793398519
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$Image> _icon
+		int m_FileID = 0
+		SInt64 m_PathID = -344543696504844192
+	PPtr<$Image> _icon2
+		int m_FileID = 0
+		SInt64 m_PathID = 1526588865562030931
+	PPtr<$TextMeshProUGUI> _title
+		int m_FileID = 0
+		SInt64 m_PathID = -6386457297794273694
+	PPtr<$TextMeshProUGUI> _quantityLabel
+		int m_FileID = 0
+		SInt64 m_PathID = -69822532046904094
+	PPtr<$GameObject> _quantityParent
+		int m_FileID = 0
+		SInt64 m_PathID = 470741726843527907
+	PPtr<$GameObject> _costContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -2348120059594609438
+	PPtr<$TextMeshProUGUI> _costLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 9158897383449608655
+	PPtr<$GameObject> _coinIcon
+		int m_FileID = 0
+		SInt64 m_PathID = 8679401836809107647
+	PPtr<$NestedPrefab> _notifPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4464655309946581737
+	PPtr<$GameObject> _bonusParent
+		int m_FileID = 0
+		SInt64 m_PathID = -4566380618638482604
+	PPtr<$TextMeshProUGUI> _bonusValueLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 8503338393161360382
+	PPtr<$Image> _background
+		int m_FileID = 0
+		SInt64 m_PathID = 8944251563665860074
+	PPtr<$GameObject> _timerParent
+		int m_FileID = 0
+		SInt64 m_PathID = -9195725833306014864
+	PPtr<$TextMeshProUGUI> _timerLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 2511458433486126630
+	PPtr<$GameObject> _soldOutParent
+		int m_FileID = 0
+		SInt64 m_PathID = -622998449718331022
+	PPtr<$GameObject> _freeParent
+		int m_FileID = 0
+		SInt64 m_PathID = 4273203848017623652
+	PPtr<$AdvancedUIButton> _storeButton
+		int m_FileID = 0
+		SInt64 m_PathID = 2329821480072517982
+	vector _imageGameObjectsToDisableGrayscale
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8944251563665860074
+			[1]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -5388293610584433534
+			[2]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 6146643888980441228
+			[3]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 4451148553000741419
+			[4]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = -344543696504844192
+			[5]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 5196383952236882243
+			[6]
+			PPtr<$Image> data
+				int m_FileID = 0
+				SInt64 m_PathID = 1526588865562030931
+	vector _textGameObjectsToDisable
+		Array Array
+		int size = 7
+			[0]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 91825105382002209
+			[1]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 8503338393161360382
+			[2]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 9158897383449608655
+			[3]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -4677202523917955056
+			[4]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = 2511458433486126630
+			[5]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -6386457297794273694
+			[6]
+			PPtr<$TextMeshProUGUI> data
+				int m_FileID = 0
+				SInt64 m_PathID = -69822532046904094
+	ColorRGBA _disabledTextColor
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1

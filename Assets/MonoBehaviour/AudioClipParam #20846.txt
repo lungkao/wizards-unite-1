@@ -1,0 +1,10 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 6157722319154149448
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1122665140640229651
+	string m_Name = ""
+	string Event = "event:/UI/RewardsScreen/EncounterNameBanner"

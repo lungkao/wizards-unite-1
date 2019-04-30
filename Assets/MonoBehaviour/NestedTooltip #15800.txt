@@ -1,0 +1,27 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -9057253715828771762
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4138273936883249569
+	string m_Name = ""
+	UInt8 _instantiateOnStart = 1
+	UInt8 _updateInstanceLayer = 1
+	TriggerEvent _onPrefabInstantiated
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+	PPtr<$GameObject> _prefab
+		int m_FileID = 0
+		SInt64 m_PathID = 2249412735365378153
+	TooltipConfigurationObject structRepresentation
+		PPtr<$Transform> TooltipPointTransform
+			int m_FileID = 0
+			SInt64 m_PathID = -7898042554282319422
+		int TooltipPreferredDirection = 3
+		float TooltipDisplayDuration = 5
+		int AlignmentSelected = 258

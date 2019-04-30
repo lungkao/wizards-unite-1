@@ -1,0 +1,27 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 157
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 45
+	string m_Name = ""
+	ColorRGBA FogColorStart
+		float r = 0
+		float g = 0.4206896
+		float b = 1
+		float a = 1
+	ColorRGBA FogColorEnd
+		float r = 0.4768599
+		float g = 0.6421412
+		float b = 0.7720588
+		float a = 1
+	ColorRGBA EnvironmentTint
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	float FogBias = 0
+	float FogStart = 0.063
+	float FogEnd = 0.719

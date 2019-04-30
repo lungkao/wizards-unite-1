@@ -18,7 +18,7 @@ MonoBehaviour Base
 	int _showHeaderAndFooter = 0
 	int _uiHideLevel = 0
 	PPtr<$RewardItemEntryView> _itemEntryPrefab
-		int m_FileID = 10
+		int m_FileID = 0
 		SInt64 m_PathID = 4794126215955998524
 	PPtr<$UIAnimationCoroutineRunner> _animRunner
 		int m_FileID = 0

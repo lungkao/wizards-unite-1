@@ -7,5 +7,5 @@ MonoBehaviour Base
 		int m_FileID = 0
 		SInt64 m_PathID = -3792599976917299880
 	string m_Name = "AssetVersionData"
-	string Version = "172106"
+	string Version = "173737"
 	string Branch = "Branch Not Set"

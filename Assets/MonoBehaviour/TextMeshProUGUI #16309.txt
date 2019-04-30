@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 7266972967284956426
+		SInt64 m_PathID = -7478203724585088498
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -15,21 +15,21 @@ MonoBehaviour Base
 		float g = 1
 		float b = 1
 		float a = 1
-	UInt8 m_RaycastTarget = 0
+	UInt8 m_RaycastTarget = 1
 	CullStateChangedEvent m_OnCullStateChanged
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "challenge_look_in_button"
+	string m_text = "Description"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 3
-		SInt64 m_PathID = -4084404387857473446
+		int m_FileID = 1
+		SInt64 m_PathID = 3111171929222542297
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 3
-		SInt64 m_PathID = 759570436981082190
+		int m_FileID = 1
+		SInt64 m_PathID = -4526645662046926572
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -80,18 +80,18 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 26
-	float m_fontSizeBase = 28
+	float m_fontSize = 30
+	float m_fontSizeBase = 30
 	int m_fontWeight = 400
-	UInt8 m_enableAutoSizing = 1
-	float m_fontSizeMin = 26
-	float m_fontSizeMax = 50
+	UInt8 m_enableAutoSizing = 0
+	float m_fontSizeMin = 18
+	float m_fontSizeMax = 36
 	int m_fontStyle = 0
-	int m_textAlignment = 4098
+	int m_textAlignment = 258
 	UInt8 m_isAlignmentEnumConverted = 1
 	float m_characterSpacing = 0
 	float m_wordSpacing = 0
-	float m_lineSpacing = -20
+	float m_lineSpacing = 0
 	float m_lineSpacingMax = 0
 	float m_paragraphSpacing = 0
 	float m_charWidthMaxAdj = 0
@@ -120,20 +120,20 @@ MonoBehaviour Base
 	UInt8 m_useMaxVisibleDescender = 1
 	int m_pageToDisplay = 1
 	Vector4f m_margin
-		float x = 0
+		float x = 2.173403
 		float y = 0
 		float z = 0
-		float w = 0
+		float w = -31.03533
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = 1986221358087709699
-		int characterCount = 24
+			SInt64 m_PathID = -7229738578438722988
+		int characterCount = 11
 		int spriteCount = 0
 		int spaceCount = 0
-		int wordCount = 4
+		int wordCount = 1
 		int linkCount = 0
-		int lineCount = 2
+		int lineCount = 1
 		int pageCount = 1
 		int materialCount = 1
 	UInt8 m_havePropertiesChanged = 1

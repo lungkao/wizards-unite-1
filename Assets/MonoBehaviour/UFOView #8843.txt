@@ -1,0 +1,32 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -572939564906089084
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -4407071449557657324
+	string m_Name = ""
+	PPtr<$Spline> _path
+		int m_FileID = 0
+		SInt64 m_PathID = 6799435104157835247
+	float _speed = 20
+	AnimationCurve _progress
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 1
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 1
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4

@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 3563748249771112835
+		SInt64 m_PathID = 4592221761256212514
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -58,9 +58,9 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 3
-	float duration = 0.3
-	int easeType = 3
+	float delay = 6.5
+	float duration = 0.5
+	int easeType = 6
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
@@ -81,7 +81,7 @@ MonoBehaviour Base
 		int m_PostInfinity = 2
 		int m_RotationOrder = 4
 	int loopType = 0
-	int loops = 1
+	int loops = 0
 	string id = ""
 	UInt8 isRelative = 0
 	UInt8 isFrom = 0
@@ -91,9 +91,9 @@ MonoBehaviour Base
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = -1567614728964693084
+		SInt64 m_PathID = -8334978402417308682
 	int animationType = 7
-	int targetType = 15
+	int targetType = 7
 	int forcedTargetType = 0
 	UInt8 autoPlay = 1
 	UInt8 useTargetAsV3 = 0

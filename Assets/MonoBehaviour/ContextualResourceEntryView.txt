@@ -29,9 +29,9 @@ MonoBehaviour Base
 		float b = 1
 		float a = 1
 	ColorRGBA _overCapacityColor
-		float r = 0.5921569
-		float g = 0.1529412
-		float b = 0.1529412
+		float r = 1
+		float g = 0.2705882
+		float b = 0.2705882
 		float a = 1
 	PPtr<$DOTweenAnimation> _resourceIconAnimation
 		int m_FileID = 0

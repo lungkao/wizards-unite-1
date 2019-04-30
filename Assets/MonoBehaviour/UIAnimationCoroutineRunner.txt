@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 7701976155062283870
+		SInt64 m_PathID = -7158258218869192333
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -13,7 +13,7 @@ MonoBehaviour Base
 			int size = 1
 				[0]
 				StringTimelineAssetPair data
-					string _key = "Default"
+					string _key = "Show"
 					PPtr<$TimelineAssetExtension> _value
 						int m_FileID = 0
-						SInt64 m_PathID = 8999401717434037641
+						SInt64 m_PathID = 8497212853553516172

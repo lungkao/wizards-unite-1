@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -1981218135086500084
+		SInt64 m_PathID = 1511542808205646328
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -19,58 +19,52 @@ MonoBehaviour Base
 	int _uiHideLevel = 0
 	PPtr<$DOTweenAnimation> _transitionInTween
 		int m_FileID = 0
-		SInt64 m_PathID = -9058462042779298023
+		SInt64 m_PathID = 0
 	PPtr<$GameObject> _hogwartsOverlayObject
 		int m_FileID = 0
-		SInt64 m_PathID = -1434202702402287666
+		SInt64 m_PathID = 0
 	PPtr<$ScrollRect> _rewardScrollRect
 		int m_FileID = 0
-		SInt64 m_PathID = 6708974423125831177
-	float _scrollInitialWaitTime = 0.5
+		SInt64 m_PathID = 7728623894876254690
+	float _scrollInitialWaitTime = 1.5
 	UInt8 _useNormalizedScroll = 0
 	float _scrollSpeedMultiplier = 225
 	float _cellAnimScreenPos = 0.25
 	PPtr<$Transform> _rewardCellContainer
 		int m_FileID = 0
-		SInt64 m_PathID = 3337461485187538164
+		SInt64 m_PathID = 7568635494805540853
 	PPtr<$RewardPatronusManager> _rewardPatronusManager
 		int m_FileID = 0
-		SInt64 m_PathID = 4614560200430351740
+		SInt64 m_PathID = -8876993166276569051
 	PPtr<$GameObject> _backgroundImageGO
 		int m_FileID = 0
-		SInt64 m_PathID = 4467308306424806911
+		SInt64 m_PathID = 0
 	PPtr<$GameObject> _cliffOverlayObject
 		int m_FileID = 0
-		SInt64 m_PathID = -1922216102370697384
+		SInt64 m_PathID = 0
 	AnimationCurve _gradientCurve
 		vector m_Curve
 			Array Array
-			int size = 3
+			int size = 2
 				[0]
 				Keyframe data
 					float time = 0
-					float value = 1
+					float value = 0
 					float inSlope = 0
-					float outSlope = 0
+					float outSlope = 1
 				[1]
 				Keyframe data
-					float time = 0.7442078
-					float value = 0.8642547
-					float inSlope = -0.4395843
-					float outSlope = -0.4395843
-				[2]
-				Keyframe data
 					float time = 1
-					float value = 0.7
-					float inSlope = 0
+					float value = 1
+					float inSlope = 1
 					float outSlope = 0
 		int m_PreInfinity = 2
 		int m_PostInfinity = 2
-		int m_RotationOrder = 0
+		int m_RotationOrder = 4
 	Vector3f _overlayParallaxOffset
 		float x = 0
 		float y = 800
 		float z = 0
 	PPtr<$CanvasGroup> _canvasGroup
 		int m_FileID = 0
-		SInt64 m_PathID = -1014482969650204691
+		SInt64 m_PathID = 0

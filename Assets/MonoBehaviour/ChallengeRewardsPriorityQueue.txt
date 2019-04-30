@@ -25,7 +25,7 @@ MonoBehaviour Base
 			[0]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = -2382732215285327182
 				int cellType = 0
 				int displayLootType = 3
@@ -39,7 +39,7 @@ MonoBehaviour Base
 			[1]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = -2382732215285327182
 				int cellType = 0
 				int displayLootType = 3
@@ -53,7 +53,7 @@ MonoBehaviour Base
 			[2]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 4300926416755428646
 				int cellType = 1
 				int displayLootType = 2
@@ -67,7 +67,7 @@ MonoBehaviour Base
 			[3]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 4300926416755428646
 				int cellType = 1
 				int displayLootType = 2
@@ -81,7 +81,7 @@ MonoBehaviour Base
 			[4]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 4300926416755428646
 				int cellType = 1
 				int displayLootType = 2
@@ -93,7 +93,7 @@ MonoBehaviour Base
 			[5]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 7952149044627755595
 				int cellType = 3
 				int displayLootType = 0
@@ -105,7 +105,7 @@ MonoBehaviour Base
 			[6]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = -2785677395000928511
 				int cellType = 6
 				int displayLootType = 0
@@ -117,7 +117,7 @@ MonoBehaviour Base
 			[7]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 1017090294849106215
 				int cellType = 3
 				int displayLootType = 0
@@ -129,7 +129,7 @@ MonoBehaviour Base
 			[8]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 1767496894604140460
 				int cellType = 4
 				int displayLootType = 0
@@ -141,7 +141,7 @@ MonoBehaviour Base
 			[9]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 6059123298420787003
 				int cellType = 3
 				int displayLootType = 0
@@ -153,7 +153,7 @@ MonoBehaviour Base
 			[10]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 815570955070963826
 				int cellType = 3
 				int displayLootType = 0
@@ -165,7 +165,7 @@ MonoBehaviour Base
 			[11]
 			RewardCellInfo data
 				PPtr<$GameObject> tileableRewardCell
-					int m_FileID = 5
+					int m_FileID = 0
 					SInt64 m_PathID = 7489325309139872136
 				int cellType = 1
 				int displayLootType = 1

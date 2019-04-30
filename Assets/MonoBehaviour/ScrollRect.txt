@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 8143883347500671754
+		SInt64 m_PathID = -6357026608177660761
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -9,9 +9,9 @@ MonoBehaviour Base
 	string m_Name = ""
 	PPtr<$RectTransform> m_Content
 		int m_FileID = 0
-		SInt64 m_PathID = 3432112645065916922
-	UInt8 m_Horizontal = 1
-	UInt8 m_Vertical = 0
+		SInt64 m_PathID = -4670052587757725113
+	UInt8 m_Horizontal = 0
+	UInt8 m_Vertical = 1
 	int m_MovementType = 1
 	float m_Elasticity = 0.1
 	UInt8 m_Inertia = 1
@@ -19,13 +19,13 @@ MonoBehaviour Base
 	float m_ScrollSensitivity = 1
 	PPtr<$RectTransform> m_Viewport
 		int m_FileID = 0
-		SInt64 m_PathID = 903306838920441545
+		SInt64 m_PathID = -4397216756191121749
 	PPtr<$Scrollbar> m_HorizontalScrollbar
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	PPtr<$Scrollbar> m_VerticalScrollbar
 		int m_FileID = 0
-		SInt64 m_PathID = 0
+		SInt64 m_PathID = -7590928031271259650
 	int m_HorizontalScrollbarVisibility = 2
 	int m_VerticalScrollbarVisibility = 2
 	float m_HorizontalScrollbarSpacing = -3

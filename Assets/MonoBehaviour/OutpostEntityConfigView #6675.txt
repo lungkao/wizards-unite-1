@@ -1,0 +1,68 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 8242290938446611043
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 1688035968025230776
+	string m_Name = ""
+	PPtr<$Transform> geometry
+		int m_FileID = 0
+		SInt64 m_PathID = 3684986397218517231
+	AccessibilityTuple _accessibilityVisuals
+		Array Array
+		int size = 4
+			[0]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2904617177962189823
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = -358118306504463184
+			[1]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = 5978224418956999859
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = -4844863648400622847
+			[2]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = 5978224418956999859
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = -2193774834572238467
+			[3]
+			AccessibilityTuple data
+				PPtr<$Material> openMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = 5978224418956999859
+				PPtr<$Material> closedMaterial
+					int m_FileID = 0
+					SInt64 m_PathID = -2381795934986702951
+				PPtr<$Renderer> accessibilityRenderer
+					int m_FileID = 0
+					SInt64 m_PathID = -2641814457321585395
+	PPtr<$Transform> collectedSmokeLocation
+		int m_FileID = 0
+		SInt64 m_PathID = 8649039428705203433
+	PPtr<$Transform> darkDetectorLocation
+		int m_FileID = 0
+		SInt64 m_PathID = 6286240963068017567
+	PPtr<$Transform> _shadowGeometry
+		int m_FileID = 0
+		SInt64 m_PathID = -5843801926305913675

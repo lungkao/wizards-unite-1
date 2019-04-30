@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5142409572871056256
+		SInt64 m_PathID = 6370314225400671910
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -91,7 +91,7 @@ MonoBehaviour Base
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = 7784571979203719316
+		SInt64 m_PathID = 3698920625575232239
 	int animationType = 5
 	int targetType = 11
 	int forcedTargetType = 0

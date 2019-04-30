@@ -1,19 +1,19 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5351248291953606373
+		SInt64 m_PathID = -7520435231388962806
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
-		SInt64 m_PathID = 3048014983486310672
+		SInt64 m_PathID = 7019791145395802671
 	string m_Name = ""
 	PPtr<$Material> m_Material
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	ColorRGBA m_Color
-		float r = 0.172549
-		float g = 0.5019608
-		float b = 0.07450981
+		float r = 0.7352941
+		float g = 0.9233266
+		float b = 1
 		float a = 1
 	UInt8 m_RaycastTarget = 0
 	CullStateChangedEvent m_OnCullStateChanged
@@ -24,11 +24,11 @@ MonoBehaviour Base
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$Sprite> m_Sprite
 		int m_FileID = 4
-		SInt64 m_PathID = -1274084785889201882
-	int m_Type = 3
+		SInt64 m_PathID = -3272179562818401955
+	int m_Type = 0
 	UInt8 m_PreserveAspect = 0
 	UInt8 m_FillCenter = 1
-	int m_FillMethod = 0
-	float m_FillAmount = 0.666
+	int m_FillMethod = 4
+	float m_FillAmount = 1
 	UInt8 m_FillClockwise = 1
 	int m_FillOrigin = 0

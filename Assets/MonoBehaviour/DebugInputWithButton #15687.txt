@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -8112835500964121182
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 5156632456982414814
+	string m_Name = ""
+	PPtr<$TMP_Text> ButtonText
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$TMP_InputField> TextInput
+		int m_FileID = 0
+		SInt64 m_PathID = 1217396226826182608
+	PPtr<$GameObject> BindingContainer
+		int m_FileID = 0
+		SInt64 m_PathID = -5226342026903213435
+	PPtr<$GameObject> ScrollView
+		int m_FileID = 0
+		SInt64 m_PathID = -3503216136701188433
+	PPtr<$DebugDropDownItem> BindingObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1897042246982702141

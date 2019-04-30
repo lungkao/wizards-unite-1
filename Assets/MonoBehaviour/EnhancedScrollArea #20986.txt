@@ -1,0 +1,13 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4965094411760264334
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 901547696213285056
+	string m_Name = ""
+	PPtr<$SnapLayoutGroup> snapLayout
+		int m_FileID = 0
+		SInt64 m_PathID = -5554712407401942531
+	string swipeSoundEffect = "event:/UI/Menu_Click"

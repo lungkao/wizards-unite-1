@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -1696392626857163406
+		SInt64 m_PathID = 8666860333052612173
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -12,10 +12,10 @@ MonoBehaviour Base
 		SInt64 m_PathID = 0
 	ColorRGBA m_Color
 		float r = 1
-		float g = 0.7960784
-		float b = 0.2352941
-		float a = 0.334
-	UInt8 m_RaycastTarget = 0
+		float g = 1
+		float b = 1
+		float a = 1
+	UInt8 m_RaycastTarget = 1
 	CullStateChangedEvent m_OnCullStateChanged
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
@@ -24,7 +24,7 @@ MonoBehaviour Base
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$Sprite> m_Sprite
 		int m_FileID = 1
-		SInt64 m_PathID = -5442252486845303048
+		SInt64 m_PathID = -1388088092075270368
 	int m_Type = 0
 	UInt8 m_PreserveAspect = 0
 	UInt8 m_FillCenter = 1

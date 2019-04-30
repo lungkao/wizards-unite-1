@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5239349829188072743
+		SInt64 m_PathID = -6161160264185706782
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -26,7 +26,24 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 0
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 0
+						string m_MethodName = "DOPlayById"
+						int m_Mode = 5
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = "collect_exit"
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onUpdate
 		PersistentCallGroup m_PersistentCalls
@@ -58,9 +75,9 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 0
-	float duration = 0.5
-	int easeType = 6
+	float delay = 0.9
+	float duration = 0.2
+	int easeType = 2
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
@@ -81,8 +98,8 @@ MonoBehaviour Base
 		int m_PostInfinity = 2
 		int m_RotationOrder = 4
 	int loopType = 0
-	int loops = 1
-	string id = "vfx_fade"
+	int loops = 0
+	string id = "icon_star_07_item_exit_02"
 	UInt8 isRelative = 0
 	UInt8 isFrom = 0
 	UInt8 isIndependentUpdate = 0
@@ -91,9 +108,9 @@ MonoBehaviour Base
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = -6804721055214124370
+		SInt64 m_PathID = 2417516859463041937
 	int animationType = 7
-	int targetType = 6
+	int targetType = 3
 	int forcedTargetType = 0
 	UInt8 autoPlay = 0
 	UInt8 useTargetAsV3 = 0

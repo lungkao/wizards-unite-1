@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -6675995741191676318
+		SInt64 m_PathID = -1100167167715698959
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -14,8 +14,8 @@ MonoBehaviour Base
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	UInt8 _playDefaultAnims = 1
-	string _identifier = ""
-	string _onClickSoundEvent = "event:/UI/Menu_Click"
+	string _identifier = "Assignments"
+	string _onClickSoundEvent = "event:/UI/OpenMenu"
 	TriggerEvent _onTap
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
@@ -25,8 +25,8 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = -3879841244578464456
-						string m_MethodName = "OnTapProxy"
+							SInt64 m_PathID = 8153691383662825780
+						string m_MethodName = "OnAssignmentsClickProxy"
 						int m_Mode = 1
 						ArgumentCache m_Arguments
 							PPtr<$Object> m_ObjectArgument
@@ -59,11 +59,11 @@ MonoBehaviour Base
 		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	int _tapRecognitionParameters = 0
 	float _dragThresholdSeconds = 0.2
-	float _tapThresholdSeconds = 1
+	float _tapThresholdSeconds = 0.5
 	PPtr<$Image> _buttonImage
 		int m_FileID = 0
-		SInt64 m_PathID = 0
-	int _stateChangeType = 0
+		SInt64 m_PathID = 6921547875748865562
+	int _stateChangeType = 2
 	int _colorStateChangeTarget = 3
 	PPtr<$TextMeshProUGUI> _buttonText
 		int m_FileID = 0
@@ -89,17 +89,17 @@ MonoBehaviour Base
 		float b = 0
 		float a = 0
 	PPtr<$Sprite> _defaultSprite
-		int m_FileID = 0
-		SInt64 m_PathID = 0
+		int m_FileID = 15
+		SInt64 m_PathID = -6391920257191939505
 	PPtr<$Sprite> _pressedSprite
-		int m_FileID = 0
-		SInt64 m_PathID = 0
+		int m_FileID = 15
+		SInt64 m_PathID = -5652921059225943944
 	PPtr<$Sprite> _highlightedSprite
-		int m_FileID = 0
-		SInt64 m_PathID = 0
+		int m_FileID = 15
+		SInt64 m_PathID = -5652921059225943944
 	PPtr<$Sprite> _inactiveSprite
-		int m_FileID = 0
-		SInt64 m_PathID = 0
+		int m_FileID = 15
+		SInt64 m_PathID = -6391920257191939505
 	PPtr<$Sprite> _disabledSprite
 		int m_FileID = 0
 		SInt64 m_PathID = 0

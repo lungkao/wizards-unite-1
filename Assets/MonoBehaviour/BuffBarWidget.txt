@@ -23,15 +23,9 @@ MonoBehaviour Base
 	PPtr<$GameObject> _contentParent
 		int m_FileID = 0
 		SInt64 m_PathID = 7737477929377739719
-	PPtr<$GameObject> _toolTipParent
+	PPtr<$RectTransform> tooltipOriginTapped
 		int m_FileID = 0
-		SInt64 m_PathID = 5419782350768360485
-	PPtr<$Animator> _toolTipAnimator
+		SInt64 m_PathID = -7898042554282319422
+	PPtr<$NestedTooltip> tooltip
 		int m_FileID = 0
-		SInt64 m_PathID = -5178423282529424104
-	PPtr<$TextMeshProUGUI> _toolTipLabel
-		int m_FileID = 0
-		SInt64 m_PathID = 7562146909166571024
-	float _toolTipDuration = 5
-	string _toolTipEntryAnimation = "potion_info_entry"
-	string _toolTipExitAnimation = "potion_info_exit"
+		SInt64 m_PathID = -7029099732173378138

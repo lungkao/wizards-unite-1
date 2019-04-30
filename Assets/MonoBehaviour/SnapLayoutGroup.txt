@@ -1,8 +1,8 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 2724160299825678628
-	UInt8 m_Enabled = 0
+		SInt64 m_PathID = -1715806081385349285
+	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = 4806060038149936852
@@ -13,9 +13,9 @@ MonoBehaviour Base
 		int m_Top = 0
 		int m_Bottom = 0
 	int m_ChildAlignment = 4
-	float m_Spacing = 0
+	float m_Spacing = 10
 	UInt8 m_ChildForceExpandWidth = 1
-	UInt8 m_ChildForceExpandHeight = 0
-	UInt8 m_ChildControlWidth = 0
-	UInt8 m_ChildControlHeight = 0
+	UInt8 m_ChildForceExpandHeight = 1
+	UInt8 m_ChildControlWidth = 1
+	UInt8 m_ChildControlHeight = 1
 	UInt8 singleScrollOnly = 1

@@ -59,3 +59,15 @@ MonoBehaviour Base
 	PPtr<$DebugHudView> DebugHudPrefab
 		int m_FileID = 0
 		SInt64 m_PathID = 393423897902168693
+	PPtr<$DebugGenericControl> GenericControlPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 7653249059691777077
+	PPtr<$DebugInputWithButton> DropDownPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 8025039434995924956
+	PPtr<$DebugInput> InputPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 5252926425580334317
+	PPtr<$DebugGenericSubPanel> GenericSubPanelPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 8873092519640490206

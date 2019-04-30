@@ -1,0 +1,38 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4490681574545529637
+	UInt8 m_Enabled = 0
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7425554850678709853
+	string m_Name = ""
+	int pointsToSample = 36
+	PPtr<$GameObject> attachmentStart
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> attachmentEnd
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	float minDistanceBetweenPoints = 0
+	float trailWidth = 0.5
+	vector colorStops
+		Array Array
+		int size = 2
+			[0]
+			ColorRGBA data
+				float r = 1
+				float g = 1
+				float b = 1
+				float a = 1
+			[1]
+			ColorRGBA data
+				float r = 1
+				float g = 1
+				float b = 1
+				float a = 1
+	float taper = 1
+	PPtr<$Material> trailMaterial
+		int m_FileID = 0
+		SInt64 m_PathID = 4227927778437578286
+	float uvScale = 1

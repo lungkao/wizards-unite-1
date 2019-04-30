@@ -1,0 +1,89 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 4778164299834932912
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -1771393139910684316
+	string m_Name = ""
+	Navigation m_Navigation
+		int m_Mode = 3
+		PPtr<$Selectable> m_SelectOnUp
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnDown
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnLeft
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnRight
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	int m_Transition = 1
+	ColorBlock m_Colors
+		ColorRGBA m_NormalColor
+			float r = 0.2422145
+			float g = 0.350173
+			float b = 0.4705882
+			float a = 1
+		ColorRGBA m_HighlightedColor
+			float r = 0.485997
+			float g = 0.605472
+			float b = 0.7426471
+			float a = 1
+		ColorRGBA m_PressedColor
+			float r = 0.485997
+			float g = 0.605472
+			float b = 0.7426471
+			float a = 1
+		ColorRGBA m_DisabledColor
+			float r = 0.2422145
+			float g = 0.350173
+			float b = 0.4705882
+			float a = 1
+		float m_ColorMultiplier = 1
+		float m_FadeDuration = 0.1
+	SpriteState m_SpriteState
+		PPtr<$Sprite> m_HighlightedSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Sprite> m_PressedSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Sprite> m_DisabledSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	AnimationTriggers m_AnimationTriggers
+		string m_NormalTrigger = "Normal"
+		string m_HighlightedTrigger = "Highlighted"
+		string m_PressedTrigger = "Pressed"
+		string m_DisabledTrigger = "Disabled"
+	UInt8 m_Interactable = 1
+	PPtr<$Graphic> m_TargetGraphic
+		int m_FileID = 0
+		SInt64 m_PathID = -2337227714617495738
+	ButtonClickedEvent m_OnClick
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 8835827259282730004
+						string m_MethodName = "ToggleList"
+						int m_Mode = 1
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = ""
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
+		string m_TypeName = "UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"

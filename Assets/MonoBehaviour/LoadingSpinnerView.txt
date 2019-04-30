@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 2955436300292318828
+		SInt64 m_PathID = 6799889215139847377
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -14,6 +14,6 @@ MonoBehaviour Base
 		float g = 0.1960784
 		float b = 0.1960784
 		float a = 1
-	UInt8 _ignoreFrameLayout = 1
+	UInt8 _ignoreFrameLayout = 0
 	int _showHeaderAndFooter = 0
 	int _uiHideLevel = 0

@@ -1,0 +1,29 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 1888791517809716657
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7575881929487841795
+	string m_Name = ""
+	UInt8 RequiresScrim = 0
+	UInt8 OverrideScrimColor = 0
+	ColorRGBA ScrimColorShading
+		float r = 0.1960784
+		float g = 0.1960784
+		float b = 0.1960784
+		float a = 1
+	UInt8 _ignoreFrameLayout = 0
+	int _showHeaderAndFooter = 0
+	int _uiHideLevel = 0
+	PPtr<$TextMeshProUGUI> Text
+		int m_FileID = 0
+		SInt64 m_PathID = 29512036113531272
+	PPtr<$TextMeshProUGUI> ToggleLabel
+		int m_FileID = 0
+		SInt64 m_PathID = 7331852462471433803
+	PPtr<$GameObject> ToggleButton
+		int m_FileID = 0
+		SInt64 m_PathID = -5129608460090210217
+	float _disabledAlpha = 0.5

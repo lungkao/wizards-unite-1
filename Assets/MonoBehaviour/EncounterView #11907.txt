@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -614613363731579524
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -8063883612511124531
+	string m_Name = ""
+	PPtr<$NestedPrefab> nestedPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$Transform> vfxTarget
+		int m_FileID = 0
+		SInt64 m_PathID = 0

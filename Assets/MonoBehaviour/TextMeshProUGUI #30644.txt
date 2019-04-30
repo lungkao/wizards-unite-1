@@ -1,8 +1,8 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5678825638620755746
-	UInt8 m_Enabled = 0
+		SInt64 m_PathID = 578279509265462491
+	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = 8890283587956622325
@@ -22,14 +22,14 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "100/100"
+	string m_text = "Text"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
 		int m_FileID = 1
-		SInt64 m_PathID = 3111171929222542297
+		SInt64 m_PathID = -5596591088150043721
 	PPtr<$Material> m_sharedMaterial
 		int m_FileID = 1
-		SInt64 m_PathID = 7939762594030095772
+		SInt64 m_PathID = -8003657262731169876
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -80,18 +80,18 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 22
-	float m_fontSizeBase = 40
+	float m_fontSize = 28
+	float m_fontSizeBase = 24
 	int m_fontWeight = 400
 	UInt8 m_enableAutoSizing = 1
 	float m_fontSizeMin = 18
-	float m_fontSizeMax = 22
-	int m_fontStyle = 17
-	int m_textAlignment = 1026
+	float m_fontSizeMax = 28
+	int m_fontStyle = 0
+	int m_textAlignment = 516
 	UInt8 m_isAlignmentEnumConverted = 1
-	float m_characterSpacing = 5
+	float m_characterSpacing = 0
 	float m_wordSpacing = 0
-	float m_lineSpacing = 0
+	float m_lineSpacing = -5
 	float m_lineSpacingMax = 0
 	float m_paragraphSpacing = 0
 	float m_charWidthMaxAdj = 0
@@ -127,11 +127,11 @@ MonoBehaviour Base
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = -4033623757842358375
-		int characterCount = 7
+			SInt64 m_PathID = -3859900150810530262
+		int characterCount = 4
 		int spriteCount = 0
 		int spaceCount = 0
-		int wordCount = 2
+		int wordCount = 1
 		int linkCount = 0
 		int lineCount = 1
 		int pageCount = 1

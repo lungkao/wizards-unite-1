@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 2881720317462118855
+		SInt64 m_PathID = 6688832267757883964
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -15,21 +15,21 @@ MonoBehaviour Base
 		float g = 1
 		float b = 1
 		float a = 1
-	UInt8 m_RaycastTarget = 1
+	UInt8 m_RaycastTarget = 0
 	CullStateChangedEvent m_OnCullStateChanged
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "Amount:"
+	string m_text = "0/1"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 2
-		SInt64 m_PathID = 3111171929222542297
+		int m_FileID = 3
+		SInt64 m_PathID = -4084404387857473446
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 2
-		SInt64 m_PathID = -4526645662046926572
+		int m_FileID = 3
+		SInt64 m_PathID = 759570436981082190
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -40,11 +40,11 @@ MonoBehaviour Base
 		Array Array
 		int size = 0
 	ColorRGBA m_fontColor32
-		unsigned int rgba = 4278190080
+		unsigned int rgba = 4294967295
 	ColorRGBA m_fontColor
-		float r = 0
-		float g = 0
-		float b = 0
+		float r = 1
+		float g = 1
+		float b = 1
 		float a = 1
 	UInt8 m_enableVertexGradient = 0
 	VertexGradient m_fontColorGradient
@@ -80,24 +80,24 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 22
-	float m_fontSizeBase = 22
+	float m_fontSize = 45
+	float m_fontSizeBase = 45
 	int m_fontWeight = 400
 	UInt8 m_enableAutoSizing = 0
 	float m_fontSizeMin = 18
-	float m_fontSizeMax = 72
-	int m_fontStyle = 17
-	int m_textAlignment = 258
+	float m_fontSizeMax = 45
+	int m_fontStyle = 0
+	int m_textAlignment = 1026
 	UInt8 m_isAlignmentEnumConverted = 1
 	float m_characterSpacing = 0
 	float m_wordSpacing = 0
-	float m_lineSpacing = 0
+	float m_lineSpacing = -15
 	float m_lineSpacingMax = 0
 	float m_paragraphSpacing = 0
 	float m_charWidthMaxAdj = 0
 	UInt8 m_enableWordWrapping = 1
 	float m_wordWrappingRatios = 0.4
-	int m_overflowMode = 0
+	int m_overflowMode = 3
 	int m_firstOverflowCharacterIndex = -1
 	PPtr<$TMP_Text> m_linkedTextComponent
 		int m_FileID = 0
@@ -127,11 +127,11 @@ MonoBehaviour Base
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = -1148742719111238584
-		int characterCount = 7
+			SInt64 m_PathID = 3705064318860809432
+		int characterCount = 3
 		int spriteCount = 0
 		int spaceCount = 0
-		int wordCount = 1
+		int wordCount = 2
 		int linkCount = 0
 		int lineCount = 1
 		int pageCount = 1

@@ -8,7 +8,7 @@ MonoBehaviour Base
 		SInt64 m_PathID = 4254285674700211252
 	string m_Name = "AnimationPlayableAsset of player_wand_anim_spell_cast_02"
 	PPtr<$AnimationClip> m_Clip
-		int m_FileID = 12
+		int m_FileID = 7
 		SInt64 m_PathID = -6382180037798430075
 	Vector3f m_Position
 		float x = 0

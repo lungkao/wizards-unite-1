@@ -1,8 +1,8 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -7957606606242754938
-	UInt8 m_Enabled = 1
+		SInt64 m_PathID = -8508986924041708876
+	UInt8 m_Enabled = 0
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = 8890283587956622325
@@ -22,14 +22,14 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "walkbox_tf_choose_unlocker"
+	string m_text = "100/100"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 4
-		SInt64 m_PathID = -4084404387857473446
+		int m_FileID = 2
+		SInt64 m_PathID = 3111171929222542297
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 4
-		SInt64 m_PathID = 759570436981082190
+		int m_FileID = 2
+		SInt64 m_PathID = 7939762594030095772
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -40,11 +40,11 @@ MonoBehaviour Base
 		Array Array
 		int size = 0
 	ColorRGBA m_fontColor32
-		unsigned int rgba = 4282174463
+		unsigned int rgba = 4294967295
 	ColorRGBA m_fontColor
 		float r = 1
-		float g = 0.7960784
-		float b = 0.2352941
+		float g = 1
+		float b = 1
 		float a = 1
 	UInt8 m_enableVertexGradient = 0
 	VertexGradient m_fontColorGradient
@@ -80,18 +80,18 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 35
-	float m_fontSizeBase = 30
+	float m_fontSize = 22
+	float m_fontSizeBase = 40
 	int m_fontWeight = 400
 	UInt8 m_enableAutoSizing = 1
 	float m_fontSizeMin = 18
-	float m_fontSizeMax = 35
-	int m_fontStyle = 0
-	int m_textAlignment = 4098
+	float m_fontSizeMax = 22
+	int m_fontStyle = 17
+	int m_textAlignment = 1026
 	UInt8 m_isAlignmentEnumConverted = 1
-	float m_characterSpacing = 0
+	float m_characterSpacing = 5
 	float m_wordSpacing = 0
-	float m_lineSpacing = -15
+	float m_lineSpacing = 0
 	float m_lineSpacingMax = 0
 	float m_paragraphSpacing = 0
 	float m_charWidthMaxAdj = 0
@@ -127,11 +127,11 @@ MonoBehaviour Base
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = 7302972699959309555
-		int characterCount = 26
+			SInt64 m_PathID = 2575614144318142799
+		int characterCount = 7
 		int spriteCount = 0
 		int spaceCount = 0
-		int wordCount = 4
+		int wordCount = 2
 		int linkCount = 0
 		int lineCount = 1
 		int pageCount = 1

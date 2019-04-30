@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -6181840703728148369
+		SInt64 m_PathID = -2282421043807050866
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -19,28 +19,28 @@ MonoBehaviour Base
 	int _uiHideLevel = 0
 	PPtr<$TextMeshProUGUI> _itemNameText
 		int m_FileID = 0
-		SInt64 m_PathID = -2420675703803561825
+		SInt64 m_PathID = 1595506521918174731
 	PPtr<$TextMeshProUGUI> _itemQtyText
 		int m_FileID = 0
-		SInt64 m_PathID = 2726200084686826577
+		SInt64 m_PathID = 2472062452928980375
 	PPtr<$RectTransform> _rect
 		int m_FileID = 0
-		SInt64 m_PathID = -2463866347553582783
+		SInt64 m_PathID = 0
 	PPtr<$LayoutElement> _layoutElement
 		int m_FileID = 0
-		SInt64 m_PathID = -559820079087064251
+		SInt64 m_PathID = 0
 	PPtr<$Image> _icon
 		int m_FileID = 0
-		SInt64 m_PathID = 8278470611857521762
+		SInt64 m_PathID = 7958576495809415137
 	PPtr<$GameObject> notificationBadge
 		int m_FileID = 0
-		SInt64 m_PathID = -5443013557586205036
+		SInt64 m_PathID = 0
 	PPtr<$GameObject> selectionHighlight
 		int m_FileID = 0
-		SInt64 m_PathID = -8627305140072627890
+		SInt64 m_PathID = 0
 	PPtr<$AnimationEventListener> transitionAnimator
 		int m_FileID = 0
 		SInt64 m_PathID = 0
 	PPtr<$AdvancedUIButton> _useButton
 		int m_FileID = 0
-		SInt64 m_PathID = 0
+		SInt64 m_PathID = 2520080131499121882

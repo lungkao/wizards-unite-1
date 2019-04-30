@@ -1,8 +1,8 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -3121373460297484237
-	UInt8 m_Enabled = 0
+		SInt64 m_PathID = -2317985097077414929
+	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = -6380373314413769357
@@ -13,7 +13,7 @@ MonoBehaviour Base
 	UInt8 hasOnPlay = 0
 	UInt8 hasOnUpdate = 0
 	UInt8 hasOnStepComplete = 0
-	UInt8 hasOnComplete = 1
+	UInt8 hasOnComplete = 0
 	UInt8 hasOnTweenCreated = 0
 	UInt8 hasOnRewind = 0
 	UnityEvent onStart
@@ -44,24 +44,7 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 1
-					[0]
-					PersistentCall data
-						PPtr<$Object> m_Target
-							int m_FileID = 0
-							SInt64 m_PathID = -4155856325560041589
-						string m_MethodName = "DOPlayById"
-						int m_Mode = 5
-						ArgumentCache m_Arguments
-							PPtr<$Object> m_ObjectArgument
-								int m_FileID = 0
-								SInt64 m_PathID = 0
-							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
-							int m_IntArgument = 0
-							float m_FloatArgument = 0
-							string m_StringArgument = "star_loop"
-							UInt8 m_BoolArgument = 0
-						int m_CallState = 2
+				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onTweenCreated
 		PersistentCallGroup m_PersistentCalls
@@ -75,9 +58,9 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 0.3
-	float duration = 0.4
-	int easeType = 3
+	float delay = 1
+	float duration = 0.3
+	int easeType = 6
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
@@ -99,22 +82,22 @@ MonoBehaviour Base
 		int m_RotationOrder = 4
 	int loopType = 0
 	int loops = 1
-	string id = "star_enter"
+	string id = ""
 	UInt8 isRelative = 0
-	UInt8 isFrom = 0
+	UInt8 isFrom = 1
 	UInt8 isIndependentUpdate = 0
-	UInt8 autoKill = 0
+	UInt8 autoKill = 1
 	UInt8 isActive = 1
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = -4106784331296585440
-	int animationType = 5
-	int targetType = 11
+		SInt64 m_PathID = -4880418957105813508
+	int animationType = 7
+	int targetType = 3
 	int forcedTargetType = 0
 	UInt8 autoPlay = 1
 	UInt8 useTargetAsV3 = 0
-	float endValueFloat = 0.75
+	float endValueFloat = 0
 	Vector3f endValueV3
 		float x = 0
 		float y = 0
@@ -136,7 +119,7 @@ MonoBehaviour Base
 	PPtr<$Transform> endValueTransform
 		int m_FileID = 0
 		SInt64 m_PathID = 0
-	UInt8 optionalBool0 = 1
+	UInt8 optionalBool0 = 0
 	float optionalFloat0 = 0
 	int optionalInt0 = 0
 	int optionalRotationMode = 0

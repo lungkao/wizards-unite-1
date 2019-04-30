@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -5082515908240866740
+		SInt64 m_PathID = 2532642099065289407
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -15,21 +15,21 @@ MonoBehaviour Base
 		float g = 1
 		float b = 1
 		float a = 1
-	UInt8 m_RaycastTarget = 1
+	UInt8 m_RaycastTarget = 0
 	CullStateChangedEvent m_OnCullStateChanged
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "Description"
+	string m_text = "Lvl. 1"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 1
-		SInt64 m_PathID = 3111171929222542297
+		int m_FileID = 4
+		SInt64 m_PathID = -4084404387857473446
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 1
-		SInt64 m_PathID = -4526645662046926572
+		int m_FileID = 4
+		SInt64 m_PathID = 759570436981082190
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -80,12 +80,12 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 30
-	float m_fontSizeBase = 30
+	float m_fontSize = 40
+	float m_fontSizeBase = 40
 	int m_fontWeight = 400
-	UInt8 m_enableAutoSizing = 0
+	UInt8 m_enableAutoSizing = 1
 	float m_fontSizeMin = 18
-	float m_fontSizeMax = 36
+	float m_fontSizeMax = 40
 	int m_fontStyle = 0
 	int m_textAlignment = 258
 	UInt8 m_isAlignmentEnumConverted = 1
@@ -120,18 +120,18 @@ MonoBehaviour Base
 	UInt8 m_useMaxVisibleDescender = 1
 	int m_pageToDisplay = 1
 	Vector4f m_margin
-		float x = 2.173403
+		float x = 0
 		float y = 0
 		float z = 0
-		float w = -31.03533
+		float w = 0
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = -6707800412847010105
-		int characterCount = 11
+			SInt64 m_PathID = 6744932122805313904
+		int characterCount = 6
 		int spriteCount = 0
-		int spaceCount = 0
-		int wordCount = 1
+		int spaceCount = 1
+		int wordCount = 2
 		int linkCount = 0
 		int lineCount = 1
 		int pageCount = 1

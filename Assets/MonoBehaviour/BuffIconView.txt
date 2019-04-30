@@ -20,15 +20,6 @@ MonoBehaviour Base
 	PPtr<$Image> _icon
 		int m_FileID = 0
 		SInt64 m_PathID = 5045869761383101876
-	PPtr<$GameObject> _toolTipParent
+	PPtr<$NestedTooltip> Tooltip
 		int m_FileID = 0
-		SInt64 m_PathID = -8343206840494366765
-	PPtr<$GameObject> _mirrorToolTipParent
-		int m_FileID = 0
-		SInt64 m_PathID = 4885068326512780821
-	PPtr<$TextMeshProUGUI> _toolTipLabel
-		int m_FileID = 0
-		SInt64 m_PathID = -1567614728964693084
-	PPtr<$TextMeshProUGUI> _mirrorToolTipLabel
-		int m_FileID = 0
-		SInt64 m_PathID = -2424789386524278961
+		SInt64 m_PathID = -7048291945213369914

@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 2249412735365378153
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 4817396000391076514
+	string m_Name = ""
+	string _showAnimationName = "ShowDialog"
+	string _hideAnimationName = "HideDialog"
+	PPtr<$TextMeshProUGUI> _tooltipText
+		int m_FileID = 0
+		SInt64 m_PathID = 1468768959927208558
+	PPtr<$RectTransform> _tooltipPoint
+		int m_FileID = 0
+		SInt64 m_PathID = 7158897387464865394
+	PPtr<$RectTransform> _tooltipBody
+		int m_FileID = 0
+		SInt64 m_PathID = -3995097465644728375

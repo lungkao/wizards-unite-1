@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -2443869438978968678
+	string m_Name = "TimelineVFXClip"
+	TimelineVFXBehaviour template
+		ChoreographyNodeVFX node
+			string UiOwner = ""
+			int VfxAction = 0
+			PPtr<$VFXBase> Prefab
+				int m_FileID = 6
+				SInt64 m_PathID = 8548997345948986979
+			UInt8 HasColorTint = 0
+			ColorRGBA ColorTint
+				float r = 1
+				float g = 1
+				float b = 1
+				float a = 1
+			int StartAttachment = 3
+			int EndAttachment = 3
+			string StartTransform = "midEnvelope_Joint"
+			string EndTransform = "midEnvelope_Joint"
+			float PlaybackSpeed = 1
+			float AlphaFadeTime = 0.5
+			int TravelStyle = 0
+			PPtr<$VFXSpline> SplinePrefab
+				int m_FileID = 0
+				SInt64 m_PathID = 0
+			string FollowVFXIdentifier = ""
+			int VfxMessage = 0
+			UInt8 useClipDuration = 1
+			float Life = 1.3
+			string ParentTimelineName = "rewards_vessel_reward_02_tl"
+			string Identifier = ""
+			string StartTargetPrefabName = "target_envelope_ministry"
+			string EndTargetPrefabName = "target_envelope_ministry"

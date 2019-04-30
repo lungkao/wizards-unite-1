@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 8888135615216740862
+		SInt64 m_PathID = -569935158746263481
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -22,10 +22,10 @@ MonoBehaviour Base
 		SInt64 m_PathID = 0
 	PPtr<$Image> _oldIcon
 		int m_FileID = 0
-		SInt64 m_PathID = -8991828931419871244
+		SInt64 m_PathID = -2033943458517444601
 	PPtr<$Image> _newIcon
 		int m_FileID = 0
-		SInt64 m_PathID = -3483661326373647070
+		SInt64 m_PathID = -6996521961871699665
 	PPtr<$StarRarityWidget> _rarityWidget
 		int m_FileID = 0
-		SInt64 m_PathID = 8959358403645625820
+		SInt64 m_PathID = 0

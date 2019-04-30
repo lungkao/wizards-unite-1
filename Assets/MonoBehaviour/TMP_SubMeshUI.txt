@@ -1,8 +1,8 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 2406494445198950011
-	UInt8 m_Enabled = 0
+		SInt64 m_PathID = -7999930252392998902
+	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
 		SInt64 m_PathID = -4301715310763314416
@@ -23,8 +23,8 @@ MonoBehaviour Base
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 11
-		SInt64 m_PathID = -2960885899245865624
+		int m_FileID = 2
+		SInt64 m_PathID = -5596591088150043721
 	PPtr<$TMP_SpriteAsset> m_spriteAsset
 		int m_FileID = 0
 		SInt64 m_PathID = 0
@@ -38,8 +38,8 @@ MonoBehaviour Base
 	float m_padding = 0
 	PPtr<$CanvasRenderer> m_canvasRenderer
 		int m_FileID = 0
-		SInt64 m_PathID = 6987707833680308717
+		SInt64 m_PathID = 5546018194772324366
 	PPtr<$TextMeshProUGUI> m_TextComponent
 		int m_FileID = 0
-		SInt64 m_PathID = -2424789386524278961
+		SInt64 m_PathID = 3504799203834668482
 	int m_materialReferenceIndex = 1

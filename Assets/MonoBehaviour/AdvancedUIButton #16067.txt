@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 8124238682607102050
+		SInt64 m_PathID = 6851915235548827760
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -25,8 +25,8 @@ MonoBehaviour Base
 					PersistentCall data
 						PPtr<$Object> m_Target
 							int m_FileID = 0
-							SInt64 m_PathID = -5721048074949826842
-						string m_MethodName = "OnMapAbilityReplaceProxy"
+							SInt64 m_PathID = -4778337741277770400
+						string m_MethodName = "OnTapProxy"
 						int m_Mode = 1
 						ArgumentCache m_Arguments
 							PPtr<$Object> m_ObjectArgument
@@ -59,15 +59,15 @@ MonoBehaviour Base
 		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	int _tapRecognitionParameters = 0
 	float _dragThresholdSeconds = 0.2
-	float _tapThresholdSeconds = 0.5
+	float _tapThresholdSeconds = 0.1
 	PPtr<$Image> _buttonImage
 		int m_FileID = 0
-		SInt64 m_PathID = -4925654404145987126
-	int _stateChangeType = 2
+		SInt64 m_PathID = 0
+	int _stateChangeType = 3
 	int _colorStateChangeTarget = 3
 	PPtr<$TextMeshProUGUI> _buttonText
 		int m_FileID = 0
-		SInt64 m_PathID = 3268665766096180788
+		SInt64 m_PathID = 0
 	ColorRGBA _defaultColor
 		float r = 0
 		float g = 0
@@ -89,17 +89,17 @@ MonoBehaviour Base
 		float b = 0
 		float a = 0
 	PPtr<$Sprite> _defaultSprite
-		int m_FileID = 1
-		SInt64 m_PathID = -5601747057003169364
+		int m_FileID = 0
+		SInt64 m_PathID = 0
 	PPtr<$Sprite> _pressedSprite
-		int m_FileID = 1
-		SInt64 m_PathID = 5376058674234766853
+		int m_FileID = 0
+		SInt64 m_PathID = 0
 	PPtr<$Sprite> _highlightedSprite
-		int m_FileID = 1
-		SInt64 m_PathID = 5376058674234766853
+		int m_FileID = 0
+		SInt64 m_PathID = 0
 	PPtr<$Sprite> _inactiveSprite
-		int m_FileID = 1
-		SInt64 m_PathID = -4985476573935538711
+		int m_FileID = 0
+		SInt64 m_PathID = 0
 	PPtr<$Sprite> _disabledSprite
 		int m_FileID = 0
 		SInt64 m_PathID = 0

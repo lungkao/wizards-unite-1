@@ -1,0 +1,146 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -6355421356425912531
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 7158337457603002122
+	string m_Name = ""
+	PPtr<$RewardItemEntryView> _rewardItemPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 4794126215955998524
+	PPtr<$ParticleEffectUI> _rewardParticleEffectPrefab
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int _maxRewardParticleEffects = 10
+	AnimationCurve _alphaCurve
+		vector m_Curve
+			Array Array
+			int size = 3
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 2
+					float outSlope = 2
+				[1]
+				Keyframe data
+					float time = 0.7134591
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+				[2]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 0
+					float outSlope = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _preBurstPause = 0.25
+	AnimationCurve _burstCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 2
+					float outSlope = 2
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _burstTime = 0.25
+	float _floatTime = 1
+	AnimationCurve _floatX
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 2
+					float outSlope = 2
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	AnimationCurve _floatY
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 2
+					float outSlope = 2
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	AnimationCurve _toTargetCurve
+		vector m_Curve
+			Array Array
+			int size = 2
+				[0]
+				Keyframe data
+					float time = 0
+					float value = 0
+					float inSlope = 0
+					float outSlope = 0
+				[1]
+				Keyframe data
+					float time = 1
+					float value = 1
+					float inSlope = 2
+					float outSlope = 2
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 0
+	float _toTargetTime = 1
+	PPtr<$Spline> _toTargetSpline
+		int m_FileID = 0
+		SInt64 m_PathID = -552632159164028468
+	float _multiItemDelay = 0.02
+	float _radiusPercentRandomness = 0.6
+	float _endDelay = 0.01
+	RewardVFXPrefabTuple _rewardVFXPrefabTuples
+		Array Array
+		int size = 0
+	PPtr<$NestedParticleSystem> _burstVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$NestedParticleSystem> _collectVFX
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	string _defaultBurstSFX = ""
+	string _collectSFX = "event:/UI/Pub/Energy_gain"
+	UInt8 _hapticsEnabled = 0
+	PPtr<$GameObject> _rewardScrim
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	PPtr<$GameObject> _destinationIcon
+		int m_FileID = 0
+		SInt64 m_PathID = -982631573561341929
+	string _desinationTweenId = "base_item_collect_01"

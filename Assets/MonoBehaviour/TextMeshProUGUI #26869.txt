@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 964894991058085568
+		SInt64 m_PathID = 5304711903986573318
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -22,14 +22,14 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-	string m_text = "USED TO BREW:"
+	string m_text = "rewards_level_up"
 	UInt8 m_isRightToLeft = 0
 	PPtr<$TMP_FontAsset> m_fontAsset
-		int m_FileID = 3
-		SInt64 m_PathID = -4084404387857473446
+		int m_FileID = 5
+		SInt64 m_PathID = -2960885899245865624
 	PPtr<$Material> m_sharedMaterial
-		int m_FileID = 3
-		SInt64 m_PathID = 759570436981082190
+		int m_FileID = 5
+		SInt64 m_PathID = 174655458128367269
 	vector m_fontSharedMaterials
 		Array Array
 		int size = 0
@@ -40,10 +40,10 @@ MonoBehaviour Base
 		Array Array
 		int size = 0
 	ColorRGBA m_fontColor32
-		unsigned int rgba = 4278190080
+		unsigned int rgba = 4278231530
 	ColorRGBA m_fontColor
-		float r = 0
-		float g = 0
+		float r = 0.9191176
+		float g = 0.634
 		float b = 0
 		float a = 1
 	UInt8 m_enableVertexGradient = 0
@@ -80,25 +80,25 @@ MonoBehaviour Base
 		unsigned int rgba = 4294967295
 	ColorRGBA m_outlineColor
 		unsigned int rgba = 4278190080
-	float m_fontSize = 40
-	float m_fontSizeBase = 36
+	float m_fontSize = 80
+	float m_fontSizeBase = 80
 	int m_fontWeight = 400
-	UInt8 m_enableAutoSizing = 1
-	float m_fontSizeMin = 18
-	float m_fontSizeMax = 40
-	int m_fontStyle = 0
-	int m_textAlignment = 514
+	UInt8 m_enableAutoSizing = 0
+	float m_fontSizeMin = 40
+	float m_fontSizeMax = 60
+	int m_fontStyle = 17
+	int m_textAlignment = 1026
 	UInt8 m_isAlignmentEnumConverted = 1
 	float m_characterSpacing = 0
 	float m_wordSpacing = 0
-	float m_lineSpacing = -10
+	float m_lineSpacing = -5
 	float m_lineSpacingMax = 0
 	float m_paragraphSpacing = 0
 	float m_charWidthMaxAdj = 0
 	UInt8 m_enableWordWrapping = 1
 	float m_wordWrappingRatios = 0.4
-	int m_overflowMode = 3
-	int m_firstOverflowCharacterIndex = -1
+	int m_overflowMode = 0
+	int m_firstOverflowCharacterIndex = 0
 	PPtr<$TMP_Text> m_linkedTextComponent
 		int m_FileID = 0
 		SInt64 m_PathID = 0
@@ -120,20 +120,20 @@ MonoBehaviour Base
 	UInt8 m_useMaxVisibleDescender = 1
 	int m_pageToDisplay = 1
 	Vector4f m_margin
-		float x = 0
-		float y = 0
-		float z = 0
+		float x = -121.3406
+		float y = 144.2596
+		float z = -120.2215
 		float w = 0
 	TMP_TextInfo m_textInfo
 		PPtr<$TMP_Text> textComponent
 			int m_FileID = 0
-			SInt64 m_PathID = -3455832972385810183
-		int characterCount = 13
+			SInt64 m_PathID = -4712893082420852333
+		int characterCount = 16
 		int spriteCount = 0
-		int spaceCount = 2
+		int spaceCount = 0
 		int wordCount = 3
 		int linkCount = 0
-		int lineCount = 1
+		int lineCount = 2
 		int pageCount = 1
 		int materialCount = 1
 	UInt8 m_havePropertiesChanged = 1

@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 6705373787895337228
+		SInt64 m_PathID = 8309895609983016663
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -24,25 +24,25 @@ MonoBehaviour Base
 	int m_Transition = 1
 	ColorBlock m_Colors
 		ColorRGBA m_NormalColor
-			float r = 1
-			float g = 1
-			float b = 1
+			float r = 0.2941177
+			float g = 0.2117647
+			float b = 0.1529412
 			float a = 1
 		ColorRGBA m_HighlightedColor
-			float r = 0.9607843
-			float g = 0.9607843
-			float b = 0.9607843
+			float r = 0.5411765
+			float g = 0.3254902
+			float b = 0.1058824
 			float a = 1
 		ColorRGBA m_PressedColor
-			float r = 0.7843137
-			float g = 0.7843137
-			float b = 0.7843137
+			float r = 0.5411765
+			float g = 0.3254902
+			float b = 0.1058824
 			float a = 1
 		ColorRGBA m_DisabledColor
-			float r = 0.7843137
-			float g = 0.7843137
-			float b = 0.7843137
-			float a = 0.5019608
+			float r = 0.2941177
+			float g = 0.2117647
+			float b = 0.1529412
+			float a = 1
 		float m_ColorMultiplier = 1
 		float m_FadeDuration = 0.1
 	SpriteState m_SpriteState
@@ -63,13 +63,13 @@ MonoBehaviour Base
 	UInt8 m_Interactable = 1
 	PPtr<$Graphic> m_TargetGraphic
 		int m_FileID = 0
-		SInt64 m_PathID = -5693559321646946177
+		SInt64 m_PathID = 1893530928868595597
 	PPtr<$RectTransform> m_HandleRect
 		int m_FileID = 0
-		SInt64 m_PathID = -6661448183794742801
+		SInt64 m_PathID = 5269222219708524496
 	int m_Direction = 2
-	float m_Value = 0
-	float m_Size = 0.9398062
+	float m_Value = 1
+	float m_Size = 0.9999989
 	int m_NumberOfSteps = 0
 	ScrollEvent m_OnValueChanged
 		PersistentCallGroup m_PersistentCalls

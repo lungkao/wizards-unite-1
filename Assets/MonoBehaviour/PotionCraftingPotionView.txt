@@ -36,10 +36,10 @@ MonoBehaviour Base
 		int m_FileID = 0
 		SInt64 m_PathID = 4275334692441764488
 	PPtr<$PotionCraftingIngredientEntryView> _ingredientsEntryPrefab
-		int m_FileID = 13
+		int m_FileID = 0
 		SInt64 m_PathID = -2050625529547077351
 	PPtr<$PotionCraftingRuneEntry> _runesPrefab
-		int m_FileID = 13
+		int m_FileID = 0
 		SInt64 m_PathID = -8044855768748172324
 	PPtr<$GameObject> _runesContainer
 		int m_FileID = 0

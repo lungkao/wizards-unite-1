@@ -13,3 +13,4 @@ MonoBehaviour Base
 	PPtr<$TMP_InputField> TextInput
 		int m_FileID = 0
 		SInt64 m_PathID = 3980878797903209199
+	UInt8 ClearTextOnClick = 1

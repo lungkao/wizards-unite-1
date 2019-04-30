@@ -16,7 +16,7 @@ MonoBehaviour Base
 				int size = 0
 		string m_TypeName = "UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$GameObject> _prefab
-		int m_FileID = 27
+		int m_FileID = 26
 		SInt64 m_PathID = 1398675724682203575
 	PPtr<$BaseUIView> _dialogBase
 		int m_FileID = 0

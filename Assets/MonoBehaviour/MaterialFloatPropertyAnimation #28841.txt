@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 237917954698500007
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = -7170173200832979570
+	string m_Name = ""
+	string propertyName = "_RevealPosYOffset"
+	UInt8 useAnimationCurve = 0
+	AnimationCurve animationCurve
+		vector m_Curve
+			Array Array
+			int size = 0
+		int m_PreInfinity = 2
+		int m_PostInfinity = 2
+		int m_RotationOrder = 4

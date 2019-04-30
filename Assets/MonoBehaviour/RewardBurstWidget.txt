@@ -8,7 +8,7 @@ MonoBehaviour Base
 		SInt64 m_PathID = 7158337457603002122
 	string m_Name = ""
 	PPtr<$RewardItemEntryView> _rewardItemPrefab
-		int m_FileID = 14
+		int m_FileID = 15
 		SInt64 m_PathID = 4794126215955998524
 	PPtr<$ParticleEffectUI> _rewardParticleEffectPrefab
 		int m_FileID = 0

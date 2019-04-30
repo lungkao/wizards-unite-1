@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = -1998099398313830254
+		SInt64 m_PathID = -2659351411431582567
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -19,10 +19,10 @@ MonoBehaviour Base
 	int _uiHideLevel = 0
 	PPtr<$GameObject> _contentSection
 		int m_FileID = 0
-		SInt64 m_PathID = 3654612688865632991
+		SInt64 m_PathID = -2659351411431582567
 	PPtr<$GameObject> _rewardsPrefab
-		int m_FileID = 6
-		SInt64 m_PathID = -1702866043555330316
+		int m_FileID = 0
+		SInt64 m_PathID = 8777378747778548732
 	float _timeBetweeenRewardAnims = 0.1
-	float _positionOffsetMaxAmount = 0
-	float _rotationOffsetMaxAmount = 0
+	float _positionOffsetMaxAmount = 3
+	float _rotationOffsetMaxAmount = 10

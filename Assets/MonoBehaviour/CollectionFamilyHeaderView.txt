@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 3183500815110134837
+		SInt64 m_PathID = 1804889307514155442
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -19,19 +19,19 @@ MonoBehaviour Base
 	int _uiHideLevel = 0
 	PPtr<$TextMeshProUGUI> _familyNameText
 		int m_FileID = 0
-		SInt64 m_PathID = 8976422663593230225
+		SInt64 m_PathID = -6393078438818314355
 	PPtr<$TextMeshProUGUI> _familyLevelText
 		int m_FileID = 0
-		SInt64 m_PathID = 7194389410935844383
+		SInt64 m_PathID = 5548433477180388658
 	PPtr<$Image> _familyIcon
 		int m_FileID = 0
-		SInt64 m_PathID = -7103022630154714016
+		SInt64 m_PathID = 3173738059196242307
 	PPtr<$ProgressBarWidgetView> _progressBarWidget
 		int m_FileID = 0
-		SInt64 m_PathID = -1114226620719592872
+		SInt64 m_PathID = -2958461007310611574
 	PPtr<$Animator> _levelUpAnimator
 		int m_FileID = 0
-		SInt64 m_PathID = 0
+		SInt64 m_PathID = -7934257339675096022
 	PPtr<$AdvancedUIButton> _familyInfoButton
 		int m_FileID = 0
-		SInt64 m_PathID = 0
+		SInt64 m_PathID = -7819496414150184387

@@ -1,0 +1,79 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = -2629539833403640919
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 0
+		SInt64 m_PathID = 2779289319255223945
+	string m_Name = ""
+	Navigation m_Navigation
+		int m_Mode = 3
+		PPtr<$Selectable> m_SelectOnUp
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnDown
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnLeft
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Selectable> m_SelectOnRight
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	int m_Transition = 1
+	ColorBlock m_Colors
+		ColorRGBA m_NormalColor
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		ColorRGBA m_HighlightedColor
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		ColorRGBA m_PressedColor
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 1
+		ColorRGBA m_DisabledColor
+			float r = 1
+			float g = 1
+			float b = 1
+			float a = 0.5019608
+		float m_ColorMultiplier = 1
+		float m_FadeDuration = 0.1
+	SpriteState m_SpriteState
+		PPtr<$Sprite> m_HighlightedSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Sprite> m_PressedSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+		PPtr<$Sprite> m_DisabledSprite
+			int m_FileID = 0
+			SInt64 m_PathID = 0
+	AnimationTriggers m_AnimationTriggers
+		string m_NormalTrigger = "Normal"
+		string m_HighlightedTrigger = "Highlighted"
+		string m_PressedTrigger = "Pressed"
+		string m_DisabledTrigger = "Disabled"
+	UInt8 m_Interactable = 1
+	PPtr<$Graphic> m_TargetGraphic
+		int m_FileID = 0
+		SInt64 m_PathID = -7411539653169756421
+	PPtr<$RectTransform> m_HandleRect
+		int m_FileID = 0
+		SInt64 m_PathID = 0
+	int m_Direction = 0
+	float m_Value = 0
+	float m_Size = 0
+	int m_NumberOfSteps = 0
+	ScrollEvent m_OnValueChanged
+		PersistentCallGroup m_PersistentCalls
+			PersistentCall m_Calls
+				Array Array
+				int size = 0
+		string m_TypeName = "UnityEngine.UI.Scrollbar+ScrollEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"

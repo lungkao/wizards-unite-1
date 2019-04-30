@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 5141378930380227808
+		SInt64 m_PathID = -3609951666990519000
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -10,10 +10,10 @@ MonoBehaviour Base
 	int updateType = 0
 	UInt8 isSpeedBased = 0
 	UInt8 hasOnStart = 0
-	UInt8 hasOnPlay = 0
+	UInt8 hasOnPlay = 1
 	UInt8 hasOnUpdate = 0
 	UInt8 hasOnStepComplete = 0
-	UInt8 hasOnComplete = 0
+	UInt8 hasOnComplete = 1
 	UInt8 hasOnTweenCreated = 0
 	UInt8 hasOnRewind = 0
 	UnityEvent onStart
@@ -26,7 +26,24 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 0
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 3913599086471346760
+						string m_MethodName = "DOPlayById"
+						int m_Mode = 5
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = "ring_exit_3_2"
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onUpdate
 		PersistentCallGroup m_PersistentCalls
@@ -44,7 +61,24 @@ MonoBehaviour Base
 		PersistentCallGroup m_PersistentCalls
 			PersistentCall m_Calls
 				Array Array
-				int size = 0
+				int size = 1
+					[0]
+					PersistentCall data
+						PPtr<$Object> m_Target
+							int m_FileID = 0
+							SInt64 m_PathID = 3913599086471346760
+						string m_MethodName = "DOPlayById"
+						int m_Mode = 5
+						ArgumentCache m_Arguments
+							PPtr<$Object> m_ObjectArgument
+								int m_FileID = 0
+								SInt64 m_PathID = 0
+							string m_ObjectArgumentAssemblyTypeName = "UnityEngine.Object, UnityEngine"
+							int m_IntArgument = 0
+							float m_FloatArgument = 0
+							string m_StringArgument = "ring_end_delay"
+							UInt8 m_BoolArgument = 0
+						int m_CallState = 2
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
 	UnityEvent onTweenCreated
 		PersistentCallGroup m_PersistentCalls
@@ -58,9 +92,9 @@ MonoBehaviour Base
 				Array Array
 				int size = 0
 		string m_TypeName = "UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
-	float delay = 0
-	float duration = 0.5
-	int easeType = 3
+	float delay = 0.6
+	float duration = 1.5
+	int easeType = 37
 	AnimationCurve easeCurve
 		vector m_Curve
 			Array Array
@@ -82,22 +116,22 @@ MonoBehaviour Base
 		int m_RotationOrder = 4
 	int loopType = 0
 	int loops = 1
-	string id = ""
+	string id = "ring_exit_3_1"
 	UInt8 isRelative = 0
 	UInt8 isFrom = 0
 	UInt8 isIndependentUpdate = 0
-	UInt8 autoKill = 1
+	UInt8 autoKill = 0
 	UInt8 isActive = 1
 	UInt8 isValid = 1
 	PPtr<$Component> target
 		int m_FileID = 0
-		SInt64 m_PathID = -7452849078294258704
-	int animationType = 7
-	int targetType = 2
+		SInt64 m_PathID = -7542897308051410238
+	int animationType = 5
+	int targetType = 11
 	int forcedTargetType = 0
 	UInt8 autoPlay = 0
 	UInt8 useTargetAsV3 = 0
-	float endValueFloat = 0
+	float endValueFloat = 1.8
 	Vector3f endValueV3
 		float x = 0
 		float y = 0
@@ -119,7 +153,7 @@ MonoBehaviour Base
 	PPtr<$Transform> endValueTransform
 		int m_FileID = 0
 		SInt64 m_PathID = 0
-	UInt8 optionalBool0 = 0
+	UInt8 optionalBool0 = 1
 	float optionalFloat0 = 0
 	int optionalInt0 = 0
 	int optionalRotationMode = 0

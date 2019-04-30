@@ -1,7 +1,7 @@
 MonoBehaviour Base
 	PPtr<GameObject> m_GameObject
 		int m_FileID = 0
-		SInt64 m_PathID = 8606526369140772670
+		SInt64 m_PathID = -6550969303789583090
 	UInt8 m_Enabled = 1
 	PPtr<MonoScript> m_Script
 		int m_FileID = 0
@@ -23,12 +23,12 @@ MonoBehaviour Base
 				int size = 0
 		string m_TypeName = "UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
 	PPtr<$Sprite> m_Sprite
-		int m_FileID = 3
-		SInt64 m_PathID = -1274084785889201882
-	int m_Type = 3
+		int m_FileID = 1
+		SInt64 m_PathID = -1283419353631724806
+	int m_Type = 0
 	UInt8 m_PreserveAspect = 0
 	UInt8 m_FillCenter = 1
-	int m_FillMethod = 0
-	float m_FillAmount = 0.392
+	int m_FillMethod = 4
+	float m_FillAmount = 1
 	UInt8 m_FillClockwise = 1
 	int m_FillOrigin = 0

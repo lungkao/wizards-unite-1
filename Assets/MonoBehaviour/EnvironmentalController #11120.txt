@@ -1,0 +1,145 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		int m_FileID = 0
+		SInt64 m_PathID = 106
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		int m_FileID = 1
+		SInt64 m_PathID = 42
+	string m_Name = ""
+	vector _dayProps
+		Array Array
+		int size = 2
+			[0]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 421
+			[1]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 488
+	vector _nightProps
+		Array Array
+		int size = 22
+			[0]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 415
+			[1]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 394
+			[2]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 446
+			[3]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 388
+			[4]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 447
+			[5]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 467
+			[6]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 480
+			[7]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 416
+			[8]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 412
+			[9]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 398
+			[10]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 400
+			[11]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 403
+			[12]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 405
+			[13]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 485
+			[14]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 408
+			[15]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 500
+			[16]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 418
+			[17]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 423
+			[18]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 448
+			[19]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 432
+			[20]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 390
+			[21]
+			PPtr<$MeshRenderer> data
+				int m_FileID = 0
+				SInt64 m_PathID = 489
+	PPtr<$FogController> _fogController
+		int m_FileID = 0
+		SInt64 m_PathID = 679
+	ColorRGBA _fogDayColorStart
+		float r = 0
+		float g = 0.4206896
+		float b = 1
+		float a = 1
+	ColorRGBA _fogDayColorEnd
+		float r = 0.4768599
+		float g = 0.6421412
+		float b = 0.7720588
+		float a = 1
+	ColorRGBA _fogNightColorStart
+		float r = 0.07298875
+		float g = 0.2963176
+		float b = 0.6617647
+		float a = 1
+	ColorRGBA _fogNightColorEnd
+		float r = 0
+		float g = 0.1416329
+		float b = 0.4191176
+		float a = 1
+	ColorRGBA _mapDayTint
+		float r = 1
+		float g = 1
+		float b = 1
+		float a = 1
+	ColorRGBA _mapNightTint
+		float r = 0.3161765
+		float g = 0.4859531
+		float b = 1
+		float a = 1
+	float _lengthOfTransitionSecs = 10
